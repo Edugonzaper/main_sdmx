@@ -1,0 +1,1443 @@
+ID;NAME;DESCRIPTION;PARENTCODE;ORDER
+TOTAL;Territorio;(TOTAL) Territorio;;0
+00;TOTAL;(00) TOTAL;;1
+108;España;(108) España;;1
+66;Extranjero;(66) Extranjero;;2
+NP000;No procede;(NP000) No procede;;3
+NC000;No consta;(NC000) No consta;;4
+C01;Andalucía;(C01) Andalucía;;1
+C02;Aragón;(C02) Aragón;;2
+C03;Principado de Asturias;(C03) Principado de Asturias;;3
+C04;Islas Baleares/Illes Balears;(C04) Islas Baleares/Illes Balears;;4
+C05;Canarias;(C05) Canarias;;5
+C06;Cantabria;(C06) Cantabria;;6
+C07;Castilla-La Mancha;(C07) Castilla-La Mancha;;7
+C08;Castilla y León;(C08) Castilla y León;;8
+C09;Cataluña/Catalunya;(C09) Cataluña/Catalunya;;9
+C10;Comunidad Valenciana/Comunitat Valenciana;(C10) Comunidad Valenciana/Comunitat Valenciana;;10
+C11;Extremadura;(C11) Extremadura;;11
+C12;Galicia;(C12) Galicia;;12
+C13;Comunidad de Madrid;(C13) Comunidad de Madrid;;13
+C14;Región de Murcia;(C14) Región de Murcia;;14
+C15;Comunidad Foral de Navarra;(C15) Comunidad Foral de Navarra;;15
+C16;País Vasco/Euskadi;(C16) País Vasco/Euskadi;;16
+C17;La Rioja;(C17) La Rioja;;17
+C18;Ciudades Autónomas de Ceuta y Melilla;(C18) Ciudades Autónomas de Ceuta y Melilla;;18
+RE00;Resto de España;(RE00) Resto de España;;21
+04;Almería;(04) Almería;;1
+11;Cádiz;(11) Cádiz;;2
+14;Córdoba;(14) Córdoba;;3
+18;Granada;(18) Granada;;4
+21;Huelva;(21) Huelva;;5
+23;Jaén;(23) Jaén;;6
+29;Málaga;(29) Málaga;;7
+41;Sevilla;(41) Sevilla;;8
+C01NC;Provincia sin especificar;(C01NC) Provincia sin especificar;;9
+04_1;Almería;(04_1) Almería;;1
+04_2;Almería;(04_2) Almería;;1
+04001;Abla;(04001) Abla;;1
+04002;Abrucena;(04002) Abrucena;;2
+04003;Adra;(04003) Adra;;3
+04004;Albanchez;(04004) Albanchez;;4
+04005;Alboloduy;(04005) Alboloduy;;5
+04006;Albox;(04006) Albox;;6
+04007;Alcolea;(04007) Alcolea;;7
+04008;Alcóntar;(04008) Alcóntar;;8
+04009;Alcudia de Monteagud;(04009) Alcudia de Monteagud;;9
+04010;Alhabia;(04010) Alhabia;;10
+04011;Alhama de Almería;(04011) Alhama de Almería;;11
+04012;Alicún;(04012) Alicún;;12
+04013;Almería (capital);(04013) Almería (capital);;13
+04014;Almócita;(04014) Almócita;;14
+04015;Alsodux;(04015) Alsodux;;15
+04016;Antas;(04016) Antas;;16
+04017;Arboleas;(04017) Arboleas;;17
+04018;Armuña de Almanzora;(04018) Armuña de Almanzora;;18
+04019;Bacares;(04019) Bacares;;19
+04904;Balanegra;(04904) Balanegra;;20
+04020;Bayárcal;(04020) Bayárcal;;21
+04021;Bayarque;(04021) Bayarque;;22
+04022;Bédar;(04022) Bédar;;23
+04023;Beires;(04023) Beires;;24
+04024;Benahadux;(04024) Benahadux;;25
+04025;Benínar;(04025) Benínar;;26
+04026;Benitagla;(04026) Benitagla;;27
+04027;Benizalón;(04027) Benizalón;;28
+04028;Bentarique;(04028) Bentarique;;29
+04029;Berja;(04029) Berja;;30
+04030;Canjáyar;(04030) Canjáyar;;31
+04031;Cantoria;(04031) Cantoria;;32
+04032;Carboneras;(04032) Carboneras;;33
+04033;Castro de Filabres;(04033) Castro de Filabres;;34
+04036;Chercos;(04036) Chercos;;35
+04037;Chirivel;(04037) Chirivel;;36
+04034;Cóbdar;(04034) Cóbdar;;37
+04035;Cuevas del Almanzora;(04035) Cuevas del Almanzora;;39
+04038;Dalías;(04038) Dalías;;40
+04039;Darrical;(04039) Darrical;;41
+04040;Doña María Ocaña;(04040) Doña María Ocaña;;42
+04902;El Ejido;(04902) El Ejido;;43
+04041;Enix;(04041) Enix;;44
+04042;Escúllar;(04042) Escúllar;;45
+04043;Felix;(04043) Felix;;46
+04044;Fines;(04044) Fines;;47
+04045;Fiñana;(04045) Fiñana;;48
+04046;Fondón;(04046) Fondón;;49
+04047;Gádor;(04047) Gádor;;50
+04049;Garrucha;(04049) Garrucha;;51
+04050;Gérgal;(04050) Gérgal;;52
+04051;Huécija;(04051) Huécija;;53
+04052;Huércal de Almería;(04052) Huércal de Almería;;54
+04053;Huércal-Overa;(04053) Huércal-Overa;;55
+04054;Íllar;(04054) Íllar;;56
+04055;Instinción;(04055) Instinción;;57
+04903;La Mojonera;(04903) La Mojonera;;58
+04056;Laroya;(04056) Laroya;;59
+04901;Las Tres Villas;(04901) Las Tres Villas;;60
+04057;Láujar de Andarax;(04057) Láujar de Andarax;;61
+04058;Líjar;(04058) Líjar;;62
+04048;Los Gallardos;(04048) Los Gallardos;;63
+04059;Lubrín;(04059) Lubrín;;64
+04060;Lucainena de las Torres;(04060) Lucainena de las Torres;;65
+04061;Lúcar;(04061) Lúcar;;66
+04062;Macael;(04062) Macael;;67
+04063;María;(04063) María;;68
+04064;Mojácar;(04064) Mojácar;;69
+04065;Nacimiento;(04065) Nacimiento;;70
+04066;Níjar;(04066) Níjar;;71
+04504;Ocaña;(04504) Ocaña;;72
+04067;Ohanes;(04067) Ohanes;;73
+04068;Olula de Castro;(04068) Olula de Castro;;74
+04069;Olula del Río;(04069) Olula del Río;;75
+04070;Oria;(04070) Oria;;76
+04071;Padules;(04071) Padules;;77
+04072;Partaloa;(04072) Partaloa;;78
+04073;Paterna del Río;(04073) Paterna del Río;;79
+04074;Pechina;(04074) Pechina;;80
+04075;Pulpí;(04075) Pulpí;;81
+04076;Purchena;(04076) Purchena;;82
+04077;Rágol;(04077) Rágol;;83
+04078;Rioja;(04078) Rioja;;84
+04079;Roquetas de Mar;(04079) Roquetas de Mar;;85
+04080;Santa Cruz de Marchena;(04080) Santa Cruz de Marchena;;86
+04081;Santa Fe de Mondújar;(04081) Santa Fe de Mondújar;;87
+04082;Senés;(04082) Senés;;88
+04083;Serón;(04083) Serón;;89
+04084;Sierro;(04084) Sierro;;90
+04085;Somontín;(04085) Somontín;;91
+04086;Sorbas;(04086) Sorbas;;92
+04087;Suflí;(04087) Suflí;;93
+04088;Tabernas;(04088) Tabernas;;94
+04089;Taberno;(04089) Taberno;;95
+04090;Tahal;(04090) Tahal;;96
+04091;Terque;(04091) Terque;;97
+04092;Tíjola;(04092) Tíjola;;98
+04093;Turre;(04093) Turre;;99
+04094;Turrillas;(04094) Turrillas;;100
+04095;Uleila del Campo;(04095) Uleila del Campo;;101
+04096;Urrácal;(04096) Urrácal;;102
+04097;Velefique;(04097) Velefique;;103
+04098;Vélez-Blanco;(04098) Vélez-Blanco;;104
+04099;Vélez-Rubio;(04099) Vélez-Rubio;;105
+04100;Vera;(04100) Vera;;106
+04101;Viator;(04101) Viator;;107
+04102;Vícar;(04102) Vícar;;108
+04103;Zurgena;(04103) Zurgena;;109
+04NC;Municipio de Almería sin especificar;(04NC) Municipio de Almería sin especificar;;110
+11_1;Cádiz;(11_1) Cádiz;;2
+11_2;Cádiz;(11_2) Cádiz;;2
+11001;Alcalá de los Gazules;(11001) Alcalá de los Gazules;;1
+11002;Alcalá del Valle;(11002) Alcalá del Valle;;2
+11003;Algar;(11003) Algar;;3
+11004;Algeciras;(11004) Algeciras;;4
+11005;Algodonales;(11005) Algodonales;;5
+11006;Arcos de la Frontera;(11006) Arcos de la Frontera;;6
+11007;Barbate;(11007) Barbate;;7
+11901;Benalup-Casas Viejas;(11901) Benalup-Casas Viejas;;10
+11009;Benaocaz;(11009) Benaocaz;;11
+11010;Bornos;(11010) Bornos;;12
+11012;Cádiz (capital);(11012) Cádiz (capital);;13
+11013;Castellar de la Frontera;(11013) Castellar de la Frontera;;14
+11015;Chiclana de la Frontera;(11015) Chiclana de la Frontera;;15
+11016;Chipiona;(11016) Chipiona;;16
+11014;Conil de la Frontera;(11014) Conil de la Frontera;;17
+11011;El Bosque;(11011) El Bosque;;18
+11018;El Gastor;(11018) El Gastor;;19
+11027;El Puerto de Santa María;(11027) El Puerto de Santa María;;20
+11017;Espera;(11017) Espera;;21
+11019;Grazalema;(11019) Grazalema;;22
+11020;Jerez de la Frontera;(11020) Jerez de la Frontera;;23
+11021;Jimena de la Frontera;(11021) Jimena de la Frontera;;24
+11022;La Línea de la Concepción;(11022) La Línea de la Concepción;;25
+11008;Los Barrios;(11008) Los Barrios;;26
+11023;Medina Sidonia;(11023) Medina Sidonia;;27
+11024;Olvera;(11024) Olvera;;28
+11025;Paterna de Rivera;(11025) Paterna de Rivera;;29
+11026;Prado del Rey;(11026) Prado del Rey;;30
+11028;Puerto Real;(11028) Puerto Real;;31
+11029;Puerto Serrano;(11029) Puerto Serrano;;32
+11030;Rota;(11030) Rota;;33
+11031;San Fernando;(11031) San Fernando;;34
+11902;San José del Valle;(11902) San José del Valle;;35
+11903;San Martín del Tesorillo;(11903) San Martín del Tesorillo;;36
+11033;San Roque;(11033) San Roque;;37
+11032;Sanlúcar de Barrameda;(11032) Sanlúcar de Barrameda;;38
+11034;Setenil de las Bodegas;(11034) Setenil de las Bodegas;;39
+11035;Tarifa;(11035) Tarifa;;40
+11036;Torre Alháquime;(11036) Torre Alháquime;;41
+11037;Trebujena;(11037) Trebujena;;42
+11038;Ubrique;(11038) Ubrique;;43
+11039;Vejer de la Frontera;(11039) Vejer de la Frontera;;44
+11040;Villaluenga del Rosario;(11040) Villaluenga del Rosario;;45
+11041;Villamartín;(11041) Villamartín;;46
+11042;Zahara;(11042) Zahara;;47
+11NC;Municipio de Cádiz sin especificar;(11NC) Municipio de Cádiz sin especificar;;48
+14_1;Córdoba;(14_1) Córdoba;;3
+14_2;Córdoba;(14_2) Córdoba;;3
+14001;Adamuz;(14001) Adamuz;;1
+14002;Aguilar de la Frontera;(14002) Aguilar de la Frontera;;2
+14003;Alcaracejos;(14003) Alcaracejos;;3
+14004;Almedinilla;(14004) Almedinilla;;4
+14005;Almodóvar del Río;(14005) Almodóvar del Río;;5
+14006;Añora;(14006) Añora;;6
+14007;Baena;(14007) Baena;;7
+14008;Belalcázar;(14008) Belalcázar;;8
+14009;Belmez;(14009) Belmez;;9
+14010;Benamejí;(14010) Benamejí;;10
+14012;Bujalance;(14012) Bujalance;;11
+14013;Cabra;(14013) Cabra;;12
+14014;Cañete de las Torres;(14014) Cañete de las Torres;;13
+14015;Carcabuey;(14015) Carcabuey;;14
+14016;Cardeña;(14016) Cardeña;;15
+14019;Castro del Río;(14019) Castro del Río;;16
+14020;Conquista;(14020) Conquista;;17
+14021;Córdoba (capital);(14021) Córdoba (capital);;18
+14022;Doña Mencía;(14022) Doña Mencía;;19
+14023;Dos Torres;(14023) Dos Torres;;20
+14018;El Carpio;(14018) El Carpio;;21
+14034;El Guijo;(14034) El Guijo;;22
+14074;El Viso;(14074) El Viso;;23
+14024;Encinas Reales;(14024) Encinas Reales;;24
+14025;Espejo;(14025) Espejo;;25
+14026;Espiel;(14026) Espiel;;26
+14027;Fernán-Núñez;(14027) Fernán-Núñez;;27
+14901;Fuente Carreteros;(14901) Fuente Carreteros;;28
+14028;Fuente la Lancha;(14028) Fuente la Lancha;;29
+14029;Fuente Obejuna;(14029) Fuente Obejuna;;30
+14030;Fuente Palmera;(14030) Fuente Palmera;;31
+14031;Fuente-Tójar;(14031) Fuente-Tójar;;32
+14033;Guadalcázar;(14033) Guadalcázar;;33
+14035;Hinojosa del Duque;(14035) Hinojosa del Duque;;34
+14036;Hornachuelos;(14036) Hornachuelos;;35
+14037;Iznájar;(14037) Iznájar;;36
+14017;La Carlota;(14017) La Carlota;;37
+14032;La Granjuela;(14032) La Granjuela;;38
+14902;La Guijarrosa;(14902) La Guijarrosa;;39
+14057;La Rambla;(14057) La Rambla;;40
+14065;La Victoria;(14065) La Victoria;;41
+14011;Los Blázquez;(14011) Los Blázquez;;42
+14038;Lucena;(14038) Lucena;;43
+14039;Luque;(14039) Luque;;44
+14040;Montalbán de Córdoba;(14040) Montalbán de Córdoba;;45
+14041;Montemayor;(14041) Montemayor;;46
+14042;Montilla;(14042) Montilla;;47
+14043;Montoro;(14043) Montoro;;48
+14044;Monturque;(14044) Monturque;;49
+14045;Moriles;(14045) Moriles;;50
+14046;Nueva Carteya;(14046) Nueva Carteya;;51
+14047;Obejo;(14047) Obejo;;52
+14048;Palenciana;(14048) Palenciana;;53
+14049;Palma del Río;(14049) Palma del Río;;54
+14050;Pedro Abad;(14050) Pedro Abad;;55
+14051;Pedroche;(14051) Pedroche;;56
+14052;Peñarroya-Pueblonuevo;(14052) Peñarroya-Pueblonuevo;;57
+14053;Posadas;(14053) Posadas;;58
+14054;Pozoblanco;(14054) Pozoblanco;;59
+14055;Priego de Córdoba;(14055) Priego de Córdoba;;60
+14502;Pueblonuevo del Torrible;(14502) Pueblonuevo del Torrible;;61
+14056;Puente Genil;(14056) Puente Genil;;62
+14058;Rute;(14058) Rute;;63
+14059;San Sebastián de los Ballesteros;(14059) San Sebastián de los Ballesteros;;64
+14061;Santa Eufemia;(14061) Santa Eufemia;;65
+14060;Santaella;(14060) Santaella;;66
+14062;Torrecampo;(14062) Torrecampo;;67
+14063;Valenzuela;(14063) Valenzuela;;68
+14064;Valsequillo;(14064) Valsequillo;;69
+14066;Villa del Río;(14066) Villa del Río;;70
+14067;Villafranca de Córdoba;(14067) Villafranca de Córdoba;;71
+14068;Villaharta;(14068) Villaharta;;72
+14069;Villanueva de Córdoba;(14069) Villanueva de Córdoba;;73
+14070;Villanueva del Duque;(14070) Villanueva del Duque;;74
+14071;Villanueva del Rey;(14071) Villanueva del Rey;;75
+14072;Villaralto;(14072) Villaralto;;76
+14073;Villaviciosa de Córdoba;(14073) Villaviciosa de Córdoba;;77
+14075;Zuheros;(14075) Zuheros;;78
+14NC;Municipio de Córdoba sin especificar;(14NC) Municipio de Córdoba sin especificar;;79
+18_1;Granada;(18_1) Granada;;4
+18_2;Granada;(18_2) Granada;;4
+18500;Acequias;(18500) Acequias;;1
+18001;Agrón;(18001) Agrón;;2
+18002;Alamedilla;(18002) Alamedilla;;3
+18003;Albolote;(18003) Albolote;;4
+18004;Albondón;(18004) Albondón;;5
+18005;Albuñán;(18005) Albuñán;;6
+18006;Albuñol;(18006) Albuñol;;7
+18007;Albuñuelas;(18007) Albuñuelas;;8
+18008;Alcázar y Fregenite;(18008) Alcázar y Fregenite;;10
+18009;Alcudia de Guadix;(18009) Alcudia de Guadix;;11
+18010;Aldeire;(18010) Aldeire;;12
+18011;Alfacar;(18011) Alfacar;;13
+18012;Algarinejo;(18012) Algarinejo;;14
+18013;Alhama de Granada;(18013) Alhama de Granada;;15
+18014;Alhendín;(18014) Alhendín;;16
+18015;Alicún de Ortega;(18015) Alicún de Ortega;;17
+18016;Almegíjar;(18016) Almegíjar;;18
+18017;Almuñécar;(18017) Almuñécar;;19
+18904;Alpujarra de la Sierra;(18904) Alpujarra de la Sierra;;20
+18018;Alquife;(18018) Alquife;;21
+18019;Ambroz;(18019) Ambroz;;22
+18020;Arenas del Rey;(18020) Arenas del Rey;;23
+18021;Armilla;(18021) Armilla;;24
+18022;Atarfe;(18022) Atarfe;;25
+18502;Bayacas;(18502) Bayacas;;26
+18023;Baza;(18023) Baza;;27
+18024;Beas de Granada;(18024) Beas de Granada;;28
+18025;Beas de Guadix;(18025) Beas de Guadix;;29
+18026;Belicena;(18026) Belicena;;30
+18027;Benalúa;(18027) Benalúa;;31
+18028;Benalúa de las Villas;(18028) Benalúa de las Villas;;33
+18029;Benamaurel;(18029) Benamaurel;;34
+18030;Bérchules;(18030) Bérchules;;35
+18031;Béznar;(18031) Béznar;;36
+18032;Bubión;(18032) Bubión;;37
+18033;Busquístar;(18033) Busquístar;;38
+18034;Cacín;(18034) Cacín;;39
+18035;Cádiar;(18035) Cádiar;;40
+18036;Cájar;(18036) Cájar;;41
+18037;Calicasas;(18037) Calicasas;;42
+18038;Campotéjar;(18038) Campotéjar;;43
+18039;Caniles;(18039) Caniles;;44
+18040;Cáñar;(18040) Cáñar;;45
+18041;Caparacena;(18041) Caparacena;;46
+18042;Capileira;(18042) Capileira;;47
+18043;Carataunas;(18043) Carataunas;;48
+18044;Cástaras;(18044) Cástaras;;49
+18045;Castilléjar;(18045) Castilléjar;;50
+18046;Castril;(18046) Castril;;51
+18047;Cenes de la Vega;(18047) Cenes de la Vega;;52
+18058;Charches;(18058) Charches;;53
+18059;Chauchina;(18059) Chauchina;;54
+18060;Cherín;(18060) Cherín;;55
+18061;Chimeneas;(18061) Chimeneas;;56
+18505;Chite y Talará;(18505) Chite y Talará;;57
+18062;Churriana de la Vega;(18062) Churriana de la Vega;;59
+18048;Cijuela;(18048) Cijuela;;60
+18049;Cogollos de Guadix;(18049) Cogollos de Guadix;;61
+18050;Cogollos de la Vega;(18050) Cogollos de la Vega;;62
+18504;Cojáyar;(18504) Cojáyar;;63
+18051;Colomera;(18051) Colomera;;64
+18052;Cónchar;(18052) Cónchar;;65
+18053;Cortes de Baza;(18053) Cortes de Baza;;66
+18054;Cortes y Graena;(18054) Cortes y Graena;;67
+18055;Cozvíjar;(18055) Cozvíjar;;68
+18912;Cuevas del Campo;(18912) Cuevas del Campo;;69
+18056;Cúllar;(18056) Cúllar;;70
+18057;Cúllar Vega;(18057) Cúllar Vega;;71
+18063;Darro;(18063) Darro;;73
+18064;Dehesas de Guadix;(18064) Dehesas de Guadix;;74
+18065;Dehesas Viejas;(18065) Dehesas Viejas;;75
+18066;Deifontes;(18066) Deifontes;;77
+18067;Diezma;(18067) Diezma;;78
+18068;Dílar;(18068) Dílar;;79
+18069;Dólar;(18069) Dólar;;80
+18915;Domingo Pérez de Granada;(18915) Domingo Pérez de Granada;;81
+18070;Dúdar;(18070) Dúdar;;82
+18071;Dúrcal;(18071) Dúrcal;;83
+18910;El Pinar;(18910) El Pinar;;84
+18902;El Valle;(18902) El Valle;;85
+18072;Escúzar;(18072) Escúzar;;86
+18073;Esfiliana;(18073) Esfiliana;;87
+18074;Ferreira;(18074) Ferreira;;88
+18075;Ferreirola;(18075) Ferreirola;;89
+18076;Fonelas;(18076) Fonelas;;90
+18077;Fornes;(18077) Fornes;;91
+18506;Fregenite;(18506) Fregenite;;93
+18078;Freila;(18078) Freila;;94
+18079;Fuente Vaqueros;(18079) Fuente Vaqueros;;95
+18080;Gabia la Chica;(18080) Gabia la Chica;;96
+18081;Gabia la Grande;(18081) Gabia la Grande;;97
+18082;Galera;(18082) Galera;;98
+18083;Gobernador;(18083) Gobernador;;99
+18084;Gójar;(18084) Gójar;;100
+18085;Gor;(18085) Gor;;101
+18086;Gorafe;(18086) Gorafe;;102
+18087;Granada (capital);(18087) Granada (capital);;103
+18088;Guadahortuna;(18088) Guadahortuna;;104
+18089;Guadix;(18089) Guadix;;105
+18090;Guájar Alto;(18090) Guájar Alto;;106
+18091;Guájar Faragüit;(18091) Guájar Faragüit;;107
+18092;Guájar Fondón;(18092) Guájar Fondón;;108
+18093;Gualchos;(18093) Gualchos;;109
+18094;Güéjar Sierra;(18094) Güéjar Sierra;;110
+18095;Güevéjar;(18095) Güevéjar;;111
+18096;Huélago;(18096) Huélago;;112
+18097;Huéneja;(18097) Huéneja;;113
+18098;Huéscar;(18098) Huéscar;;114
+18099;Huétor de Santillán;(18099) Huétor de Santillán;;115
+18100;Huétor Tájar;(18100) Huétor Tájar;;116
+18101;Huétor Vega;(18101) Huétor Vega;;117
+18102;Íllora;(18102) Íllora;;118
+18103;Ítrabo;(18103) Ítrabo;;119
+18104;Izbor;(18104) Izbor;;120
+18105;Iznalloz;(18105) Iznalloz;;121
+18106;Játar;(18106) Játar;;122
+18107;Jayena;(18107) Jayena;;124
+18108;Jérez del Marquesado;(18108) Jérez del Marquesado;;125
+18109;Jete;(18109) Jete;;126
+18110;Jorairátar;(18110) Jorairátar;;127
+18111;Jun;(18111) Jun;;128
+18112;Juviles;(18112) Juviles;;129
+18114;La Calahorra;(18114) La Calahorra;;131
+18126;La Malahá;(18126) La Malahá;;133
+18154;La Peza;(18154) La Peza;;134
+18901;La Taha;(18901) La Taha;;135
+18193;La Zubia;(18193) La Zubia;;136
+18113;Laborcillas;(18113) Laborcillas;;137
+18115;Láchar;(18115) Láchar;;138
+18116;Lanjarón;(18116) Lanjarón;;139
+18117;Lanteira;(18117) Lanteira;;140
+18118;Laroles;(18118) Laroles;;141
+18905;Las Gabias;(18905) Las Gabias;;142
+18119;Lecrín;(18119) Lecrín;;143
+18120;Lentegí;(18120) Lentegí;;144
+18121;Lobras;(18121) Lobras;;145
+18122;Loja;(18122) Loja;;146
+18906;Los Guájares;(18906) Los Guájares;;147
+18123;Lugros;(18123) Lugros;;148
+18124;Lújar;(18124) Lújar;;149
+18125;Mairena;(18125) Mairena;;150
+18127;Maracena;(18127) Maracena;;151
+18128;Marchal;(18128) Marchal;;152
+18507;Mecina-Alfahar;(18507) Mecina-Alfahar;;153
+18129;Mecina-Bombarón;(18129) Mecina-Bombarón;;154
+18130;Mecina-Fondales;(18130) Mecina-Fondales;;155
+18508;Mecina-Tedel;(18508) Mecina-Tedel;;156
+18131;Melegís;(18131) Melegís;;157
+18132;Moclín;(18132) Moclín;;158
+18133;Molvízar;(18133) Molvízar;;159
+18134;Monachil;(18134) Monachil;;160
+18509;Mondújar;(18509) Mondújar;;161
+18135;Montefrío;(18135) Montefrío;;162
+18136;Montejícar;(18136) Montejícar;;163
+18137;Montillana;(18137) Montillana;;164
+18138;Moraleda de Zafayona;(18138) Moraleda de Zafayona;;165
+18139;Moreda;(18139) Moreda;;166
+18909;Morelábor;(18909) Morelábor;;167
+18140;Motril;(18140) Motril;;168
+18510;Murchas;(18510) Murchas;;169
+18141;Murtas;(18141) Murtas;;170
+18142;Narila;(18142) Narila;;171
+18511;Nechite;(18511) Nechite;;172
+18903;Nevada;(18903) Nevada;;173
+18143;Nigüelas;(18143) Nigüelas;;174
+18144;Nívar;(18144) Nívar;;175
+18145;Ogíjares;(18145) Ogíjares;;176
+18146;Orce;(18146) Orce;;177
+18147;Órgiva;(18147) Órgiva;;178
+18148;Otívar;(18148) Otívar;;179
+18150;Padul;(18150) Padul;;180
+18151;Pampaneira;(18151) Pampaneira;;181
+18152;Pedro Martínez;(18152) Pedro Martínez;;182
+18153;Peligros;(18153) Peligros;;183
+18155;Picena;(18155) Picena;;184
+18156;Pinos del Valle;(18156) Pinos del Valle;;185
+18157;Pinos Genil;(18157) Pinos Genil;;186
+18158;Pinos Puente;(18158) Pinos Puente;;187
+18159;Píñar;(18159) Píñar;;188
+18160;Pitres;(18160) Pitres;;189
+18161;Polícar;(18161) Polícar;;190
+18162;Polopos;(18162) Polopos;;191
+18163;Pórtugos;(18163) Pórtugos;;192
+18164;Puebla de Don Fadrique;(18164) Puebla de Don Fadrique;;193
+18165;Pulianas;(18165) Pulianas;;194
+18512;Pulianillas;(18512) Pulianillas;;195
+18166;Purchil;(18166) Purchil;;197
+18167;Purullena;(18167) Purullena;;198
+18168;Quéntar;(18168) Quéntar;;199
+18169;Restábal;(18169) Restábal;;200
+18170;Rubite;(18170) Rubite;;201
+18171;Salar;(18171) Salar;;202
+18172;Saleres;(18172) Saleres;;203
+18173;Salobreña;(18173) Salobreña;;204
+18174;Santa Cruz del Comercio;(18174) Santa Cruz del Comercio;;205
+18175;Santa Fe;(18175) Santa Fe;;206
+18176;Soportújar;(18176) Soportújar;;207
+18177;Sorvilán;(18177) Sorvilán;;208
+18178;Torre-Cardela;(18178) Torre-Cardela;;209
+18916;Torrenueva Costa;(18916) Torrenueva Costa;;210
+18179;Torvizcón;(18179) Torvizcón;;211
+18180;Trevélez;(18180) Trevélez;;212
+18513;Trujillos;(18513) Trujillos;;213
+18181;Turón;(18181) Turón;;214
+18182;Ugíjar;(18182) Ugíjar;;215
+18914;Valderrubio;(18914) Valderrubio;;216
+18907;Valle del Zalabí;(18907) Valle del Zalabí;;217
+18183;Válor;(18183) Válor;;218
+18911;Vegas del Genil;(18911) Vegas del Genil;;219
+18184;Vélez de Benaudalla;(18184) Vélez de Benaudalla;;220
+18185;Ventas de Huelma;(18185) Ventas de Huelma;;221
+18186;Ventas de Zafarraya;(18186) Ventas de Zafarraya;;222
+18149;Villa de Otura;(18149) Villa de Otura;;223
+18908;Villamena;(18908) Villamena;;224
+18187;Villanueva de las Torres;(18187) Villanueva de las Torres;;225
+18188;Villanueva Mesía;(18188) Villanueva Mesía;;226
+18189;Víznar;(18189) Víznar;;227
+18190;Yátor;(18190) Yátor;;228
+18191;Yegen;(18191) Yegen;;229
+18192;Zafarraya;(18192) Zafarraya;;230
+18913;Zagra;(18913) Zagra;;231
+18194;Zújar;(18194) Zújar;;232
+18NC;Municipio de Granada sin especificar;(18NC) Municipio de Granada sin especificar;;233
+21_1;Huelva;(21_1) Huelva;;5
+21_2;Huelva;(21_2) Huelva;;5
+21001;Alájar;(21001) Alájar;;1
+21002;Aljaraque;(21002) Aljaraque;;2
+21004;Almonaster la Real;(21004) Almonaster la Real;;3
+21005;Almonte;(21005) Almonte;;4
+21006;Alosno;(21006) Alosno;;5
+21007;Aracena;(21007) Aracena;;6
+21008;Aroche;(21008) Aroche;;7
+21009;Arroyomolinos de León;(21009) Arroyomolinos de León;;8
+21010;Ayamonte;(21010) Ayamonte;;9
+21011;Beas;(21011) Beas;;10
+21012;Berrocal;(21012) Berrocal;;11
+21013;Bollullos Par del Condado;(21013) Bollullos Par del Condado;;12
+21014;Bonares;(21014) Bonares;;13
+21015;Cabezas Rubias;(21015) Cabezas Rubias;;14
+21016;Cala;(21016) Cala;;15
+21017;Calañas;(21017) Calañas;;16
+21019;Campofrío;(21019) Campofrío;;17
+21020;Cañaveral de León;(21020) Cañaveral de León;;18
+21021;Cartaya;(21021) Cartaya;;19
+21022;Castaño del Robledo;(21022) Castaño del Robledo;;20
+21030;Chucena;(21030) Chucena;;21
+21024;Corteconcepción;(21024) Corteconcepción;;22
+21025;Cortegana;(21025) Cortegana;;23
+21026;Cortelazor;(21026) Cortelazor;;24
+21027;Cumbres de Enmedio;(21027) Cumbres de Enmedio;;25
+21028;Cumbres de San Bartolomé;(21028) Cumbres de San Bartolomé;;26
+21029;Cumbres Mayores;(21029) Cumbres Mayores;;27
+21003;El Almendro;(21003) El Almendro;;28
+21018;El Campillo;(21018) El Campillo;;29
+21023;El Cerro de Andévalo;(21023) El Cerro de Andévalo;;30
+21037;El Granado;(21037) El Granado;;31
+21031;Encinasola;(21031) Encinasola;;32
+21032;Escacena del Campo;(21032) Escacena del Campo;;33
+21033;Fuenteheridos;(21033) Fuenteheridos;;34
+21034;Galaroza;(21034) Galaroza;;35
+21035;Gibraleón;(21035) Gibraleón;;36
+21038;Higuera de la Sierra;(21038) Higuera de la Sierra;;37
+21039;Hinojales;(21039) Hinojales;;38
+21040;Hinojos;(21040) Hinojos;;39
+21041;Huelva (capital);(21041) Huelva (capital);;40
+21042;Isla Cristina;(21042) Isla Cristina;;41
+21043;Jabugo;(21043) Jabugo;;42
+21036;La Granada de Río-Tinto;(21036) La Granada de Río-Tinto;;43
+21051;La Nava;(21051) La Nava;;44
+21054;La Palma del Condado;(21054) La Palma del Condado;;45
+21902;La Zarza-Perrunal;(21902) La Zarza-Perrunal;;46
+21044;Lepe;(21044) Lepe;;47
+21045;Linares de la Sierra;(21045) Linares de la Sierra;;48
+21048;Los Marines;(21048) Los Marines;;49
+21046;Lucena del Puerto;(21046) Lucena del Puerto;;50
+21047;Manzanilla;(21047) Manzanilla;;51
+21049;Minas de Riotinto;(21049) Minas de Riotinto;;52
+21050;Moguer;(21050) Moguer;;53
+21052;Nerva;(21052) Nerva;;54
+21053;Niebla;(21053) Niebla;;55
+21055;Palos de la Frontera;(21055) Palos de la Frontera;;56
+21056;Paterna del Campo;(21056) Paterna del Campo;;57
+21057;Paymogo;(21057) Paymogo;;58
+21058;Puebla de Guzmán;(21058) Puebla de Guzmán;;59
+21059;Puerto Moral;(21059) Puerto Moral;;60
+21060;Punta Umbría;(21060) Punta Umbría;;61
+21061;Rociana del Condado;(21061) Rociana del Condado;;63
+21062;Rosal de la Frontera;(21062) Rosal de la Frontera;;64
+21063;San Bartolomé de la Torre;(21063) San Bartolomé de la Torre;;65
+21064;San Juan del Puerto;(21064) San Juan del Puerto;;66
+21066;San Silvestre de Guzmán;(21066) San Silvestre de Guzmán;;67
+21065;Sanlúcar de Guadiana;(21065) Sanlúcar de Guadiana;;68
+21067;Santa Ana la Real;(21067) Santa Ana la Real;;69
+21068;Santa Bárbara de Casa;(21068) Santa Bárbara de Casa;;70
+21069;Santa Olalla del Cala;(21069) Santa Olalla del Cala;;71
+21070;Trigueros;(21070) Trigueros;;72
+21071;Valdelarco;(21071) Valdelarco;;73
+21072;Valverde del Camino;(21072) Valverde del Camino;;74
+21073;Villablanca;(21073) Villablanca;;75
+21074;Villalba del Alcor;(21074) Villalba del Alcor;;76
+21075;Villanueva de las Cruces;(21075) Villanueva de las Cruces;;77
+21076;Villanueva de los Castillejos;(21076) Villanueva de los Castillejos;;78
+21077;Villarrasa;(21077) Villarrasa;;79
+21078;Zalamea la Real;(21078) Zalamea la Real;;80
+21079;Zufre;(21079) Zufre;;81
+21NC;Municipio de Huelva sin especificar;(21NC) Municipio de Huelva sin especificar;;82
+23_1;Jaén;(23_1) Jaén;;6
+23_2;Jaén;(23_2) Jaén;;6
+23001;Albanchez de Mágina;(23001) Albanchez de Mágina;;1
+23002;Alcalá la Real;(23002) Alcalá la Real;;3
+23003;Alcaudete;(23003) Alcaudete;;4
+23004;Aldeaquemada;(23004) Aldeaquemada;;5
+23005;Andújar;(23005) Andújar;;6
+23006;Arjona;(23006) Arjona;;7
+23007;Arjonilla;(23007) Arjonilla;;8
+23008;Arquillos;(23008) Arquillos;;9
+23905;Arroyo del Ojanco;(23905) Arroyo del Ojanco;;10
+23009;Baeza;(23009) Baeza;;11
+23010;Bailén;(23010) Bailén;;12
+23011;Baños de la Encina;(23011) Baños de la Encina;;13
+23012;Beas de Segura;(23012) Beas de Segura;;14
+23013;Bedmar;(23013) Bedmar;;15
+23902;Bedmar y Garcíez;(23902) Bedmar y Garcíez;;16
+23014;Begíjar;(23014) Begíjar;;17
+23015;Bélmez de la Moraleda;(23015) Bélmez de la Moraleda;;18
+23016;Benatae;(23016) Benatae;;19
+23017;Cabra del Santo Cristo;(23017) Cabra del Santo Cristo;;20
+23018;Cambil;(23018) Cambil;;21
+23019;Campillo de Arenas;(23019) Campillo de Arenas;;22
+23020;Canena;(23020) Canena;;23
+23021;Carboneros;(23021) Carboneros;;24
+23022;Cárchel;(23022) Cárchel;;25
+23023;Carchelejo;(23023) Carchelejo;;26
+23901;Cárcheles;(23901) Cárcheles;;27
+23025;Castellar;(23025) Castellar;;28
+23026;Castillo de Locubín;(23026) Castillo de Locubín;;30
+23027;Cazalilla;(23027) Cazalilla;;31
+23028;Cazorla;(23028) Cazorla;;32
+23029;Chiclana de Segura;(23029) Chiclana de Segura;;33
+23030;Chilluévar;(23030) Chilluévar;;34
+23031;Escañuela;(23031) Escañuela;;35
+23032;Espeluy;(23032) Espeluy;;36
+23033;Frailes;(23033) Frailes;;37
+23034;Fuensanta de Martos;(23034) Fuensanta de Martos;;38
+23035;Fuerte del Rey;(23035) Fuerte del Rey;;39
+23036;Garciéz;(23036) Garciéz;;40
+23037;Génave;(23037) Génave;;41
+23039;Guarromán;(23039) Guarromán;;42
+23041;Higuera de Calatrava;(23041) Higuera de Calatrava;;44
+23042;Hinojares;(23042) Hinojares;;45
+23043;Hornos;(23043) Hornos;;46
+23044;Huelma;(23044) Huelma;;47
+23045;Huesa;(23045) Huesa;;48
+23046;Ibros;(23046) Ibros;;49
+23048;Iznatoraf;(23048) Iznatoraf;;50
+23049;Jabalquinto;(23049) Jabalquinto;;51
+23050;Jaén (capital);(23050) Jaén (capital);;52
+23051;Jamilena;(23051) Jamilena;;53
+23052;Jimena;(23052) Jimena;;54
+23053;Jódar;(23053) Jódar;;55
+23024;La Carolina;(23024) La Carolina;;56
+23038;La Guardia de Jaén;(23038) La Guardia de Jaén;;57
+23047;La Iruela;(23047) La Iruela;;58
+23072;La Puerta de Segura;(23072) La Puerta de Segura;;59
+23040;Lahiguera;(23040) Lahiguera;;60
+23054;Larva;(23054) Larva;;61
+23055;Linares;(23055) Linares;;62
+23056;Lopera;(23056) Lopera;;63
+23099;Los Villares;(23099) Los Villares;;64
+23057;Lupión;(23057) Lupión;;65
+23058;Mancha Real;(23058) Mancha Real;;66
+23059;Marmolejo;(23059) Marmolejo;;67
+23060;Martos;(23060) Martos;;68
+23061;Mengíbar;(23061) Mengíbar;;69
+23062;Montizón;(23062) Montizón;;70
+23063;Navas de San Juan;(23063) Navas de San Juan;;71
+23064;Noalejo;(23064) Noalejo;;72
+23065;Orcera;(23065) Orcera;;73
+23066;Peal de Becerro;(23066) Peal de Becerro;;74
+23067;Pegalajar;(23067) Pegalajar;;75
+23068;Pontones;(23068) Pontones;;76
+23069;Porcuna;(23069) Porcuna;;77
+23070;Pozo Alcón;(23070) Pozo Alcón;;78
+23071;Puente de Génave;(23071) Puente de Génave;;79
+23073;Quesada;(23073) Quesada;;80
+23074;Rus;(23074) Rus;;81
+23075;Sabiote;(23075) Sabiote;;82
+23076;Santa Elena;(23076) Santa Elena;;83
+23077;Santiago de Calatrava;(23077) Santiago de Calatrava;;84
+23078;Santiago de la Espada;(23078) Santiago de la Espada;;85
+23904;Santiago-Pontones;(23904) Santiago-Pontones;;86
+23079;Santisteban del Puerto;(23079) Santisteban del Puerto;;87
+23080;Santo Tomé;(23080) Santo Tomé;;88
+23081;Segura de la Sierra;(23081) Segura de la Sierra;;89
+23082;Siles;(23082) Siles;;90
+23083;Solera;(23083) Solera;;91
+23084;Sorihuela del Guadalimar;(23084) Sorihuela del Guadalimar;;92
+23085;Torreblascopedro;(23085) Torreblascopedro;;94
+23086;Torredelcampo;(23086) Torredelcampo;;95
+23087;Torredonjimeno;(23087) Torredonjimeno;;96
+23088;Torreperogil;(23088) Torreperogil;;97
+23089;Torrequebradilla;(23089) Torrequebradilla;;98
+23090;Torres;(23090) Torres;;99
+23091;Torres de Albánchez;(23091) Torres de Albánchez;;100
+23092;Úbeda;(23092) Úbeda;;101
+23093;Valdepeñas de Jaén;(23093) Valdepeñas de Jaén;;102
+23094;Vilches;(23094) Vilches;;103
+23095;Villacarrillo;(23095) Villacarrillo;;104
+23096;Villanueva de la Reina;(23096) Villanueva de la Reina;;105
+23097;Villanueva del Arzobispo;(23097) Villanueva del Arzobispo;;106
+23098;Villardompardo;(23098) Villardompardo;;107
+23100;Villargordo;(23100) Villargordo;;108
+23101;Villarrodrigo;(23101) Villarrodrigo;;109
+23903;Villatorres;(23903) Villatorres;;110
+23NC;Municipio de Jaén sin especificar;(23NC) Municipio de Jaén sin especificar;;111
+29_1;Málaga;(29_1) Málaga;;7
+29_2;Málaga;(29_2) Málaga;;7
+29001;Alameda;(29001) Alameda;;1
+29002;Alcaucín;(29002) Alcaucín;;2
+29003;Alfarnate;(29003) Alfarnate;;3
+29004;Alfarnatejo;(29004) Alfarnatejo;;4
+29005;Algarrobo;(29005) Algarrobo;;5
+29006;Algatocín;(29006) Algatocín;;6
+29007;Alhaurín de la Torre;(29007) Alhaurín de la Torre;;7
+29008;Alhaurín el Grande;(29008) Alhaurín el Grande;;8
+29009;Almáchar;(29009) Almáchar;;9
+29010;Almargen;(29010) Almargen;;10
+29011;Almogía;(29011) Almogía;;11
+29012;Álora;(29012) Álora;;12
+29013;Alozaina;(29013) Alozaina;;13
+29014;Alpandeire;(29014) Alpandeire;;14
+29015;Antequera;(29015) Antequera;;15
+29016;Árchez;(29016) Árchez;;16
+29017;Archidona;(29017) Archidona;;17
+29018;Ardales;(29018) Ardales;;18
+29019;Arenas;(29019) Arenas;;19
+29020;Arriate;(29020) Arriate;;20
+29021;Atajate;(29021) Atajate;;21
+29022;Benadalid;(29022) Benadalid;;22
+29023;Benahavís;(29023) Benahavís;;24
+29024;Benalauría;(29024) Benalauría;;25
+29025;Benalmádena;(29025) Benalmádena;;26
+29026;Benamargosa;(29026) Benamargosa;;27
+29027;Benamocarra;(29027) Benamocarra;;28
+29028;Benaoján;(29028) Benaoján;;29
+29029;Benarrabá;(29029) Benarrabá;;30
+29032;Campillos;(29032) Campillos;;31
+29033;Canillas de Aceituno;(29033) Canillas de Aceituno;;32
+29034;Canillas de Albaida;(29034) Canillas de Albaida;;33
+29035;Cañete la Real;(29035) Cañete la Real;;34
+29036;Carratraca;(29036) Carratraca;;35
+29037;Cartajima;(29037) Cartajima;;36
+29038;Cártama;(29038) Cártama;;37
+29039;Casabermeja;(29039) Casabermeja;;38
+29040;Casarabonela;(29040) Casarabonela;;39
+29041;Casares;(29041) Casares;;40
+29502;Churriana;(29502) Churriana;;41
+29042;Coín;(29042) Coín;;42
+29043;Colmenar;(29043) Colmenar;;43
+29044;Comares;(29044) Comares;;44
+29045;Cómpeta;(29045) Cómpeta;;45
+29046;Cortes de la Frontera;(29046) Cortes de la Frontera;;46
+29047;Cuevas Bajas;(29047) Cuevas Bajas;;47
+29049;Cuevas de San Marcos;(29049) Cuevas de San Marcos;;48
+29048;Cuevas del Becerro;(29048) Cuevas del Becerro;;49
+29050;Cútar;(29050) Cútar;;50
+29030;El Borge;(29030) El Borge;;51
+29031;El Burgo;(29031) El Burgo;;52
+29051;Estepona;(29051) Estepona;;53
+29052;Faraján;(29052) Faraján;;54
+29053;Frigiliana;(29053) Frigiliana;;55
+29054;Fuengirola;(29054) Fuengirola;;56
+29055;Fuente de Piedra;(29055) Fuente de Piedra;;57
+29056;Gaucín;(29056) Gaucín;;58
+29057;Genalguacil;(29057) Genalguacil;;59
+29058;Guaro;(29058) Guaro;;60
+29059;Humilladero;(29059) Humilladero;;61
+29060;Igualeja;(29060) Igualeja;;62
+29061;Istán;(29061) Istán;;63
+29062;Iznate;(29062) Iznate;;64
+29063;Jimera de Líbar;(29063) Jimera de Líbar;;65
+29064;Jubrique;(29064) Jubrique;;66
+29065;Júzcar;(29065) Júzcar;;67
+29066;Macharaviaya;(29066) Macharaviaya;;68
+29067;Málaga (capital);(29067) Málaga (capital);;69
+29068;Manilva;(29068) Manilva;;70
+29069;Marbella;(29069) Marbella;;71
+29070;Mijas;(29070) Mijas;;72
+29071;Moclinejo;(29071) Moclinejo;;73
+29072;Mollina;(29072) Mollina;;74
+29073;Monda;(29073) Monda;;75
+29903;Montecorto;(29903) Montecorto;;76
+29074;Montejaque;(29074) Montejaque;;77
+29075;Nerja;(29075) Nerja;;78
+29076;Ojén;(29076) Ojén;;79
+29505;Olías;(29505) Olías;;80
+29077;Parauta;(29077) Parauta;;81
+29078;Peñarrubia;(29078) Peñarrubia;;82
+29079;Periana;(29079) Periana;;83
+29080;Pizarra;(29080) Pizarra;;84
+29081;Pujerra;(29081) Pujerra;;85
+29082;Rincón de la Victoria;(29082) Rincón de la Victoria;;86
+29083;Riogordo;(29083) Riogordo;;87
+29084;Ronda;(29084) Ronda;;88
+29085;Salares;(29085) Salares;;89
+29086;Sayalonga;(29086) Sayalonga;;90
+29087;Sedella;(29087) Sedella;;91
+29904;Serrato;(29904) Serrato;;92
+29088;Sierra de Yeguas;(29088) Sierra de Yeguas;;93
+29089;Teba;(29089) Teba;;94
+29090;Tolox;(29090) Tolox;;95
+29901;Torremolinos;(29901) Torremolinos;;96
+29091;Torrox;(29091) Torrox;;98
+29092;Totalán;(29092) Totalán;;99
+29093;Valle de Abdalajís;(29093) Valle de Abdalajís;;100
+29094;Vélez-Málaga;(29094) Vélez-Málaga;;101
+29095;Villanueva de Algaidas;(29095) Villanueva de Algaidas;;102
+29902;Villanueva de la Concepción;(29902) Villanueva de la Concepción;;103
+29098;Villanueva de Tapia;(29098) Villanueva de Tapia;;104
+29096;Villanueva del Rosario;(29096) Villanueva del Rosario;;105
+29097;Villanueva del Trabuco;(29097) Villanueva del Trabuco;;106
+29099;Viñuela;(29099) Viñuela;;107
+29100;Yunquera;(29100) Yunquera;;108
+29NC;Municipio de Málaga sin especificar;(29NC) Municipio de Málaga sin especificar;;109
+41_1;Sevilla;(41_1) Sevilla;;8
+41_2;Sevilla;(41_2) Sevilla;;8
+41001;Aguadulce;(41001) Aguadulce;;1
+41002;Alanís;(41002) Alanís;;2
+41003;Albaida del Aljarafe;(41003) Albaida del Aljarafe;;3
+41004;Alcalá de Guadaíra;(41004) Alcalá de Guadaíra;;5
+41005;Alcalá del Río;(41005) Alcalá del Río;;6
+41006;Alcolea del Río;(41006) Alcolea del Río;;7
+41008;Algámitas;(41008) Algámitas;;8
+41009;Almadén de la Plata;(41009) Almadén de la Plata;;9
+41010;Almensilla;(41010) Almensilla;;10
+41011;Arahal;(41011) Arahal;;11
+41012;Aznalcázar;(41012) Aznalcázar;;12
+41013;Aznalcóllar;(41013) Aznalcóllar;;13
+41014;Badolatosa;(41014) Badolatosa;;14
+41015;Benacazón;(41015) Benacazón;;15
+41016;Bollullos de la Mitación;(41016) Bollullos de la Mitación;;16
+41017;Bormujos;(41017) Bormujos;;17
+41018;Brenes;(41018) Brenes;;18
+41019;Burguillos;(41019) Burguillos;;19
+41021;Camas;(41021) Camas;;20
+41023;Cantillana;(41023) Cantillana;;21
+41901;Cañada Rosal;(41901) Cañada Rosal;;22
+41024;Carmona;(41024) Carmona;;23
+41025;Carrión de los Céspedes;(41025) Carrión de los Céspedes;;24
+41026;Casariche;(41026) Casariche;;25
+41027;Castilblanco de los Arroyos;(41027) Castilblanco de los Arroyos;;26
+41028;Castilleja de Guzmán;(41028) Castilleja de Guzmán;;27
+41029;Castilleja de la Cuesta;(41029) Castilleja de la Cuesta;;28
+41030;Castilleja del Campo;(41030) Castilleja del Campo;;29
+41032;Cazalla de la Sierra;(41032) Cazalla de la Sierra;;30
+41033;Constantina;(41033) Constantina;;31
+41034;Coria del Río;(41034) Coria del Río;;32
+41035;Coripe;(41035) Coripe;;33
+41038;Dos Hermanas;(41038) Dos Hermanas;;34
+41039;Écija;(41039) Écija;;35
+41031;El Castillo de las Guardas;(41031) El Castillo de las Guardas;;37
+41036;El Coronil;(41036) El Coronil;;38
+41903;El Cuervo de Sevilla;(41903) El Cuervo de Sevilla;;40
+41043;El Garrobo;(41043) El Garrobo;;41
+41057;El Madroño;(41057) El Madroño;;42
+41904;El Palmar de Troya;(41904) El Palmar de Troya;;43
+41073;El Pedroso;(41073) El Pedroso;;44
+41080;El Real de la Jara;(41080) El Real de la Jara;;45
+41083;El Ronquillo;(41083) El Ronquillo;;46
+41084;El Rubio;(41084) El Rubio;;47
+41090;El Saucejo;(41090) El Saucejo;;48
+41102;El Viso del Alcor;(41102) El Viso del Alcor;;49
+41040;Espartinas;(41040) Espartinas;;50
+41041;Estepa;(41041) Estepa;;51
+41042;Fuentes de Andalucía;(41042) Fuentes de Andalucía;;52
+41044;Gelves;(41044) Gelves;;53
+41045;Gerena;(41045) Gerena;;54
+41046;Gilena;(41046) Gilena;;55
+41047;Gines;(41047) Gines;;56
+41048;Guadalcanal;(41048) Guadalcanal;;57
+41049;Guillena;(41049) Guillena;;58
+41050;Herrera;(41050) Herrera;;59
+41051;Huévar del Aljarafe;(41051) Huévar del Aljarafe;;61
+41902;Isla Mayor;(41902) Isla Mayor;;62
+41007;La Algaba;(41007) La Algaba;;63
+41022;La Campana;(41022) La Campana;;64
+41056;La Luisiana;(41056) La Luisiana;;66
+41077;La Puebla de Cazalla;(41077) La Puebla de Cazalla;;67
+41078;La Puebla de los Infantes;(41078) La Puebla de los Infantes;;68
+41079;La Puebla del Río;(41079) La Puebla del Río;;69
+41081;La Rinconada;(41081) La Rinconada;;70
+41082;La Roda de Andalucía;(41082) La Roda de Andalucía;;71
+41052;Lantejuela;(41052) Lantejuela;;72
+41020;Las Cabezas de San Juan;(41020) Las Cabezas de San Juan;;73
+41066;Las Navas de la Concepción;(41066) Las Navas de la Concepción;;74
+41053;Lebrija;(41053) Lebrija;;75
+41054;Lora de Estepa;(41054) Lora de Estepa;;76
+41055;Lora del Río;(41055) Lora del Río;;77
+41037;Los Corrales;(41037) Los Corrales;;78
+41063;Los Molares;(41063) Los Molares;;79
+41069;Los Palacios y Villafranca;(41069) Los Palacios y Villafranca;;80
+41058;Mairena del Alcor;(41058) Mairena del Alcor;;81
+41059;Mairena del Aljarafe;(41059) Mairena del Aljarafe;;82
+41060;Marchena;(41060) Marchena;;83
+41061;Marinaleda;(41061) Marinaleda;;84
+41062;Martín de la Jara;(41062) Martín de la Jara;;85
+41064;Montellano;(41064) Montellano;;86
+41065;Morón de la Frontera;(41065) Morón de la Frontera;;87
+41067;Olivares;(41067) Olivares;;88
+41068;Osuna;(41068) Osuna;;89
+41070;Palomares del Río;(41070) Palomares del Río;;90
+41071;Paradas;(41071) Paradas;;91
+41072;Pedrera;(41072) Pedrera;;92
+41074;Peñaflor;(41074) Peñaflor;;93
+41075;Pilas;(41075) Pilas;;94
+41076;Pruna;(41076) Pruna;;95
+41085;Salteras;(41085) Salteras;;98
+41086;San Juan de Aznalfarache;(41086) San Juan de Aznalfarache;;99
+41088;San Nicolás del Puerto;(41088) San Nicolás del Puerto;;100
+41087;Sanlúcar la Mayor;(41087) Sanlúcar la Mayor;;101
+41089;Santiponce;(41089) Santiponce;;102
+41091;Sevilla (capital);(41091) Sevilla (capital);;103
+41092;Tocina;(41092) Tocina;;104
+41093;Tomares;(41093) Tomares;;105
+41094;Umbrete;(41094) Umbrete;;106
+41095;Utrera;(41095) Utrera;;107
+41096;Valencina de la Concepción;(41096) Valencina de la Concepción;;108
+41097;Villamanrique de la Condesa;(41097) Villamanrique de la Condesa;;112
+41100;Villanueva de San Juan;(41100) Villanueva de San Juan;;113
+41098;Villanueva del Ariscal;(41098) Villanueva del Ariscal;;114
+41099;Villanueva del Río y Minas;(41099) Villanueva del Río y Minas;;115
+41101;Villaverde del Río;(41101) Villaverde del Río;;116
+41NC;Municipio de Sevilla sin especificar;(41NC) Municipio de Sevilla sin especificar;;117
+C01NC0;Provincia sin especificar;(C01NC0) Provincia sin especificar;;9
+C01NC00;Provincia sin especificar;(C01NC00) Provincia sin especificar;;9
+C01NC000;Provincia sin especificar;(C01NC000) Provincia sin especificar;;878
+22;Huesca;(22) Huesca;;1
+44;Teruel;(44) Teruel;;2
+50;Zaragoza;(50) Zaragoza;;3
+22_1;Huesca;(22_1) Huesca;;1
+22_2;Huesca;(22_2) Huesca;;1
+P22;Huesca;(P22) Huesca;;1
+44_1;Teruel;(44_1) Teruel;;2
+44_2;Teruel;(44_2) Teruel;;2
+P44;Teruel;(P44) Teruel;;1
+50_1;Zaragoza;(50_1) Zaragoza;;3
+50_2;Zaragoza;(50_2) Zaragoza;;3
+P50;Zaragoza;(P50) Zaragoza;;1
+33;Asturias;(33) Asturias;;1
+33_1;Asturias;(33_1) Asturias;;1
+33_2;Asturias;(33_2) Asturias;;1
+P33;Asturias;(P33) Asturias;;1
+07;Islas Baleares/Illes Balears;(07) Islas Baleares/Illes Balears;;1
+07_1;Islas Baleares/Illes Balears;(07_1) Islas Baleares/Illes Balears;;1
+07_2;Islas Baleares/Illes Balears;(07_2) Islas Baleares/Illes Balears;;1
+P07;Islas Baleares/Illes Balears;(P07) Islas Baleares/Illes Balears;;1
+35;Las Palmas;(35) Las Palmas;;1
+38;Santa Cruz de Tenerife;(38) Santa Cruz de Tenerife;;2
+35_1;Las Palmas;(35_1) Las Palmas;;1
+35_2;Las Palmas;(35_2) Las Palmas;;1
+P35;Las Palmas;(P35) Las Palmas;;1
+38_1;Santa Cruz de Tenerife;(38_1) Santa Cruz de Tenerife;;2
+38_2;Santa Cruz de Tenerife;(38_2) Santa Cruz de Tenerife;;2
+P38;Santa Cruz de Tenerife;(P38) Santa Cruz de Tenerife;;1
+39;Cantabria;(39) Cantabria;;1
+39_1;Cantabria;(39_1) Cantabria;;1
+39_2;Cantabria;(39_2) Cantabria;;1
+P39;Cantabria;(P39) Cantabria;;1
+02;Albacete;(02) Albacete;;1
+13;Ciudad Real;(13) Ciudad Real;;2
+16;Cuenca;(16) Cuenca;;3
+19;Guadalajara;(19) Guadalajara;;4
+45;Toledo;(45) Toledo;;5
+02_1;Albacete;(02_1) Albacete;;1
+02_2;Albacete;(02_2) Albacete;;1
+P02;Albacete;(P02) Albacete;;1
+13_1;Ciudad Real;(13_1) Ciudad Real;;2
+13_2;Ciudad Real;(13_2) Ciudad Real;;2
+P13;Ciudad Real;(P13) Ciudad Real;;1
+16_1;Cuenca;(16_1) Cuenca;;3
+16_2;Cuenca;(16_2) Cuenca;;3
+P16;Cuenca;(P16) Cuenca;;1
+19_1;Guadalajara;(19_1) Guadalajara;;4
+19_2;Guadalajara;(19_2) Guadalajara;;4
+P19;Guadalajara;(P19) Guadalajara;;1
+45_1;Toledo;(45_1) Toledo;;5
+45_2;Toledo;(45_2) Toledo;;5
+P45;Toledo;(P45) Toledo;;1
+05;Ávila;(05) Ávila;;1
+09;Burgos;(09) Burgos;;2
+24;León;(24) León;;3
+34;Palencia;(34) Palencia;;4
+37;Salamanca;(37) Salamanca;;5
+40;Segovia;(40) Segovia;;6
+42;Soria;(42) Soria;;7
+47;Valladolid;(47) Valladolid;;8
+49;Zamora;(49) Zamora;;9
+05_1;Ávila;(05_1) Ávila;;1
+05_2;Ávila;(05_2) Ávila;;1
+P05;Ávila;(P05) Ávila;;1
+09_1;Burgos;(09_1) Burgos;;2
+09_2;Burgos;(09_2) Burgos;;2
+P09;Burgos;(P09) Burgos;;1
+24_1;León;(24_1) León;;3
+24_2;León;(24_2) León;;3
+P24;León;(P24) León;;1
+34_1;Palencia;(34_1) Palencia;;4
+34_2;Palencia;(34_2) Palencia;;4
+P34;Palencia;(P34) Palencia;;1
+37_1;Salamanca;(37_1) Salamanca;;5
+37_2;Salamanca;(37_2) Salamanca;;5
+P37;Salamanca;(P37) Salamanca;;1
+40_1;Segovia;(40_1) Segovia;;6
+40_2;Segovia;(40_2) Segovia;;6
+P40;Segovia;(P40) Segovia;;1
+42_1;Soria;(42_1) Soria;;7
+42_2;Soria;(42_2) Soria;;7
+P42;Soria;(P42) Soria;;1
+47_1;Valladolid;(47_1) Valladolid;;8
+47_2;Valladolid;(47_2) Valladolid;;8
+P47;Valladolid;(P47) Valladolid;;1
+49_1;Zamora;(49_1) Zamora;;9
+49_2;Zamora;(49_2) Zamora;;9
+P49;Zamora;(P49) Zamora;;1
+08;Barcelona;(08) Barcelona;;1
+17;Gerona/Girona;(17) Gerona/Girona;;2
+25;Lérida/Lleida;(25) Lérida/Lleida;;3
+43;Tarragona;(43) Tarragona;;4
+08_1;Barcelona;(08_1) Barcelona;;1
+08_2;Barcelona;(08_2) Barcelona;;1
+P08;Barcelona;(P08) Barcelona;;1
+17_1;Gerona/Girona;(17_1) Gerona/Girona;;2
+17_2;Gerona/Girona;(17_2) Gerona/Girona;;2
+P17;Gerona/Girona;(P17) Gerona/Girona;;1
+25_1;Lérida/Lleida;(25_1) Lérida/Lleida;;3
+25_2;Lérida/Lleida;(25_2) Lérida/Lleida;;3
+P25;Lérida/Lleida;(P25) Lérida/Lleida;;1
+43_1;Tarragona;(43_1) Tarragona;;4
+43_2;Tarragona;(43_2) Tarragona;;4
+P43;Tarragona;(P43) Tarragona;;1
+03;Alicante/Alacant;(03) Alicante/Alacant;;1
+12;Castellón/Castelló;(12) Castellón/Castelló;;2
+46;Valencia/València;(46) Valencia/València;;3
+03_1;Alicante/Alacant;(03_1) Alicante/Alacant;;1
+03_2;Alicante/Alacant;(03_2) Alicante/Alacant;;1
+P03;Alicante/Alacant;(P03) Alicante/Alacant;;1
+12_1;Castellón/Castelló;(12_1) Castellón/Castelló;;2
+12_2;Castellón/Castelló;(12_2) Castellón/Castelló;;2
+P12;Castellón/Castelló;(P12) Castellón/Castelló;;1
+46_1;Valencia/València;(46_1) Valencia/València;;3
+46_2;Valencia/València;(46_2) Valencia/València;;3
+P46;Valencia/València;(P46) Valencia/València;;1
+06;Badajoz;(06) Badajoz;;1
+10;Cáceres;(10) Cáceres;;2
+06_1;Badajoz;(06_1) Badajoz;;1
+06_2;Badajoz;(06_2) Badajoz;;1
+P06;Badajoz;(P06) Badajoz;;1
+10_1;Cáceres;(10_1) Cáceres;;2
+10_2;Cáceres;(10_2) Cáceres;;2
+P10;Cáceres;(P10) Cáceres;;1
+15;La Coruña/A Coruña;(15) La Coruña/A Coruña;;1
+27;Lugo;(27) Lugo;;2
+32;Orense/Ourense;(32) Orense/Ourense;;3
+36;Pontevedra;(36) Pontevedra;;4
+15_1;La Coruña/A Coruña;(15_1) La Coruña/A Coruña;;1
+15_2;La Coruña/A Coruña;(15_2) La Coruña/A Coruña;;1
+P15;La Coruña/A Coruña;(P15) La Coruña/A Coruña;;1
+27_1;Lugo;(27_1) Lugo;;2
+27_2;Lugo;(27_2) Lugo;;2
+P27;Lugo;(P27) Lugo;;1
+32_1;Orense/Ourense;(32_1) Orense/Ourense;;3
+32_2;Orense/Ourense;(32_2) Orense/Ourense;;3
+P32;Orense/Ourense;(P32) Orense/Ourense;;1
+36_1;Pontevedra;(36_1) Pontevedra;;4
+36_2;Pontevedra;(36_2) Pontevedra;;4
+P36;Pontevedra;(P36) Pontevedra;;1
+28;Madrid;(28) Madrid;;1
+28_1;Madrid;(28_1) Madrid;;1
+28_2;Madrid;(28_2) Madrid;;1
+P28;Madrid;(P28) Madrid;;1
+30;Murcia;(30) Murcia;;1
+30_1;Murcia;(30_1) Murcia;;1
+30_2;Murcia;(30_2) Murcia;;1
+P30;Murcia;(P30) Murcia;;1
+31;Navarra;(31) Navarra;;1
+31_1;Navarra;(31_1) Navarra;;1
+31_2;Navarra;(31_2) Navarra;;1
+P31;Navarra;(P31) Navarra;;1
+01;Álava/Araba;(01) Álava/Araba;;1
+20;Guipúzcoa/Gipuzkoa;(20) Guipúzcoa/Gipuzkoa;;2
+48;Vizcaya/Bizkaia;(48) Vizcaya/Bizkaia;;3
+01_1;Álava/Araba;(01_1) Álava/Araba;;1
+01_2;Álava/Araba;(01_2) Álava/Araba;;1
+P01;Álava/Araba;(P01) Álava/Araba;;1
+20_1;Guipúzcoa/Gipuzkoa;(20_1) Guipúzcoa/Gipuzkoa;;2
+20_2;Guipúzcoa/Gipuzkoa;(20_2) Guipúzcoa/Gipuzkoa;;2
+P20;Guipúzcoa/Gipuzkoa;(P20) Guipúzcoa/Gipuzkoa;;1
+48_1;Vizcaya/Bizkaia;(48_1) Vizcaya/Bizkaia;;3
+48_2;Vizcaya/Bizkaia;(48_2) Vizcaya/Bizkaia;;3
+P48;Vizcaya/Bizkaia;(P48) Vizcaya/Bizkaia;;1
+26;La Rioja;(26) La Rioja;;1
+26_1;La Rioja;(26_1) La Rioja;;1
+26_2;La Rioja;(26_2) La Rioja;;1
+P26;La Rioja;(P26) La Rioja;;1
+51;Ceuta;(51) Ceuta;;1
+52;Melilla;(52) Melilla;;2
+51_1;Ceuta;(51_1) Ceuta;;1
+51_2;Ceuta;(51_2) Ceuta;;1
+P51;Ceuta;(P51) Ceuta;;1
+52_1;Melilla;(52_1) Melilla;;1
+52_2;Melilla;(52_2) Melilla;;1
+P52;Melilla;(P52) Melilla;;1
+RE0;Resto de España;(RE0) Resto de España;;1
+RE0_1;Resto de España;(RE0_1) Resto de España;;1
+RE0_2;Resto de España;(RE0_2) Resto de España;;1
+RE;Resto de España;(RE) Resto de España;;1
+6601;Europa;(6601) Europa;;1
+6602;África;(6602) África;;2
+6603;América;(6603) América;;3
+6604;Asia;(6604) Asia;;4
+6605;Oceanía;(6605) Oceanía;;5
+66555;Apátridas;(66555) Apátridas;;6
+66NC00;No consta;(66NC00) No consta;;7
+0101;Unión Europea;(0101) Unión Europea;;1
+0102;Resto de Países Europeos;(0102) Resto de Países Europeos;;2
+0101_1;Unión Europea;(0101_1) Unión Europea;;1
+0101_3;Resto;(0101_3) Resto;;2
+0101_2;Unión Europea;(0101_2) Unión Europea;;1
+126;Alemania;(126) Alemania;;1
+102;Austria;(102) Austria;;2
+103;Bélgica;(103) Bélgica;;3
+107;Dinamarca;(107) Dinamarca;;4
+109;Finlandia;(109) Finlandia;;5
+110;Francia;(110) Francia;;6
+111;Grecia;(111) Grecia;;7
+121;Países Bajos;(121) Países Bajos;;8
+113;Irlanda;(113) Irlanda;;9
+115;Italia;(115) Italia;;10
+117;Luxemburgo;(117) Luxemburgo;;11
+123;Portugal;(123) Portugal;;12
+125;Reino Unido;(125) Reino Unido;;13
+131;Suecia;(131) Suecia;;14
+104;Bulgaria;(104) Bulgaria;;15
+106;Chipre;(106) Chipre;;16
+146;Croacia;(146) Croacia;;17
+144;Eslovaquia;(144) Eslovaquia;;18
+147;Eslovenia;(147) Eslovenia;;19
+141;Estonia;(141) Estonia;;20
+112;Hungría;(112) Hungría;;21
+136;Letonia;(136) Letonia;;22
+142;Lituania;(142) Lituania;;23
+118;Malta;(118) Malta;;24
+122;Polonia;(122) Polonia;;25
+143;República Checa;(143) República Checa;;26
+128;Rumanía;(128) Rumanía;;27
+0101_4;Resto;(0101_4) Resto;;1
+UE28;Unión Europea 28 (2013-2020);(UE28) Unión Europea 28 (2013-2020);;1
+UE27NRU;Unión Europea 27 (desde 2020);(UE27NRU) Unión Europea 27 (desde 2020);;2
+UE27;Unión Europea 27 (2007-2013);(UE27) Unión Europea 27 (2007-2013);;3
+EA19;Zona Euro 19 (desde 2015);(EA19) Zona Euro 19 (desde 2015);;4
+EA18;Zona Euro 18 (2014);(EA18) Zona Euro 18 (2014);;5
+EA17;Zona Euro 17 (2011-2013);(EA17) Zona Euro 17 (2011-2013);;6
+UE25;Unión Europea 25;(UE25) Unión Europea 25;;7
+UE15;Unión Europea 15;(UE15) Unión Europea 15;;8
+0102_1;Resto de Países Europeos;(0102_1) Resto de Países Europeos;;2
+0102_2;Resto de Países Europeos;(0102_2) Resto de Países Europeos;;2
+114;Islandia;(114) Islandia;;1
+120;Noruega;(120) Noruega;;2
+154;Rusia;(154) Rusia;;3
+132;Suiza;(132) Suiza;;4
+155;Serbia y Montenegro;(155) Serbia y Montenegro;;5
+101;Albania;(101) Albania;;6
+124;Andorra;(124) Andorra;;7
+148;Armenia;(148) Armenia;;8
+138;Belarus;(138) Belarus;;9
+145;Bosnia-Herzegovina;(145) Bosnia-Herzegovina;;10
+139;Georgia;(139) Georgia;;12
+116;Liechtenstein;(116) Liechtenstein;;13
+156;Macedonia;(156) Macedonia;;14
+137;Moldava;(137) Moldava;;15
+119;Mónaco;(119) Mónaco;;16
+129;San Marino;(129) San Marino;;17
+130;Santa Sede;(130) Santa Sede;;18
+135;Ucrania;(135) Ucrania;;19
+199;Países de Europa sin relaciones diplomáticas;(199) Países de Europa sin relaciones diplomáticas;;20
+001;País de Europa no determinado;(001) País de Europa no determinado;;21
+157;Serbia;(157) Serbia;;30
+158;Montenegro;(158) Montenegro;;31
+133;U.R.S.S. Unión Soviética;(133) U.R.S.S. Unión Soviética;;32
+105;Checoslovaquia;(105) Checoslovaquia;;33
+2030;Argelia;(2030) Argelia;;1
+2130;Egipto;(2130) Egipto;;2
+2280;Marruecos;(2280) Marruecos;;3
+2340;Nigeria;(2340) Nigeria;;4
+2480;Túnez;(2480) Túnez;;5
+2500;República Democrática del Congo;(2500) República Democrática del Congo;;6
+0207;Resto de Países Africanos;(0207) Resto de Países Africanos;;7
+2030_1;Argelia;(2030_1) Argelia;;1
+2030_2;Argelia;(2030_2) Argelia;;1
+203;Argelia;(203) Argelia;;1
+2130_1;Egipto;(2130_1) Egipto;;2
+2130_2;Egipto;(2130_2) Egipto;;2
+213;Egipto;(213) Egipto;;1
+2280_1;Marruecos;(2280_1) Marruecos;;3
+2280_2;Marruecos;(2280_2) Marruecos;;3
+228;Marruecos;(228) Marruecos;;1
+2340_1;Nigeria;(2340_1) Nigeria;;4
+2340_2;Nigeria;(2340_2) Nigeria;;4
+234;Nigeria;(234) Nigeria;;1
+2480_1;Túnez;(2480_1) Túnez;;5
+2480_2;Túnez;(2480_2) Túnez;;5
+248;Túnez;(248) Túnez;;1
+2500_1;República Democrática del Congo;(2500_1) República Democrática del Congo;;6
+2500_2;República Democrática del Congo;(2500_2) República Democrática del Congo;;6
+250;República Democrática del Congo;(250) República Democrática del Congo;;1
+0207_1;Resto de Países Africanos;(0207_1) Resto de Países Africanos;;7
+0207_2;Resto de Países Africanos;(0207_2) Resto de Países Africanos;;7
+202;Angola;(202) Angola;;1
+204;Benin;(204) Benin;;2
+205;Botswana;(205) Botswana;;3
+201;Burkina Faso;(201) Burkina Faso;;4
+206;Burundi;(206) Burundi;;5
+207;Cabo Verde;(207) Cabo Verde;;6
+208;Camerún;(208) Camerún;;7
+246;Chad;(246) Chad;;8
+209;Comores;(209) Comores;;9
+210;Congo;(210) Congo;;10
+211;Costa de Marfil;(211) Costa de Marfil;;11
+212;Djibouti;(212) Djibouti;;12
+253;Eritrea;(253) Eritrea;;13
+214;Etiopía;(214) Etiopía;;14
+215;Gabón;(215) Gabón;;15
+216;Gambia;(216) Gambia;;16
+217;Ghana;(217) Ghana;;17
+218;Guinea;(218) Guinea;;18
+219;Guinea Bissau;(219) Guinea Bissau;;19
+220;Guinea Ecuatorial;(220) Guinea Ecuatorial;;20
+221;Kenia;(221) Kenia;;21
+222;Lesotho;(222) Lesotho;;22
+223;Liberia;(223) Liberia;;23
+224;Libia;(224) Libia;;24
+225;Madagascar;(225) Madagascar;;25
+226;Malawi;(226) Malawi;;26
+227;Mali;(227) Mali;;27
+229;Mauricio;(229) Mauricio;;28
+230;Mauritania;(230) Mauritania;;29
+231;Mozambique;(231) Mozambique;;30
+232;Namibia;(232) Namibia;;31
+233;Níger;(233) Níger;;32
+235;República Centroafricana;(235) República Centroafricana;;33
+237;Ruanda;(237) Ruanda;;35
+238;Santo Tomé y Príncipe;(238) Santo Tomé y Príncipe;;36
+239;Senegal;(239) Senegal;;37
+240;Seychelles;(240) Seychelles;;38
+241;Sierra Leona;(241) Sierra Leona;;39
+242;Somalia;(242) Somalia;;40
+236;Sudáfrica;(236) Sudáfrica;;41
+243;Sudán;(243) Sudán;;42
+254;Sudán del Sur;(254) Sudán del Sur;;43
+244;Swazilandia;(244) Swazilandia;;44
+245;Tanzania;(245) Tanzania;;45
+247;Togo;(247) Togo;;46
+249;Uganda;(249) Uganda;;47
+251;Zambia;(251) Zambia;;48
+252;Zimbabwe;(252) Zimbabwe;;49
+299;Países de Africa sin relación diplomática;(299) Países de Africa sin relación diplomática;;50
+004;País de Africa no determinado;(004) País de Africa no determinado;;51
+0301;América Central;(0301) América Central;;1
+0302;América del Norte;(0302) América del Norte;;2
+0303;América del Sur;(0303) América del Sur;;3
+3990;Países de América sin relación diplomática;(3990) Países de América sin relación diplomática;;4
+33310;Otros países y terrirorios dependientes en América Central y Caribe;(33310) Otros países y terrirorios dependientes en América Central y Caribe;;5
+33320;Territorios dependientes en América del Norte;(33320) Territorios dependientes en América del Norte;;6
+33330;Otros países y terrirorios dependientes en Sudamérica;(33330) Otros países y terrirorios dependientes en Sudamérica;;7
+0301_1;América Central;(0301_1) América Central;;1
+0301_2;América Central;(0301_2) América Central;;1
+315;Cuba;(315) Cuba;;1
+326;República Dominicana;(326) República Dominicana;;2
+310;Antigua y Barbuda;(310) Antigua y Barbuda;;3
+311;Bahamas;(311) Bahamas;;4
+312;Barbados;(312) Barbados;;5
+313;Belice;(313) Belice;;6
+314;Costa Rica;(314) Costa Rica;;7
+316;Dominica;(316) Dominica;;8
+317;El Salvador;(317) El Salvador;;9
+318;Granada;(318) Granada;;10
+319;Guatemala;(319) Guatemala;;11
+320;Haití;(320) Haití;;12
+321;Honduras;(321) Honduras;;13
+322;Jamaica;(322) Jamaica;;14
+323;Nicaragua;(323) Nicaragua;;15
+324;Panamá;(324) Panamá;;16
+325;San Vicente y las Granadinas;(325) San Vicente y las Granadinas;;17
+329;San Cristóbal y Nieves;(329) San Cristóbal y Nieves;;18
+328;Santa Lucía;(328) Santa Lucía;;19
+327;Trinidad y Tobago;(327) Trinidad y Tobago;;20
+390;Puerto Rico;(390) Puerto Rico;;21
+0302_1;América del Norte;(0302_1) América del Norte;;2
+0302_2;América del Norte;(0302_2) América del Norte;;2
+301;Canadá;(301) Canadá;;1
+302;Estados Unidos de América;(302) Estados Unidos de América;;2
+303;México;(303) México;;3
+0303_1;América del Sur;(0303_1) América del Sur;;3
+0303_2;América del Sur;(0303_2) América del Sur;;3
+340;Argentina;(340) Argentina;;1
+342;Brasil;(342) Brasil;;2
+351;Venezuela;(351) Venezuela;;3
+341;Bolivia;(341) Bolivia;;4
+344;Chile;(344) Chile;;5
+343;Colombia;(343) Colombia;;6
+345;Ecuador;(345) Ecuador;;7
+346;Guyana;(346) Guyana;;8
+347;Paraguay;(347) Paraguay;;9
+348;Perú;(348) Perú;;10
+349;Surinam;(349) Surinam;;11
+350;Uruguay;(350) Uruguay;;12
+391;Aruba;(391) Aruba;;13
+392;Antillas Neerlandesas;(392) Antillas Neerlandesas;;14
+3990_1;Países de América sin relación diplomática;(3990_1) Países de América sin relación diplomática;;4
+3990_2;Países de América sin relación diplomática;(3990_2) Países de América sin relación diplomática;;4
+399;Países de América sin relación diplomática;(399) Países de América sin relación diplomática;;1
+33310_1;Otros países y terrirorios dependientes en América Central y Caribe;(33310_1) Otros países y terrirorios dependientes en América Central y Caribe;;5
+33310_2;Otros países y terrirorios dependientes en América Central y Caribe;(33310_2) Otros países y terrirorios dependientes en América Central y Caribe;;5
+3331;Otros países y terrirorios dependientes en América Central y Caribe;(3331) Otros países y terrirorios dependientes en América Central y Caribe;;1
+33320_1;Territorios dependientes en América del Norte;(33320_1) Territorios dependientes en América del Norte;;6
+33320_2;Territorios dependientes en América del Norte;(33320_2) Territorios dependientes en América del Norte;;6
+3332;Territorios dependientes en América del Norte;(3332) Territorios dependientes en América del Norte;;1
+33330_1;Otros países y terrirorios dependientes en Sudamérica;(33330_1) Otros países y terrirorios dependientes en Sudamérica;;7
+33330_2;Otros países y terrirorios dependientes en Sudamérica;(33330_2) Otros países y terrirorios dependientes en Sudamérica;;7
+3333;Otros países y terrirorios dependientes en Sudamérica;(3333) Otros países y terrirorios dependientes en Sudamérica;;1
+4090;Filipinas;(4090) Filipinas;;1
+4150;Japón;(4150) Japón;;2
+4100;India;(4100) India;;3
+4110;Indonesia;(4110) Indonesia;;4
+4260;Pakistán;(4260) Pakistán;;5
+0406;Resto de Países Asiáticos;(0406) Resto de Países Asiáticos;;6
+4090_1;Filipinas;(4090_1) Filipinas;;1
+4090_2;Filipinas;(4090_2) Filipinas;;1
+409;Filipinas;(409) Filipinas;;1
+4150_1;Japón;(4150_1) Japón;;2
+4150_2;Japón;(4150_2) Japón;;2
+415;Japón;(415) Japón;;1
+4100_1;India;(4100_1) India;;3
+4100_2;India;(4100_2) India;;3
+410;India;(410) India;;1
+4110_1;Indonesia;(4110_1) Indonesia;;4
+4110_2;Indonesia;(4110_2) Indonesia;;4
+411;Indonesia;(411) Indonesia;;1
+4260_1;Pakistán;(4260_1) Pakistán;;5
+4260_2;Pakistán;(4260_2) Pakistán;;5
+426;Pakistán;(426) Pakistán;;1
+0406_1;Resto de Países Asiáticos;(0406_1) Resto de Países Asiáticos;;6
+0406_2;Resto de Países Asiáticos;(0406_2) Resto de Países Asiáticos;;6
+401;Afganistán;(401) Afganistán;;1
+402;Arabia Saudita;(402) Arabia Saudita;;2
+442;Azerbaiyán;(442) Azerbaiyán;;3
+403;Bahrein;(403) Bahrein;;4
+404;Bangladesh;(404) Bangladesh;;5
+405;Myanmar;(405) Myanmar;;6
+439;Brunei;(439) Brunei;;7
+417;Camboya;(417) Camboya;;8
+407;China;(407) China;;9
+408;Emiratos Árabes Unidos;(408) Emiratos Árabes Unidos;;10
+412;Irak;(412) Irak;;11
+413;Irán;(413) Irán;;12
+440;Islas Marshall;(440) Islas Marshall;;13
+414;Israel;(414) Israel;;14
+416;Jordania;(416) Jordania;;15
+443;Kazajstán;(443) Kazajstán;;16
+444;Kirgyistán;(444) Kirgyistán;;17
+418;Kuwait;(418) Kuwait;;18
+419;Laos;(419) Laos;;19
+420;Líbano;(420) Líbano;;20
+421;Malasia;(421) Malasia;;21
+422;Maldivas;(422) Maldivas;;22
+423;Mongolia;(423) Mongolia;;23
+424;Nepal;(424) Nepal;;24
+425;Omán;(425) Omán;;25
+600;Palestina;(600) Palestina;;26
+427;Qatar;(427) Qatar;;27
+430;República de Corea;(430) República de Corea;;28
+431;República Popular de Corea del Norte;(431) República Popular de Corea del Norte;;29
+432;Singapur;(432) Singapur;;30
+433;Siria;(433) Siria;;31
+434;Sri Lanka;(434) Sri Lanka;;32
+435;Tailandia;(435) Tailandia;;33
+445;Tadykistan;(445) Tadykistan;;34
+446;Turkmenistán;(446) Turkmenistán;;35
+436;Turquía;(436) Turquía;;36
+438;Taiwán;(438) Taiwán;;37
+447;Uzbekistán;(447) Uzbekistán;;38
+437;Vietnám;(437) Vietnám;;39
+441;Yemen;(441) Yemen;;40
+406;Bután;(406) Bután;;41
+499;Países de Asia sin relación diplomática;(499) Países de Asia sin relación diplomática;;42
+4441;Otros países y terrirorios dependientes en el Oriente Próximo;(4441) Otros países y terrirorios dependientes en el Oriente Próximo;;43
+4442;Otros países y terrirorios dependientes en Asia del Sur y Sudeste;(4442) Otros países y terrirorios dependientes en Asia del Sur y Sudeste;;44
+490;Macao;(490) Macao;;45
+5010;Australia;(5010) Australia;;1
+5020;Fiji;(5020) Fiji;;2
+5130;Islas Cook;(5130) Islas Cook;;3
+5060;Islas Salomón;(5060) Islas Salomón;;4
+5110;Micronesia;(5110) Micronesia;;5
+5040;Nueva Zelanda;(5040) Nueva Zelanda;;6
+5050;Papúa Nueva Guinea;(5050) Papúa Nueva Guinea;;7
+5070;Samoa;(5070) Samoa;;8
+5080;Tonga;(5080) Tonga;;9
+5090;Vanuatu;(5090) Vanuatu;;10
+0501;Resto de Países de Oceanía;(0501) Resto de Países de Oceanía;;11
+5010_1;Australia;(5010_1) Australia;;1
+5010_2;Australia;(5010_2) Australia;;1
+501;Australia;(501) Australia;;1
+5020_1;Fiji;(5020_1) Fiji;;2
+5020_2;Fiji;(5020_2) Fiji;;2
+502;Fiji;(502) Fiji;;1
+5130_1;Islas Cook;(5130_1) Islas Cook;;3
+5130_2;Islas Cook;(5130_2) Islas Cook;;3
+513;Islas Cook;(513) Islas Cook;;1
+5060_1;Islas Salomón;(5060_1) Islas Salomón;;4
+5060_2;Islas Salomón;(5060_2) Islas Salomón;;4
+506;Islas Salomón;(506) Islas Salomón;;1
+5110_1;Micronesia;(5110_1) Micronesia;;5
+5110_2;Micronesia;(5110_2) Micronesia;;5
+511;Micronesia;(511) Micronesia;;1
+5040_1;Nueva Zelanda;(5040_1) Nueva Zelanda;;6
+5040_2;Nueva Zelanda;(5040_2) Nueva Zelanda;;6
+504;Nueva Zelanda;(504) Nueva Zelanda;;1
+5050_1;Papúa Nueva Guinea;(5050_1) Papúa Nueva Guinea;;7
+5050_2;Papúa Nueva Guinea;(5050_2) Papúa Nueva Guinea;;7
+505;Papúa Nueva Guinea;(505) Papúa Nueva Guinea;;1
+5070_1;Samoa;(5070_1) Samoa;;8
+5070_2;Samoa;(5070_2) Samoa;;8
+507;Samoa;(507) Samoa;;1
+5080_1;Tonga;(5080_1) Tonga;;9
+5080_2;Tonga;(5080_2) Tonga;;9
+508;Tonga;(508) Tonga;;1
+5090_1;Vanuatu;(5090_1) Vanuatu;;10
+5090_2;Vanuatu;(5090_2) Vanuatu;;10
+509;Vanuatu;(509) Vanuatu;;1
+0501_1;Resto de Países de Oceanía;(0501_1) Resto de Países de Oceanía;;11
+0501_2;Resto de Países de Oceanía;(0501_2) Resto de Países de Oceanía;;11
+515;Nauru;(515) Nauru;;1
+516;Palaos;(516) Palaos;;2
+517;Timor;(517) Timor;;3
+512;Tuvalu;(512) Tuvalu;;4
+599;Países de Oceanía sin relación diplomática;(599) Países de Oceanía sin relación diplomática;;5
+002;País de Oceanía no determinado;(002) País de Oceanía no determinado;;6
+5550;Apátridas;(5550) Apátridas;;1
+5550_1;Apátridas;(5550_1) Apátridas;;1
+5550_2;Apátridas;(5550_2) Apátridas;;1
+555;Apátridas;(555) Apátridas;;1
+66NC0;No consta;(66NC0) No consta;;1
+66NC_1;No consta;(66NC_1) No consta;;1
+66NC_2;No consta;(66NC_2) No consta;;1
+66NC;No consta;(66NC) No consta;;1
+NP00;No procede;(NP00) No procede;;1
+NP0;No procede;(NP0) No procede;;1
+NP0_1;No procede;(NP0_1) No procede;;1
+NP0_2;No procede;(NP0_2) No procede;;1
+NP;No procede;(NP) No procede;;1
+NC00;No consta;(NC00) No consta;;1
+NC0;No consta;(NC0) No consta;;1
+NC0_1;No consta;(NC0_1) No consta;;1
+NC0_2;No consta;(NC0_2) No consta;;1
+NC;No consta;(NC) No consta;;1
+_Z;No aplica;No aplica;;

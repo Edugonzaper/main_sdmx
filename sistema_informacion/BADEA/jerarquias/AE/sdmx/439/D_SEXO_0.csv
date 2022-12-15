@@ -1,0 +1,8 @@
+ID;NAME;DESCRIPTION;PARENTCODE;ORDER
+TOTAL;Sexo;(TOTAL) Sexo;;0
+00;Ambos sexos;(00) Ambos sexos;;1
+01;Hombres;(01) Hombres;00;1
+06;Mujeres;(06) Mujeres;00;2
+NP;No procede;(NP) No procede;00;3
+NC;No consta;(NC) No consta;00;4
+_Z;No aplica;No aplica;;

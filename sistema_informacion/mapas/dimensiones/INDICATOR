@@ -1,0 +1,11 @@
+SOURCE,NAME,TARGET
+Índice Cifra de Negocio,,INDI_CIFR_NEGO
+Índice Cifra de Negocio. Tasa interanual,,INDI_CIFR_NEGO_TASA_INTE
+Índice Cifra de Negocio. Tasa acumulada,,INDI_CIFR_NEGO_TASA_ACUM
+Índice Empleo,,INDICE_EMPLEO
+Índice Empleo. Tasa interanual,,INDI_EMPL_TASA_INTE
+Índice Empleo. Tasa acumulada,,INDI_EMPL_TASA_ACUM
+Índice VAB,,INDICE_VAB
+Índice VAB. Tasa interanual,,INDI_VAB_TASA_INTE
+Índice VAB. Tasa acumulada,,INDI_VAB_TASA_ACUM
+Andaluces,,ANDALUCES
