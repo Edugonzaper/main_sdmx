@@ -1,5 +1,6 @@
-NOMBRE_DSD: DSD_IASS
+NOMBRE: IASS
 categoria: SERVICES
+subcategoria: Indicadores de Actividad del Sector Servicios
 grupos_consultas:
   Series originales de los índices de cifra de negocio:
     id: '1'
@@ -14,10 +15,5 @@ grupos_consultas:
     consultas:
     - '6530'
 variables:
-- TEMPORAL
-- OBS_STATUS
-- TIPO_VENTAS
+- IASS_TIPOVENTAS
 - TERRITORIO
-- INDICATOR
-- OBS_VALUE
-- FREQ

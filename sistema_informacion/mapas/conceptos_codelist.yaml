@@ -828,7 +828,7 @@ IASS_TIPOVENTAS:
     es: Tipo de ventas
   nombre:
     es: Tipo de ventas
-  nombre_dimension: TIPO_VENTAS
+  nombre_dimension: TIPOVENTAS
   tipo: dimension
 IPC_GRUPOSESPECIALES:
   codelist:
@@ -1517,6 +1517,22 @@ TERRITORIO:
   nombre:
     es: Territorio
   nombre_dimension: TERRITORIO
+  tipo: dimension
+TERRITORIO_1:
+  codelist:
+    agency: ESC01
+    id: CL_TERRITORIO_1
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TERRITORIO_1
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: "Pa\xEDs de residencia"
+  nombre:
+    es: "Pa\xEDs de residencia"
+  nombre_dimension: TERRITORIO_1
   tipo: dimension
 TIPOHOGAR:
   codelist:

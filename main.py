@@ -4,12 +4,14 @@ import time
 
 import pandas as pd
 import yaml
+from mdmpyclient.codelist.codelist import Codelist
 
-from iecasdmx.ieca.actividad import Actividad
 from mdmpyclient.mdm import MDM
 from mdmpyclient.ckan.ckan import Ckan
 import deepl
 from ckanapi import RemoteCKAN
+
+from functions import execute_actividades, initialize_codelists_schemes
 
 import logging
 
@@ -28,6 +30,7 @@ if __name__ == "__main__":
                  encoding='utf-8') as mapa_conceptos_codelist_file, \
             open("sistema_informacion/traducciones.yaml", 'r',
                  encoding='utf-8') as traducciones:
+        # cache = yaml.safe_load(open('traducciones.yaml'))
 
         configuracion_global = yaml.safe_load(configuracion_global)
         configuracion_ejecucion = yaml.safe_load(configuracion_ejecucion)
@@ -35,6 +38,7 @@ if __name__ == "__main__":
         configuracion_plantilla_actividad = yaml.safe_load(plantilla_configuracion_actividad)
         mapa_conceptos_codelist = yaml.safe_load(mapa_conceptos_codelist_file)
         traducciones = yaml.safe_load(traducciones)
+        datos_jerarquias = yaml.safe_load(datos_jerarquias)
         traductor = deepl.Translator('92766a66-fa2a-b1c6-d7dd-ec0750322229:fx')
 
         agencia = configuracion_global['nodeId']
@@ -52,14 +56,39 @@ if __name__ == "__main__":
         # if configuracion_global['translate']:
         #     controller.category_schemes.data['ESC01']['IECA_CAT_EN_ES']['1.0'].translate()
     if configuracion_global["extractor"]:
-        for nombre_actividad in configuracion_ejecucion['actividades']:
-            actividad = Actividad(configuracion_global, configuracion_actividades[nombre_actividad],
-                                  configuracion_plantilla_actividad, mapa_conceptos_codelist, nombre_actividad)
-            actividad.generar_consultas()
-            actividad.ejecutar()
+        execute_actividades(configuracion_ejecucion, configuracion_global, configuracion_actividades,
+                            configuracion_plantilla_actividad, mapa_conceptos_codelist)
 
     if configuracion_global['volcado_mdm']:
-        cache = yaml.safe_load(open('traducciones.yaml'))
+        controller = MDM(configuracion_global, traductor, True)
+        if configuracion_global['reset_ddb']:
+            controller.delete_all('ESC01', 'IECA_CAT_EN_ES', '1.0')
+        configuracion_actividades_completo = {}
+        for nombre_actividad in configuracion_ejecucion['actividades']:
+            with open(f'sistema_informacion/SDMX/datos/{nombre_actividad}/configuracion.yaml') as file:
+                configuracion_actividad = yaml.safe_load(file)
+                initialize_codelists_schemes(configuracion_actividad, datos_jerarquias, mapa_conceptos_codelist,
+                                             controller)
+                configuracion_actividades_completo[nombre_actividad] = configuracion_actividad
+
+        controller.codelists.put_all_codelists()
+        controller.concept_schemes.put_all_concept_schemes()
+        controller.codelists.put_all_data()
+        controller.concept_schemes.put_all_data()
+
+        for nombre in configuracion_ejecucion['actividades']:
+            configuracion_actividad = configuracion_actividades_completo[nombre_actividad]
+            dsd_id = 'DSD_' + nombre_actividad
+            dsd_agency = 'ESC01'
+            dsd_version = '1.0'
+            dsd_names = {'es': configuracion_actividad['subcategoria']}
+            dsd_des = None
+            dimensions = {variable: mapa_conceptos_codelist[variable] for variable in
+                          configuracion_actividad['variables']}
+            controller.dsds.put(dsd_agency, dsd_id, dsd_version, dsd_names, dsd_des, dimensions)
+
+        # variables = copy.deepcopy(actividad.configuracion['variables'])
+
         # # Conversión de Jerarquia a Codelist y Esquemas de conceptos
         # for consulta in actividad.consultas.values():
         #     for jerarquia in consulta.jerarquias:
@@ -121,7 +150,7 @@ if __name__ == "__main__":
         # id_dsd = 'DSD_' + nombre_actividad
         # agencia_dsd = 'ESC01'
         # version_dsd = '1.0'
-        # nombre_dsd = {'es': actividad.configuracion_actividad['subcategoria']}
+        # nombre_dsd = {'es': actividad.configuracion_actividad['3']}
         # descripcion = None
         #
         # variables = copy.deepcopy(actividad.configuracion['variables'])

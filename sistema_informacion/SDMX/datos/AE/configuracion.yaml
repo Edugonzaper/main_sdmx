@@ -1,5 +1,6 @@
 NOMBRE_DSD: DSD_AE
 categoria: POP_MIGRATION
+subcategoria: Andaluces en el Exterior
 grupos_consultas:
   Andaluces residentes en el resto de España:
     id: '1'
@@ -20,13 +21,9 @@ grupos_consultas:
     consultas:
     - '1917'
 variables:
-- TEMPORAL
 - SEXO
 - TERRITORIO
 - LUGARNACIMIEN
-- INDICATOR
-- OBS_VALUE
-- FREQ
 - EDAD
 - TERRITORIO_1
-- INSCRIPCION
+- ARE_INSCRIPCION
