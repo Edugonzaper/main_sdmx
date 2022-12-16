@@ -5,6 +5,7 @@ ARE_INSCRIPCION:
     es: "Inscripci\xF3n"
   fichero:
   - sistema_informacion/BADEA/jerarquias\AE\sdmx\1917\D_ARE_INSCRIPCION_0.csv
+  - sistema_informacion/BADEA/jerarquias/AE/sdmx/1917/D_ARE_INSCRIPCION_0.csv
   nombre:
     es: ARE_INSCRIPCION
   version: '1.0'
@@ -15,6 +16,7 @@ EDAD:
     es: Edad
   fichero:
   - sistema_informacion/BADEA/jerarquias\AE\sdmx\439\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias/AE/sdmx/439/D_EDAD_0.csv
   nombre:
     es: EDAD
   version: '1.0'
@@ -39,6 +41,9 @@ ESTADO_DATO:
   - sistema_informacion/BADEA/jerarquias\IVGSA\sdmx\15468\D_ESTADO_DATO_0.csv
   - sistema_informacion/BADEA/jerarquias\IVGSA\sdmx\15469\D_ESTADO_DATO_0.csv
   - sistema_informacion/BADEA/jerarquias\IVGSA\sdmx\15470\D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias/IASS/sdmx/6525/D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias/IASS/sdmx/6528/D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias/IASS/sdmx/6530/D_ESTADO_DATO_0.csv
   nombre:
     es: ESTADO_DATO
   version: '1.0'
@@ -51,6 +56,9 @@ IASS_TIPOVENTAS:
   - sistema_informacion/BADEA/jerarquias\IASS\sdmx\6525\D_IASS_TIPOVENTAS_0.csv
   - sistema_informacion/BADEA/jerarquias\IASS\sdmx\6528\D_IASS_TIPOVENTAS_0.csv
   - sistema_informacion/BADEA/jerarquias\IASS\sdmx\6530\D_IASS_TIPOVENTAS_0.csv
+  - sistema_informacion/BADEA/jerarquias/IASS/sdmx/6525/D_IASS_TIPOVENTAS_0.csv
+  - sistema_informacion/BADEA/jerarquias/IASS/sdmx/6528/D_IASS_TIPOVENTAS_0.csv
+  - sistema_informacion/BADEA/jerarquias/IASS/sdmx/6530/D_IASS_TIPOVENTAS_0.csv
   nombre:
     es: IASS_TIPOVENTAS
   version: '1.0'
@@ -108,6 +116,12 @@ LUGARNACIMIEN:
   - sistema_informacion/BADEA/jerarquias\AE\sdmx\455\D_LUGARNACIMIEN_0.csv
   - sistema_informacion/BADEA/jerarquias\AE\sdmx\1915\D_LUGARNACIMIEN_0.csv
   - sistema_informacion/BADEA/jerarquias\AE\sdmx\1917\D_LUGARNACIMIEN_0.csv
+  - sistema_informacion/BADEA/jerarquias/AE/sdmx/437/D_LUGARNACIMIEN_0.csv
+  - sistema_informacion/BADEA/jerarquias/AE/sdmx/439/D_LUGARNACIMIEN_0.csv
+  - sistema_informacion/BADEA/jerarquias/AE/sdmx/454/D_LUGARNACIMIEN_0.csv
+  - sistema_informacion/BADEA/jerarquias/AE/sdmx/455/D_LUGARNACIMIEN_0.csv
+  - sistema_informacion/BADEA/jerarquias/AE/sdmx/1915/D_LUGARNACIMIEN_0.csv
+  - sistema_informacion/BADEA/jerarquias/AE/sdmx/1917/D_LUGARNACIMIEN_0.csv
   nombre:
     es: LUGARNACIMIEN
   version: '1.0'
@@ -123,6 +137,12 @@ SEXO:
   - sistema_informacion/BADEA/jerarquias\AE\sdmx\455\D_SEXO_0.csv
   - sistema_informacion/BADEA/jerarquias\AE\sdmx\1915\D_SEXO_0.csv
   - sistema_informacion/BADEA/jerarquias\AE\sdmx\1917\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias/AE/sdmx/437/D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias/AE/sdmx/439/D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias/AE/sdmx/454/D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias/AE/sdmx/455/D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias/AE/sdmx/1915/D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias/AE/sdmx/1917/D_SEXO_0.csv
   nombre:
     es: SEXO
   version: '1.0'
@@ -182,6 +202,15 @@ TEMPORAL:
   - sistema_informacion/BADEA/jerarquias\PIIA\sdmx\15192\D_TEMPORAL_0.csv
   - sistema_informacion/BADEA/jerarquias\PIIA\sdmx\15195\D_TEMPORAL_0.csv
   - sistema_informacion/BADEA/jerarquias\PIIA\sdmx\60086\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias/IASS/sdmx/6525/D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias/IASS/sdmx/6528/D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias/IASS/sdmx/6530/D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias/AE/sdmx/437/D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias/AE/sdmx/439/D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias/AE/sdmx/454/D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias/AE/sdmx/455/D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias/AE/sdmx/1915/D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias/AE/sdmx/1917/D_TEMPORAL_0.csv
   nombre:
     es: TEMPORAL
   version: '1.0'
@@ -241,6 +270,15 @@ TERRITORIO:
   - sistema_informacion/BADEA/jerarquias\PIIA\sdmx\15192\D_TERRITORIO_0.csv
   - sistema_informacion/BADEA/jerarquias\PIIA\sdmx\15195\D_TERRITORIO_0.csv
   - sistema_informacion/BADEA/jerarquias\PIIA\sdmx\60086\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias/IASS/sdmx/6525/D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias/IASS/sdmx/6528/D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias/IASS/sdmx/6530/D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias/AE/sdmx/437/D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias/AE/sdmx/454/D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias/AE/sdmx/455/D_TERRITORIO_1.csv
+  - sistema_informacion/BADEA/jerarquias/AE/sdmx/455/D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias/AE/sdmx/1915/D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias/AE/sdmx/1917/D_TERRITORIO_0.csv
   nombre:
     es: TERRITORIO
   version: '1.0'

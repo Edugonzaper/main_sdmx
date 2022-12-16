@@ -58,8 +58,8 @@ if __name__ == "__main__":
             actividad.generar_consultas()
             actividad.ejecutar()
 
-    cache = yaml.safe_load(open('traducciones.yaml'))
-    # if configuracion_global['volcado_mdm']:
+    if configuracion_global['volcado_mdm']:
+        cache = yaml.safe_load(open('traducciones.yaml'))
         # # Conversión de Jerarquia a Codelist y Esquemas de conceptos
         # for consulta in actividad.consultas.values():
         #     for jerarquia in consulta.jerarquias:
@@ -231,4 +231,4 @@ if __name__ == "__main__":
         #             lambda x: ckan.resources.create_from_file(
         #                 f'{configuracion_global["directorio_metadatos_html"]}/{x.code}.html', x.code, 'html',
         #                 id_dataset.lower()), axis=1)
-        # controller.logout()
+        controller.logout()
