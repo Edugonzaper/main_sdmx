@@ -5,7 +5,7 @@ import time
 import pandas as pd
 import yaml
 
-from iecaextractor.iecasdmx.actividad import Actividad
+from iecasdmx.ieca.actividad import Actividad
 from mdmpyclient.mdm import MDM
 from mdmpyclient.ckan.ckan import Ckan
 import deepl
@@ -59,7 +59,7 @@ if __name__ == "__main__":
             actividad.ejecutar()
 
     cache = yaml.safe_load(open('traducciones.yaml'))
-    if configuracion_global['volcado_mdm']:
+    # if configuracion_global['volcado_mdm']:
         # # Conversión de Jerarquia a Codelist y Esquemas de conceptos
         # for consulta in actividad.consultas.values():
         #     for jerarquia in consulta.jerarquias:
@@ -231,4 +231,4 @@ if __name__ == "__main__":
         #             lambda x: ckan.resources.create_from_file(
         #                 f'{configuracion_global["directorio_metadatos_html"]}/{x.code}.html', x.code, 'html',
         #                 id_dataset.lower()), axis=1)
-        controller.logout()
+        # controller.logout()

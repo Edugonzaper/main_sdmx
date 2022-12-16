@@ -1,0 +1,35 @@
+ID;NAME;DESCRIPTION;PARENTCODE;ORDER
+TOTAL;Edad 0-15-30-45-65-85+ (No simple);(TOTAL) Edad 0-15-30-45-65-85+ (No simple);;0
+00;TOTAL;(00) TOTAL;;1
+000014;De 0 a 14 años;(000014) De 0 a 14 años;00;2
+015029;De 15 a 29 años;(015029) De 15 a 29 años;00;3
+030044;De 30 a 44 años;(030044) De 30 a 44 años;00;4
+045064;De 45 a 64 años;(045064) De 45 a 64 años;00;5
+NS00;De 65 a 84 años;(NS00) De 65 a 84 años;00;6
+065100;De 85 y más años;(065100) De 85 y más años;00;7
+NP00;No procede;(NP00) No procede;00;8
+NC00;No consta;(NC00) No consta;00;9
+000004;De 0 a 4 años;(000004) De 0 a 4 años;;10
+005009;De 5 a 9 años;(005009) De 5 a 9 años;;11
+010014;De 10 a 14 años;(010014) De 10 a 14 años;;12
+015019;De 15 a 19 años;(015019) De 15 a 19 años;;13
+020024;De 20 a 24 años;(020024) De 20 a 24 años;;14
+025029;De 25 a 29 años;(025029) De 25 a 29 años;;15
+030034;De 30 a 34 años;(030034) De 30 a 34 años;;16
+035039;De 35 a 39 años;(035039) De 35 a 39 años;;17
+040044;De 40 a 44 años;(040044) De 40 a 44 años;;18
+045049;De 45 a 49 años;(045049) De 45 a 49 años;;19
+050054;De 50 a 54 años;(050054) De 50 a 54 años;;20
+055059;De 55 a 59 años;(055059) De 55 a 59 años;;21
+060064;De 60 a 64 años;(060064) De 60 a 64 años;;22
+065069;De 65 a 69 años;(065069) De 65 a 69 años;;33
+070074;De 70 a 74 años;(070074) De 70 a 74 años;;34
+075079;De 75 a 79 años;(075079) De 75 a 79 años;;35
+080084;De 80 a 84 años;(080084) De 80 a 84 años;;36
+085089;De 85 a 89 años;(085089) De 85 a 89 años;065100;27
+090094;De 90 a 94 años;(090094) De 90 a 94 años;065100;28
+095099;De 95 a 99 años;(095099) De 95 a 99 años;065100;29
+100000;De 100 y más años;(100000) De 100 y más años;065100;30
+NP0;No procede;(NP0) No procede;;31
+NC0;No consta;(NC0) No consta;;32
+_Z;No aplica;No aplica;;

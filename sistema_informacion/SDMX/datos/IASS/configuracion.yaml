@@ -1,0 +1,23 @@
+NOMBRE_DSD: DSD_IASS
+categoria: SERVICES
+grupos_consultas:
+  Series originales de los índices de cifra de negocio:
+    id: '1'
+    consultas:
+    - '6525'
+  Índices de empleo:
+    id: '2'
+    consultas:
+    - '6528'
+  Índices de VAB:
+    id: '3'
+    consultas:
+    - '6530'
+variables:
+- TEMPORAL
+- OBS_STATUS
+- TIPO_VENTAS
+- TERRITORIO
+- INDICATOR
+- OBS_VALUE
+- FREQ

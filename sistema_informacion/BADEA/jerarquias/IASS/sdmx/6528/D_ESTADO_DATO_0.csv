@@ -1,0 +1,7 @@
+ID;NAME;DESCRIPTION;PARENTCODE;ORDER
+Total;Estado del dato;(Total) Estado del dato;;0
+D;Definitivo;(D) Definitivo;;1
+P;Provisional;(P) Provisional;;2
+A;Avance;(A) Avance;;3
+1E;1ª Estimación;(1E) 1ª Estimación;;4
+_Z;No aplica;No aplica;;

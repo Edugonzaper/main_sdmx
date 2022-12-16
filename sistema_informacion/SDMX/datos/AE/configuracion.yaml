@@ -1,0 +1,32 @@
+NOMBRE_DSD: DSD_AE
+categoria: POP_MIGRATION
+grupos_consultas:
+  Andaluces residentes en el resto de España:
+    id: '1'
+    consultas:
+    - '437'
+  Andaluces Residentes en el Resto de España:
+    id: '2'
+    consultas:
+    - '439'
+  Andaluces residentes en el resto del mundo:
+    id: '3'
+    consultas:
+    - '454'
+    - '455'
+    - '1915'
+  Población residente en el resto del mundo:
+    id: '4'
+    consultas:
+    - '1917'
+variables:
+- TEMPORAL
+- SEXO
+- TERRITORIO
+- LUGARNACIMIEN
+- INDICATOR
+- OBS_VALUE
+- FREQ
+- EDAD
+- TERRITORIO_1
+- INSCRIPCION

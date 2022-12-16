@@ -1,0 +1,7 @@
+ID;NAME;DESCRIPTION;PARENTCODE;ORDER
+TOTAL;Inscripción;(TOTAL) Inscripción;;0
+00;TOTAL;(00) TOTAL;;1
+1;Sí;(1) Sí;;1
+2;No;(2) No;;2
+NC;No consta;(NC) No consta;;3
+_Z;No aplica;No aplica;;
