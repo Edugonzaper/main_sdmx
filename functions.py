@@ -49,4 +49,5 @@ def initialize_codelists_schemes(configuracion_actividad, datos_jerarquias, mapa
                                                           'en': 'Measurement units (Indicators)'},
                                                          {'es': 'Unidades de Medida (Indicadores)',
                                                           'en': 'Measurement units (Indicators)'})
-    # codelist_medidas.add_codes()
+    data_medidas = pd.read_csv('sistema_informacion/BADEA/jerarquias/INDICATOR', sep=';')  # Esto es feisimo
+    codelist_medidas.add_codes(data_medidas)
