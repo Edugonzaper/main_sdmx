@@ -11,7 +11,8 @@ from mdmpyclient.ckan.ckan import Ckan
 import deepl
 from ckanapi import RemoteCKAN
 
-from functions import execute_actividades, initialize_codelists_schemes
+from functions import execute_actividades, initialize_codelists_schemes, put_dsds, get_configuracion_completo, \
+    put_all_codelist_schemes, create_categories, mappings_variables, create_dataflows
 
 import logging
 
@@ -41,7 +42,6 @@ if __name__ == "__main__":
         datos_jerarquias = yaml.safe_load(datos_jerarquias)
         traductor = deepl.Translator('92766a66-fa2a-b1c6-d7dd-ec0750322229:fx')
 
-        agencia = configuracion_global['nodeId']
         # if configuracion_global['volcado_ckan']:
         #     ckan = Ckan(configuracion_global)
         # if configuracion_global['reset_ckan']:
@@ -63,97 +63,19 @@ if __name__ == "__main__":
         controller = MDM(configuracion_global, traductor, True)
         if configuracion_global['reset_ddb']:
             controller.delete_all('ESC01', 'IECA_CAT_EN_ES', '1.0')
-        configuracion_actividades_completo = {}
-        for nombre_actividad in configuracion_ejecucion['actividades']:
-            with open(f'sistema_informacion/SDMX/datos/{nombre_actividad}/configuracion.yaml', 'r', encoding='utf-8') as file:
-                configuracion_actividad = yaml.safe_load(file)
-                initialize_codelists_schemes(configuracion_actividad, datos_jerarquias, mapa_conceptos_codelist,
-                                             controller)
-                configuracion_actividades_completo[nombre_actividad] = configuracion_actividad
 
-        controller.codelists.put_all_codelists()
-        controller.concept_schemes.put_all_concept_schemes()
-        controller.codelists.put_all_data()
-        controller.concept_schemes.put_all_data()
+        configuracion_actividades_sdmx = get_configuracion_completo(configuracion_ejecucion)
 
-        for nombre in configuracion_ejecucion['actividades']:
-            configuracion_actividad = configuracion_actividades_completo[nombre_actividad]
-            dsd_id = 'DSD_' + nombre_actividad
-            dsd_agency = 'ESC01'
-            dsd_version = '1.0'
-            dsd_names = {'es': configuracion_actividad['subcategoria']}
-            dsd_des = None
-            dimensions = {variable: mapa_conceptos_codelist[variable] for variable in
-                          configuracion_actividad['variables']}
-            controller.dsds.put(dsd_agency, dsd_id, dsd_version, dsd_names, dsd_des, dimensions)
+        put_all_codelist_schemes(configuracion_ejecucion, configuracion_actividades_sdmx, datos_jerarquias,
+                                 mapa_conceptos_codelist, controller)
 
-        # variables = copy.deepcopy(actividad.configuracion['variables'])
+        put_dsds(configuracion_ejecucion, configuracion_actividades_sdmx, mapa_conceptos_codelist, controller)
 
-        # # Conversión de Jerarquia a Codelist y Esquemas de conceptos
-        # for consulta in actividad.consultas.values():
-        #     for jerarquia in consulta.jerarquias:
-        #         informacion = mapa_conceptos_codelist[jerarquia.nombre]
-        #
-        #         nombre = informacion['descripcion']
-        #         descripcion = informacion['descripcion']
-        #
-        #         id_codelist = informacion['codelist']['id']
-        #         agencia_codelist = informacion['codelist']['agency']
-        #         version_codelist = informacion['codelist']['version']
-        #
-        #         agencia_concept_scheme = informacion['concept_scheme']['agency']
-        #         id_concept_scheme = informacion['concept_scheme']['id']
-        #         version_concept_scheme = informacion['concept_scheme']['version']
-        #         nombre_concept_scheme_str = id_concept_scheme.replace('CS_', '')[
-        #                                         0].upper() + id_concept_scheme.replace('CS_', '')[1:].lower()
-        #         nombre_concept_scheme = {'es': nombre_concept_scheme_str}
-        #
-        #         concepto = informacion['concept_scheme']['concepto']
-        #
-        #         codelist = controller.codelists.add_codelist(agencia_codelist, id_codelist, version_codelist,
-        #                                                      nombre, descripcion)
-        #         codelist.add_codes(jerarquia.datos_sdmx)
-        #         concept_scheme = controller.concept_schemes.add_concept_scheme(agencia_concept_scheme,
-        #                                                                        id_concept_scheme,
-        #                                                                        version_concept_scheme,
-        #                                                                        nombre_concept_scheme, None)
-        #         concept_scheme.add_concept(concepto, None, descripcion['es'], None)
-        #     mapa_indicadores = pd.read_csv(
-        #         os.path.join(configuracion_global['directorio_mapas_dimensiones'], 'INDICATOR'))
-        #
-        #     # Actualización de las medidas
-        #     try:
-        #         codelist_medidas = controller.codelists.data[agencia]['CL_UNIT']['1.0']
-        #     except:
-        #         codelist_medidas = controller.codelists.add_codelist(agencia, 'CL_UNIT', '1.0',
-        #                                                              {'es': 'Unidades de Medida (Indicadores)',
-        #                                                               'en': 'Measurement units (Indicators)'},
-        #                                                              {'es': 'Unidades de Medida (Indicadores)',
-        #                                                               'en': 'Measurement units (Indicators)'})
-        #     # codelist_medidas.init_codes()
-        #     for consulta in actividad.consultas.values():
-        #         for medida in consulta.medidas:
-        #             if medida['des'] in configuracion_global['medidas_reemplazando_obs_status']:
-        #                 continue
-        #             id_medida = mapa_indicadores[mapa_indicadores['SOURCE'] == medida['des']]['TARGET'].values[
-        #                 0]
-        #             if id_medida not in codelist_medidas.codes['id']:
-        #                 codelist_medidas.add_code(id_medida, None, medida['des'], None)
-        #         # codelist_medidas.put()
-        #
-        # controller.concept_schemes.put_all_concept_schemes()
-        # controller.codelists.put_all_codelists()
-        # controller.concept_schemes.put_all_data()
-        # controller.codelists.put_all_data()
-        #
-        # # ## DSD CREACION
-        # id_dsd = 'DSD_' + nombre_actividad
-        # agencia_dsd = 'ESC01'
-        # version_dsd = '1.0'
-        # nombre_dsd = {'es': actividad.configuracion_actividad['3']}
-        # descripcion = None
-        #
-        # variables = copy.deepcopy(actividad.configuracion['variables'])
+        category_scheme = controller.category_schemes.data['ESC01']['IECA_CAT_EN_ES']['1.0']
+        create_categories(category_scheme, configuracion_ejecucion, configuracion_actividades_sdmx)
+
+        create_dataflows(configuracion_ejecucion, configuracion_actividades, configuracion_actividades_sdmx,
+                         category_scheme, configuracion_global, mapa_conceptos_codelist, controller)
         # try:
         #     variables.remove('TEMPORAL')
         # except:
@@ -174,23 +96,7 @@ if __name__ == "__main__":
         #     variables.remove('FREQ')
         # except:
         #     pass
-        #
-        # dimensiones = {variable: mapa_conceptos_codelist[variable] for variable in variables}
-        # print('dimensiones')
-        # print(dimensiones)
-        # try:
-        #     dsd = controller.dsds.data[agencia_dsd][id_dsd][version_dsd]
-        # except:
-        #     controller.dsds.put(agencia_dsd, id_dsd, version_dsd, nombre_dsd, descripcion, dimensiones)
-        #     dsds = controller.dsds.get(init_data=False)
-        #     dsd = dsds[agencia_dsd][id_dsd][version_dsd]
-        #
-        # # Creación de categoría para la actividad
-        # category_scheme.init_categories()
-        # category_scheme.add_category(nombre_actividad, actividad.configuracion_actividad['categoria'],
-        #                              actividad.configuracion_actividad['subcategoria'], None)
-        # category_scheme.put()
-        #
+
         # # Creación del cubo para la actividad
         # for consulta in actividad.consultas.values():
         #     cube_id = configuracion_global['nodeId'] + "_" + nombre_actividad + "_" + consulta.id_consulta
@@ -226,8 +132,8 @@ if __name__ == "__main__":
         #     if 'ID_OBS_STATUS' not in variables_df:
         #         variables_df += ['ID_OBS_STATUS']
         #
-        #     controller.dataflows.put(id_df, agencia, '1.0', nombre_df, None, variables_df, id_cubo, dsd,
-        #                              category_scheme, nombre_actividad)
+        # controller.dataflows.put(id_df, agencia, '1.0', nombre_df, None, variables_df, id_cubo, dsd,
+        #                          category_scheme, nombre_actividad)
         #     controller.dataflows.data = controller.dataflows.get(False)
         #     try:
         #         controller.dataflows.data[agencia][id_df]['1.0'].publish()
@@ -260,4 +166,4 @@ if __name__ == "__main__":
         #             lambda x: ckan.resources.create_from_file(
         #                 f'{configuracion_global["directorio_metadatos_html"]}/{x.code}.html', x.code, 'html',
         #                 id_dataset.lower()), axis=1)
-        controller.logout()
+    controller.logout()

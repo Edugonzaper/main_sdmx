@@ -865,7 +865,7 @@ IPC_RUBRICAS:
 IVGS_SERIEIVGS:
   codelist:
     agency: ESC01
-    id: CL_TIPOSERIES
+    id: CL_TIPOSERIE
     version: '1.0'
   concept_scheme:
     agency: ESC01
@@ -876,7 +876,7 @@ IVGS_SERIEIVGS:
     es: Tipo de Serie
   nombre:
     es: Tipo de Serie
-  nombre_dimension: TIPOSERIES
+  nombre_dimension: TIPOSERIE
   tipo: dimension
 IVGS_TIPVENT:
   codelist:
