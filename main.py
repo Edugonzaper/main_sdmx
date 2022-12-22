@@ -65,7 +65,7 @@ if __name__ == "__main__":
             controller.delete_all('ESC01', 'IECA_CAT_EN_ES', '1.0')
         configuracion_actividades_completo = {}
         for nombre_actividad in configuracion_ejecucion['actividades']:
-            with open(f'sistema_informacion/SDMX/datos/{nombre_actividad}/configuracion.yaml') as file:
+            with open(f'sistema_informacion/SDMX/datos/{nombre_actividad}/configuracion.yaml', 'r', encoding='utf-8') as file:
                 configuracion_actividad = yaml.safe_load(file)
                 initialize_codelists_schemes(configuracion_actividad, datos_jerarquias, mapa_conceptos_codelist,
                                              controller)
