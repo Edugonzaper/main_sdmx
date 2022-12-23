@@ -107,8 +107,6 @@ def mappings_variables(variables, mapa_conceptos_codelist):
             variables_mapped[variable] = mapa_conceptos_codelist[variable]['nombre_dimension']
         except:
             variables_mapped[variable] = variable
-    if 'ESTADO_DATO' not in variables_mapped:
-        variables_mapped['ESTADO_DATO'] = 'OBS_STATUS'
     return variables_mapped
 
 
@@ -128,9 +126,9 @@ def create_dataflows(configuracion_ejecucion, configuracion_actividades, configu
             cube_id = controller.cubes.put(cube_code, id_cube_cat, 'DSD_' + nombre_actividad,
                                            'hola', dimensiones)
 
-            variables = configuracion_actividades_sdmx[nombre_actividad]['variables'] + ['INDICATOR', 'TEMPORAL',
-                                                                                         'FREQ',
-                                                                                         'OBS_VALUE']
+            variables = configuracion_actividad['variables'] + ['INDICATOR', 'TEMPORAL',
+                                                                'FREQ',
+                                                                'OBS_VALUE']
             variables = mappings_variables(variables, mapa_conceptos_codelist)
 
             mapping_id = controller.mappings.put(variables, cube_id, nombre_actividad + '_' + consulta_id)
@@ -138,6 +136,8 @@ def create_dataflows(configuracion_ejecucion, configuracion_actividades, configu
             cube_data = pd.read_csv(
                 f'{configuracion_global["directorio_datos"]}/{nombre_actividad}/procesados/{consulta_id}.csv',
                 sep=';', dtype='string')
+
+            cube_data = script_provisional(cube_data, configuracion_actividad['variables'])
 
             controller.mappings.data[cube_id].load_cube(cube_data)
 
@@ -153,3 +153,10 @@ def create_dataflows(configuracion_ejecucion, configuracion_actividades, configu
                                           controller.dsds.data['ESC01'][f'DSD_{nombre_actividad}']['1.0'],
                                           category_scheme, nombre_actividad)
             df.publish()
+
+
+def script_provisional(cube_data, columns):
+    for column in columns:
+        if column not in cube_data.columns:
+            cube_data.insert(len(cube_data.columns), column, '_Z')
+    return cube_data

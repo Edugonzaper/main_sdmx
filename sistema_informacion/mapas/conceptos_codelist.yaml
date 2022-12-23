@@ -830,6 +830,38 @@ IASS_TIPOVENTAS:
     es: Tipo de ventas
   nombre_dimension: TIPOVENTAS
   tipo: dimension
+ICMA_TIPINDOCUPAC:
+  codelist:
+    agency: ESC01
+    id: CL_ICMA_TIPINDOCUPAC
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: ICMA_TIPINDOCUPAC
+    id: CS_ECO_ACCOUNTS
+    version: '1.0'
+  descripcion:
+    es: "Tipo de \xEDndice de ocupaci\xF3n"
+  nombre:
+    es: "Tipo de \xEDndice de ocupaci\xF3n"
+  nombre_dimension: ICMA_TIPINDOCUPAC
+  tipo: dimension
+ICMA_TIPOVENTAS:
+  codelist:
+    agency: ESC01
+    id: CL_ICMA_TIPOVENTAS
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: ICMA_TIPOVENTAS
+    id: CS_ECO_ACCOUNTS
+    version: '1.0'
+  descripcion:
+    es: Tipo de ventas
+  nombre:
+    es: Tipo de ventas
+  nombre_dimension: ICMA_TIPOVENTAS
+  tipo: dimension
 IPC_GRUPOSESPECIALES:
   codelist:
     agency: ESC01

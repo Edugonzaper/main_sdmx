@@ -2,7 +2,7 @@ ARE_INSCRIPCION:
   ID: CL_INSCRIPCION
   agency: ESC01
   description:
-    es: "Inscripci/xF3n"
+    es: Inscripci/xF3n
   fichero:
   - sistema_informacion/BADEA/jerarquias/AE/sdmx/1917/D_ARE_INSCRIPCION_0.csv
   - sistema_informacion/BADEA/jerarquias/AE/sdmx/1917/D_ARE_INSCRIPCION_0.csv
@@ -44,6 +44,13 @@ ESTADO_DATO:
   - sistema_informacion/BADEA/jerarquias/IASS/sdmx/6525/D_ESTADO_DATO_0.csv
   - sistema_informacion/BADEA/jerarquias/IASS/sdmx/6528/D_ESTADO_DATO_0.csv
   - sistema_informacion/BADEA/jerarquias/IASS/sdmx/6530/D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20691/D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20694/D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20696/D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20692/D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20695/D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20697/D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20688/D_ESTADO_DATO_0.csv
   nombre:
     es: ESTADO_DATO
   version: '1.0'
@@ -61,6 +68,31 @@ IASS_TIPOVENTAS:
   - sistema_informacion/BADEA/jerarquias/IASS/sdmx/6530/D_IASS_TIPOVENTAS_0.csv
   nombre:
     es: Tipo de ventas
+  version: '1.0'
+ICMA_TIPINDOCUPAC:
+  ID: CL_ICMA_TIPINDOCUPAC
+  agency: ESC01
+  description:
+    es: "Tipo de \xEDndice de ocupaci\xF3n"
+  fichero:
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20688/D_ICMA_TIPINDOCUPAC_0.csv
+  nombre:
+    es: ICMA_TIPINDOCUPAC
+  version: '1.0'
+ICMA_TIPOVENTAS:
+  ID: CL_ICMA_TIPOVENTAS
+  agency: ESC01
+  description:
+    es: Tipo de ventas
+  fichero:
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20691/D_ICMA_TIPOVENTAS_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20694/D_ICMA_TIPOVENTAS_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20696/D_ICMA_TIPOVENTAS_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20692/D_ICMA_TIPOVENTAS_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20695/D_ICMA_TIPOVENTAS_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20697/D_ICMA_TIPOVENTAS_0.csv
+  nombre:
+    es: ICMA_TIPOVENTAS
   version: '1.0'
 IVGS_SERIEIVGS:
   ID: CL_TIPOSERIE
@@ -80,6 +112,13 @@ IVGS_SERIEIVGS:
   - sistema_informacion/BADEA/jerarquias/IVGSA/sdmx/15468/D_IVGS_SERIEIVGS_0.csv
   - sistema_informacion/BADEA/jerarquias/IVGSA/sdmx/15469/D_IVGS_SERIEIVGS_0.csv
   - sistema_informacion/BADEA/jerarquias/IVGSA/sdmx/15470/D_IVGS_SERIEIVGS_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20691/D_IVGS_SERIEIVGS_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20694/D_IVGS_SERIEIVGS_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20696/D_IVGS_SERIEIVGS_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20692/D_IVGS_SERIEIVGS_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20695/D_IVGS_SERIEIVGS_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20697/D_IVGS_SERIEIVGS_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20688/D_IVGS_SERIEIVGS_0.csv
   nombre:
     es: Tipo de serie
   version: '1.0'
@@ -126,8 +165,8 @@ LUGARNACIMIEN:
     es: LUGARNACIMIEN
   version: '1.0'
 SEXO:
-  ID: CL_SEXO
-  agency: ESC01
+  ID: CL_SEX
+  agency: SDMX
   description:
     es: Sexo
   fichero:
@@ -145,7 +184,7 @@ SEXO:
   - sistema_informacion/BADEA/jerarquias/AE/sdmx/1917/D_SEXO_0.csv
   nombre:
     es: SEXO
-  version: '1.0'
+  version: '2.1'
 TEMPORAL:
   ID: CL_TEMPORAL
   agency: ESC01
@@ -211,6 +250,13 @@ TEMPORAL:
   - sistema_informacion/BADEA/jerarquias/AE/sdmx/455/D_TEMPORAL_0.csv
   - sistema_informacion/BADEA/jerarquias/AE/sdmx/1915/D_TEMPORAL_0.csv
   - sistema_informacion/BADEA/jerarquias/AE/sdmx/1917/D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20691/D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20694/D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20696/D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20692/D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20695/D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20697/D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20688/D_TEMPORAL_0.csv
   nombre:
     es: TEMPORAL
   version: '1.0'
@@ -277,6 +323,13 @@ TERRITORIO:
   - sistema_informacion/BADEA/jerarquias/AE/sdmx/455/D_TERRITORIO_0.csv
   - sistema_informacion/BADEA/jerarquias/AE/sdmx/1915/D_TERRITORIO_0.csv
   - sistema_informacion/BADEA/jerarquias/AE/sdmx/1917/D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20691/D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20694/D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20696/D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20692/D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20695/D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20697/D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias/ICMA/sdmx/20688/D_TERRITORIO_0.csv
   nombre:
     es: TERRITORIO
   version: '1.0'
@@ -284,7 +337,7 @@ TERRITORIO_1:
   ID: CL_TERRITORIO_1
   agency: ESC01
   description:
-    es: "Pa/xEDs de residencia"
+    es: Pa/xEDs de residencia
   fichero:
   - sistema_informacion/BADEA/jerarquias/AE/sdmx/455/D_TERRITORIO_1.csv
   nombre:
