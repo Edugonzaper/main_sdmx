@@ -411,3 +411,21 @@ estado 1.9 Volumen negocio innovacion. Total,,ESTA_19_VOLU_NEGO_INNO_TOTA
 Índice de empleo. Tasa de variación intermensual,,INDI_EMPL_TASA_VARI_INTE
 Índice de empleo. Tasa de variacion interanual (del mes),,INDI_EMPL_TASA_VARI_INTE_DEL_MES
 Índice de empleo. Tasa de variacion de la media de lo que va de año,,INDI_EMPL_TASA_VARI_LA_MEDI_LO_QUE_VA_ANO
+3.17  Aprendizaje permanente. Hombres,,317__APRE_PERM_HOMB
+estado 3.17  Aprendizaje permanente. Hombres,,ESTA_317__APRE_PERM_HOMB
+% de empresas que utilizan software de código abierto según tipología: Gestores de contenido para páginas web (b),,PCT_EMPR_QUE_UTIL_SOFT_CODI_ABIE_SEGU_TIPO_GEST_CONT_PAGI_WEB_B
+% de empresas con límites para el uso de código abierto según motivo: Desconocimiento de soluciones y falta de referencias sobre productos de software libre,,PCT_EMPR_CON_LIMI_EL_USO_CODI_ABIE_SEGU_MOTI_DESC_SOLU_Y_FALT_REFE_SOBR_PROD_SOFT_LIBR
+% de empresas con límites para el uso de código abierto según motivo: Los problemas que puede conllevar la migración,,PCT_EMPR_CON_LIMI_EL_USO_CODI_ABIE_SEGU_MOTI_LOS_PROB_QUE_PUED_CONL_LA_MIGR
+% de empresas con límites para el uso de código abierto según motivo: La inercia del mercado,,PCT_EMPR_CON_LIMI_EL_USO_CODI_ABIE_SEGU_MOTI_LA_INER_DEL_MERC
+% de empresas con límites para el uso de código abierto según motivo: La percepción de falta de calidad de este tipo de soluciones,,PCT_EMPR_CON_LIMI_EL_USO_CODI_ABIE_SEGU_MOTI_LA_PERC_FALT_CALI_ESTE_TIPO_SOLU
+% de empresas con límites para el uso de código abierto según motivo: Falta de apoyo o desconocimiento del mismo por parte de organismos públicos a las empresas,,PCT_EMPR_CON_LIMI_EL_USO_CODI_ABIE_SEGU_MOTI_FALT_APOY_O_DESC_DEL_MISM_PART_ORGA_PUBL_LAS_EMPR
+% de empresas con límites para el uso de código abierto según motivo: Otros,,PCT_EMPR_CON_LIMI_EL_USO_CODI_ABIE_SEGU_MOTI_OTRO
+Número medio de robots industriales y de servicios (c),,NUME_MEDI_ROBO_INDU_Y_SERV_C
+% de empresas por motivo para utilizar robots: Alto coste de mano de obra (a),,PCT_EMPR_MOTI_UTIL_ROBO_ALTO_COST_MANO_OBRA_A
+% de empresas por motivo para utilizar robots: Dificultades para contratar personal (a),,PCT_EMPR_MOTI_UTIL_ROBO_DIFI_CONT_PERS_A
+% de empresas por motivo para utilizar robots: Mejorar la seguridad en el trabajo (a),,PCT_EMPR_MOTI_UTIL_ROBO_MEJO_LA_SEGU_EL_TRAB_A
+% de empresas por motivo para utilizar robots: Asegurar alta precisión o calidad estandarizada de procesos y/o bienes y servicios producidos (a),,PCT_EMPR_MOTI_UTIL_ROBO_ASEG_ALTA_PREC_O_CALI_ESTA_PROC_YO_BIEN_Y_SERV_PROD_A
+% de empresas por motivo para utilizar robots: Ampliar la gama de bienes producidos o servicios prestados por la empresa (a),,PCT_EMPR_MOTI_UTIL_ROBO_AMPL_LA_GAMA_BIEN_PROD_O_SERV_PRES_LA_EMPR_A
+% de empresas por motivo para utilizar robots: Impuestos u otros incentivos gubernamentales (a),,PCT_EMPR_MOTI_UTIL_ROBO_IMPU_U_OTRO_INCE_GUBE_A
+Gasto total en seguridad TIC,,GAST_TOTA_SEGU_TIC
+Tasas de variación interanual,,TASA_VARI_INTE
