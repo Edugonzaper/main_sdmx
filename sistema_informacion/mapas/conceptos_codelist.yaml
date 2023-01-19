@@ -289,18 +289,18 @@ CNAE09:
 CNAE_O9_CRA_NEW:
   codelist:
     agency: ESC01
-    id: CL_CNAE_O9_CRA_NEW
+    id: CL_CNAE_O9_NEW
     version: '1.0'
   concept_scheme:
     agency: ESC01
-    concepto: CNAE_O9_CRA_NEW
+    concepto: CNAE_O9_NEW
     id: CS_ECONOMICAS
     version: '1.0'
   descripcion:
     es: Rama de actividad
   nombre:
     es: Rama de actividad
-  nombre_dimension: CNAE_O9_CRA_NEW
+  nombre_dimension: CNAE_O9_NEW
   tipo: dimension
 CNED2014:
   codelist:
@@ -334,7 +334,7 @@ CNO11:
     es: CNO11
   nombre_dimension: CNO11
   tipo: dimension
-CRTA_COMPONPIB2008:
+1010COMPONPIB2008:
   codelist:
     agency: ESC01
     id: CL_COMPONPIB2008
@@ -580,9 +580,9 @@ EPA_NACIONALIDAD:
     id: CL_NACIONALIDAD
     version: '1.0'
   concept_scheme:
-    agency: ESTAT
-    concepto: COC
-    id: CS_DEMOGRAPHY
+    agency: ESC01
+    concepto: NACIONALIDAD
+    id: CS_POP_MIGRATION
     version: '1.0'
   descripcion:
     es: Nacionalidad
@@ -881,18 +881,18 @@ ESTUDIOS:
 FORMA_JUR_SOCMER:
   codelist:
     agency: ESC01
-    id: CL_FORMA_JUR_SOCMER
+    id: CL_FORMA_JUR
     version: '1.0'
   concept_scheme:
     agency: ESC01
-    concepto: FORMA_JUR_SOCMER
+    concepto: FORMA_JUR
     id: CS_EMPRESAS
     version: '1.0'
   descripcion:
     es: "Forma jur\xEDdica"
   nombre:
     es: "Forma jur\xEDdica"
-  nombre_dimension: FORMA_JUR_SOCMER
+  nombre_dimension: FORMA_JUR
   tipo: dimension
 G102:
   codelist:
@@ -918,7 +918,7 @@ IASS_TIPOVENTAS:
   concept_scheme:
     agency: ESC01
     concepto: TIPOVENTAS
-    id: CS_SERVICES
+    id: CS_BUSINESS_STAT
     version: '1.0'
   descripcion:
     es: Tipo de ventas
@@ -934,7 +934,7 @@ ICMA_TIPINDOCUPAC:
   concept_scheme:
     agency: ESC01
     concepto: TIPINDOCUPAC
-    id: CS_ECO_ACCOUNTS
+    id: CS_BUSINESS_STAT
     version: '1.0'
   descripcion:
     es: "Tipo de \xEDndice de ocupaci\xF3n"
@@ -950,7 +950,7 @@ ICMA_TIPOVENTAS:
   concept_scheme:
     agency: ESC01
     concepto: TIPOVENTAS
-    id: CS_ECO_ACCOUNTS
+    id: CS_BUSINESS_STAT
     version: '1.0'
   descripcion:
     es: Tipo de ventas
@@ -1089,11 +1089,11 @@ MACROMAG_CPA:
 MCVLS_VARIABLE:
   codelist:
     agency: ESC01
-    id: CL_MULTIVARIABL
+    id: CL_VARIABLE
     version: '1.0'
   concept_scheme:
     agency: ESC01
-    concepto: MULTIVARIABL
+    concepto: VARIABLE
     id: CS_TRABAJO
     version: '1.0'
   descripcion:
@@ -1105,18 +1105,18 @@ MCVLS_VARIABLE:
 MCVL_CNAESECTOR:
   codelist:
     agency: ESC01
-    id: CL_CNAE09
+    id: CL_CNAESECTOR
     version: '1.0'
   concept_scheme:
     agency: ESC01
-    concepto: CNAE09
-    id: CS_ESTADISTICAS_SECTORIALES
+    concepto: CNAESECTOR
+    id: CS_LABOUR
     version: '1.0'
   descripcion:
-    es: Actividad
+    es: Sector de actividad
   nombre:
-    es: CNAE09
-  nombre_dimension: CNAE09
+    es: Sector de actividad
+  nombre_dimension: CNAESECTOR
   tipo: dimension
 MCVL_COTIZANTE:
   codelist:
@@ -1195,7 +1195,7 @@ MCVL_MONSALARIO:
   descripcion:
     es: Salario
   nombre:
-    es: MONSALARIO
+    es: SALARIO
   nombre_dimension: MONSALARIO
   tipo: dimension
 MCVL_PENSIONISTA:
@@ -1473,18 +1473,18 @@ PRESENCDISCAPAC:
 PROCEDENCIA_ECTA:
   codelist:
     agency: ESC01
-    id: CL_PROCEDENCIA_ECTA
+    id: CL_PROCEDENCIA
     version: '1.0'
   concept_scheme:
     agency: ESC01
-    concepto: PROCEDENCIA_ECTA
+    concepto: PROCEDENCIA
     id: CS_TOURISM
     version: '1.0'
   descripcion:
     es: Procedencia
   nombre:
     es: Procedencia
-  nombre_dimension: PROCEDENCIA_ECTA
+  nombre_dimension: PROCEDENCIA
   tipo: dimension
 PUB_PRIV:
   codelist:
@@ -1713,18 +1713,18 @@ TIPOMATRIMONIO:
 TIPO_ALOJAM_ECTA:
   codelist:
     agency: ESC01
-    id: CL_TIPO_ALOJAM_ECTA
+    id: CL_TIPO_ALOJAM
     version: '1.0'
   concept_scheme:
     agency: ESC01
-    concepto: TIPO_ALOJAM_ECTA
+    concepto: TIPO_ALOJAM
     id: CS_TOURISM
     version: '1.0'
   descripcion:
     es: Tipo de alojamiento
   nombre:
     es: Tipo de alojamiento
-  nombre_dimension: TIPO_ALOJAM_ECTA
+  nombre_dimension: TIPO_ALOJAM
   tipo: dimension
 TIPO_EMPRESA:
   codelist:
