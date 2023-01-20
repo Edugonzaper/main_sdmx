@@ -183,7 +183,7 @@ ANOCELEBRMATRIM:
     agency: ESTAT
     concepto: YMA
     id: CS_DEMOGRAPHY
-    version: '1.2'
+    version: '1.0'
   descripcion:
     es: "A\xF1o celebraci\xF3n del matrimonio"
   nombre:
@@ -270,6 +270,22 @@ CLASEDEPENSION:
     es: "Clase de pensi\xF3n"
   nombre_dimension: CLASEDEPENSION
   tipo: dimension
+CNAE09:
+  codelist:
+    agency: ESC01
+    id: CL_CNAE09
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: CNAE09
+    id: CS_BUSINESS_STAT
+    version: '1.0'
+  descripcion:
+    es: CNAE09
+  nombre:
+    es: CNAE09
+  nombre_dimension: CNAE09
+  tipo: dimension
 CNAE_O9_CRA_NEW:
   codelist:
     agency: ESC01
@@ -317,6 +333,86 @@ CNO11:
   nombre:
     es: CNO11
   nombre_dimension: CNO11
+  tipo: dimension
+CRTA_COMPONPIB2008:
+  codelist:
+    agency: ESC01
+    id: CL_COMPONPIB2008
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: COMPONPIB2008
+    id: CS_ECO_ACCOUNTS
+    version: '1.0'
+  descripcion:
+    es: Componentes del PIB
+  nombre:
+    es: Componentes del PIB
+  nombre_dimension: COMPONPIB2008
+  tipo: dimension
+CRTA_PUESTRABASAB2008:
+  codelist:
+    agency: ESC01
+    id: CL_PUESTRABASAB2008
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: PUESTRABASAB2008
+    id: CS_ECO_ACCOUNTS
+    version: '1.0'
+  descripcion:
+    es: Puestos de trabajo asalariados
+  nombre:
+    es: Puestos de trabajo asalariados
+  nombre_dimension: PUESTRABASAB2008
+  tipo: dimension
+CRTA_PUESTRATTB2008:
+  codelist:
+    agency: ESC01
+    id: CL_PUESTRATTB2008
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: PUESTRATTB2008
+    id: CS_ECO_ACCOUNTS
+    version: '1.0'
+  descripcion:
+    es: Puestos de trabajo totales
+  nombre:
+    es: Puestos de trabajo totales
+  nombre_dimension: PUESTRATTB2008
+  tipo: dimension
+CRTA_REMASALAB2008:
+  codelist:
+    agency: ESC01
+    id: CL_REMASALAB2008
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: REMASALAB2008
+    id: CS_ECO_ACCOUNTS
+    version: '1.0'
+  descripcion:
+    es: "Remuneraci\xF3n de asalariados"
+  nombre:
+    es: "Remuneraci\xF3n de asalariados"
+  nombre_dimension: REMASALAB2008
+  tipo: dimension
+CRTA_SERIE:
+  codelist:
+    agency: ESC01
+    id: CL_SERIE
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: SERIE
+    id: CS_ECO_ACCOUNTS
+    version: '1.0'
+  descripcion:
+    es: Serie
+  nombre:
+    es: Serie
+  nombre_dimension: SERIE
   tipo: dimension
 CUSTODIA:
   codelist:
@@ -487,7 +583,7 @@ EPA_NACIONALIDAD:
     agency: ESTAT
     concepto: COC
     id: CS_DEMOGRAPHY
-    version: '1.2'
+    version: '1.0'
   descripcion:
     es: Nacionalidad
   nombre:
@@ -704,14 +800,14 @@ EPD_TAMANOEMPRESA:
   tipo: dimension
 ESTADOCIVIL:
   codelist:
-    agency: ESTAT
+    agency: ESC01
     id: CL_UNION_STATUS
     version: '1.0'
   concept_scheme:
-    agency: ESTAT
+    agency: ESC01
     concepto: LUS
     id: CS_DEMOGRAPHY
-    version: '1.2'
+    version: '1.0'
   descripcion:
     es: "Estado civil c\xF3nyuge 1"
   nombre:
@@ -720,14 +816,14 @@ ESTADOCIVIL:
   tipo: dimension
 ESTADOCIVILC2:
   codelist:
-    agency: ESTAT
+    agency: ESC01
     id: CL_UNION_STATUS
     version: '1.0'
   concept_scheme:
-    agency: ESTAT
+    agency: ESC01
     concepto: LUS
     id: CS_DEMOGRAPHY
-    version: '1.2'
+    version: '1.0'
   descripcion:
     es: "Estado civil c\xF3nyuge 2"
   nombre:
@@ -830,37 +926,69 @@ IASS_TIPOVENTAS:
     es: Tipo de ventas
   nombre_dimension: TIPOVENTAS
   tipo: dimension
-IPC_GRUPOSESPECIALES:
+ICMA_TIPINDOCUPAC:
   codelist:
     agency: ESC01
-    id: CL_IPC_GRUPOSESPECIALES
+    id: CL_TIPINDOCUPAC
     version: '1.0'
   concept_scheme:
     agency: ESC01
-    concepto: IPC_GRUPOSESPECIALES
+    concepto: TIPINDOCUPAC
+    id: CS_ECO_ACCOUNTS
+    version: '1.0'
+  descripcion:
+    es: "Tipo de \xEDndice de ocupaci\xF3n"
+  nombre:
+    es: "Tipo de \xEDndice de ocupaci\xF3n"
+  nombre_dimension: TIPINDOCUPAC
+  tipo: dimension
+ICMA_TIPOVENTAS:
+  codelist:
+    agency: ESC01
+    id: CL_TIPOVENTAS
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TIPOVENTAS
+    id: CS_ECO_ACCOUNTS
+    version: '1.0'
+  descripcion:
+    es: Tipo de ventas
+  nombre:
+    es: Tipo de ventas
+  nombre_dimension: TIPOVENTAS
+  tipo: dimension
+IPC_GRUPOSESPECIALES:
+  codelist:
+    agency: ESC01
+    id: CL_GRUPOSESPECIALES
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: GRUPOSESPECIALES
     id: CS_ECONOMICAS
     version: '1.0'
   descripcion:
     es: Grupos especiales
   nombre:
     es: Grupos especiales
-  nombre_dimension: IPC_GRUPOSESPECIALES
+  nombre_dimension: GRUPOSESPECIALES
   tipo: dimension
 IPC_RUBRICAS:
   codelist:
     agency: ESC01
-    id: CL_IPC_RUBRICAS
+    id: CL_RUBRICAS
     version: '1.0'
   concept_scheme:
     agency: ESC01
-    concepto: IPC_RUBRICAS
+    concepto: RUBRICAS
     id: CS_ECONOMICAS
     version: '1.0'
   descripcion:
     es: Rubricas
   nombre:
     es: Rubricas
-  nombre_dimension: IPC_RUBRICAS
+  nombre_dimension: RUBRICAS
   tipo: dimension
 IVGS_SERIEIVGS:
   codelist:
@@ -917,14 +1045,14 @@ LUG_NAC_PADRON:
     version: '1.0'
   concept_scheme:
     agency: ESC01
-    concepto: LUG_NAC_PADRON
+    concepto: LUG_NAC
     id: CS_POBLACION
     version: '1.0'
   descripcion:
     es: Lugar de nacimiento
   nombre:
     es: Lugar de nacimiento
-  nombre_dimension: LUG_NAC_PADRON
+  nombre_dimension: LUG_NAC
   tipo: dimension
 MACROECO:
   codelist:
@@ -1245,6 +1373,22 @@ NACIONACONYUGES:
   nombre:
     es: "Nacionalidad de los c\xF3nyuges"
   nombre_dimension: NACIONACONYUGES
+  tipo: dimension
+NACIONALIDAD:
+  codelist:
+    agency: ESC01
+    id: CL_NACIONALIDAD
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: NACIONALIDAD
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Nacionalidad
+  nombre:
+    es: Nacionalidad
+  nombre_dimension: NACIONALIDAD
   tipo: dimension
 NAT_GASTO:
   codelist:

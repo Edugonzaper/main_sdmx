@@ -12,7 +12,7 @@ import deepl
 from ckanapi import RemoteCKAN
 
 from functions import execute_actividades, initialize_codelists_schemes, put_dsds, get_configuracion_completo, \
-    put_all_codelist_schemes, create_categories, mappings_variables, create_dataflows
+    put_all_codelist_schemes, create_categories, mappings_variables, create_dataflows, volcado_ckan
 
 import logging
 
@@ -76,6 +76,9 @@ if __name__ == "__main__":
 
         create_dataflows(configuracion_ejecucion, configuracion_actividades, configuracion_actividades_sdmx,
                          category_scheme, configuracion_global, mapa_conceptos_codelist, controller)
+
+    if configuracion_global['volcado_ckan']:
+        volcado_ckan(configuracion_global, traductor, controller if controller else None)
         # try:
         #     variables.remove('TEMPORAL')
         # except:

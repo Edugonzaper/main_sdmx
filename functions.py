@@ -1,6 +1,10 @@
+import os
+
 import pandas as pd
 import yaml
 from iecasdmx.ieca.actividad import Actividad
+from mdmpyclient.ckan.ckan import Ckan
+from mdmpyclient.mdm import MDM
 
 
 def execute_actividades(configuracion_ejecucion, configuracion_global, configuracion_actividades,
@@ -107,8 +111,6 @@ def mappings_variables(variables, mapa_conceptos_codelist):
             variables_mapped[variable] = mapa_conceptos_codelist[variable]['nombre_dimension']
         except:
             variables_mapped[variable] = variable
-    if 'ESTADO_DATO' not in variables_mapped:
-        variables_mapped['ESTADO_DATO'] = 'OBS_STATUS'
     return variables_mapped
 
 
@@ -128,9 +130,9 @@ def create_dataflows(configuracion_ejecucion, configuracion_actividades, configu
             cube_id = controller.cubes.put(cube_code, id_cube_cat, 'DSD_' + nombre_actividad,
                                            'hola', dimensiones)
 
-            variables = configuracion_actividades_sdmx[nombre_actividad]['variables'] + ['INDICATOR', 'TEMPORAL',
-                                                                                         'FREQ',
-                                                                                         'OBS_VALUE']
+            variables = configuracion_actividad['variables'] + ['INDICATOR', 'TEMPORAL',
+                                                                'FREQ',
+                                                                'OBS_VALUE']
             variables = mappings_variables(variables, mapa_conceptos_codelist)
 
             mapping_id = controller.mappings.put(variables, cube_id, nombre_actividad + '_' + consulta_id)
@@ -138,6 +140,8 @@ def create_dataflows(configuracion_ejecucion, configuracion_actividades, configu
             cube_data = pd.read_csv(
                 f'{configuracion_global["directorio_datos"]}/{nombre_actividad}/procesados/{consulta_id}.csv',
                 sep=';', dtype='string')
+
+            cube_data = script_provisional(cube_data, configuracion_actividad['variables'])
 
             controller.mappings.data[cube_id].load_cube(cube_data)
 
@@ -153,3 +157,34 @@ def create_dataflows(configuracion_ejecucion, configuracion_actividades, configu
                                           controller.dsds.data['ESC01'][f'DSD_{nombre_actividad}']['1.0'],
                                           category_scheme, nombre_actividad)
             df.publish()
+
+
+def script_provisional(cube_data, columns):
+    for column in columns:
+        if column not in cube_data.columns:
+            cube_data.insert(len(cube_data.columns), column, '_Z')
+    return cube_data
+
+
+def volcado_ckan(configuracion_global, traductor, controller):
+    ckan = Ckan(configuracion_global)
+    if configuracion_global['reset_ckan']:
+        ckan.datasets.remove_all_datasets()
+
+    if not controller:
+        controller = MDM(configuracion_global, traductor)  # Supongo que esta solucion es temporal.
+    for cube in controller.cubes.data:
+        first_ = cube.find('_')
+        second_ = cube.find('_', first_ + 1)
+        nombre_actividad = cube[first_ + 1:second_]
+        id_consulta = cube[second_ + 1:]
+        agencia = cube[:first_]
+        id_df = f'{agencia}_{nombre_actividad}_{id_consulta}'
+        id_dataset = f'{nombre_actividad}_{id_consulta}'
+        name_dataset = controller.dataflows.data[agencia][id_df]['1.0'].names['es']
+        ckan.datasets.create(id_dataset.lower(), name_dataset, ckan.orgs.orgs[nombre_actividad.lower()])
+        path = os.path.join(configuracion_global['directorio_datos'], nombre_actividad, 'procesados')
+        ckan.resources.create_from_file(f'{path}.{id_consulta}.csv', id_dataset, 'csv', id_dataset.lower())
+        ckan.resources.create_from_file(
+            f'{configuracion_global["sistema_informacion/metadatos_html"]}/REPORT_{nombre_actividad}.html',
+            nombre_actividad, 'html', id_dataset.lower())
