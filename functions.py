@@ -128,7 +128,7 @@ def create_dataflows(configuracion_ejecucion, configuracion_actividades, configu
             dimensiones = {variable: mapa_conceptos_codelist[variable] for variable in
                            configuracion_actividad['variables']}
             cube_id = controller.cubes.put(cube_code, id_cube_cat, 'DSD_' + nombre_actividad,
-                                           'hola', dimensiones)
+                                           'Metadatos por construir', dimensiones)
 
             variables = configuracion_actividad['variables'] + ['INDICATOR', 'TEMPORAL',
                                                                 'FREQ',
@@ -142,11 +142,10 @@ def create_dataflows(configuracion_ejecucion, configuracion_actividades, configu
                 sep=';', dtype='string')
 
             cube_data = script_provisional(cube_data, configuracion_actividad['variables'])
-
             controller.mappings.data[cube_id].load_cube(cube_data)
 
             df_id = f'DF_{nombre_actividad}_{consulta_id}'
-            df_name = {'es': 'hola'}
+            df_name = {'es': 'Metadatos por construir'}
             dataflow_columns = [
                 f'ID_{column}' if column not in ['OBS_VALUE', 'TEMPORAL'] else column.replace('TEMPORAL',
                                                                                               'ID_TIME_PERIOD') for

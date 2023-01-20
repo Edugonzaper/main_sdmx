@@ -1,30 +1,31 @@
 actividades:
-    - IPC
-    - DSN
-    - PADRON
-    - MNP
-    - DIRECTORIO
-    - SOCMER
-    - CONTPROV
-    - PENSIONES
-    - DEFCAU
-    - CRA
-    - EPD
-    - INDICADORES
-    - EOH
-    - CAMPINGS
-    - TURISMO_RURAL
-    - APARTAMENTOS_TURISTICOS
-    - ECTA
-    - EEE
-    - EPA
-    - AUTONOMOS
-    - SALARIOS
-    - MCVL
-    - EMPRESASIMD
-    - USO_TIC
+#    - IPC
+#    - DSN
+#    - PADRON
+#    - MNP
+#    - DIRECTORIO
+#    - SOCMER  #una consulta sin datos
+#    - CONTPROV #no conecta la petición
+#    - PENSIONES
+#    - DEFCAU  #algunas peticiones demasiado grandes
+#    - CRA  #consultas sin datos
+#    - EPD
+#    - INDICADORES
+#    - EOH
+#    - CAMPINGS
+#    - TURISMO_RURAL
+#    - APARTAMENTOS_TURISTICOS
+#    - ECTA
+#    - EEE #datos con asteriscos
+#    - EPA
+#    - AUTONOMOS  #error
+#    - SALARIOS
+#    - MCVL
+#    - EMPRESASIMD #no funciona
+#    - USO_TIC
     - IASS
     - AE
     - IVGSA
     - ICMA
     - PIIA
+    - CRTA
