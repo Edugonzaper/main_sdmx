@@ -1,0 +1,174 @@
+mds_id:
+  MSD_PIIA
+name:
+ Panel de Indicadores de Innovación de Andalucía
+mdf_id:
+  MDF_PIIA
+report_id:
+  REPORT_PIIA
+dataflow:
+  DF_PIIA
+R1:
+  "Instituto de Estadística y Cartografía de Andalucía"
+R2:
+  "Servicio de Difusión y Publicaciones"
+R3:
+  "--"
+R4:
+  "Atención a la demanda de información"
+R5:
+  "Pabellón de Nueva Zelanda. C/ Leonardo Da Vinci, nº 21. Isla de La Cartuja. 41071 - Sevilla"
+R6:
+  "informacion.ieca@juntadeandalucia.es"
+R7:
+  "Atención al público: 900 101 407 Centralita: 955 033 800"
+R8:
+  "955 033 816/17"
+R9:
+ "16/12/2021"
+R10:
+ "27/05/2022"
+R11:
+ "27/05/2022"
+R12:
+ 'Con el desarrollo de esta actividad el Instituto de Estadística y Cartografía de Andalucía (IECA) persigue dos objetivos: en primer
+  lugar, disponer de un panel de indicadores de innovación, en la línea de los "European Innovation Scoreboards", para poder realizar
+  un seguimiento de la actividad innovadora en la Comunidad Andaluza y su comparación a nivel europeo; y en segundo lugar,
+  profundizar en el comportamiento de los sectores económicos más innovadores y observar los efectos económicos de la innovación'
+R13:
+ "--"
+R14:
+ "--"
+R15:
+ "- Condiciones Marco: miden los principales impulsores del desempeño de la innovación externos a la empresa y cubren tres
+  dimensiones de innovación (Recursos humanos, Sistemas de investigación atractivos y Digitalización)
+  - Inversión: miden las inversiones realizadas en el sector público y privado (Financiación y apoyo, Inversiones de las empresas y Uso
+  de tecnologías de la información)
+  - Actividades de innovación: miden diferentes aspectos de la innovación en el sector empresarial diferenciando tres dimensiones
+  (Innovadores, Colaboracioes y Activos de conocimiento)
+  - Impactos: miden los efectos de las actividades de innovación de las empresas y diferencian entre tres dimensiones (Impactos en el
+  empleo, Efectos económicos y Sostenibilidad ambiental)"
+R16:
+ "Datos estadísticos publicados por distintos organismos"
+R17:
+ "Estadísticas oficiales recogidas en los Programas Estadísticos y Cartográficos Anuales de Andalucía, y del ámbito nacional y europeo"
+R18:
+ "Andalucía, España y Países Unión Europea"
+R19:
+ "Esta actividad estadística se pone en marcha en el marco del Plan Estadístico y Cartográfico de Andalucía 2013-2020 y por primera
+  vez se integra como actividad en el Programa Estadístico y Cartográfico de Andalucía 2013.
+  La actividad difunde información desde el año 2015 ofreciendo, con carácter general, series de datos desde 2005"
+R20:
+ "--"
+R21:
+ "Se mide en tantos por mil, tantos por millón de habitantes, miles de euros por persona empleada, toneladas por millón de euros y
+  porcentajes"
+R22:
+ "2017-2019, 2017-2019"
+R23:
+ "Ley 4/1989, de 12 diciembre, de Estadística de la Comunidad Autónoma de Andalucía
+  Ley 3/2013, de 24 de julio, por la que se aprueba el Plan Estadístico y Cartográfico de Andalucía 2013-2017 y Ley 6/2017, de 27 de
+  diciembre, por la que se modifica la Ley 3/2013, de 24 de julio, por la que se aprueba el Plan Estadístico y Cartográfico de Andalucía
+  2013-2017 para ampliar su vigencia hasta el 2020
+  Decreto 25/2020, de 24 de febrero, por el que se aprueba el Programa Estadístico y Cartográfico de la Comunidad Autónoma de
+  Andalucía para el año 2020"
+R24:
+ "--"
+R25:
+ "Ley 4/1989, de 12 diciembre, de Estadística de la Comunidad Autónoma de Andalucía
+  Ley 12/1989, de 9 de mayo, de la Función Estadística Pública
+  Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales"
+R26:
+ "--"
+R27:
+ "18/09/2020 y 2020"
+R28:
+ "09/07/2020 y 2020"
+R29:
+ "La actividad se difunde a través de la página web del IECA. La información se ofrece a través de la base de datos BADEA
+  http://www.juntadeandalucia.es/institutodeestadisticaycartografia/indinnova/index.htm"
+R30:
+ "Anual y Continua"
+R31:
+ "No existen comunicados o notas de prensa de esta actividad"
+R32:
+ "Panel de indicadores de innovación de Andalucía"
+R33:
+ "Esta actividad permite elaborar resultados a medida en el Banco de Datos Estadísticos de Andalucía (BADEA)"
+R34:
+ "No existe disponibilidad de microdatos para esta actividad"
+R35:
+ "--"
+R36:
+ "La memoria técnica está disponible en Internet en el apartado Metodología"
+R37:
+ "El IECA para garantizar la calidad en esta actividad aporta la memoria técnica, la ficha de indicadores de calidad y el informe
+  metodológico estandarizado de la actividad"
+R38:
+ "Una vez cargada la información de los indicadores en BADEA, es revisada por el Servicio de Planificación y Coordinación al efecto"
+R39:
+ "Se ha elaborado una ficha de calidad y está disponible en Internet en el apartado Metodología"
+R40:
+ "Ciudadanía y Administraciones Públicas"
+R41:
+ "--"
+R42:
+ "--"
+R43:
+ "Esta actividad es fiable ya que recoge información de otras actividades y fuentes que son fiables"
+R44:
+ "--"
+R45:
+ "--"
+R46:
+ "261 días"
+R47:
+ "71 días"
+R48:
+ 'La Comisión Europea publica un conjunto de indicadores de innovación para el ámbito regional a escala NUTS2, los “Regional
+  Innovation Scoreboards”, replicando la metodología de European Innovation Scoreboards pero con un número reducido de
+  indicadores debido al menor nivel de disponibilidad de datos de innovación a nivel regional y clasifica las regiones europeas en
+  cuatro grupos de rendimiento innovador tal y como lo hace el indicador sintético en base a los "European Innovation Scoreboards".
+  Y en el ámbito regional, el Instituto de Estadística del País Vasco publica un panel de indicadores réplica de los "European
+  Innovation Scoreboards" y un índice síntetico de innovación con la metodología europea'
+R49:
+ "Hay indicadores que en la web publican datos desde el año 2000 y son comparables porque no ha habido ruptura en la serie"
+R50:
+ "Los indicadores de esta actividad son coherentes con los que se publican en otras actividades del mismo sector"
+R51:
+ "La coherencia interna se garantiza a través de diversas validaciones realizadas antes de la publicación de los datos"
+R52:
+ "9.000,00€"
+R53:
+ "Al no existir datos provisionales no se realiza una revisión de los datos"
+R54:
+ "--"
+R55:
+ "Recopilación o Síntesis"
+R56:
+ "Continua"
+R57:
+ "El tipo de recogida de información de esta actividad es recopilación o síntesis. Para el cálculo de los indicadores se desarrolla una
+  labor de recopilación de información estadística en el ámbito del Sistema Estadístico y Cartográfico de Andalucía, del Sistema
+  Estadístico Nacional, de la Comisión Europea y de Eurostat. Por un lado, se recogen los datos necesarios para la construcción de los
+  indicadores a nivel andaluz de las diferentes estadísticas oficiales que se desarrollan, y por otro, se recogen las series de los
+  indicadores para los países de la Unión Europea de las páginas web de la Comisión Europea y Eurostat"
+R58:
+ "--"
+R59:
+ 'Esta actividad se desarrolla a través de la construcción de un sistema de indicadores de innovación, tomando como base el cuadro
+  de indicadores de la Comisión Europea, "European Innovation Scoreboards". Para la construcción de los indicadores a nivel andaluz
+  se lleva a cabo las siguientes fases:
+  1. Estudio de la metodología fijada por la Comisión Europea.
+  2. Estudio y construcción de la serie de España que publica la Comisión Europea.
+  3. Búsqueda de la fuente de información en el ámbito del Sistema Estadístico y Cartográfico de Andalucía. Si en esta búsqueda, no
+  se detecta ninguna estadística oficial en Andalucía que cubra la necesidad de información, se realizará la búsqueda en el ámbito del
+  Sistema Estadístico Nacional.
+  4. Construcción de la serie del indicador, a partir de la estadística oficial, asegurando la comparabilidad gracias al método de cálculo,
+  la unidad de medida adecuada y el utilizar la fuente de información fijada por la Comisión Europea.'
+R60:
+ "--"
+R61:
+ "--"
+
+

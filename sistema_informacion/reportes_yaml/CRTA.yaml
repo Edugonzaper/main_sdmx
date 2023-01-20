@@ -1,0 +1,231 @@
+mds_id:
+  MSD_CRTA
+name:
+  Contabilidad Regional Trimestral de Andalucía
+mdf_id:
+  MDF_CRTA
+report_id:
+  REPORT_CRTA
+dataflow:
+  DF_CRTA
+R1:
+  "Instituto de Estadística y Cartografía de Andalucía"
+R2:
+  "Servicio de Difusión y Publicaciones"
+R3:
+  "--"
+R4:
+  "Atención a la demanda de información"
+R5:
+  "Pabellón de Nueva Zelanda. C/ Leonardo Da Vinci, nº 21. Isla de La Cartuja. 41071 - Sevilla"
+R6:
+  "informacion.ieca@juntadeandalucia.es"
+R7:
+  "Atención al público: 900 101 407 Centralita: 955 033 800"
+R8:
+  "955 033 816/17"
+R9:
+  "16/12/2021"
+R10:
+  "27/05/2022"
+R11:
+  "27/05/2022"
+R12:
+  "Esta actividad tiene por objetivo estimar la evolución trimestral y anual de los principales agregados de la actividad económica de
+   Andalucía, por el lado de la oferta, la demanda, la renta y el empleo, (medido este último en términos de puestos de trabajo),
+   mediante técnicas econométricas que permitan conocer, en el mínimo espacio de tiempo posible, el crecimiento de la economía
+   andaluza."
+R13:
+  "Clasificación Nacional de Actividades Económicas (CNAE-2009)
+   Clasificación de bienes y servicios (COICOP)
+   Nomenclatura Combinada (NC- TARIC)"
+R14:
+  "Desglose a 10 ramas de actividad de la Clasificación Nacional de Actividades Económicas (CNAE-2009):
+   -A Agricultura, ganadería, silvicultura y pesca
+   -B,C,D,E Industrias extractivas; industria manufacturera; suministro de energía eléctrica, gas, vapor y aire acondicionado;
+   suministro de agua, actividades de saneamiento, gestión de residuos y descontaminación
+   -C De las cuales: industria manufacturera
+   -F Construcción
+   -G,H,I Comercio al por mayor y al por menor; reparación de vehículos de motor y motocicletas; transporte y almacenamiento;
+   hostelería
+   -J Información y comunicaciones
+   -K Actividades financieras y de seguros
+   -L Actividades inmobiliarias
+   -M,N Actividades profesionales, científicas y técnicas; actividades administrativas y servicios auxiliares
+   -O,P,Q Administración pública y defensa; seguridad social obligatoria; educación; actividades sanitarias y de servicios sociales
+   -R,S,T,U Actividades artísticas, recreativas y de entretenimiento; reparación de artículos de uso doméstico y otros servicios"
+R15:
+  "- El Sistema Europeo de Cuentas Nacionales y Regionales (SEC). Las cuentas económicas Andalucía se elaboran siguiendo las
+   pautas metodológicas contenidas en el Sistema Europeo de Cuentas Nacionales y Regionales (SEC), marco central de referencia
+   para las estadísticas económicas de la Unión Europea. El SEC es un documento de especial relevancia cuyo fin es establecer una
+   metodología relativa a definiciones, nomenclatura y normas contables comunes, destinada a permitir la elaboración de cuentas y
+   tablas, sobre bases comparables, para todos los ámbitos de la Unión Europea. En el SEC actualmente vigente existe un capítulo
+   dedicado exclusivamente a las cuentas trimestrales
+   - VAB a precios básicos. El Valor Añadido Bruto a precios básicos se obtiene como diferencia entre la producción de bienes y
+   servicios y el consumo intermedio
+   - PIB a precios de mercado, desde el punto de vista de la oferta. El Producto Interior Bruto a precios de mercado representa el
+   resultado final de la actividad de producción de las unidades de producción residentes. Corresponde a la producción total de
+   bienes y servicios de la economía, menos el total de los consumos intermedios, más impuestos netos sobre los productos
+   - PIB a precios de mercado, desde el punto de vista de la demanda. Es la suma de los empleos finales menos las importaciones;
+   es decir, la suma de la demanda regional más el saldo exterior
+   - PIB a precios de mercado, desde el punto de vista de la renta. Es la suma de la remuneración de los asalariados, el excedente
+   de explotación bruto, la renta mixta bruta y los impuestos netos sobre la producción y las importaciones de todas las ramas de
+   actividad
+   - Gasto en consumo final regional. Incluye el gasto realizado en el territorio nacional tanto por los hogares regionales como por las
+   Administraciones Públicas (AAPP) e Instituciones sin fines de lucro al servicio de los hogares (ISFLSH)."
+R16:
+  "Resultados obtenidos de diferentes indicadores y operaciones estadísticas que aportan información sectorial de la actividad
+   económica que se desarrolla en nuestra Comunidad"
+R17:
+  "Unidades institucionales que desarrollen alguna actividad económica en Andalucía según las normas de contabilización indicadas
+   por el Sistema Europeo de Cuentas"
+R18:
+  "Andalucía"
+R19:
+  "Se puede afirmar que el Sistema de Cuentas Económicas de Andalucía se inicia con la publicación del Marco Input-Output de
+   Andalucía 1995. A partir de ahí comienzan a configurarse el resto de operaciones estadísticas que a día de hoy lo configuran,
+   entre ellas la Contabilidad Regional Trimestral de Andalucía que inicia su publicación en Base 1995"
+R20:
+  "Actualmente se difunden resultados con base 2000, 2008, 2010 Y 2015."
+R21:
+  "Índices de volumen encadenados, precios corrientes en miles de euros y puestos de trabajo"
+R22:
+  "Tri4/2019, Tri1/2020, Tri2/2020, Tri3/2020"
+R23:
+  "Ley 4/1989, de 12 de diciembre, de Estadística de la Comunidad Autónoma de Andalucía
+   Ley 3/2013, de 24 de julio, por la que se aprueba el Plan Estadístico y Cartográfico de Andalucía 2013-2017
+   Ley 6/2017, de 27 de diciembre, por la que se modifica la Ley 3/2013, de 24 de julio, por la que se aprueba el Plan Estadístico y
+   Cartográfico de Andalucía 2013-2017 para ampliar su vigencia hasta el 2020 Decreto 25/2020, de 24 de febrero, por el que se
+   aprueba el Programa Estadístico y Cartográfico de la Comunidad Autónoma de Andalucía para el año 2020"
+R24:
+  "Acuerdo Marco sobre cooperación estadística e intercambio de información entre el Instituto Nacional de Estadística y el Instituto
+   de Estadística de Andalucía"
+R25:
+  "Ley 4/1989, de 12 de diciembre, de Estadística de la Comunidad Autónoma de Andalucía
+   Ley 12/1989, de 9 de mayo, de la Función Estadística Pública
+   Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales"
+R26:
+  "--"
+R27:
+  "(Estimación): 04/02/2020, 05/05/2020, 04/08/2020, 04/11/2020
+   (Avance): 14/02/2020, 14/05/2020, 14/08/2020, 20/11/2020"
+R28:
+  "(Avance): 14/02/2020, 14/05/2020, 14/08/2020, 20/11/2020"
+R29:
+  "La actividad se difunde a través de la página web del IECA. La información se ofrece a partir de un árbol temático a través de la
+   base de datos BADEA
+   http://www.juntadeandalucia.es/institutodeestadisticaycartografia/crta/index.htm"
+R30:
+  "Trimestral"
+R31:
+  "Sí
+   http://www.juntadeandalucia.es/institutodeestadisticaycartografia/crta/notaprensa.htm"
+R32:
+  "Contabilidad Regional Trimestral de Andalucía
+   Estimación Avance del PIB trimestral"
+R33:
+  "Esta actividad permite elaborar resultados a medida en el Banco de Datos Estadísticos de Andalucía (BADEA)"
+R34:
+  "No existe disponibilidad de microdatos para esta actividad"
+R35:
+  "--"
+R36:
+  "La memoria técnica está disponible en Internet en el apartado Metodología"
+R37:
+  "El IECA para garantizar la calidad en esta actividad aporta la memoria técnica, la ficha de indicadores de calidad y el informe
+   metodológico estandarizado de la actividad"
+R38:
+  "El control de calidad se realiza fundamentalmente a los indicadores parciales, a partir de los cuales se construyen los indicadores
+   sintéticos, de tal forma que se garantice la homogeneidad de los datos de las series. Ésta cuestión se pone de manifiesto, por
+   ejemplo, cuando se produce un cambio de base o de definición de los mismos de los mismos y ello puede conllevar una ruptura
+   en la continuidad de la serie. Asimismo, es de gran importancia la detección y tratamiento de datos atípicos"
+R39:
+  "Se ha elaborado una ficha de calidad y está disponible en Internet en el apartado Metodología"
+R40:
+  "Analistas económicos, investigadores universitarios, Administración pública"
+R41:
+  "--"
+R42:
+  "--"
+R43:
+  "La recogida de información de esta actividad se basa en una explotación y recopilación de información estadística oficial, ello
+   permite asegurar que en el desarrollo de las mismas se ha realizado un estudio de fiabilidad por lo que la información obtenida a
+   partir de ella hace que sea una actividad fiable"
+R44:
+  "--"
+R45:
+  "La no disponibilidad de información de base para la realización de las estimaciones en la práctica se soluciona con la realización de
+   estimaciones para aquellos indicadores que en el momento del cálculo no se encuentran disponibles. Esto es posible con la
+   utilización de programas tales como el TSW (Tramo & Seats de Windows). Una vez que estos indicadores se publican, sustituyen a
+   las estimaciones realizadas"
+R46:
+  "45 días"
+R47:
+  "0 días"
+R48:
+  "En cuanto a otras experiencias sobre contabilidad trimestral, hay que señalar que fue el Instituto Nacional de Estadística (INE) el
+   pionero en su elaboración para el territorio de España. En el ámbito regional, la Comunidad Autónoma de Galicia, el País Vasco y
+   Cataluña son las que, junto con Andalucía, a través de sus organismos estadísticos más han avanzado en la consecución de un
+   sistema de cuentas trimestrales"
+R49:
+  "Existen datos desde el primer trimestre del año 1995 y son comparables porque no ha habido ruptura en a serie"
+R50:
+  "Esta actividad es coherente con la Contabilidad Regional Anual de Andalucía y otras del mismo sector"
+R51:
+  "La coherencia interna se garantiza a través de diversas validaciones realizadas antes de la publicación de los datos"
+R52:
+  "45.008,86 €"
+R53:
+  "Dentro de las operaciones incluidas en el Sistema de Cuentas Económicas de Andalucía (SCEA) se producen revisiones rutinarias
+   y revisiones extraordinarias.
+   Las revisiones rutinarias se producen por los cambios que sufren los datos contables inicialmente difundidos en publicaciones
+   posteriores, resultado de sustituir información con carácter avance o provisional por datos definitivos, así como, de sustituir
+   información coyuntural por otra de carácter estructural y que ofrece un mayor desglose de la información facilitada. Estas
+   revisiones suelen afectar a un número reducido de años.
+   Las revisiones extraordinarias se refieren a renovaciones periódicas, menos frecuentes que las rutinarias, de la información de
+   cuentas nacionales y regionales y afectan a un número mayor de años. Estas revisiones se suelen subdividir en dos tipos
+   denominados revisiones extraordinarias ad-hoc y regulares. Las primeras se producen por cambios metodológicos o cambios en
+   las clasificaciones utilizadas en la compilación de las cuentas nacionales y regionales, mientras que el segundo tipo de revisión
+   extraordinaria tiene su origen en la incorporación de los resultados de cambios en las fuentes estadísticas básicas (encuestas,
+   censos,..) y/o en nuevos métodos de estimación, y se suelen producir regularmente cada cinco años, lo que tradicionalmente se
+   denominan cambios de base o revisiones estadísticas. Estas revisiones se realizan de acuerdo con la metodología del Sistema
+   Europeo de Cuentas vigente en cada momento.
+   La Contabilidad Regional Trimestral de Andalucía (CRTA), como operación integrada dentro del SCEA está sujeta por tanto a todos
+   estos tipos de revisiones"
+R54:
+  "Dentro de esta operación estadística, para cada trimestre t se realizan dos publicaciones, la Estimación Avance del PIB trimestral
+   de Andalucía que es publicada en torno a t+33 días y la Contabilidad Regional Trimestral de Andalucía, con resultados
+   actualizados y desagregados, en torno a t+45 días. Al mismo tiempo, se difunden resultados actualizados de los trimestres
+   anteriores del año en curso T.
+   Coincidiendo con la publicación correspondiente al primer trimestre del año T+1 se revisan los trimestres correspondientes al año
+   T debido a la incorporación de indicadores coyunturales más actualizados o no disponibles en el momento en el que se realizó la
+   primera estimación del año T.
+   Además, coincidiendo con la publicación del tercer trimestre de cada año, se difunden resultados revisados desde el primer
+   trimestre del año T-3, en consistencia con la política de revisión de resultados de la Contabilidad Regional Anual de Andalucía."
+R55:
+  "Explotación de información estadística, Recopilación o Síntesis"
+R56:
+  "Trimestral"
+R57:
+  "La CRTA se alimenta de múltiples fuentes: explota información estadística de actividades tanto del propio Instituto de Estadística y
+   Cartografía de Andalucía como del Instituto Nacional de Estadística, cuando requiere mayor desagregación de la publicada, por
+   ramas de actividad o ámbito territorial principalmente; así como recopila resultados de fuentes de información de organismos
+   oficiales (INE, Consejerías, Ministerios,...) y de otros organismos (Banco de España, Observatorios, …) que alimentan la base de
+   datos de indicadores de alta frecuencia"
+R58:
+  "--"
+R59:
+  "Se adopta la metodología establecida en el Sistema Europeo de Cuentas Nacionales y Regionales actualmente vigente, que
+   establece un procedimiento indirecto de estimación de los principales agregados macroeconómicos que se basa en la
+   desagregación temporal de los datos de cuentas anuales, de acuerdo con métodos estadísticos y econométricos, utilizando
+   indicadores de aproximación que permiten la interpolación y extrapolación para el año corriente de cada uno de los agregados
+   contables."
+R60:
+  "El procedimiento habitual utilizado para la trimestralización de las series por la Contabilidad Regional Trimestral de Andalucía es el
+   de Chow-Lin que resulta ser un método de interpolación, distribución y extrapolación trimestral de series, basado en indicadores.
+   Ha sido elegido por su optimalidad (estimadores lineales, insesgados de mínima varianza) y generalidad."
+R61:
+  "Revisión estadística 2019:
+   http://www.juntadeandalucia.es/institutodeestadisticaycartografia/craa/metodologia/NotaTecnica.pdf"
+
+
