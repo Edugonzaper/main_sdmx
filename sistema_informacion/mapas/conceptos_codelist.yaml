@@ -579,6 +579,102 @@ IASS_TIPOVENTAS:
     es: Tipo de ventas
   nombre_dimension: IASS_TIPOVENTAS
   tipo: dimension
+ICMA_TIPINDOCUPAC:
+  codelist:
+    agency: ESC01
+    id: CL_TIPINDOCUPAC
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: IPINDOCUPAC
+    id: CS_BUSINESS_STAT
+    version: '1.0'
+  descripcion:
+    es: "Tipo de \xEDndice de ocupaci\xF3n"
+  nombre:
+    es: "Tipo de \xEDndice de ocupaci\xF3n"
+  nombre_dimension: TIPINDOCUPAC
+  tipo: dimension
+ICMA_TIPOVENTAS:
+  codelist:
+    agency: ESC01
+    id: CL_TIPOVENTAS
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TIPOVENTAS
+    id: CS_BUSINESS_STAT
+    version: '1.0'
+  descripcion:
+    es: Tipo de ventas
+  nombre:
+    es: Tipo de ventas
+  nombre_dimension: TIPOVENTAS
+  tipo: dimension
+IVGS_SERIEIVGS:
+  codelist:
+    agency: ESC01
+    id: CL_TIPOSERIE
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TIPOSERIE
+    id: CS_BUSINESS_STAT
+    version: '1.0'
+  descripcion:
+    es: Tipo de Serie
+  nombre:
+    es: Tipo de Serie
+  nombre_dimension: TIPOSERIE
+  tipo: dimension
+IVGS_TIPVENT:
+  codelist:
+    agency: ESC01
+    id: CL_TIPOVENTAS
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TIPOVENTAS
+    id: CS_BUSINESS_STAT
+    version: '1.0'
+  descripcion:
+    es: Tipo de ventas
+  nombre:
+    es: Tipo de ventas
+  nombre_dimension: TIPOVENTAS
+  tipo: dimension
+LUGARNACIMIEN:
+  codelist:
+    agency: ESC01
+    id: CL_LUGARNACIMIEN
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: LUGARNACIMIEN
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Lugar de nacimiento
+  nombre:
+    es: Lugar de nacimiento
+  nombre_dimension: LUGARNACIMIEN
+  tipo: dimension
+SEXO:
+  codelist:
+    agency: SDMX
+    id: CL_SEX
+    version: '2.1'
+  concept_scheme:
+    agency: SDMX
+    concepto: SEX
+    id: CROSS_DOMAIN_CONCEPTS
+    version: '2.0'
+  descripcion:
+    es: Sexo
+  nombre:
+    es: Sexo
+  nombre_dimension: SEXO
+  tipo: dimension
 TEMPORAL:
   codelist:
     agency: ESC01
@@ -610,4 +706,20 @@ TERRITORIO:
   nombre:
     es: Territorio
   nombre_dimension: TERRITORIO
+  tipo: dimension
+TERRITORIO_1:
+  codelist:
+    agency: ESC01
+    id: CL_TERRITORIO_1
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TERRITORIO_1
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: "Pa\xEDs de residencia"
+  nombre:
+    es: "Pa\xEDs de residencia"
+  nombre_dimension: TERRITORIO_1
   tipo: dimension

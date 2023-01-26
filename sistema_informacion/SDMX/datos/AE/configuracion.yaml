@@ -27,6 +27,23 @@ variables:
 - EDAD
 - TERRITORIO_1
 - ARE_INSCRIPCION
-metadatos_title: Población residente en el resto del mundo
-metadatos_subtitle: Nuevas inscripciones por lugar de inscripción * y lugar de nacimiento
-  según sexo **
+metadatos_title:
+  '437': Andaluces residentes en el resto de España
+  '439': Andaluces Residentes en el Resto de España
+  '454': Andaluces residentes en el resto del mundo
+  '455': Andaluces residentes en el resto del mundo
+  '1915': Andaluces residentes en el resto del mundo
+  '1917': Población residente en el resto del mundo
+metadatos_subtitle:
+  '437': Andaluces residentes en el resto de España por comunidad autónoma de residencia
+    y provincia de nacimiento según sexo *
+  '439': Andaluces residentes en el resto de España por grupos de edad y provincia
+    de nacimiento según sexo *
+  '454': Población inscrita en Andalucía por provincia de inscripción y lugar de nacimiento
+    según sexo *
+  '455': Población inscrita en Andalucía por continente/país de residencia, lugar
+    de nacimiento según provincia de inscripción y sexo *
+  '1915': Población nacida en Andalucía por provincia de nacimiento y lugar de inscripción
+    según sexo *
+  '1917': Nuevas inscripciones por lugar de inscripción * y lugar de nacimiento según
+    sexo **
