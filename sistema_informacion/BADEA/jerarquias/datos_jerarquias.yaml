@@ -78,14 +78,14 @@ AA_TIPOCOTIZACA:
     es: TIPOCOTIZACA
   version: '1.0'
 AA_TIPODEHOGAR:
-  ID: CL_TIPODEHOGAR
+  ID: CL_TIPOHOGAR
   agency: ESC01
   description:
     es: Tipo de hogar
   fichero:
   - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45038\D_AA_TIPODEHOGAR_0.csv
   nombre:
-    es: TIPODEHOGAR
+    es: TIPOHOGAR
   version: '1.0'
 AA_TIPOMOVIMIEN:
   ID: CL_TIPOMOVIMIEN
@@ -1120,7 +1120,7 @@ MCVL_SECTORACTIVIDAD:
   fichero:
   - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45044\D_MCVL_SECTORACTIVIDAD_0.csv
   nombre:
-    es: MCVL_SECTORACTIVIDAD
+    es: SECTORACTIVIDAD
   version: '1.0'
 MCVL_TIPOCOTIZACION:
   ID: CL_TIPOCOTIZACION
@@ -2178,6 +2178,14 @@ TERRITORIO:
   - sistema_informacion/BADEA/jerarquias\CRA\sdmx\27053\D_TERRITORIO_0.csv
   - sistema_informacion/BADEA/jerarquias\CRA\sdmx\27055\D_TERRITORIO_0.csv
   - sistema_informacion/BADEA/jerarquias\CRA\sdmx\66051\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\AE\sdmx\455\D_TERRITORIO_1.csv
+  - sistema_informacion/BADEA/jerarquias\AE\sdmx\455\D_TERRITORIO_1.csv
+  - sistema_informacion/BADEA/jerarquias\AE\sdmx\455\D_TERRITORIO_1.csv
+  - sistema_informacion/BADEA/jerarquias\AE\sdmx\455\D_TERRITORIO_1.csv
+  - sistema_informacion/BADEA/jerarquias\AE\sdmx\455\D_TERRITORIO_1.csv
+  - sistema_informacion/BADEA/jerarquias\AE\sdmx\455\D_TERRITORIO_1.csv
+  - sistema_informacion/BADEA/jerarquias\AE\sdmx\455\D_TERRITORIO_1.csv
+  - sistema_informacion/BADEA/jerarquias\AE\sdmx\455\D_TERRITORIO_1.csv
   - sistema_informacion/BADEA/jerarquias\AE\sdmx\455\D_TERRITORIO_1.csv
   - sistema_informacion/BADEA/jerarquias\AE\sdmx\455\D_TERRITORIO_1.csv
   - sistema_informacion/BADEA/jerarquias\AE\sdmx\455\D_TERRITORIO_1.csv

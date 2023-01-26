@@ -27,3 +27,6 @@ variables:
 - EDAD
 - TERRITORIO_1
 - ARE_INSCRIPCION
+metadatos_title: Población residente en el resto del mundo
+metadatos_subtitle: Nuevas inscripciones por lugar de inscripción * y lugar de nacimiento
+  según sexo **

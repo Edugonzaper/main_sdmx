@@ -27,7 +27,7 @@ contraseña_SDMX: ''
 nodeId: 'ESC01'
 
 cache: traducciones.yaml
-translate: False
+translate: True
 
 url_ckan: http://localhost:5000
 api_ckan: ''

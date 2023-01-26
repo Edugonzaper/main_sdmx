@@ -1,6 +1,10 @@
+import os
+
 import pandas as pd
 import yaml
 from iecasdmx.ieca.actividad import Actividad
+from mdmpyclient.ckan.ckan import Ckan
+from mdmpyclient.mdm import MDM
 
 
 def execute_actividades(configuracion_ejecucion, configuracion_global, configuracion_actividades,
@@ -124,7 +128,7 @@ def create_dataflows(configuracion_ejecucion, configuracion_actividades, configu
             dimensiones = {variable: mapa_conceptos_codelist[variable] for variable in
                            configuracion_actividad['variables']}
             cube_id = controller.cubes.put(cube_code, id_cube_cat, 'DSD_' + nombre_actividad,
-                                           'Metadatos por construir', dimensiones)
+                                           configuracion_actividades_sdmx[nombre_actividad]['metadatos_title'][consulta_id], dimensiones)
 
             variables = configuracion_actividad['variables'] + ['INDICATOR', 'TEMPORAL',
                                                                 'FREQ',
@@ -141,7 +145,8 @@ def create_dataflows(configuracion_ejecucion, configuracion_actividades, configu
             controller.mappings.data[cube_id].load_cube(cube_data)
 
             df_id = f'DF_{nombre_actividad}_{consulta_id}'
-            df_name = {'es': 'Metadatos por construir'}
+            print("CONFIGU -> ", configuracion_actividades_sdmx)
+            df_name = {'es': configuracion_actividades_sdmx[nombre_actividad]["metadatos_title"][consulta_id]}
             dataflow_columns = [
                 f'ID_{column}' if column not in ['OBS_VALUE', 'TEMPORAL'] else column.replace('TEMPORAL',
                                                                                               'ID_TIME_PERIOD') for
@@ -159,3 +164,59 @@ def script_provisional(cube_data, columns):
         if column not in cube_data.columns:
             cube_data.insert(len(cube_data.columns), column, '_Z')
     return cube_data
+
+
+def volcado_ckan(configuracion_global, traductor, controller):
+    ckan = Ckan(configuracion_global)
+    if configuracion_global['reset_ckan']:
+        ckan.datasets.remove_all_datasets()
+
+    if not controller:
+        controller = MDM(configuracion_global, traductor, True)  # Supongo que esta solucion es temporal.
+
+    if configuracion_global['create_groups']:
+        ckan.groups.create_groups(controller.category_schemes.data['ESC01']['IECA_CAT_EN_ES']['1.0'].categories)
+    for cube in controller.cubes.data:
+        first_ = cube.find('_')
+        second_ = cube.find('_', first_ + 1)
+        nombre_actividad = cube[first_ + 1:second_]
+        id_consulta = cube[second_ + 1:]
+        agencia = cube[:first_]
+        id_df = f'DF_{nombre_actividad}_{id_consulta}'
+        id_dataset = f'{nombre_actividad}_{id_consulta}'
+        ckan.datasets.create(id_dataset.lower(), id_dataset, 'instituto-de-estadistica-y-geografia-de-andalucia',
+                             ckan.groups.groups[nombre_actividad.lower()])
+        path = os.path.join(configuracion_global['directorio_datos'], nombre_actividad, 'procesados')
+        ckan.resources.create_from_file(f'{path}/{id_consulta}.csv', f'DATA_{id_dataset}', 'csv', id_dataset.lower())
+        ckan.resources.create_from_file(
+            f'{configuracion_global["directorio_metadatos_html"]}/REPORT_{id_dataset}.html',
+            f'REPORT_{id_dataset}', 'html', id_dataset.lower())
+
+
+def create_metadatos(configuracion_ejecucion, configuracion_actividades, category_scheme, controller,
+                     configuracion_global,configuracion_actividades_sdmx):
+    for nombre_actividad in configuracion_ejecucion['actividades']:
+
+        for consulta in configuracion_actividades[nombre_actividad]['consultas']:
+            print("config ->", configuracion_actividades_sdmx)
+
+            consulta_id = str(consulta).split('?')[0]
+            nombre_df = configuracion_actividades_sdmx[nombre_actividad]['metadatos_title'][consulta_id]
+            if configuracion_actividades_sdmx[nombre_actividad]['metadatos_subtitle'][consulta_id]:
+                nombre_df = configuracion_actividades_sdmx[nombre_actividad]['metadatos_title'][consulta_id] + ': ' \
+                            + configuracion_actividades_sdmx[nombre_actividad]['metadatos_subtitle'][consulta_id]
+            id_mdf = f'MDF_{nombre_actividad}_{consulta_id}'
+            print("nombre_df antes del put ", nombre_df)
+            controller.metadataflows.put('ESC01', id_mdf, '1.0', {'es': nombre_df}, None)
+            id_mds = f'MDS_{nombre_actividad}_{consulta_id}'
+            nombre_mds = {'es': nombre_df}
+            categoria = category_scheme.get_category_hierarchy(nombre_actividad)
+            controller.metadatasets.put('ESC01', id_mds, nombre_mds, id_mdf, '1.0',
+                                        'IECA_CAT_EN_ES', categoria, '1.0')
+            path = os.path.join(configuracion_global['directorio_reportes_metadatos'], nombre_actividad,
+                                configuracion_actividades[nombre_actividad][
+                                    'informe_metadatos'] + f'_{consulta_id}.json')
+            controller.metadatasets.data[id_mds].put(path)
+            controller.metadatasets.data[id_mds].init_data()
+            controller.metadatasets.data[id_mds].publish_all()
+            controller.metadatasets.data[id_mds].download_all_reports()

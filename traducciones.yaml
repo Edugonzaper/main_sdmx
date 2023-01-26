@@ -6841,10 +6841,25 @@ Alpujarra de la Sierra:
   en: Alpujarra de la Sierra
 Alta:
   en: Alta
+? "An observation is characterised as \"provisional\" when the source agency \u2013\
+  \ while it bases its calculations on its standard production methodology \u2013\
+  \ considers that the data, almost certainly, are expected to be revised."
+: es: "Una observaci\xF3n se califica de \"provisional\" cuando la agencia fuente\
+    \ -aunque basa sus c\xE1lculos en su metodolog\xEDa de producci\xF3n est\xE1ndar-\
+    \ considera que los datos, casi con toda seguridad, se revisar\xE1n."
+? An observation is marked as revised when previously transmitted data are changed
+  to inform the users that there has been a change. An additional comment (e.g. through
+  the COMMENT_OBS attribute) may provide information on the change.
+: es: "Una observaci\xF3n se marca como revisada cuando se modifican los datos transmitidos\
+    \ previamente para informar a los usuarios de que se ha producido un cambio. Un\
+    \ comentario adicional (por ejemplo, a trav\xE9s del atributo COMMENT_OBS) puede\
+    \ proporcionar informaci\xF3n sobre el cambio."
 Analfabetos:
   en: Illiterate
 "Andaluc\xEDa":
   en: Andalusia
+Annual:
+  es: Anual
 Apartamento, piso o chalet de amigos, familiares...:
   en: Flat, flat or chalet of friends, relatives...
 Apartamento, piso o chalet en alquiler:
@@ -6873,6 +6888,16 @@ Baja:
   en: Contribution basis
 "Base de cotizaci\xF3n m\xEDnima":
   en: Minimum contribution base
+Bidecennial:
+  es: Bidecenal
+Biennial:
+  es: Bienal
+Bihourly:
+  es: Bihourly
+Bimonthly:
+  es: Bimestral
+Biweekly:
+  es: Cada dos semanas
 Busca primer empleo:
   en: Looking for a first job
 "CNAE 45. Venta y reparaci\xF3n veh\xEDculos de motor y motocicletas":
@@ -6995,6 +7020,15 @@ Ciencias de la agricultura y veterinaria:
   en: Agricultural and veterinary sciences
 Ciencias exactas y naturales:
   en: Natural sciences
+? "Clause in an agreement (e.g. legal act, gentlemen\u2019s agreement) stating that\
+  \ some provisions in the agreement are not to be implemented by designated parties;\
+  \ these derogations may affect the observation or cause a missing value. In general,\
+  \ derogations are limited in time."
+: es: "Cl\xE1usula de un acuerdo (por ejemplo, un acto jur\xEDdico, un pacto de caballeros)\
+    \ que establece que algunas disposiciones del acuerdo no deben ser aplicadas por\
+    \ las partes designadas; estas derogaciones pueden afectar a la observaci\xF3\
+    n o provocar un valor omitido. En general, las derogaciones est\xE1n limitadas\
+    \ en el tiempo."
 "Cobrando prestaci\xF3n o subsidio por desempleo":
   en: Receiving unemployment benefit or allowance
 "Comercio electr\xF3nico por principales variables":
@@ -7033,6 +7067,17 @@ Cotizante y pensionista:
   n nivel de formaci\xF3n alcanzado por sexo y grupo de edad *"
 : en: 'Labour market qualifications. Educational attainment: Unemployment rates by
     educational attainment by gender and age group *.'
+Daily:
+  es: Diario
+"Daily \u2013 business week":
+  es: Diario - semana laboral
+? Data collected on the basis of definitions or (alternative) collection methods under
+  development. Data not of guaranteed quality as normally expected from provider.
+: es: "Datos recopilados sobre la base de definiciones o m\xE9todos de recopilaci\xF3\
+    n (alternativos) en desarrollo. Datos de calidad no garantizada, como se espera\
+    \ normalmente del proveedor."
+Data included in another category:
+  es: "Datos incluidos en otra categor\xEDa"
 'Datos generales: Gastos en I+D por sectores y tipo de gastos':
   en: 'General data: R&D expenditure by sector and type of expenditure'
 'Datos generales: Personal en I+D por sectores y tipo de personal':
@@ -7065,6 +7110,12 @@ Cotizante y pensionista:
   en: 6 months to 1 year
 "De 91 a 360 d\xEDas":
   en: From 91 to 360 days
+Decennial:
+  es: Decenal
+Definition differs:
+  es: "Definici\xF3n"
+Derogation:
+  es: "Excepci\xF3n"
 "Desviaci\xF3n t\xEDpica (\u20AC)":
   en: "Standard deviation (\u20AC)"
 Directores y gerentes:
@@ -7135,6 +7186,8 @@ Estancia media de los turistas por tipo de alojamiento:
   en: Average stay of tourists by accommodation type
 Estancia media por provincia:
   en: Average stay by province
+Estimated value:
+  es: Valor estimado
 Estructura del hogar:
   en: Household structure
 "Estructura demogr\xE1fica. Relaci\xF3n con la actividad econ\xF3mica: Activos seg\xFAn grupo de edad por sexo y nacionalidad*":
@@ -7166,10 +7219,16 @@ Estudios:
   \ paro: Parados seg\xFAn sexo por sector econ\xF3mico* (CNAE09)"
 : en: 'Unemployed work experience and job search. Pre-unemployment experience: Unemployed
     by sex by economic sector* (CNAE09)'
+Experimental value:
+  es: Valor experimental
 Extranjera:
   en: Foreign
 Extranjeros:
   en: Foreigners
+Forecast value:
+  es: Valor previsto
+Four-weekly:
+  es: Cada cuatro semanas
 Frigiliana:
   en: Frigiliana
 G. TOTAL SECTOR COMERCIO:
@@ -7208,6 +7267,8 @@ Habitaciones medias estimadas:
   en: Estimated average rooms
 "Hace m\xE1s de 1 a\xF1o desde su \xFAltimo empleo":
   en: More than 1 year since last job
+Half-yearly, semester:
+  es: Semestral, semestral
 "Hijo 16-22 a\xF1os":
   en: Son 16-22 years
 "Hijo 16-22 a\xF1os y otros":
@@ -7250,6 +7311,8 @@ Horas personal remunerado:
   en: Hostel, guesthouse
 Hotel, apartahotel:
   en: Hotel, apartahotel
+Hourly:
+  es: Por hora
 Humanidades y las Artes:
   en: Humanities and the Arts
 "I. HOSTELER\xCDA":
@@ -7258,6 +7321,8 @@ Importe:
   en: Import
 Impuestos menos subvenciones:
   en: Taxes minus subsidies
+Imputed value (CCSA definition):
+  es: "Valor imputado (definici\xF3n CCSA)"
 Inactivos:
   en: Inactive
 Inactivos con pensiones:
@@ -7292,6 +7357,8 @@ Intervalo de ingresos:
   en: Gross investment in tangible goods
 Investigadores:
   en: Researchers
+Irregular:
+  es: Irregular
 "J. INFORMACI\xD3N Y COMUNICACIONES":
   en: J. INFORMATION AND COMMUNICATIONS
 "Jubilaci\xF3n":
@@ -7307,6 +7374,8 @@ L. ACTIVIDADES INMOBILIARIAS:
     year
 Labores del hogar:
   en: Housework
+Low reliability:
+  es: Baja fiabilidad
 "M. ACTIVIDADES PROFESIONALES, CIENT\xCDFICAS Y T\xC9CNICAS":
   en: M. PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES
 "Madera, papel, y artes gr\xE1ficas":
@@ -7331,8 +7400,22 @@ Menos de 6 meses:
   en: Member of management body
 Mijas:
   en: Mijas
+Minutely:
+  es: Minuciosamente
+Missing value:
+  es: Valor omitido
+Missing value; data cannot exist:
+  es: Valor omitido; los datos no pueden existir
+Missing value; data exist but were not collected:
+  es: Valor omitido; los datos existen pero no se recogieron
+Missing value; holiday or weekend:
+  es: Valor omitido; festivo o fin de semana
+Missing value; suppressed:
+  es: Valor omitido; suprimido
 Monoparental:
   en: Single-parent
+Monthly:
+  es: Mensualmente
 Muebles:
   en: Furniture
 Mujeres:
@@ -7375,6 +7458,12 @@ No estaba afiliado:
   en: I was not affiliated
 No refiere estado de inactividad:
   en: Does not refer to inactive status
+Normal:
+  es: Normal
+Not applicable:
+  es: No aplicable
+Not significant:
+  es: No significativo
 Nunca:
   en: Never
 "N\xBA de altas en el a\xF1o":
@@ -7393,6 +7482,44 @@ Nunca:
   en: Number of movements
 "N\xFAmero de turistas. Anual.":
   en: Number of tourists. Annual.
+Observation as received from the respondent without further evaluation of data quality.:
+  es: "Observaci\xF3n recibida del encuestado sin m\xE1s evaluaci\xF3n de la calidad\
+    \ de los datos."
+? Observation imputed by international organisations to replace or fill gaps in national
+  data series, in line with the recommendations of the United Nations Committee for
+  the Coordination of Statistical Activities (CCSA).
+: es: "Observaci\xF3n imputada por organizaciones internacionales para sustituir o\
+    \ colmar lagunas en las series de datos nacionales, de acuerdo con las recomendaciones\
+    \ del Comit\xE9 de las Naciones Unidas para la Coordinaci\xF3n de Actividades\
+    \ Estad\xEDsticas (CCSA)."
+? Observation obtained through an estimation methodology (e.g. to produce back-casts)
+  or based on the use of a limited amount of data or ad hoc sampling and through additional
+  calculations (e.g. to produce a value at an early stage of the production stage
+  while not all data are available). It may also be used in case of experimental data
+  (e.g. in the context of a pilot ahead of a full scale production process) or in
+  case of data of (anticipated/assessed) low quality. If needed, additional information
+  can be provided through free text using the COMMENT_OBS attribute at the observation
+  level or at a higher level .
+: es: "Observaci\xF3n obtenida mediante una metodolog\xEDa de estimaci\xF3n (por ejemplo,\
+    \ para producir back-casts) o basada en el uso de una cantidad limitada de datos\
+    \ o un muestreo ad hoc y mediante c\xE1lculos adicionales (por ejemplo, para producir\
+    \ un valor en una fase temprana de la etapa de producci\xF3n mientras no se dispone\
+    \ de todos los datos). Tambi\xE9n puede utilizarse en caso de datos experimentales\
+    \ (por ejemplo, en el contexto de un proyecto piloto previo a un proceso de producci\xF3\
+    n a gran escala) o en caso de datos de baja calidad (prevista/evaluada). En caso\
+    \ necesario, puede facilitarse informaci\xF3n adicional mediante texto libre utilizando\
+    \ el atributo COMMENT_OBS en el nivel de observaci\xF3n o en un nivel superior\
+    \ ."
+? Observations are characterised as such when different content exists or a different
+  methodology has been applied to this observation as compared with the preceding
+  one (the one given for the previous period).
+: es: "Las observaciones se caracterizan como tales cuando existe un contenido diferente\
+    \ o se ha aplicado una metodolog\xEDa diferente a esta observaci\xF3n en comparaci\xF3\
+    n con la precedente (la del periodo anterior)."
+Occasional annual:
+  es: Ocasional anual
+Occasional monthly:
+  es: Mensual ocasional
 Ocupaciones elementales:
   en: Elementary occupations
 Ocupaciones militares:
@@ -7415,6 +7542,8 @@ Operadores de instalaciones y maquinaria, y montadores:
   en: Plant and machinery operators and assemblers
 Orfandad y a favor de familiares:
   en: Orphans and relatives
+Other:
+  es: Otros
 Otra maquinaria y equipo:
   en: Other machinery and equipment
 "Otras actividades de fabricaci\xF3n":
@@ -7650,6 +7779,14 @@ Productividad:
 "Provincias. Pensionistas: Poblaci\xF3n pensionista por sexo, provincia de residencia y tipo de pensi\xF3n (*)":
   en: 'Provinces. Pensioners: Pensioner population by sex, province of residence and
     type of pension (*)'
+Provisional value:
+  es: Valor provisional
+Quadrennial:
+  es: Cuadrienal
+Quarterly:
+  es: Trimestral
+Quinquennial:
+  es: Quinquenal
 "Qu\xEDmica (incluida la farmacia)":
   en: Chemistry (including pharmacy)
 "Realiz\xF3 trabajos sin remuneraci\xF3n, otras":
@@ -7682,6 +7819,8 @@ Remunerados fijos mujeres:
   en: Rest of Spain
 Resto del mundo:
   en: Rest of the world
+Revised value:
+  es: Valor revisado
 "Rinc\xF3n de la Victoria":
   en: "Rinc\xF3n de la Victoria"
 "S. OTROS SERVICIOS (EXCEPTO DIVISI\xD3N 94 CNAE 2009)":
@@ -7958,10 +8097,21 @@ Sectoral_stat:
   en: "Second quartile (\u20AC)"
 Segura de la Sierra:
   en: Segura de la Sierra
+Semimonthly:
+  es: Semestral
+Semiweekly:
+  es: Semanal
 "Servicios de alta tecnolog\xEDa":
   en: High-tech services
 "Servicios p\xFAblicos":
   en: Public services
+? "Similar to \"daily\", however there are no observations\n            for Saturdays\
+  \ and Sundays (so, neither \u201Cmissing values\u201D nor \u201Cnumeric values\u201D\
+  \ should be\n            provided for Saturday and Sunday)"
+: es: "Similar a \"diario\", sin embargo no hay observaciones\n            para s\xE1\
+    bados y domingos (por lo que no se deben proporcionar ni \"valores perdidos\"\
+    \ ni \"valores num\xE9ricos\" para s\xE1bados y domingos).\n            los s\xE1\
+    bados y domingos)"
 "Sin mujer menor de 50 a\xF1os":
   en: No woman under 50
 "Sin n\xFAcleo":
@@ -8010,6 +8160,11 @@ Segura de la Sierra:
   en: Survive 9 years
 Socio de cooperativa o de empresa colectiva:
   en: Member of a cooperative or collective enterprise
+Special circumstances (e.g. strike) affecting the observation or causing a missing value.:
+  es: "Circunstancias especiales (por ejemplo, huelga) que afecten a la observaci\xF3\
+    n o provoquen un valor omitido."
+Strike and other special events:
+  es: Huelga y otros acontecimientos especiales
 Sueldos y salarios:
   en: Wages and salaries
 Supervivientes:
@@ -8040,6 +8195,8 @@ Supervivientes:
   en: General scheme only
 "S\xF3lo subsidio por desempleo":
   en: Unemployment benefit only
+TERRITORIO:
+  en: TERRITORY
 TOTAL:
   en: TOTAL
 TOTAL SECTOR INDUSTRIAL:
@@ -8078,8 +8235,67 @@ Tasa gasto de personal:
   en: Personnel expenditure rate
 "Tercer cuartil (\u20AC)":
   en: "Third quartile (\u20AC)"
+Territorio:
+  en: Territory
 "Textil, confecci\xF3n, cuero y calzado":
   en: Textile, clothing, leather and footwear
+? "The event occurs occasionally with an infrequent update\n            that could\
+  \ span from 1 month to several months between events. It implies a survey that\n\
+  \            experiences a gap for several months prior to the next survey\n   \
+  \         update"
+: es: "El suceso se produce ocasionalmente con una actualizaci\xF3n poco frecuente\n\
+    \            que puede abarcar desde 1 mes hasta varios meses entre eventos. Implica\
+    \ una encuesta que\n            varios meses antes de la siguiente actualizaci\xF3\
+    n.\n            actualizaci\xF3n"
+? "The event occurs occasionally with an infrequent update\n            that could\
+  \ span from 1 year to several years between events. It implies a survey that\n \
+  \           experiences a gap for several years prior to the next survey update\
+  \ (this is commonly\n            linked to funding available to run a specific survey\
+  \ (i.e. health surveys), whereas a\n            regular annual survey refers typically\
+  \ to \u2018programs\u2019 that are funded regularly and fall\n            under\
+  \ the Statistics Act, and therefore never experience a gap)"
+: es: "El suceso se produce ocasionalmente con una actualizaci\xF3n poco frecuente\n\
+    \            que puede abarcar desde 1 a\xF1o hasta varios a\xF1os entre eventos.\
+    \ Implica una encuesta que\n            varios a\xF1os antes de la siguiente actualizaci\xF3\
+    n (esto suele estar relacionado con la\n            a la financiaci\xF3n disponible\
+    \ para llevar a cabo una encuesta espec\xEDfica (por ejemplo, las encuestas de\
+    \ salud), mientras que una encuesta anual peri\xF3dica se refiere normalmente\
+    \ a \"programas\".\n            encuesta peri\xF3dica anual se refiere normalmente\
+    \ a \"programas\" que se financian peri\xF3dicamente y est\xE1n\n            de\
+    \ la Ley de Estad\xEDstica, por lo que nunca se produce un vac\xEDo)."
+? 'This code is to be used when no breakdown is made between the reasons why data
+  are missing. Data can be missing due to many reasons: data cannot exist, data exist
+  but are not collected (e.g. because they are below a certain threshold or subject
+  to a derogation clause), data are unreliable, etc.'
+: es: "Este c\xF3digo debe utilizarse cuando no se desglosan las razones por las que\
+    \ faltan datos. Los datos pueden faltar por muchas razones: los datos no pueden\
+    \ existir, los datos existen pero no se recogen (por ejemplo, porque est\xE1n\
+    \ por debajo de un determinado umbral o sujetos a una cl\xE1usula de excepci\xF3\
+    n), los datos no son fiables, etc."
+? "This code is used when data for a given category are missing and are included in\
+  \ another category, sub-total or total. Generally where code \u201CK\u201D is used\
+  \ there should be a corresponding code \"W - Includes data from another category\"\
+  \ assigned to the over-covered category. Implementers and data reporters should\
+  \ use the COMMENT_OBS observation-level attribute to specify under which category\
+  \ the data are included."
+: es: "Este c\xF3digo se utiliza cuando faltan datos para una categor\xEDa determinada\
+    \ y se incluyen en otra categor\xEDa, subtotal o total. Generalmente, cuando se\
+    \ utiliza el c\xF3digo \"K\", se debe asignar el c\xF3digo correspondiente \"\
+    W - Incluye datos de otra categor\xEDa\" a la categor\xEDa cubierta en exceso.\
+    \ Los implementadores y los declarantes de datos deber\xE1n usar el atributo de\
+    \ nivel de observaci\xF3n COMMENT_OBS para especificar en qu\xE9 categor\xEDa\
+    \ se incluyen los datos."
+This indicates existing observations, but for which the user should also be aware of the low quality assigned.:
+  es: "Indica observaciones existentes, pero para las que el usuario tambi\xE9n debe\
+    \ ser consciente de la baja calidad asignada."
+Three times a month:
+  es: Tres veces al mes
+Three times a week:
+  es: Tres veces por semana
+Three times a year:
+  es: "Tres veces al a\xF1o"
+Time series break:
+  es: Ruptura de la serie temporal
 Tipo de alojamiento:
   en: Type of accommodation
 "Tipo de cotizaciones tenidas en el a\xF1o":
@@ -8100,6 +8316,8 @@ Tipo de personal:
   en: Type of staff
 "Tipo de relaci\xF3n con la seguridad social":
   en: Type of social security relationship
+Tipo de ventas:
+  en: Type of sales
 "Tipolog\xC3\xADa de la actividad del hogar":
   en: Typology of household activity
 "Tipolog\xEDa del \xFAltimo emprendimiento":
@@ -8108,6 +8326,122 @@ Tipo de personal:
   en: Typology of household activity
 "Tipos de prestaci\xF3n":
   en: Types of benefits
+? To be used as default value if no value is provided or when no special coded qualification
+  is assumed. Usually, it can be assumed that the source agency assigns sufficient
+  confidence to the provided observation and/or the value is not expected to be drama
+: es: "Se utilizar\xE1 como valor por defecto si no se facilita ning\xFAn valor o\
+    \ cuando no se suponga ninguna cualificaci\xF3n codificada especial. Normalmente,\
+    \ se puede suponer que el organismo de origen asigna suficiente confianza a la\
+    \ observaci\xF3n proporcionada y/o no se espera que el valor sea dram\xE1tico"
+? "To be used for data collected or disseminated every\n            day"
+: es: "Se utilizar\xE1 para los datos recogidos o difundidos cada\n            d\xED\
+    a"
+? "To be used for data collected or disseminated every\n            hour"
+: es: "Se utilizar\xE1 para los datos recogidos o difundidos cada\n            hora"
+? "To be used for data collected or disseminated every\n            month"
+: es: "Se utilizar\xE1 para los datos recogidos o difundidos cada\n            mes"
+? "To be used for data collected or disseminated every\n            quarter"
+: es: "Se utilizar\xE1 para los datos recogidos o difundidos cada\n            trimestre"
+? "To be used for data collected or disseminated every\n            semester"
+: es: "Se utilizar\xE1 para los datos recogidos o difundidos cada\n            semestre"
+? "To be used for data collected or disseminated every\n            thirty years"
+: es: "Se utilizar\xE1 para los datos recogidos o difundidos cada\n            treinta\
+    \ a\xF1os"
+? "To be used for data collected or disseminated every\n            three hours"
+: es: "Se utilizar\xE1 para los datos recogidos o difundidos cada\n            tres\
+    \ horas"
+? "To be used for data collected or disseminated every\n            three weeks"
+: es: "Se utilizar\xE1 para los datos recogidos o difundidos cada\n            tres\
+    \ semanas"
+? "To be used for data collected or disseminated every\n            three years"
+: es: "Se utilizar\xE1 para los datos recogidos o difundidos cada\n            tres\
+    \ a\xF1os"
+? "To be used for data collected or disseminated every\n            twenty years"
+: es: "Se utilizar\xE1 para los datos recogidos o difundidos cada\n            veinte\
+    \ a\xF1os"
+? "To be used for data collected or disseminated every\n            week"
+: es: "Se utilizar\xE1 para los datos recogidos o difundidos cada\n            semana"
+? "To be used for data collected or disseminated every\n            year"
+: es: "Se utilizar\xE1 para los datos recogidos o difundidos cada\n            a\xF1\
+    o"
+? "To be used for data collected or disseminated every five\n            years"
+: es: "Se utilizar\xE1 para los datos recogidos o difundidos cada cinco\n        \
+    \    a\xF1os"
+? "To be used for data collected or disseminated every four\n            weeks"
+: es: "Se utilizar\xE1 para los datos recogidos o difundidos cada cuatro\n       \
+    \     semanas"
+? "To be used for data collected or disseminated every four\n            years"
+: es: "Se utilizar\xE1 para los datos recogidos o difundidos cada cuatro\n       \
+    \     a\xF1os"
+? "To be used for data collected or disseminated every ten\n            years"
+: es: "Se utilizar\xE1 para los datos recogidos o difundidos cada diez\n         \
+    \   a\xF1os"
+? "To be used for data collected or disseminated every two\n            hours"
+: es: "Se utilizar\xE1 para los datos recogidos o difundidos cada dos\n          \
+    \  horas"
+? "To be used for data collected or disseminated every two\n            months"
+: es: "Se utilizar\xE1 para los datos recogidos o difundidos cada dos\n          \
+    \  meses"
+? "To be used for data collected or disseminated every two\n            weeks"
+: es: "Se utilizar\xE1 para los datos recogidos o difundidos cada dos\n          \
+    \  semanas"
+? "To be used for data collected or disseminated every two\n            years"
+: es: "Se utilizar\xE1 para los datos recogidos o difundidos cada dos\n          \
+    \  a\xF1os"
+? "To be used for data collected or disseminated three\n            times a month"
+: es: "Se utilizar\xE1 para los datos recogidos o difundidos tres\n            veces\
+    \ al mes"
+? "To be used for data collected or disseminated three\n            times a week"
+: es: "Se utilizar\xE1 para los datos recogidos o difundidos tres\n            veces\
+    \ por semana"
+? "To be used for data collected or disseminated three\n            times a year"
+: es: "Se utilizar\xE1 para los datos recogidos o difundidos tres\n            veces\
+    \ al a\xF1o"
+? "To be used for data collected or disseminated twice a\n            day"
+: es: "Se utilizar\xE1 para los datos recogidos o difundidos dos veces al\n      \
+    \      d\xEDa"
+? "To be used for data collected or disseminated twice a\n            month"
+: es: "Se utilizar\xE1 para los datos recogidos o difundidos dos veces al\n      \
+    \      mes"
+? "To be used for data collected or disseminated twice a\n            week"
+: es: "Se utilizar\xE1 para los datos recogidos o difundidos dos veces por\n     \
+    \       semana"
+? "To be used when a set of values are reported within a\n            time range but\
+  \ not associated to sub ranges. Often this could happen in case of missing\n   \
+  \         or sparse information. (Let\u2019s say we have two observations for 2020\
+  \ but we do not know\n            if they are part of a monthly reporting or quarterly\
+  \ reporting)"
+: es: "Se utilizar\xE1 cuando se informe de un conjunto de valores dentro de un\n\
+    \            pero no est\xE1n asociados a subintervalos. Esto suele ocurrir cuando\
+    \ falta\n            o escasa informaci\xF3n. (Digamos que tenemos dos observaciones\
+    \ para 2020 pero no sabemos\n            si forman parte de un informe mensual\
+    \ o trimestral)"
+? "To be used when the qualitative or quantitative values\n            that a variable\
+  \ takes in a data set is associated to multiple occurrences with frequency\n   \
+  \         other than the already defined ones (for example every 5 hours and 32\
+  \ minutes\n            etc.)"
+: es: "Para utilizar cuando los valores cualitativos o cuantitativos\n           \
+    \ que toma una variable en un conjunto de datos se asocia a m\xFAltiples ocurrencias\
+    \ con frecuencia\n            distintas de las ya definidas (por ejemplo cada\
+    \ 5 horas y 32 minutos\n            etc.)"
+? "To be used when the qualitative or quantitative values\n            that a variable\
+  \ takes in a data set is not associated to multiple occurrences (only\n        \
+  \    single occurrence exists) one can use the _Z as frequency"
+: es: "Se utilizar\xE1 cuando los valores cualitativos o cuantitativos\n         \
+    \   que toma una variable en un conjunto de datos no est\xE1 asociada a m\xFA\
+    ltiples ocurrencias (s\xF3lo\n            una sola ocurrencia) se puede utilizar\
+    \ la _Z como frecuencia"
+? "To be used with irregular time series that stores data\n            for a sequence\
+  \ of arbitrary timepoints. Irregular time series are appropriate when the\n    \
+  \        data arrives unpredictably, such as when the application records every\
+  \ stock trade or\n            when random events are recorded (the interval between\
+  \ each element can be a different\n            length)"
+: es: "Para utilizar con series temporales irregulares que almacenan datos\n     \
+    \       para una secuencia de puntos temporales arbitrarios. Las series temporales\
+    \ irregulares son apropiadas cuando los\n            datos llegan de forma impredecible,\
+    \ como cuando la aplicaci\xF3n registra cada operaci\xF3n burs\xE1til o\n    \
+    \        cuando se registran eventos aleatorios (el intervalo entre cada elemento\
+    \ puede ser de diferente\n            longitud)"
 Total:
   en: Total
 Total no remunerados:
@@ -8134,8 +8468,18 @@ Trabajos realizados por la empresa para su activo:
   en: Three or more adults alone
 "Tres o m\xE1s adultos, con ni\xF1os (menores de 16)":
   en: Three or more adults, with children (under 16)
+Tridecennial:
+  es: Tridecenal
+Triennial:
+  es: Trienal
+Trihourly:
+  es: Cada tres horas
+Triweekly:
+  es: Cada tres semanas
 Turistas:
   en: Turistas
+Twice a day:
+  es: "Dos veces al d\xEDa"
 "T\xC3\xA9cnicos":
   en: Technicians
 "T\xE9cnicos y profesionales cient\xEDficos e intelectuales":
@@ -8164,12 +8508,45 @@ Unipersonales:
   en: European Union
 "Uno o m\xE1s episodio(s) de cotizaci\xF3n":
   en: One or more listing episode(s)
+Unspecified:
+  es: Sin especificar
+Unvalidated value:
+  es: Valor no validado
+Used in some daily data flows.:
+  es: Se utiliza en algunos flujos de datos diarios.
+? Used to denote empty cells resulting from the impossibility to collect a statistical
+  value (e.g. a particular education level or type of institution may be not applicable
+  to a given country's education system).
+: es: "Se utiliza para indicar las celdas vac\xEDas resultantes de la imposibilidad\
+    \ de recopilar un valor estad\xEDstico (por ejemplo, un nivel educativo o un tipo\
+    \ de instituci\xF3n concretos pueden no ser aplicables al sistema educativo de\
+    \ un pa\xEDs determinado)."
+Used to indicate a value which is not a "real" zero (e.g. a result of 0.0004 rounded to zero).:
+  es: Se utiliza para indicar un valor que no es un cero "real" (por ejemplo, un resultado
+    de 0,0004 redondeado a cero).
+? Used to indicate slight deviations from the established methodology (footnote-type
+  information); these divergences do not imply a break in time series.
+: es: "Se utiliza para indicar ligeras desviaciones de la metodolog\xEDa establecida\
+    \ (informaci\xF3n de tipo nota a pie de p\xE1gina); estas divergencias no implican\
+    \ una ruptura en las series temporales."
+Used, for example, when data are suppressed due to statistical confidentiality considerations.:
+  es: "Se utiliza, por ejemplo, cuando se suprimen datos por consideraciones de confidencialidad\
+    \ estad\xEDstica."
+Used, for example, when some data are not reported/disseminated because they are below a certain threshold.:
+  es: "Se utiliza, por ejemplo, cuando algunos datos no se comunican/difunden porque\
+    \ est\xE1n por debajo de un determinado umbral."
 "Valor A\xF1adido Bruto a precios de mercado":
   en: Gross Value Added at market prices
 "Valor A\xF1adido Bruto al coste de los factores":
   en: Gross Value Added at factor costs
 "Valor de la producci\xF3n":
   en: Value of production
+? Value deemed to assess the magnitude which a quantity will assume at some future
+  point of time (as distinct from "estimated value" which attempts to assess the magnitude
+  of an already existent quantity).
+: es: "Valor considerado para evaluar la magnitud que asumir\xE1 una cantidad en alg\xFA\
+    n momento futuro (a diferencia del \"valor estimado\", que intenta evaluar la\
+    \ magnitud de una cantidad ya existente)."
 "Variables de uso TIC (primer trimestre): Impresi\xF3n 3D":
   en: 'ICT usage variables (first quarter): 3D printing'
 "Variables de uso TIC (primer trimestre): P\xE1gina web":
@@ -8233,3 +8610,18 @@ Volumen de negocio:
   en: Turnover
 Volumen de negocio por otros conceptos:
   en: Turnover from other items
+Weekly:
+  es: Semanal
+? "While N denotes \"minutely\", usually, there may be no\n            observations\
+  \ every minute (for several series the frequency is usually \"irregular\"\n    \
+  \        within a day/days). And though observations may be sparse (not collected\
+  \ or disseminated\n            every minute), missing values do not need to be given\
+  \ for the minutes when no\n            observations exist: in any case the time\
+  \ stamp determines when an observation is\n            observed"
+: es: "Aunque N denota \"cada minuto\", por lo general, puede que no haya\n      \
+    \      observaciones cada minuto (para varias series la frecuencia suele ser \"\
+    irregular\"\n            dentro de un d\xEDa/d\xEDas). Y aunque las observaciones\
+    \ pueden ser escasas (no se recogen o difunden\n            cada minuto), no es\
+    \ necesario dar valores perdidos para los minutos en los que no existen\n    \
+    \        observaciones: en cualquier caso, el sello de tiempo determina cu\xE1\
+    ndo una observaci\xF3n es\n            observada"

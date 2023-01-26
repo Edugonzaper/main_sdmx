@@ -12,7 +12,7 @@ import deepl
 from ckanapi import RemoteCKAN
 
 from functions import execute_actividades, initialize_codelists_schemes, put_dsds, get_configuracion_completo, \
-    put_all_codelist_schemes, create_categories, mappings_variables, create_dataflows
+    put_all_codelist_schemes, create_categories, mappings_variables, create_dataflows, volcado_ckan, create_metadatos
 
 import logging
 
@@ -40,21 +40,8 @@ if __name__ == "__main__":
         mapa_conceptos_codelist = yaml.safe_load(mapa_conceptos_codelist_file)
         traducciones = yaml.safe_load(traducciones)
         datos_jerarquias = yaml.safe_load(datos_jerarquias)
-        traductor = deepl.Translator('92766a66-fa2a-b1c6-d7dd-ec0750322229:fx')
+        traductor = deepl.Translator('6a0fd2f4-27e7-82d7-1036-42a75f8037f7:fx')
 
-        # if configuracion_global['volcado_ckan']:
-        #     ckan = Ckan(configuracion_global)
-        # if configuracion_global['reset_ckan']:
-        #     ckan.datasets.remove_all_datasets()
-        #
-        # if configuracion_global['volcado_mdm']:
-        #     controller = MDM(configuracion_global, traductor, True)
-        #     category_scheme = controller.category_schemes.data['ESC01']['IECA_CAT_EN_ES']['1.0']
-        #     if configuracion_global['reset_ddb']:
-        #         controller.delete_all('ESC01', 'IECA_CAT_EN_ES', '1.0')
-        #
-        # if configuracion_global['translate']:
-        #     controller.category_schemes.data['ESC01']['IECA_CAT_EN_ES']['1.0'].translate()
     if configuracion_global["extractor"]:
         execute_actividades(configuracion_ejecucion, configuracion_global, configuracion_actividades,
                             configuracion_plantilla_actividad, mapa_conceptos_codelist)
@@ -76,6 +63,14 @@ if __name__ == "__main__":
 
         create_dataflows(configuracion_ejecucion, configuracion_actividades, configuracion_actividades_sdmx,
                          category_scheme, configuracion_global, mapa_conceptos_codelist, controller)
+
+        create_metadatos(configuracion_ejecucion, configuracion_actividades, category_scheme, controller,
+                         configuracion_global,configuracion_actividades_sdmx)
+    else:
+        controller = None
+
+    if configuracion_global['volcado_ckan']:
+        volcado_ckan(configuracion_global, traductor, controller)
         # try:
         #     variables.remove('TEMPORAL')
         # except:

@@ -1,0 +1,171 @@
+mds_id:
+  MSD_ICMA
+name:
+  Índice de Comercio al por Menor de Andalucía
+mdf_id:
+  MDF_ICMA
+report_id:
+  REPORT_ICMA
+dataflow:
+  DF_ICMA
+R1:
+  "Instituto de Estadística y Cartografía de Andalucía"
+R2:
+  "Servicio de Difusión y Publicaciones"
+R3:
+  "--"
+R4:
+  "Atención a la demanda de información"
+R5:
+  "Pabellón de Nueva Zelanda. C/ Leonardo Da Vinci, nº 21. Isla de La Cartuja. 41071 - Sevilla"
+R6:
+  "informacion.ieca@juntadeandalucia.es"
+R7:
+  "Atención al público: 900 101 407 Centralita: 955 033 800"
+R8:
+  "955 033 816/17"
+R9:
+  "16/12/2021"
+R10:
+  "27/05/2022"
+R11:
+  "27/05/2022"
+R12:
+  "El Índice de comercio al por menor de Andalucía es un indicador coyuntural que permite conocer la evolución de la actividad
+   comercial minorista en la región, como objetivo principal, al tiempo que da cobertura a otras necesidades de información, entre
+   las que destacaría su aportación al Sistema de Cuentas Económicas de Andalucía"
+R13:
+  "Clasificación Nacional de Actividades Económicas vigente CNAE"
+R14:
+  "División 47 de la CNAE 2009"
+R15:
+  "-Actividad principal: aquélla actividad en la que la empresa genera mayor volumen de negocio, o en su defecto, en la que ocupa el
+   mayor número de personas
+   -Cifra de negocios: Comprende los importes netos facturados por las empresas (deducidos las devoluciones y los rappels sobre
+   ventas) durante el mes de referencia en bienes de alimentación, equipamiento del hogar, equipamiento personal, salud, ocio y
+   otros bienes, tanto en el ejercicio de su actividad principal, como de cualquier actividad secundaria que realice la empresa
+   -Personal ocupado: Es el número total de personas que trabajan en la unidad objeto de estudio (incluidos propietarios que
+   trabajan en la unidad, socios trabajadores y el empleo familiar no retribuido)"
+R16:
+  "La unidad objeto de estudio son las empresas que tienen como actividad principal alguna de las incluidas en la División 47 de la
+   CNAE-2009, en el territorio de Andalucía"
+R17:
+  'La población objeto de estudio está formada por las empresas cuya actividad principal se inscribe en la División 47 de la
+   Clasificación Nacional de Actividades Económicas (CNAE-2009) "Comercio al por menor, excepto de vehiculos de motor y
+   motocicletas". Cabe recordar de nuevo, que la adaptación a la CNAE-2009, desde enero de 2009, supuso la introducción en el
+   comercio minorista, de aquellas empresas cuya actividad principal es el comercio al por menor de combustibles para automoción
+   en establecimientos especializados (estaciones de servicio), grupo 47.3'
+R18:
+  "Andalucía"
+R19:
+  "Existen datos desde enero 2001"
+R20:
+  "Actualmente se publican datos en Base 2005, 2010 y 2015"
+R21:
+  "Los datos que se muestran son indices y porcentajes de variación"
+R22:
+  "Nov/2019, Dic/2019, Ene/2020, Feb/2020, Mar/2020, Abr/2020, May/2020, Jun/2020, Jul/2020, Ago/2020, Sep/2020, Oct/2020"
+R23:
+  "Ley 4/1989, de 12 de diciembre, de Estadística de la Comunidad Autónoma de Andalucía
+   Ley 3/2013, de 24 de julio, por la que se aprueba el Plan Estadístico y Cartográfico de Andalucía 2013-2017
+   Ley 6/2017, de 27 de diciembre, por la que se modifica la Ley 3/2013, de 24 de julio, por la que se aprueba el Plan Estadístico y
+   Cartográfico de Andalucía 2013-2017 para ampliar su vigencia hasta el 2020
+   Decreto 25/2020, de 24 de febrero, por el que se aprueba el Programa Estadístico y Cartográfico de la Comunidad Autónoma de
+   Andalucía para el año 2020"
+R24:
+  "El Instituto Nacional de Estadística (INE) colabora en la actividad facilitando los microdatos mensuales para la elaboración del
+   Índice de Comercio Minorista según el Acuerdo Marco sobre Cooperación Estadística e Intercambio de Información que se renueva
+   anualmente."
+R25:
+  "Ley 4/1989, de 12 de diciembre, de Estadística de la Comunidad Autónoma de Andalucía
+   Ley 12/1989, de 9 de mayo, de la Función Estadística Pública
+   Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales"
+R26:
+  "Los datos obtenidos se exponen de forma agregada a nivel autonómico, no mostrando datos individualizados que puedan permitir
+   la identificación de personas o establecimiento"
+R27:
+  "03/01/2020, 03/02/2020, 17/03/2020, 02/04/2020, 05/05/2020, 02/06/2020, 01/07/2020, 03/08/2020, 03/09/2020, 02/10/2020,
+   03/11/2020, 03/12/2020"
+R28:
+  "03/01/2020, 04/02/2020, 16/03/2020, 03/04/2020, 06/05/2020, 04/06/2020, 03/07/2020, 03/08/2020, 04/09/2020, 05/10/2020,
+   04/11/2020, 03/12/2020"
+R29:
+  "La actividad se difunde a través de la página web del IECA. La información se ofrece través de la base de datos BADEA:
+   http://www.juntadeandalucia.es/institutodeestadisticaycartografia/icma/index.htm"
+R30:
+  "Mensual"
+R31:
+  "No existen comunicados o notas de prensa de esta actividad"
+R32:
+  "Índice de comercio al por menor de Andalucía"
+R33:
+  "Esta actividad permite elaborar resultados a medida en el Banco de datos Estadísticos de Andalucía (BADEA)"
+R34:
+  "No existe disponibilidad de microdatos para esta actividad"
+R35:
+  "--"
+R36:
+  "La memoria técnica está disponible en Internet en el apartado Metodología"
+R37:
+  "El IECA para garantizar la calidad en esta actividad aporta la memoria técnica, la ficha de indicadores de calidad y el informe
+   metodológico estandarizado de la actividad"
+R38:
+  "Se contrastan los resultados obtenidos con la aplicación del IECA y los datos publicados por el INE para la Comunidad de
+   Andalucía.
+   Se comprueba que no haya errores en la grabación de los archivos enviados por el INE, cruzando número de encuestas y
+   empresas encuestadas"
+R39:
+  "Se ha elaborado una ficha de calidad y está disponible en Internet en el apartado Metodología"
+R40:
+  "Administración autonómica de Andalucía, analistas económicos"
+R41:
+  "--"
+R42:
+  "--"
+R43:
+  "La recogida de información de esta actividad se basa en una explotación de información estadística oficial, ello permite asegurar
+   que en el desarrollo de las mismas se ha realizado un estudio de fiabilidad por lo que la información obtenida a partir de ella y por
+   tanto de la actividad es fiable"
+R44:
+  "--"
+R45:
+  "Algunas de estas limitaciones podrían ser: la existencia de un posible retraso en el envío de los ficheros de dato"
+R46:
+  "64 días"
+R47:
+  "-1 días"
+R48:
+  "A nivel de comunidad autónoma podemos destacar al Instituto de Estadística de Cataluña (IDESCAT) y al Instituto Vasco de
+   Estadística (EUSTAT) y el Instituto Canario de Estadística"
+R49:
+  "Existen datos desde el enero del año 2001"
+R50:
+  "--"
+R51:
+  "La coherencia interna se garantiza a través de diversas validaciones realizadas antes de la publicación de los datos"
+R52:
+  "3.600,00 €"
+R53:
+  "Al no existir datos provisionales no se realiza una revisión de los datos"
+R54:
+  "--"
+R55:
+  "Explotación de información estadística o cartográfica"
+R56:
+  "Mensual"
+R57:
+  "La recogida de la información se realiza a través de las Delegaciones provinciales del INE con la cumplimentación, por parte de la
+   empresa, de un cuestionario mensual"
+R58:
+  "--"
+R59:
+  "Los microdatos son remitidos por el INE el mismo día que este organismo publica el Índice de comercio al por menor para el
+   ámbito nacional. Una vez obtenidos los microdatos, éstos son grabados en una aplicación informática desarrollada por el IECA, en
+   WPS (World Programing System), que permite el cálculo de los índices y tasas según la metodología que se expone en el apartado
+   dedicado a la misma"
+R60:
+  "Se muestran series corregidas de efecto estacional y calendario"
+R61:
+  "--"
+
+

@@ -17,3 +17,11 @@ grupos_consultas:
 variables:
 - IASS_TIPOVENTAS
 - TERRITORIO
+metadatos_title:
+  '6525': Series originales de los índices de cifra de negocio
+  '6528': Índices de empleo
+  '6530': Índices de VAB
+metadatos_subtitle:
+  '6525': ''
+  '6528': ''
+  '6530': ''
