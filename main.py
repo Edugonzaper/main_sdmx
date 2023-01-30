@@ -50,7 +50,6 @@ if __name__ == "__main__":
         controller = MDM(configuracion_global, traductor, True)
         if configuracion_global['reset_ddb']:
             controller.delete_all('ESC01', 'IECA_CAT_EN_ES', '1.0')
-
         configuracion_actividades_sdmx = get_configuracion_completo(configuracion_ejecucion)
 
         put_all_codelist_schemes(configuracion_ejecucion, configuracion_actividades_sdmx, datos_jerarquias,
@@ -59,6 +58,10 @@ if __name__ == "__main__":
         put_dsds(configuracion_ejecucion, configuracion_actividades_sdmx, mapa_conceptos_codelist, controller)
 
         category_scheme = controller.category_schemes.data['ESC01']['IECA_CAT_EN_ES']['1.0']
+
+        if configuracion_global['translate']:
+            category_scheme.translate()
+
         create_categories(category_scheme, configuracion_ejecucion, configuracion_actividades_sdmx)
 
         create_dataflows(configuracion_ejecucion, configuracion_actividades, configuracion_actividades_sdmx,

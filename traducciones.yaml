@@ -6890,6 +6890,8 @@ Agency scheme:
   en: Exhausted the benefit
 Agricultura:
   en: Agricultura
+Agriculture, forestry, fisheries:
+  es: Agricultura, silvicultura y pesca
 Ajuste:
   en: Ajuste
 Albergue:
@@ -6908,6 +6910,8 @@ Analfabetos:
   en: Illiterate
 "Andaluces Residentes en el Resto de Espa\xF1a":
   en: Andalusians Resident in the Rest of Spain
+Andaluces en el Exterior:
+  en: Andalusians Abroad
 "Andaluces residentes en el resto de Espa\xF1a":
   en: Andalusians living in the rest of Spain
 Andaluces residentes en el resto del mundo:
@@ -6977,6 +6981,8 @@ BUSINESS_STAT:
   en: BUSINESS_STAT
 Baja:
   en: Baja
+Banking, insurance, financial statistics:
+  es: "Banca, seguros, estad\xEDsticas financieras"
 "Base de cotizaci\xF3n":
   en: Contribution basis
 "Base de cotizaci\xF3n m\xEDnima":
@@ -7005,6 +7011,8 @@ Breakdown of spending by institutional sectors between major expenditure functio
     de gasto.
 Busca primer empleo:
   en: Looking for a first job
+Business statistics:
+  es: "Estad\xEDsticas empresariales"
 CERTIFICDISCAPAC:
   en: CERTIFICDISCAPAC
 "CNAE 45. Venta y reparaci\xF3n veh\xEDculos de motor y motocicletas":
@@ -7309,6 +7317,8 @@ Consumo de materias primas y otros aprovisionamientos:
   en: Consumption of goods
 Consumos intermedios:
   en: Intermediate consumption
+"Contabilidad Regional Trimestral de Andaluc\xEDa":
+  en: Quarterly Regional Accounts of Andalusia
 Contact:
   es: Contact
 Contact email address:
@@ -7390,6 +7400,8 @@ Cross-domain concept, CDC:
   n nivel de formaci\xF3n alcanzado por sexo y grupo de edad *"
 : en: 'Labour market qualifications. Educational attainment: Unemployment rates by
     educational attainment by gender and age group *.'
+Culture:
+  es: Cultura
 Currency:
   es: Moneda
 DSD agreed by a number of international organisations for use within their respective constituencies:
@@ -7524,6 +7536,8 @@ Definition of the price per unit, for goods and services flows and asset stocks.
 Degree to which statistical information meets the real or perceived needs of clients.:
   es: "Grado en que la informaci\xF3n estad\xEDstica responde a las necesidades reales\
     \ o percibidas de los clientes."
+Demographic and social statistics:
+  es: "Estad\xEDsticas demogr\xE1ficas y sociales"
 Demographic balance - DEMOBAL (list):
   es: "Balance demogr\xE1fico - DEMOBAL (lista)"
 Dependent children:
@@ -7627,14 +7641,22 @@ ECO_ACCOUNTS:
   en: ECO_ACCOUNTS
 EDAD:
   en: AGE
+EOC:
+  es: EOC
+Economic accounts:
+  es: "Cuentas econ\xF3micas"
 Economic activity:
   es: "Actividad econ\xF3mica"
+Economic statistics:
+  es: "Estad\xEDsticas econ\xF3micas"
 Edad:
   en: Age
 "Educaci\xF3n primaria":
   en: Primary education
 "Educaci\xF3n superior":
   en: Higher education
+Education:
+  es: "Educaci\xF3n"
 Education level:
   es: Nivel de estudios
 Educational attainment (ISCED 2011):
@@ -7687,6 +7709,8 @@ Empresas privadas:
   en: 'Companies: Services by branch of activity. Units performing R&D'
 "Encuesta de Ocupaci\xF3n en Campings":
   en: Campsite Occupancy Survey
+Energy:
+  es: "Energ\xEDa"
 Entity for which information is sought and for which statistics are ultimately compiled.:
   es: "Entidad para la que se busca informaci\xF3n y para la que finalmente se elaboran\
     \ estad\xEDsticas."
@@ -7694,6 +7718,12 @@ Entity that uses data.:
   es: Entidad que utiliza datos.
 "Entre 1 y 1,5 veces la base de cotizaci\xF3n m\xEDnima":
   en: Between 1 and 1.5 times the minimum contribution basis
+Entrepreneurship:
+  es: Iniciativa empresarial
+Environment:
+  es: Medio ambiente
+Environment and multi-domain statistics:
+  es: "Estad\xEDsticas medioambientales y multidominio"
 ? Error caused by a failure to cover adequately all components of the population being
   studied, which results in differences between the target population and the sampling
   frame.
@@ -7896,6 +7926,8 @@ Gastos en servicios exteriores:
   en: Expenditure on external services
 Gastos internos:
   en: Internal expenses
+Gender and special population groups:
+  es: "G\xE9nero y grupos de poblaci\xF3n especiales"
 "General y aut\xF3nomos":
   en: General and self-employed
 Geographical area:
@@ -7904,6 +7936,10 @@ Geographical area:
   en: Quality management
 Global registry:
   es: Registro mundial
+Globalisation:
+  es: "Globalizaci\xF3n"
+Government finance, fiscal and public sector statistics:
+  es: "Estad\xEDsticas financieras, fiscales y del sector p\xFAblico"
 "Grado de ocupaci\xF3n por apartamentos":
   en: Occupancy rate per flat
 "Grado de ocupaci\xF3n por apartamentos en fin de semana":
@@ -7933,6 +7969,8 @@ Habitaciones medias estimadas:
   en: More than 1 year since last job
 Half-yearly, semester:
   es: Semestral, semestral
+Health:
+  es: Salud
 Hierarchical code:
   es: "C\xF3digo jer\xE1rquico"
 Hierarchical code list:
@@ -7988,6 +8026,8 @@ Hourly:
   es: Por hora
 Hub (dissemination architecture):
   es: "Hub (arquitectura de difusi\xF3n)"
+Human settlements and housing:
+  es: Asentamientos humanos y vivienda
 Humanidades y las Artes:
   en: Humanities and the Arts
 "I. HOSTELER\xCDA":
@@ -8021,8 +8061,12 @@ Incapacidad:
   en: Incapacity
 Incapacitado permanente:
   en: Permanently disabled
+Income and consumption:
+  es: Renta y consumo
 Incremental update:
   es: "Actualizaci\xF3n incremental"
+Indicadores de Actividad del Sector Servicios:
+  en: Service Sector Activity Indicators
 "Indicadores de I+D en alta tecnolog\xEDa":
   en: High-tech R&D indicators
 Indication of the dependency of the presence of a data or metadata attribute when reported in a Data or Metadata Set.:
@@ -8031,6 +8075,8 @@ Indication of the dependency of the presence of a data or metadata attribute whe
 Indication that a person or application is to be notified when a predefined event occurs in an SDMX registry.:
   es: "Indicaci\xF3n de que una persona o aplicaci\xF3n debe recibir una notificaci\xF3\
     n cuando se produce un evento predefinido en un registro SDMX."
+Indicators related to the Millennium Development Goals:
+  es: Indicadores relacionados con los Objetivos de Desarrollo del Milenio
 ? Individual or organisational contact points for the data or metadata, including
   information on how to reach the contact points.
 : es: "Puntos de contacto individuales u organizativos para los datos o metadatos,\
@@ -8056,6 +8102,8 @@ Information on whether micro-data are also disseminated.:
 Information sent to a person or application as a result of an event in an SDMX registry.:
   es: "Informaci\xF3n enviada a una persona o aplicaci\xF3n como resultado de un evento\
     \ en un registro SDMX."
+Information society:
+  es: "Sociedad de la informaci\xF3n"
 "Ingenier\xEDa y tecnolog\xEDa":
   en: Engineering and technology
 Ingresos_consumo:
@@ -8074,6 +8122,8 @@ Intercambio de datos:
   en: Data exchange
 International string:
   es: Cadena internacional
+International trade and balance of payments:
+  es: Comercio internacional y balanza de pagos
 "Interrupci\xF3n laboral sin prestaci\xF3n":
   en: Work stoppage without benefits
 Intervalo de ingresos:
@@ -8100,6 +8150,8 @@ Job or position held by an individual who performs a set of tasks and duties.:
   en: Retirement
 "Jubilaci\xF3n y viudedad":
   en: Retirement and widowhood
+Justice and crime:
+  es: Justicia y delincuencia
 L. ACTIVIDADES INMOBILIARIAS:
   en: L. REAL ESTATE ACTIVITIES
 LUGARNACIMIEN:
@@ -8111,6 +8163,10 @@ LUGARNACIMIEN:
     year
 Labores del hogar:
   en: Housework
+Labour:
+  es: Trabajo
+Labour cost:
+  es: Coste laboral
 ? Language independent set of letters, numbers or symbols that represent a concept
   whose meaning is described in a natural language.
 : es: "Conjunto independiente del lenguaje de letras, n\xFAmeros o s\xEDmbolos que\
@@ -8153,6 +8209,8 @@ Life table (list):
   es: Tabla de vida (lista)
 Live birth order (biological):
   es: "Orden de nacimiento vivo (biol\xF3gico)"
+Living conditions, poverty, and cross-cutting social issues:
+  es: Condiciones de vida, pobreza y cuestiones sociales transversales
 Local DSD:
   es: DSD local
 Location or service from where data or metadata can be obtained.:
@@ -8161,6 +8219,8 @@ Lugar de nacimiento:
   en: Place of birth
 "M. ACTIVIDADES PROFESIONALES, CIENT\xCDFICAS Y T\xC9CNICAS":
   en: M. PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES
+Macroeconomic statistics:
+  es: "Estad\xEDsticas macroecon\xF3micas"
 "Madera, papel, y artes gr\xE1ficas":
   en: Wood, paper, and graphic arts
 ? Main characteristics of the data set described in an easily understandable manner,
@@ -8258,6 +8318,8 @@ Migration status:
   es: "Situaci\xF3n migratoria"
 Mijas:
   en: Mijas
+Mining, manufacturing, construction:
+  es: "Miner\xEDa, fabricaci\xF3n, construcci\xF3n"
 Minutely:
   es: Minuciosamente
 Model assumption error:
@@ -8274,6 +8336,8 @@ Muebles:
   en: Furniture
 Mujeres:
   en: Women
+Multi-domain statistics and indicators:
+  es: "Estad\xEDsticas e indicadores multidominio"
 Multivariable:
   en: Multivariate
 "Municipio con m\xE1s de 100 mil habitantes":
@@ -8513,6 +8577,8 @@ PUESTRATTB2008:
   en: Innovative SMEs introducing innovation into business processes
 Pa/xEDs de residencia:
   en: Pa/xEDs of residence
+"Panel de Indicadores de Innovaci\xF3n de Andaluc\xEDa":
+  en: Andalusia's Innovation Indicators Panel
 Parados:
   en: Stopped
 Parados que buscan 1er empleo:
@@ -8719,10 +8785,14 @@ Plurality:
     \ indicando si se notifica al p\xFAblico antes de que un cambio metodol\xF3gico\
     \ afecte a los datos difundidos y, en caso afirmativo, con cu\xE1nto tiempo de\
     \ antelaci\xF3n."
+Political and other community activities:
+  es: "Actividades pol\xEDticas y comunitarias"
 "Pol\xEDtica de confidencialidad":
   en: Confidentiality policy
 "Pol\xEDtica de difusi\xF3n":
   en: Dissemination policy
+Population and migration:
+  es: "Poblaci\xF3n y migraci\xF3n"
 Por cuenta ajena:
   en: Employed persons
 Porcentaje de turistas por procedencia y sexo:
@@ -8759,6 +8829,8 @@ Previous legal marital status of the groom:
   es: Estado civil legal anterior del novio
 Price adjustment:
   es: Ajuste de precios
+Prices:
+  es: Precios
 "Priego de C\xC3\xB3rdoba":
   en: "Priego de C\xC3\xB3rdoba"
 Primary measure:
@@ -8950,6 +9022,8 @@ Region of destination:
   es: "Regi\xF3n de destino"
 Region of origin:
   es: "Regi\xF3n de origen"
+Regional and small area statistics:
+  es: "Estad\xEDsticas regionales y de \xE1reas peque\xF1as"
 Regular or ad-hoc press releases linked to the data.:
   es: "Comunicados de prensa peri\xF3dicos o ad hoc relacionados con los datos."
 Regular or ad-hoc publications in which the data are made available to the public.:
@@ -9340,6 +9414,8 @@ Schedule of statistical release dates.:
 : es: "Esquema que define la estructura de composici\xF3n de un informe de datos en\
     \ el que cada componente puede describirse mediante una definici\xF3n de flujo\
     \ de datos o una definici\xF3n de metadatos independiente."
+Science, technology and innovation:
+  es: "Ciencia, tecnolog\xEDa e innovaci\xF3n"
 Seasonal adjustment:
   es: Ajuste estacional
 Secondary area, as opposed to reference area, to which the measured data are in relation.:
@@ -9364,6 +9440,8 @@ Sector de actividad (MCVL):
   en: Sector of activity (MCVL)
 Sector de actividad-CNAE:
   en: Sector of activity-CNAE
+Sectoral statistics:
+  es: "Estad\xEDsticas sectoriales"
 Sectoral_stat:
   en: Sectoral_stat
 "Segunda etapa de educaci\xF3n secundaria y educaci\xF3n postsecundaria no superior":
@@ -9527,6 +9605,8 @@ Situaci/xF3n profesional:
   en: Survive 8 years
 "Sobreviven 9 a\xF1os":
   en: Survive 9 years
+Social protection:
+  es: "Protecci\xF3n social"
 Socio de cooperativa o de empresa colectiva:
   en: Member of a cooperative or collective enterprise
 Solicitud de patentes internacionales PCT:
@@ -9623,6 +9703,8 @@ Supervivientes:
   en: Survivors
 Surface area:
   es: Superficie
+Sustainable development:
+  es: Desarrollo sostenible
 Systems and frameworks in place within an organisation to manage the quality of statistical products and processes.:
   es: "Sistemas y marcos establecidos en una organizaci\xF3n para gestionar la calidad\
     \ de los productos y procesos estad\xEDsticos."
@@ -9769,6 +9851,8 @@ Time period - collection:
   es: Periodo de tiempo - recogida
 Time transformation:
   es: "Transformaci\xF3n del tiempo"
+Time use:
+  es: Uso del tiempo
 Time-related operation performed on a time series, solely involving observations of that time series.:
   es: "Operaci\xF3n relacionada con el tiempo que se realiza en una serie temporal\
     \ y que s\xF3lo implica observaciones de esa serie temporal."
@@ -9940,6 +10024,8 @@ Total remunerados:
   en: Total paid
 Total ventas al por mayor y al por menor:
   en: Total wholesale and retail sales
+Tourism:
+  es: Turismo
 "Trabajadores cualificados en el sector agr\xEDcola, ganadero, forestal y pesquero":
   en: Skilled workers in the agriculture, livestock, forestry and fisheries sector
 "Trabajadores de los servicios de restauraci\xF3n, personales, protecci\xF3n y vendedores":
@@ -9948,6 +10034,8 @@ Trabajos otras empresas:
   en: Jobs in other companies
 Trabajos realizados por la empresa para su activo:
   en: Work carried out by the company for its assets
+Transport:
+  es: Transporte
 Tratamiento de datos confidenciales:
   en: Processing of confidential data
 "Tratamiento estad\xEDstico":
@@ -10167,12 +10255,18 @@ Year of birth of the mother:
   es: "A\xF1o de nacimiento de la madre"
 Year of marriage or similar categories:
   es: "A\xF1o de matrimonio o categor\xEDas similares"
+Yearbooks and similar compendia:
+  es: Anuarios y compendios similares
 isExternalReference:
   es: isExternalReference
 isIncluded:
   es: isIncluded
 "\xC1mbito geogr\xE1fico":
   en: Geographical scope
+"\xCDndice de Comercio al por Menor de Andaluc\xEDa":
+  en: Retail Trade Index for Andalusia
+"\xCDndice de Ventas en Grandes Superficies de Andaluc\xEDa":
+  en: Andalusian Department Stores Sales Index
 "\xCDndices de VAB":
   en: GVA indices
 "\xCDndices de empleo":
