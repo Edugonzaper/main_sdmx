@@ -547,6 +547,182 @@ EDCA_LUGDEF:
     agency: ESC01
     id: CL_EDCA_LUGDEF
     version: '1.0'
+EPD_AMBITOESTUDHOG:
+  codelist:
+    agency: ESC01
+    id: CL_AMBITOESTUDHOG
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: AMBITOESTUDHOG
+    id: CS_LABOUR
+    version: '1.0'
+  descripcion:
+    es: "\xC1mbito de estudio de los hogares"
+  nombre:
+    es: "\xC1mbito de estudio de los hogares"
+  nombre_dimension: AMBITOESTUDHOG
+  tipo: dimension
+EPD_COMPHOGACTIVIDAD:
+  codelist:
+    agency: ESC01
+    id: CL_COMPHOGACTIVIDAD
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: COMPHOGACTIVIDAD
+    id: CS_LABOUR
+    version: '1.0'
+  descripcion:
+    es: "Composici\xF3n del hogar seg\xFAn la actividad"
+  nombre:
+    es: "Composici\xF3n del hogar seg\xFAn la actividad"
+  nombre_dimension: COMPHOGACTIVIDAD
+  tipo: dimension
+EPD_GRUPOSEDAD:
+  codelist:
+    agency: ESC01
+    id: CL_GRUPOSEDAD
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: GRUPOSEDAD
+    id: CS_LABOUR
+    version: '1.0'
+  descripcion:
+    es: Grupos de edad
+  nombre:
+    es: Grupos de edad
+  nombre_dimension: GRUPOSEDAD
+  tipo: dimension
+EPD_NIVELESTUDIOSTER:
+  codelist:
+    agency: ESC01
+    id: CL_NIVELESTUDIOSTER
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: NIVELESTUDIOSTER
+    id: CS_LABOUR
+    version: '1.0'
+  descripcion:
+    es: Nivel de estudios terminados
+  nombre:
+    es: Nivel de estudios terminados
+  nombre_dimension: NIVELESTUDIOSTER
+  tipo: dimension
+EPD_PERCEPPRESINVAL:
+  codelist:
+    agency: ESC01
+    id: CL_PERCEPPRESINVAL
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: PERCEPPRESINVAL
+    id: CS_LABOUR
+    version: '1.0'
+  descripcion:
+    es: "Percepci\xF3n de prestaci\xF3n de invalidez"
+  nombre:
+    es: "Percepci\xF3n de prestaci\xF3n de invalidez"
+  nombre_dimension: PERCEPPRESINVAL
+  tipo: dimension
+EPD_PRESENCDISCAPAC:
+  codelist:
+    agency: ESC01
+    id: CL_PRESENCDISCAPAC
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: PRESENCDISCAPAC
+    id: CS_LABOUR
+    version: '1.0'
+  descripcion:
+    es: "Presencia o no de personas con discapacidad de 16 a 64 a\xF1os en el hogar"
+  nombre:
+    es: "Presencia o no de personas con discapacidad de 16 a 64 a\xF1os en el hogar"
+  nombre_dimension: PRESENCDISCAPAC
+  tipo: dimension
+EPD_RELACTIVIDAD:
+  codelist:
+    agency: ESC01
+    id: CL_RELACTIVIDAD
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: RELACTIVIDAD
+    id: CS_LABOUR
+    version: '1.0'
+  descripcion:
+    es: "Relaci\xF3n con la actividad"
+  nombre:
+    es: "Relaci\xF3n con la actividad"
+  nombre_dimension: RELACTIVIDAD
+  tipo: dimension
+EPD_SITUACIONDEPEND:
+  codelist:
+    agency: ESC01
+    id: CL_SITUACIONDEPEND
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: SITUACIONDEPEND
+    id: CS_LABOUR
+    version: '1.0'
+  descripcion:
+    es: "Situaci\xF3n de dependencia"
+  nombre:
+    es: "Situaci\xF3n de dependencia"
+  nombre_dimension: SITUACIONDEPEND
+  tipo: dimension
+EPD_SITUACPROFES:
+  codelist:
+    agency: ESC01
+    id: CL_SITUACPROFES
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: SITUACPROFES
+    id: CS_LABOUR
+    version: '1.0'
+  descripcion:
+    es: "Situaci\xF3n profesional"
+  nombre:
+    es: "Situaci\xF3n profesional"
+  nombre_dimension: SITUACPROFES
+  tipo: dimension
+ESTADOCIVIL:
+  codelist:
+    agency: ESC01
+    id: CL_UNION_STATUS
+    version: '1.0'
+  concept_scheme:
+    agency: SDMX
+    concepto: UNION_STATUS
+    id: CROSS_DOMAIN_CONCEPTS
+    version: '2.0'
+  descripcion:
+    es: "Estado civil c\xF3nyuge 1"
+  nombre:
+    es: "Estado civil c\xF3nyuge 1"
+  nombre_dimension: ESTADOCIVIL
+  tipo: dimension
+ESTADOCIVILC2:
+  codelist:
+    agency: ESC01
+    id: CL_ESTADOCIVILC2
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: ESTADOCIVILC2
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: "Estado civil c\xF3nyuge 2"
+  nombre:
+    es: "Estado civil c\xF3nyuge 2"
+  nombre_dimension: ESTADOCIVILC2
+  tipo: dimension
 ESTADO_DATO:
   codelist:
     agency: ESC01
@@ -562,6 +738,38 @@ ESTADO_DATO:
   nombre:
     es: Estado del dato
   nombre_dimension: ESTADO_DATO
+  tipo: dimension
+FORMA_JUR_SOCMER:
+  codelist:
+    agency: ESC01
+    id: CL_FORMA_JUR
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: FORMA_JUR
+    id: CS_BUSINESS_STAT
+    version: '1.0'
+  descripcion:
+    es: "Forma jur\xEDdica"
+  nombre:
+    es: "Forma jur\xEDdica"
+  nombre_dimension: FORMA_JUR
+  tipo: dimension
+G102:
+  codelist:
+    agency: ESC01
+    id: CL_G102
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: G102
+    id: CS_HEALTH
+    version: '1.0'
+  descripcion:
+    es: G102
+  nombre:
+    es: G102
+  nombre_dimension: G102
   tipo: dimension
 IASS_TIPOVENTAS:
   codelist:
@@ -611,6 +819,38 @@ ICMA_TIPOVENTAS:
     es: Tipo de ventas
   nombre_dimension: TIPOVENTAS
   tipo: dimension
+IPC_GRUPOSESPECIALES:
+  codelist:
+    agency: ESC01
+    id: CL_GRUPOSESPECIALES
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: GRUPOSESPECIALES
+    id: CS_ECO_ACCOUNTS
+    version: '1.0'
+  descripcion:
+    es: Grupos especiales
+  nombre:
+    es: Grupos especiales
+  nombre_dimension: GRUPOSESPECIALES
+  tipo: dimension
+IPC_RUBRICAS:
+  codelist:
+    agency: ESC01
+    id: CL_RUBRICAS
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: RUBRICAS
+    id: CS_ECO_ACCOUNTS
+    version: '1.0'
+  descripcion:
+    es: "R\xFAbricas"
+  nombre:
+    es: "R\xFAbricas"
+  nombre_dimension: RUBRICAS
+  tipo: dimension
 IVGS_SERIEIVGS:
   codelist:
     agency: ESC01
@@ -659,6 +899,182 @@ LUGARNACIMIEN:
     es: Lugar de nacimiento
   nombre_dimension: LUGARNACIMIEN
   tipo: dimension
+MACROECO:
+  codelist:
+    agency: ESC01
+    id: CL_MACROECO
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: MACROECO
+    id: CS_LABOUR
+    version: '1.0'
+  descripcion:
+    es: "Cuadro macroecon\xF3mico"
+  nombre:
+    es: "Cuadro macroecon\xF3mico"
+  nombre_dimension: MACROECO
+  tipo: dimension
+MACROMAG_CPA:
+  codelist:
+    agency: ESC01
+    id: CL_MACROMAG_CPA
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: MACROMAG_CPA
+    id: CS_ECO_ACCOUNTS
+    version: '1.0'
+  descripcion:
+    es: Macromagnitudes
+  nombre:
+    es: Macromagnitudes
+  nombre_dimension: MACROMAG_CPA
+  tipo: dimension
+MES:
+  codelist:
+    agency: ESC01
+    id: CL_MES
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: MES
+    id: CS_HEALTH
+    version: '1.0'
+  descripcion:
+    es: Mes
+  nombre:
+    es: Mes
+  nombre_dimension: MES
+  tipo: dimension
+MULTIPLICIDAD_SEXO:
+  codelist:
+    agency: ESC01
+    id: CL_MULTIPLICIDAD_SEXO
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: MULTIPLICIDAD_SEXO
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Multiplicidad
+  nombre:
+    es: Multiplicidad
+  nombre_dimension: MULTIPLICIDAD_SEXO
+  tipo: dimension
+NACIONACONYUGES:
+  codelist:
+    agency: ESC01
+    id: CL_NACIONACONYUGES
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: NACIONACONYUGES
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: "Nacionalidad de los c\xF3nyuges"
+  nombre:
+    es: "Nacionalidad de los c\xF3nyuges"
+  nombre_dimension: NACIONACONYUGES
+  tipo: dimension
+NACIONALIDAD:
+  codelist:
+    agency: ESC01
+    id: CL_NACIONALIDAD
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: NACIONALIDAD
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Nacionalidad
+  nombre:
+    es: Nacionalidad
+  nombre_dimension: NACIONALIDAD
+  tipo: dimension
+NUMHIJOSMENORED:
+  codelist:
+    agency: ESC01
+    id: CL_NUMHIJOSMENORED
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: NUMHIJOSMENORED
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: "N\xFAmero de hijos menores de edad"
+  nombre:
+    es: "N\xFAmero de hijos menores de edad"
+  nombre_dimension: NUMHIJOSMENORED
+  tipo: dimension
+PCSSA_JUBVIUDEDAD:
+  codelist:
+    agency: ESC01
+    id: CL_PCSSA_JUBVIUDEDAD
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: PCSSA_JUBVIUDEDAD
+    id: CS_SOCIAL_PROTECT
+    version: '1.0'
+  descripcion:
+    es: "Jubilaci\xF3n con viudedad"
+  nombre:
+    es: "Jubilaci\xF3n con viudedad"
+  nombre_dimension: PCSSA_JUBVIUDEDAD
+  tipo: dimension
+RELAC_RESID_NAC:
+  codelist:
+    agency: ESC01
+    id: CL_RELAC_RESID_NAC
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: RELAC_RESID_NAC
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: "Relaci\xF3n entre lugar de residencia y lugar de nacimiento"
+  nombre:
+    es: "Relaci\xF3n entre lugar de residencia y lugar de nacimiento"
+  nombre_dimension: RELAC_RESID_NAC
+  tipo: dimension
+REL_RESIDENANT:
+  codelist:
+    agency: ESC01
+    id: CL_REL_RESIDENANT
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: REL_RESIDENANT
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: "Relaci\xF3n con la residencia anterior"
+  nombre:
+    es: "Relaci\xF3n con la residencia anterior"
+  nombre_dimension: REL_RESIDENANT
+  tipo: dimension
+SECC_CNAE09:
+  codelist:
+    agency: ESC01
+    id: CL_SECC_CNAE09
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: SECC_CNAE09
+    id: CS_ECO_ACCOUNTS
+    version: '1.0'
+  descripcion:
+    es: Secciones Cnae09 CPA
+  nombre:
+    es: Secciones Cnae09 CPA
+  nombre_dimension: SECC_CNAE09
+  tipo: dimension
 SEXO:
   codelist:
     agency: SDMX
@@ -674,6 +1090,38 @@ SEXO:
   nombre:
     es: Sexo
   nombre_dimension: SEXO
+  tipo: dimension
+SEXOC2:
+  codelist:
+    agency: ESC01
+    id: CL_SEXOC2
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: SEXOC2
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: "Sexo c\xF3nyuge 2"
+  nombre:
+    es: "Sexo c\xF3nyuge 2"
+  nombre_dimension: SEXOC2
+  tipo: dimension
+SEXO_SOCIOS:
+  codelist:
+    agency: ESC01
+    id: CL_SEXO_SOCIOS
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: SEXO_SOCIOS
+    id: CS_BUSINESS_STAT
+    version: '1.0'
+  descripcion:
+    es: Sexo socios fundadores
+  nombre:
+    es: Sexo socios fundadores
+  nombre_dimension: SEXO_SOCIOS
   tipo: dimension
 TEMPORAL:
   codelist:
@@ -722,4 +1170,20 @@ TERRITORIO_1:
   nombre:
     es: "Pa\xEDs de residencia"
   nombre_dimension: TERRITORIO_1
+  tipo: dimension
+TIPOMATRIMONIO:
+  codelist:
+    agency: ESC01
+    id: CL_TIPOMATRIMONIO
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TIPOMATRIMONIO
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Tipo de matrimonio
+  nombre:
+    es: Tipo de matrimonio
+  nombre_dimension: TIPOMATRIMONIO
   tipo: dimension

@@ -145,7 +145,7 @@ def create_dataflows(configuracion_ejecucion, configuracion_actividades, configu
             controller.mappings.data[cube_id].load_cube(cube_data)
 
             df_id = f'DF_{nombre_actividad}_{consulta_id}'
-            print("CONFIGU -> ", configuracion_actividades_sdmx)
+
             df_name = {'es': configuracion_actividades_sdmx[nombre_actividad]["metadatos_title"][consulta_id]}
             dataflow_columns = [
                 f'ID_{column}' if column not in ['OBS_VALUE', 'TEMPORAL'] else column.replace('TEMPORAL',
@@ -198,7 +198,6 @@ def create_metadatos(configuracion_ejecucion, configuracion_actividades, categor
     for nombre_actividad in configuracion_ejecucion['actividades']:
 
         for consulta in configuracion_actividades[nombre_actividad]['consultas']:
-            print("config ->", configuracion_actividades_sdmx)
 
             consulta_id = str(consulta).split('?')[0]
             nombre_df = configuracion_actividades_sdmx[nombre_actividad]['metadatos_title'][consulta_id]
@@ -206,7 +205,6 @@ def create_metadatos(configuracion_ejecucion, configuracion_actividades, categor
                 nombre_df = configuracion_actividades_sdmx[nombre_actividad]['metadatos_title'][consulta_id] + ': ' \
                             + configuracion_actividades_sdmx[nombre_actividad]['metadatos_subtitle'][consulta_id]
             id_mdf = f'MDF_{nombre_actividad}_{consulta_id}'
-            print("nombre_df antes del put ", nombre_df)
             controller.metadataflows.put('ESC01', id_mdf, '1.0', {'es': nombre_df}, None)
             id_mds = f'MDS_{nombre_actividad}_{consulta_id}'
             nombre_mds = {'es': nombre_df}

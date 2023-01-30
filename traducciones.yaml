@@ -6756,6 +6756,8 @@
   en: (Total) Status prior to the start of the last venture (other employed)
 "(U+1000) Hace m\xE1s de 1 a\xF1o desde su \xFAltimo empleo":
   en: (U+1000) More than 1 year since last employment
+/xC1mbito de estudio de los hogares:
+  en: /xC1 household survey scope
 "15-29 a\xF1os":
   en: 15-29 years
 '2006':
@@ -6818,6 +6820,8 @@ A11. CNAE 29, 30. Material de transporte:
     and equipment.
 "A9. CNAE 26, 27. Material y equipo el\xE9ctrico, electr\xF3nico y \xF3ptico":
   en: A9. CNAE 26, 27. Electrical, electronic and optical material and equipment.
+AMBITOESTUDHOG:
+  en: AMBITOESTUDHOG
 ? Abstract concept denoting an element in the SDMX model having specific characteristics
   which are inherited by other elements.
 : es: "Concepto abstracto que denota un elemento del modelo SDMX con caracter\xED\
@@ -6926,6 +6930,8 @@ Apartamento, piso o chalet en propiedad:
   en: Flat, flat or villa in property
 Apartamentos estimados:
   en: Estimated flats
+"Apoyo gubernamental a la investigaci\xF3n y desarrollo agr\xEDcola":
+  en: Government support for agricultural research and development
 Area of technical responsibility of the contact, such as "methodology", "database management" or "dissemination".:
   es: "\xC1rea de responsabilidad t\xE9cnica del contacto, como \"metodolog\xEDa\"\
     , \"gesti\xF3n de bases de datos\" o \"difusi\xF3n\"."
@@ -6965,6 +6971,8 @@ Attribute relationship:
   en: Self-employed individuals
 Auxiliares:
   en: Auxiliary
+"A\xF1o celebraci\xF3n del matrimonio":
+  en: Year of celebration of the marriage
 BUSINESS_STAT:
   en: BUSINESS_STAT
 Baja:
@@ -6997,6 +7005,8 @@ Breakdown of spending by institutional sectors between major expenditure functio
     de gasto.
 Busca primer empleo:
   en: Looking for a first job
+CERTIFICDISCAPAC:
+  en: CERTIFICDISCAPAC
 "CNAE 45. Venta y reparaci\xF3n veh\xEDculos de motor y motocicletas":
   en: CNAE 45. Sale and repair of motor vehicles and motorbikes
 "CNAE 451. Venta de veh\xEDculos de motor":
@@ -7103,6 +7113,8 @@ CNAE 82. Actividades administrativas de oficina y otras actividades auxiliares a
   en: CNAE 95.Repair of computers, personal and household goods
 CNAE 96. Otros servicios personales:
   en: CNAE 96. Other personal services
+COMPHOGACTIVIDAD:
+  en: COMPHOGACTIVITY
 COMPONPIB2008:
   en: COMPONPIB2008
 Camping:
@@ -7222,6 +7234,8 @@ Component of a reporting taxonomy that gives structure to a report and links to 
     \ enlaces a datos y metadatos."
 Componentes del PIB:
   en: GDP components
+Composici/xF3n del hogar seg/xFAn la actividad:
+  en: Household composition according to activity
 "Compra de mercader\xEDas":
   en: Purchase of goods
 "Compras por Comercio electr\xF3nico: Compras por Sector de Actividad":
@@ -7607,6 +7621,8 @@ Duration of the marriage:
 E-mail address of the contact points for the data or metadata.:
   es: "Direcci\xF3n de correo electr\xF3nico de los puntos de contacto para los datos\
     \ o metadatos."
+ECOICOP:
+  en: ECOICOP
 ECO_ACCOUNTS:
   en: ECO_ACCOUNTS
 EDAD:
@@ -7718,6 +7734,8 @@ Estaba afiliado:
   en: I was affiliated
 Establecimientos medios estimados:
   en: Estimated average establishments
+Estado civil:
+  en: Marital status
 "Estad\xEDstica Estructural de Empresas":
   en: Structural Business Statistics
 Estancia media de los turistas por procedencia:
@@ -7802,6 +7820,13 @@ Extranjeros:
   en: Foreigners
 Facet:
   es: Facet
+? Failure to obtain a measurement (e.g. non response, no data available, information
+  not known by the respondent unit, etc.).
+: es: "Imposibilidad de obtener una medici\xF3n (por ejemplo, falta de respuesta,\
+    \ datos no disponibles, informaci\xF3n no conocida por la unidad encuestada, etc.)."
+Failure to obtain a measurement on one or more study variables for one or more elements in a survey.:
+  es: "Fallo en la obtenci\xF3n de una medici\xF3n sobre una o m\xE1s variables de\
+    \ estudio para uno o m\xE1s elementos de una encuesta."
 Fast-track change:
   es: "Cambio por la v\xEDa r\xE1pida"
 Fax number of the contact points for the data or metadata.:
@@ -7810,6 +7835,8 @@ Fax number of the contact points for the data or metadata.:
   en: Date of dissemination of results
 "Fecha prevista de difusi\xF3n de resultados":
   en: Planned date of dissemination of results
+Female:
+  es: Mujer
 Format specification of a component's content when reported in a data or metadata set.:
   es: "Especificaci\xF3n del formato del contenido de un componente cuando se comunica\
     \ en un conjunto de datos o metadatos."
@@ -7837,6 +7864,10 @@ G. TOTAL SECTOR COMERCIO:
   en: G. TOTAL SECTOR COMERCIO
 G. TOTAL SECTOR COMERCIO*:
   en: G. TOTAL SECTOR COMERCIO*
+GRUPOSEDAD:
+  en: GROUPSEDAD
+GRUPOSESPECIALES:
+  en: SPECIALGROUPS
 "Garant\xEDa de calidad":
   en: Quality assurance
 Gasto en I+D del sector empresarial:
@@ -7881,6 +7912,12 @@ Group key:
   es: Clave de grupo
 Group key structure:
   es: Estructura de las claves de grupo
+Grupos:
+  en: Groups
+Grupos de edad:
+  en: Age groups
+Grupos especiales:
+  en: Special groups
 ? Guidelines focusing on quality in general and dealing with quality of statistical
   programmes, including measures for ensuring the efficient use of resources.
 : es: "Directrices centradas en la calidad en general y que tratan de la calidad de\
@@ -8149,6 +8186,8 @@ Maintained collection of maintenance agencies.:
   es: "Mantenimiento de la colecci\xF3n de agencias de mantenimiento."
 Maintenance agency:
   es: Agencia de mantenimiento
+Male:
+  es: Hombre
 Mandato institucional:
   en: Institutional mandate
 "Manufacturas de alta y alta-media tecnolog\xEDa":
@@ -8255,8 +8294,12 @@ Municipios de menos de 40 mil habitantes:
   en: More than 360 days
 N. ACTIVIDADES ADMINISTRATIVAS Y SERVICIOS AUXILIARES:
   en: N. ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES
+NIVELESTUDIOSTER:
+  en: LEVELSTUDIESTER
 "Nacidos en Andaluc\xEDa residentes en el resto de Espa\xF1a":
   en: Born in Andalusia resident in the rest of Spain
+Nacionalidad:
+  en: Nationality
 Name of the contact points for the data or metadata.:
   es: Nombre de los puntos de contacto para los datos o metadatos.
 Nameable artefact:
@@ -8265,6 +8308,8 @@ Naturaleza del gasto:
   en: Nature of expenditure
 Nivel:
   en: Level
+Nivel de estudios terminados:
+  en: Level of education completed
 "Nivel de formaci\xC3\xB3n":
   en: Level of training
 "Nivel de formaci\xF3n":
@@ -8279,6 +8324,8 @@ No refiere estado de inactividad:
   en: Does not refer to inactive status
 Nombre de contacto:
   en: Contact name
+Non response:
+  es: Sin respuesta
 Non-response error:
   es: Error de falta de respuesta
 Non-sampling error:
@@ -8446,8 +8493,12 @@ Overall evaluation of data quality, based on standard quality criteria.:
     \ est\xE1ndar."
 Ownership group:
   es: Grupo propietario
+PERCEPPRESINVAL:
+  en: PERCEPPRESINVAL
 POP_MIGRATION:
   en: POP_MIGRATION
+PRESENCDISCAPAC:
+  en: PRESENCDISCAPAC
 PUBLICA/PRIVADA:
   en: PUBLIC/PRIVATE
 PUESTRABASAB2008:
@@ -8494,6 +8545,8 @@ Parity:
   en: Broadband penetration
 Pensionista:
   en: Pensioner
+Percepci/xF3n de prestaci/xF3n de invalidez:
+  en: Receipt of invalidity benefit
 "Percibiendo pensi\xF3n distinta a jubilaci\xF3n":
   en: Receiving a pension other than a retirement pension
 "Percibiendo una pensi\xF3n de jubilaci\xF3n":
@@ -8560,6 +8613,8 @@ Personas:
   en: Persons
 "Personas con habilidades digitales por encima de las b\xE1sicas":
   en: People with more than basic digital skills
+Personas sin o con discapacidad:
+  en: Persons without or with disabilities
 "Per\xEDodo base":
   en: Base period
 "Per\xEDodo de referencia":
@@ -8692,6 +8747,8 @@ Pre-break observation value:
 Predefined set of terms from which some statistical coded concepts take their values.:
   es: "Conjunto predefinido de t\xE9rminos de los que toman sus valores algunos conceptos\
     \ codificados estad\xEDsticamente."
+Presencia o no de personas con discapacidad de 16 a 64 a/xF1os en el hogar:
+  en: Presence or not of persons with disabilities aged 16 to 64 in the household
 "Presentaci\xF3n estad\xEDstica":
   en: Statistical presentation
 "Prestaci\xF3n y subsidio por desempleo":
@@ -8845,8 +8902,14 @@ Quinquennial:
   es: Quinquenal
 "Qu\xEDmica (incluida la farmacia)":
   en: Chemistry (including pharmacy)
+R/xFAbricas:
+  en: R/xPlants
+RELACTIVIDAD:
+  en: RELACTIVITY
 REMASALAB2008:
   en: REMASALAB2008
+RUBRICAS:
+  en: RUBRICAS
 ? Ratio between the in-scope (eligible) units which have not responded to a particular
   item and the in-scope units that are required to respond to that particular item.
 : es: "Relaci\xF3n entre las unidades incluidas en el \xE1mbito de aplicaci\xF3n (elegibles)\
@@ -8892,6 +8955,8 @@ Regular or ad-hoc press releases linked to the data.:
 Regular or ad-hoc publications in which the data are made available to the public.:
   es: "Publicaciones peri\xF3dicas o ad hoc en las que los datos se ponen a disposici\xF3\
     n del p\xFAblico."
+Relaci/xF3n con la actividad:
+  en: Relation to the activity
 Release policy:
   es: "Pol\xEDtica de liberaci\xF3n"
 Release policy - release calendar:
@@ -9248,6 +9313,10 @@ SE6. CNAE 10.4. Aceites y grasas:
   en: SE92. CNAE 37, 38, 39. Sanitation, waste management and decontamination activities.
 SERIE:
   en: SERIE
+SITUACIONDEPEND:
+  en: SITUATIONDEPEND
+SITUACPROFES:
+  en: SITUACPROFES
 Salario:
   en: Salary
 Salario bruto anual:
@@ -9412,6 +9481,10 @@ Single value of the set of values for a member selection.:
   es: "Valor \xFAnico del conjunto de valores de una selecci\xF3n de miembros."
 "Sistema de clasificaci\xF3n":
   en: Classification system
+Situaci/xF3n de dependencia:
+  en: Dependency situation
+Situaci/xF3n profesional:
+  en: Professional status
 "Situaci\xF3n de inactividad":
   en: Situation of inactivity
 ? "Situaci\xF3n laboral de los hogares. Actividad econ\xF3mica en funci\xF3n del parentesco\
@@ -9853,7 +9926,7 @@ Title:
     \      cuando se registran eventos aleatorios (el intervalo entre cada elemento\
     \ puede ser de diferente            longitud)"
 Total:
-  en: Total
+  es: Total
 Total membership or population or "universe" of a defined class of people, objects or events.:
   es: "Total de miembros o poblaci\xF3n o \"universo\" de una clase definida de personas,\
     \ objetos o acontecimientos."
@@ -9906,6 +9979,8 @@ Twice a day:
 UN/EDIFACT format for exchange of SDMX-structured data and metadata for time series.:
   es: Formato UN/EDIFACT para el intercambio de datos y metadatos estructurados SDMX
     para series temporales.
+UNION_STATUS:
+  en: UNION_STATUS
 "Un adulto con ni\xF1os (menores de 16)":
   en: One adult with children (under 16)
 Un adulto solo:
@@ -9945,12 +10020,31 @@ Unit of thought created by a unique combination of characteristics.:
   en: Public universities
 "Uni\xF3n Europea":
   en: European Union
+Unknown:
+  es: Desconocido
 "Uno o m\xE1s episodio(s) de cotizaci\xF3n":
   en: One or more listing episode(s)
 Unspecified:
   es: Sin especificar
 Usage status:
   es: "Estado de utilizaci\xF3n"
+Used for expressing totals.:
+  es: Se utiliza para expresar totales.
+? Used in response to a question or a request for information that does not apply
+  to the circumstances of the unit being surveyed. This concept is to be understood
+  as meaning "statistically not applicable"; i.e. _Z is to be used only for statistical
+  purposes.
+: es: "Se utiliza en respuesta a una pregunta o a una solicitud de informaci\xF3n\
+    \ que no se aplica a las circunstancias de la unidad encuestada. Este concepto\
+    \ debe entenderse en el sentido de \"estad\xEDsticamente no aplicable\"; es decir,\
+    \ _Z debe utilizarse \xFAnicamente con fines estad\xEDsticos."
+? Used to cover residual information not contained in other categories of the code
+  list (in some contexts, e.g. classifications, referred to as n.e.s., not elsewhere
+  specified, n.e.c., not elsewhere classified, etc.)
+: es: "Se utiliza para cubrir informaci\xF3n residual no contenida en otras categor\xED\
+    as de la lista de c\xF3digos (en algunos contextos, por ejemplo, clasificaciones,\
+    \ se denomina n.e.s., no especificado en otra parte, n.e.c., no clasificado en\
+    \ otra parte, etc.)."
 Usuarios:
   en: Users
 "Validaci\xF3n de datos":
@@ -10063,6 +10157,8 @@ Weight at birth:
     \ una observaci\xF3n es            observada"
 XML format for the exchange of SDMX-structured data and metadata.:
   es: Formato XML para el intercambio de datos y metadatos estructurados en SDMX.
+YMA:
+  en: YMA
 Year of birth:
   es: "A\xF1o de nacimiento"
 Year of birth of first-time marrying persons:

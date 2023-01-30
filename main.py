@@ -64,8 +64,8 @@ if __name__ == "__main__":
         create_dataflows(configuracion_ejecucion, configuracion_actividades, configuracion_actividades_sdmx,
                          category_scheme, configuracion_global, mapa_conceptos_codelist, controller)
 
-        # create_metadatos(configuracion_ejecucion, configuracion_actividades, category_scheme, controller,
-        #                  configuracion_global,configuracion_actividades_sdmx)
+        create_metadatos(configuracion_ejecucion, configuracion_actividades, category_scheme, controller,
+                         configuracion_global,configuracion_actividades_sdmx)
     else:
         controller = None
 

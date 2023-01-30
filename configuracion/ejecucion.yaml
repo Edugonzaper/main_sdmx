@@ -1,16 +1,16 @@
 actividades:
 #    - IPC
 #    - DSN
-#    - PADRON
+#    - PADRON #arreglar datos de indicadores
 #    - MNP
 #    - DIRECTORIO
 #    - SOCMER  #una consulta sin datos
-#    - CONTPROV #no conecta la petición
+#    - CONTPROV #solo funciona desde vpn
 #    - PENSIONES
-#    - DEFCAU  #algunas peticiones demasiado grandes
-#    - CRA  #consultas sin datos
+#    - DEFCAU  #algunas peticiones demasiado grandes - NO FUNCIONA
+#    - CRA  #consultas sin datos - FUNCIONA
 #    - EPD
-#    - INDICADORES
+#    - INDICADORES #hasta aqui funciona
 #    - EOH
 #    - CAMPINGS
 #    - TURISMO_RURAL
@@ -24,8 +24,8 @@ actividades:
 #    - EMPRESASIMD #no funciona
 #    - USO_TIC
     - IASS
-#    - AE
-#    - IVGSA
-#    - ICMA
-#    - PIIA
-#    - CRTA
+    - AE
+    - IVGSA
+    - ICMA
+    - PIIA
+    - CRTA
