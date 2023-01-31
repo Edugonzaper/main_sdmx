@@ -53,7 +53,7 @@ if __name__ == "__main__":
         configuracion_actividades_sdmx = get_configuracion_completo(configuracion_ejecucion)
 
         put_all_codelist_schemes(configuracion_ejecucion, configuracion_actividades_sdmx, datos_jerarquias,
-                                 mapa_conceptos_codelist, controller)
+                                 mapa_conceptos_codelist, controller,configuracion_actividades)
 
         put_dsds(configuracion_ejecucion, configuracion_actividades_sdmx, mapa_conceptos_codelist, controller)
 

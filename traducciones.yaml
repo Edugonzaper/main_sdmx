@@ -6794,6 +6794,8 @@
   en: 30-64 years
 "65 y m\xE1s a\xF1os":
   en: 65 and over
+A/xF1os:
+  en: A/xF1os
 "A1. CNAE 05, 06, 07, 08, 09, 19, 35, 36, 37, 38, 39. Industrias extractivas, energ\xEDa, agua y residuos":
   en: A1. CNAE 05, 06, 07, 08, 09, 19, 35, 36, 37, 38, 39. Extractive industries,
     energy, water and waste
@@ -6820,8 +6822,12 @@ A11. CNAE 29, 30. Material de transporte:
     and equipment.
 "A9. CNAE 26, 27. Material y equipo el\xE9ctrico, electr\xF3nico y \xF3ptico":
   en: A9. CNAE 26, 27. Electrical, electronic and optical material and equipment.
+ACTIV_EST:
+  en: ACTIV_EST
 AMBITOESTUDHOG:
   en: AMBITOESTUDHOG
+ANOCELEBRMATRIM:
+  en: ANOCELEBRMATRIM
 ? Abstract concept denoting an element in the SDMX model having specific characteristics
   which are inherited by other elements.
 : es: "Concepto abstracto que denota un elemento del modelo SDMX con caracter\xED\
@@ -6863,6 +6869,10 @@ Adjustment:
   en: Regional and local administration
 "Administraci\xF3n del estado":
   en: State administration
+"Administraci\xF3n p\xFAblica":
+  en: Public administration
+"Administraci\xF3n p\xFAblica seg\xFAn disciplina cient\xEDfica":
+  en: Public administration by scientific discipline
 "Administraci\xF3n p\xFAblica seg\xFAn disciplina cient\xEDfica: Personal empleado en I+D seg\xFAn ocupaci\xF3n y sexo":
   en: 'Public administration by scientific discipline: Personnel employed in R&D by
     occupation and gender'
@@ -6971,18 +6981,24 @@ Attribute:
   es: Atributo
 Attribute relationship:
   es: "Relaci\xF3n de atributos"
+"Aut\xF3nomos en Andaluc\xEDa":
+  en: Self-employed in Andalusia
 "Aut\xF3nomos personas f\xEDsicas":
   en: Self-employed individuals
 Auxiliares:
   en: Auxiliary
 "A\xF1o celebraci\xF3n del matrimonio":
   en: Year of celebration of the marriage
+BASECOTIZAC:
+  en: BASECOTIZAC
 BUSINESS_STAT:
   en: BUSINESS_STAT
 Baja:
   en: Baja
 Banking, insurance, financial statistics:
   es: "Banca, seguros, estad\xEDsticas financieras"
+Base de cotizaci/xF3n:
+  en: Contribution basis
 "Base de cotizaci\xF3n":
   en: Contribution basis
 "Base de cotizaci\xF3n m\xEDnima":
@@ -7013,8 +7029,16 @@ Busca primer empleo:
   en: Looking for a first job
 Business statistics:
   es: "Estad\xEDsticas empresariales"
+CAT:
+  en: CAT
+CAT_HOTELES:
+  en: CAT_HOTELES
 CERTIFICDISCAPAC:
   en: CERTIFICDISCAPAC
+CIE10:
+  en: CIE10
+CLASEINACTIV:
+  en: CLASEINACTIV
 "CNAE 45. Venta y reparaci\xF3n veh\xEDculos de motor y motocicletas":
   en: CNAE 45. Sale and repair of motor vehicles and motorbikes
 "CNAE 451. Venta de veh\xEDculos de motor":
@@ -7121,12 +7145,28 @@ CNAE 82. Actividades administrativas de oficina y otras actividades auxiliares a
   en: CNAE 95.Repair of computers, personal and household goods
 CNAE 96. Otros servicios personales:
   en: CNAE 96. Other personal services
+CNAE09:
+  en: CNAE09
+CNAESECTOR:
+  en: CNAESECTOR
+CNAE_O9_NEW:
+  en: CNAE_O9_NEW
+CNED2014:
+  en: CNED2014
+CNO11:
+  en: CNO11
 COMPHOGACTIVIDAD:
   en: COMPHOGACTIVITY
 COMPONPIB2008:
   en: COMPONPIB2008
+COTIZANTE:
+  en: QUOTE
+CUSTODIA:
+  en: CUSTODY
 Camping:
   en: Camping
+Categor/xEDas de los establecimientos hoteleros:
+  en: Categories/xEDs of hotel establishments
 Category:
   es: "Categor\xEDa"
 Category scheme:
@@ -7246,6 +7286,8 @@ Composici/xF3n del hogar seg/xFAn la actividad:
   en: Household composition according to activity
 "Compra de mercader\xEDas":
   en: Purchase of goods
+"Compras por Comercio electr\xF3nico":
+  en: E-commerce shopping
 "Compras por Comercio electr\xF3nico: Compras por Sector de Actividad":
   en: 'E-Commerce Purchases: Purchases by Sector of Activity'
 Comunicados:
@@ -7317,6 +7359,12 @@ Consumo de materias primas y otros aprovisionamientos:
   en: Consumption of goods
 Consumos intermedios:
   en: Intermediate consumption
+"Contabilidad Regional Anual de Andaluc\xEDa":
+  en: Annual Regional Accounts for Andalusia
+"Contabilidad Regional Anual de Andaluc\xEDa. Revi":
+  en: Annual Regional Accounts of Andalusia. Revi
+"Contabilidad Regional Anual de Andaluc\xEDa. Revisi\xF3n estad\xEDstica 2019":
+  en: Annual Regional Accounts of Andalusia. Statistical Revision 2019
 "Contabilidad Regional Trimestral de Andaluc\xEDa":
   en: Quarterly Regional Accounts of Andalusia
 Contact:
@@ -7388,6 +7436,10 @@ Cross-domain code list, CDCL:
   es: "Lista de c\xF3digos interdominios, CDCL"
 Cross-domain concept, CDC:
   es: Concepto transversal, CDC
+Cuadro macroecon/xF3mico:
+  en: Macroeconomic/xF3mic picture
+"Cualificaci\xF3n del mercado laboral. Formaci\xF3n alcanzada":
+  en: Labour market qualifications. Training achieved
 ? "Cualificaci\xF3n del mercado laboral. Formaci\xF3n alcanzada: Tasas de actividad\
   \ seg\xFAn nivel de formaci\xF3n alcanzado por sexo y grupo de edad*"
 : en: 'Labour market qualifications. Education attained: Activity rates by level of
@@ -7404,6 +7456,16 @@ Culture:
   es: Cultura
 Currency:
   es: Moneda
+Custodia:
+  en: Case
+D/xEDas cotizados en el a/xF1o:
+  en: D/xEDas quoted in the year/xF1o
+DEMOGRAFIA:
+  en: DEMOGRAPHY
+DIASCOTIZANO:
+  en: DIASCOTIZANO
+DISCIPLINA:
+  en: DISCIPLINE
 DSD agreed by a number of international organisations for use within their respective constituencies:
   es: DSD acordada por varias organizaciones internacionales para su uso en sus respectivas
     circunscripciones
@@ -7412,6 +7474,10 @@ DSD developed for the specific needs of one organisation only.:
     n."
 DSD for global use:
   es: DSD para uso global
+DURACEMPREND:
+  en: DURACEMPREND
+DURACMATRIM:
+  en: DURACMATRIM
 Daily:
   es: Diario
 "Daily \u2013 business week":
@@ -7490,10 +7556,14 @@ Date on which the metadata element was created or modified.:
     la mitad, la media o el final del periodo) para el periodo de referencia objetivo.
 Datos de origen:
   en: Source data
+Datos generales:
+  en: General data
 'Datos generales: Gastos en I+D por sectores y tipo de gastos':
   en: 'General data: R&D expenditure by sector and type of expenditure'
 'Datos generales: Personal en I+D por sectores y tipo de personal':
   en: 'General data: R&D personnel by sector and type of personnel'
+Datos provinciales:
+  en: Provincial data
 "Datos provinciales: Poblaci\xF3n de 16 y m\xE1s a\xF1os por sexo, relaci\xF3n con la actividad econ\xF3mica y provincia":
   en: 'Provincial data: Population aged 16 and over by sex, relationship with economic
     activity and province.'
@@ -7531,6 +7601,19 @@ Definiciones y conceptos:
 Definition of the price per unit, for goods and services flows and asset stocks.:
   es: "Definici\xF3n del precio por unidad, para los flujos de bienes y servicios\
     \ y las existencias de activos."
+"Defunciones por causa de muerte (cap\xEDtulos CIE 10\xAA), sexo y provincia de residencia":
+  en: Deaths by cause of death (ICD 10th chapters), sex and province of residence
+"Defunciones por causa de muerte (lista reducida CIE 10\xAA), grupo de edad, sexo y mes de la defunci\xF3n":
+  en: Deaths by cause of death (ICD 10th shortlist), age group, sex and month of death
+"Defunciones por causas de Andaluc\xEDa":
+  en: Deaths by cause in Andalusia
+"Defunciones por covid-19 virus identificado y virus no identificado (sospechoso) seg\xFAn grupo de edad y sexo en Andaluc\xEDa":
+  en: Deaths due to identified covid-19 virus and unidentified (suspected) virus by
+    age group and sex in Andalusia
+? "Defunciones por covid-19 virus identificado y virus no identificado (sospechoso)\
+  \ seg\xFAn lugar de ocurrencia, mes de defunci\xF3n y sexo en Andaluc\xEDa"
+: en: Deaths due to identified covid-19 virus and unidentified (suspected) virus by
+    place of occurrence, month of death and sex in Andalusia
 "Degree of urbanization \u2013 DEGURBA":
   es: "Grado de urbanizaci\xF3n - DEGURBA"
 Degree to which statistical information meets the real or perceived needs of clients.:
@@ -7583,10 +7666,24 @@ Dimension:
   en: Contact postal address
 Directores y gerentes:
   en: Directors and managers
+Directorio de Empresas:
+  en: Company Directory
+Disciplina cient/xEDfica:
+  en: Scientific/xEDFIC discipline
 "Disciplina cient\xEDfica":
   en: Scientific discipline
 "Dise\xF1os comunitarios":
   en: Community designs
+"Disoluciones seg\xFAn c\xF3nyuge que ejerce la custodia":
+  en: Dissolutions by custodial spouse
+"Disoluciones seg\xFAn duraci\xF3n del matrimonio por provincia de residencia":
+  en: Dissolutions according to duration of marriage by province of residence
+"Disoluciones seg\xFAn la edad de los c\xF3nyuges por provincia de residencia":
+  en: Dissolutions according to age of spouses by province of residence
+"Disoluciones seg\xFAn la nacionalidad de los c\xF3nyuges":
+  en: Dissolutions according to the nationality of the spouses
+"Disoluciones seg\xFAn n\xFAmero de hijos menores de edad":
+  en: Dissolutions by number of minor children
 Dissemination format:
   es: "Formato de difusi\xF3n"
 Dissemination format - microdata access:
@@ -7599,6 +7696,15 @@ Dissemination format - other formats:
   es: "Formato de difusi\xF3n - otros formatos"
 Dissemination format - publications:
   es: "Formato de difusi\xF3n - publicaciones"
+"Divorcios, separaciones y nulidades entre c\xF3nyuges del mismo sexo":
+  en: Divorces, separations and annulments between same-sex spouses
+"Divorcios, separaciones y nulidades seg\xFAn el estado civil previo al matrimonio por provincia de residencia":
+  en: Divorces, separations and annulments according to pre-marital status by province
+    of residence
+"Divorcios, separaciones y nulidades seg\xFAn sexo por provincia de residencia":
+  en: Divorces, separations and annulments by sex by province of residence
+Divorcios,Separaciones y nulidades:
+  en: Divorces, Separations and annulments
 "Documentaci\xF3n sobre calidad":
   en: Quality documentation
 "Documentaci\xF3n sobre metodolog\xEDa":
@@ -7624,6 +7730,10 @@ Dos adultos solos, ambos de edad 16-64:
   en: Two single adults, both aged 16-64
 "Dos o m\xE1s tipos de prestaci\xF3n":
   en: Two or more types of benefit
+Duraci/xF3n del emprendimiento:
+  en: Duration of the undertaking
+Duraci/xF3n del matrimonio:
+  en: Duration of marriage
 "Duraci\xF3n del emprendimiento":
   en: Duration of the venture
 Duration of gestation:
@@ -7637,12 +7747,28 @@ E-mail address of the contact points for the data or metadata.:
     \ o metadatos."
 ECOICOP:
   en: ECOICOP
+ECONOMICAS:
+  en: ECONOMIC
 ECO_ACCOUNTS:
   en: ECO_ACCOUNTS
 EDAD:
   en: AGE
+EDCA_LUGDEF:
+  en: EDCA_LUGDEF
+EDUCACION:
+  en: EDUCATION
 EOC:
   es: EOC
+EPA_NACIONALIDAD:
+  en: EPA_NATIONALITY
+ESTADOCIVILC2:
+  en: CIVILC2 STATE
+ESTRATO_ASALARIADOS:
+  en: EMPLOYEE_STRATUM
+ESTRUCHOGAR:
+  en: ESTRUCHOGAR
+ESTUDIOS:
+  en: STUDIES
 Economic accounts:
   es: "Cuentas econ\xF3micas"
 Economic activity:
@@ -7683,6 +7809,8 @@ Embargo time:
   en: Atmospheric emissions of fine particulate matter (PM 2.5) in manufacturing industry
 Empleados contables, administrativos y otros empleados de oficina:
   en: Accountants, clerical and other office employees
+Empleo de las personas con discapacidad:
+  en: Employment of people with disabilities
 Empleo en actividades de conocimiento intensivo por sexo:
   en: Employment in knowledge-intensive activities by gender
 Employment status of the mother:
@@ -7707,8 +7835,18 @@ Empresas privadas:
     and sex'
 'Empresas: Servicios por rama de actividad. Unidades que realizan I+D':
   en: 'Companies: Services by branch of activity. Units performing R&D'
+"Encuesta de Ocupaci\xF3n Hotelera":
+  en: Hotel Occupancy Survey
 "Encuesta de Ocupaci\xF3n en Campings":
   en: Campsite Occupancy Survey
+"Encuesta de ocupaci\xF3n de alojamientos de turismo rural":
+  en: Rural tourism accommodation occupancy survey
+"Encuesta de ocupaci\xF3n en apartamentos tur\xEDsticos":
+  en: Tourist flat occupancy survey
+"Encuesta sobre el uso de TIC y comercio electr\xF3nico en las empresas":
+  en: Survey on the use of ICT and e-commerce in enterprises
+"Encuestas de Poblaci\xF3n Activa":
+  en: Labour Force Surveys
 Energy:
   es: "Energ\xEDa"
 Entity for which information is sought and for which statistics are ultimately compiled.:
@@ -7766,8 +7904,12 @@ Establecimientos medios estimados:
   en: Estimated average establishments
 Estado civil:
   en: Marital status
+Estado civil c/xF3nyuge 2:
+  en: Marital status w/xF3spouse 2
 "Estad\xEDstica Estructural de Empresas":
   en: Structural Business Statistics
+"Estad\xEDstica sobre actividades de I+D. Resultados de Andaluc\xEDa":
+  en: Statistics on R&D activities. Results for Andalusia
 Estancia media de los turistas por procedencia:
   en: Average stay of tourists by origin
 Estancia media de los turistas por tipo de alojamiento:
@@ -7776,6 +7918,8 @@ Estancia media por provincia:
   en: Average stay by province
 Estructura del hogar:
   en: Household structure
+"Estructura demogr\xE1fica. Relaci\xF3n con la actividad econ\xF3mica":
+  en: Demographic structure. Relationship with economic activity
 "Estructura demogr\xE1fica. Relaci\xF3n con la actividad econ\xF3mica: Activos seg\xFAn grupo de edad por sexo y nacionalidad*":
   en: 'Demographic structure. Relationship with economic activity: Active population
     by age group, sex and nationality*.'
@@ -7809,6 +7953,8 @@ Exhaustividad:
   en: Comprehensiveness
 Expenditure according to purpose:
   es: "Gastos en funci\xF3n de la finalidad"
+"Experiencia laboral del parado y b\xFAsqueda de empleo. Experiencia anterior al paro":
+  en: Unemployed person's work experience and job search. Pre-unemployment experience
 ? "Experiencia laboral del parado y b\xFAsqueda de empleo. Experiencia anterior al\
   \ paro: Parados seg\xFAn sexo por ocupaci\xF3n* (CNO11)"
 : en: 'Unemployed work experience and job search. Pre-unemployment experience: Unemployed
@@ -7848,6 +7994,8 @@ Extranjera:
   en: Foreign
 Extranjeros:
   en: Foreigners
+FORMA_JUR:
+  en: FORMA_JUR
 Facet:
   es: Facet
 ? Failure to obtain a measurement (e.g. non response, no data available, information
@@ -7867,6 +8015,8 @@ Fax number of the contact points for the data or metadata.:
   en: Planned date of dissemination of results
 Female:
   es: Mujer
+Forma jur/xEDdica:
+  en: Legal/exEDdical form
 Format specification of a component's content when reported in a data or metadata set.:
   es: "Especificaci\xF3n del formato del contenido de un componente cuando se comunica\
     \ en un conjunto de datos o metadatos."
@@ -7894,6 +8044,8 @@ G. TOTAL SECTOR COMERCIO:
   en: G. TOTAL SECTOR COMERCIO
 G. TOTAL SECTOR COMERCIO*:
   en: G. TOTAL SECTOR COMERCIO*
+G102:
+  en: G102
 GRUPOSEDAD:
   en: GROUPSEDAD
 GRUPOSESPECIALES:
@@ -7963,6 +8115,8 @@ Grupos especiales:
   en: "G\xC3\xBC\xC3\xA9jar Sierra"
 H. TRANSPORTE Y ALMACENAMIENTO:
   en: H. TRANSPORT AND STORAGE
+HEALTH:
+  en: HEALTH
 Habitaciones medias estimadas:
   en: Estimated average rooms
 "Hace m\xE1s de 1 a\xF1o desde su \xFAltimo empleo":
@@ -8034,6 +8188,8 @@ Humanidades y las Artes:
   en: I. HOSPITALITY
 INSCRIPCION:
   en: REGISTRATION
+INTERVINGRESOS:
+  en: INTERVINGRESOS
 Identifiable artefact:
   es: Artefacto identificable
 Identifiable position to which codes in a scheme of codes are related.:
@@ -8065,6 +8221,8 @@ Income and consumption:
   es: Renta y consumo
 Incremental update:
   es: "Actualizaci\xF3n incremental"
+Indicadores:
+  en: Indicators
 Indicadores de Actividad del Sector Servicios:
   en: Service Sector Activity Indicators
 "Indicadores de I+D en alta tecnolog\xEDa":
@@ -8077,6 +8235,8 @@ Indication that a person or application is to be notified when a predefined even
     n cuando se produce un evento predefinido en un registro SDMX."
 Indicators related to the Millennium Development Goals:
   es: Indicadores relacionados con los Objetivos de Desarrollo del Milenio
+Indice de Precio al Consumo:
+  en: Consumer Price Index
 ? Individual or organisational contact points for the data or metadata, including
   information on how to reach the contact points.
 : es: "Puntos de contacto individuales u organizativos para los datos o metadatos,\
@@ -8154,8 +8314,12 @@ Justice and crime:
   es: Justicia y delincuencia
 L. ACTIVIDADES INMOBILIARIAS:
   en: L. REAL ESTATE ACTIVITIES
+LABOUR:
+  en: LABOUR
 LUGARNACIMIEN:
   en: PLACE OF BIRTH
+LUG_NAC:
+  en: LUG_NAC
 "La persona ha tenido adem\xE1s otras cotizaciones a lo largo del a\xF1o":
   en: The person has also had other contributions during the year
 "La persona solo ha tenido cotizaciones como aut\xF3nomo en el a\xF1o":
@@ -8217,8 +8381,22 @@ Location or service from where data or metadata can be obtained.:
   es: Lugar o servicio del que pueden obtenerse datos o metadatos.
 Lugar de nacimiento:
   en: Place of birth
+Lugar de ocurrencia:
+  en: Place of occurrence
 "M. ACTIVIDADES PROFESIONALES, CIENT\xCDFICAS Y T\xC9CNICAS":
   en: M. PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES
+MACROECO:
+  en: MACROECO
+MCVL_MONEDAD:
+  en: MCVL_MONEDAD
+MCVL_TIPOPENSION:
+  en: MCVL_TIPOPENSION
+MES:
+  en: MES
+MONSALARIO:
+  en: MONSALARIO
+MULTIVARIABL:
+  en: MULTIVARIABL
 Macroeconomic statistics:
   es: "Estad\xEDsticas macroecon\xF3micas"
 "Madera, papel, y artes gr\xE1ficas":
@@ -8276,6 +8454,8 @@ Member value:
   en: Less than 31 days
 Menos de 6 meses:
   en: Less than 6 months
+Mes:
+  en: Mes
 Metadata completeness:
   es: Metadata completeness
 Metadata describing the contents and the quality of the statistical data.:
@@ -8332,8 +8512,12 @@ Month of occurrence:
   es: Mes de ocurrencia
 Monthly:
   es: Mensualmente
+"Movimiento Natural de la Poblaci\xF3n":
+  en: Natural Population Movement
 Muebles:
   en: Furniture
+Muestra Continua de Vidas Laborales:
+  en: Continuous Sample of Working Lives
 Mujeres:
   en: Women
 Multi-domain statistics and indicators:
@@ -8358,12 +8542,26 @@ Municipios de menos de 40 mil habitantes:
   en: More than 360 days
 N. ACTIVIDADES ADMINISTRATIVAS Y SERVICIOS AUXILIARES:
   en: N. ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES
+N/xFAmero de hijos menores de edad:
+  en: N/xFA Number of minor children
+NACIONACONYUGES:
+  en: NACIONACONYUGES
+NACIONALIDAD:
+  en: NATIONALITY
+NAT_GASTO:
+  en: NAT_GASTO
+NIVEL:
+  en: NIVEL
 NIVELESTUDIOSTER:
   en: LEVELSTUDIESTER
+NUMHIJOSMENORED:
+  en: NUMHIJOSMENORED
 "Nacidos en Andaluc\xEDa residentes en el resto de Espa\xF1a":
   en: Born in Andalusia resident in the rest of Spain
 Nacionalidad:
   en: Nationality
+Nacionalidad de los c/xF3nyuges:
+  en: Nationality of the c/xF3ny spouses
 Name of the contact points for the data or metadata.:
   es: Nombre de los puntos de contacto para los datos o metadatos.
 Nameable artefact:
@@ -8374,6 +8572,8 @@ Nivel:
   en: Level
 Nivel de estudios terminados:
   en: Level of education completed
+Nivel de formaci/xF3n:
+  en: Level of training
 "Nivel de formaci\xC3\xB3n":
   en: Level of training
 "Nivel de formaci\xF3n":
@@ -8473,6 +8673,8 @@ Occasional monthly:
   es: Mensual ocasional
 Occupation:
   es: "Ocupaci\xF3n"
+Ocupaci/xF3n:
+  en: Occupation
 Ocupaciones elementales:
   en: Elementary occupations
 Ocupaciones militares:
@@ -8557,18 +8759,32 @@ Overall evaluation of data quality, based on standard quality criteria.:
     \ est\xE1ndar."
 Ownership group:
   es: Grupo propietario
+PARQUES:
+  en: PARKS
+PARQUES_TURISMO:
+  en: PARKS_TOURISM
+PENSIONISTA:
+  en: PENSIONIST
 PERCEPPRESINVAL:
   en: PERCEPPRESINVAL
+POBLACION:
+  en: POPULATION
 POP_MIGRATION:
   en: POP_MIGRATION
 PRESENCDISCAPAC:
   en: PRESENCDISCAPAC
+PROCEDENCIA:
+  en: PROVENANCE
 PUBLICA/PRIVADA:
   en: PUBLIC/PRIVATE
+PUB_PRIV:
+  en: PUB_PRIV
 PUESTRABASAB2008:
   en: PUESTRABASAB2008
 PUESTRATTB2008:
   en: PUESTRATTB2008
+PUNTOS_TURISTICOS:
+  en: TOURIST_POINTS
 "PYMEs innovadoras en colaboraci\xF3n con otras empresas":
   en: Innovative SMEs in collaboration with other companies
 "PYMEs innovadoras que introducen innovaci\xF3n de productos":
@@ -8577,6 +8793,8 @@ PUESTRATTB2008:
   en: Innovative SMEs introducing innovation into business processes
 Pa/xEDs de residencia:
   en: Pa/xEDs of residence
+"Padr\xF3n Municipal de Habitantes. Cifras Oficiales de Poblaci\xF3n Municipal":
+  en: Municipal Register of Inhabitants. Official Municipal Population Figures
 "Panel de Indicadores de Innovaci\xF3n de Andaluc\xEDa":
   en: Andalusia's Innovation Indicators Panel
 Parados:
@@ -8609,6 +8827,8 @@ Parity:
     \ de la poblaci\xF3n."
 "Penetraci\xF3n de banda ancha":
   en: Broadband penetration
+"Pensiones contributivas de la Seguridad Social de los residentes en Andaluc\xEDa":
+  en: Contributory Social Security pensions for residents of Andalusia
 Pensionista:
   en: Pensioner
 Percepci/xF3n de prestaci/xF3n de invalidez:
@@ -8617,6 +8837,9 @@ Percepci/xF3n de prestaci/xF3n de invalidez:
   en: Receiving a pension other than a retirement pension
 "Percibiendo una pensi\xF3n de jubilaci\xF3n":
   en: Receiving a retirement pension
+"Perfil de los ocupados y caracter\xEDsticas del empleo. Caracter\xEDsticas b\xE1sicas de los ocupados":
+  en: Profile of employed persons and employment characteristics. Basic characteristics
+    of the employed
 ? "Perfil de los ocupados y caracter\xEDsticas del empleo. Caracter\xEDsticas b\xE1\
   sicas de los ocupados: Ocupados seg\xFAn grupo de edad por sexo y ocupaci\xF3n*\
   \ (CNO11)"
@@ -8628,6 +8851,9 @@ Percepci/xF3n de prestaci/xF3n de invalidez:
 : en: 'Profile of employed persons and employment characteristics. Basic characteristics
     of employed persons: Employed according to age group by sex and branch of activity*
     (CNAE09)'
+"Perfil de los ocupados y caracter\xEDsticas del empleo. Caracter\xEDsticas de los asalariados y de su contrataci\xF3n":
+  en: Profile of employed persons and employment characteristics. Characteristics
+    of employees and their employment.
 ? "Perfil de los ocupados y caracter\xEDsticas del empleo. Caracter\xEDsticas de los\
   \ asalariados y de su contrataci\xF3n: Asalariados y tasas de salarizaci\xF3n seg\xFA\
   n sexo por ocupaci\xF3n*(CNO11)"
@@ -8648,9 +8874,16 @@ Period of time used as the base of an index number, or to which a constant serie
 "Personal empleado, apartamentos estimados, plazas estimadas y grados de ocupaci\xF3n por provincias":
   en: Staff employed, estimated flats, estimated bedplaces and occupancy rates by
     provinces
+"Personal empleado, establecimientos abiertos estimados, plazas estimadas y grados de ocupaci\xF3n":
+  en: Staff employed, estimated open establishments, estimated bedplaces and occupancy
+    rates
 "Personal empleado, establecimientos abiertos estimados, plazas estimadas y grados de ocupaci\xF3n por provincia":
   en: Staff employed, estimated open establishments, estimated bedplaces and occupancy
     rates by province
+? "Personal empleado, establecimientos abiertos, plazas estimadas, parcelas estimadas,\
+  \ parcelas ocupadas y grado de ocupaci\xF3n por provincia"
+: en: Staff employed, establishments open, estimated bedplaces, estimated plots, occupied
+    plots and occupancy rate by province
 Personal general en I+D en equivalencia a jornada completa:
   en: General R&D staff in full-time equivalents
 Personal medio no remunerado:
@@ -8697,8 +8930,28 @@ Plurality:
   en: Population
 "Poblaci\xF3n estad\xEDstica":
   en: Statistical population
+"Poblaci\xF3n extranjera por pa\xEDs de nacionalidad y provincias seg\xFAn grupos quinquenales de edad y sexo":
+  en: Foreign population by country of nationality and provinces according to five-year
+    age groups and gender
+"Poblaci\xF3n por edad simple y provincias seg\xFAn nacionalidad (espa\xF1ola/extranjera) y sexo":
+  en: Population by simple age and provinces according to nationality (Spanish/foreign)
+    and sex
+"Poblaci\xF3n por grupos quinquenales de edad y relaci\xF3n entre el lugar de residencia y el lugar de nacimiento seg\xFAn sexo":
+  en: Population by five-year age groups and ratio of place of residence to place
+    of birth by sex
+"Poblaci\xF3n por municipio de residencia y edad simple seg\xFAn nacionalidad (espa\xF1ola/extranjera) y sexo":
+  en: Population by municipality of residence and simple age according to nationality
+    (Spanish/foreign) and sex
+"Poblaci\xF3n por municipio de residencia y lugar de nacimiento seg\xFAn grandes grupos de edad y sexo":
+  en: Population by municipality of residence and place of birth, by major age groups
+    and sex
+"Poblaci\xF3n por municipio de residencia y pa\xEDs de nacimiento extranjero seg\xFAn sexo":
+  en: Population by municipality of residence and foreign country of birth according
+    to gender
 "Poblaci\xF3n por sexo, provincia de residencia y tipo de relaci\xF3n con la seguridad social":
   en: Population by sex, province of residence and type of social security affiliation
+"Poblaci\xF3n residente en Andaluc\xEDa":
+  en: Resident population in Andalusia
 "Poblaci\xF3n residente en Andaluc\xEDa: Salario bruto anual por sexo y antig\xFCedad en la empresa (*)":
   en: 'Population resident in Andalusia: Gross annual salary by sex and length of
     service in the company (*)'
@@ -8731,6 +8984,8 @@ Plurality:
     (*)'
 "Poblaci\xF3n residente en el resto del mundo":
   en: Population resident in the rest of the world
+"Poblaci\xF3n residente en las provincias andaluzas":
+  en: Resident population in Andalusian provinces
 ? "Poblaci\xF3n residente en las provincias andaluzas: Altas de aut\xF3nomos a lo\
   \ largo del a\xF1o por sexo y mes en el que se produjo el alta (*)"
 : en: 'Population resident in the Andalusian provinces: Self-employed registrations
@@ -8897,10 +9152,16 @@ Proportion of units accessible via the frame that do not belong to the target po
   relation to the total number of units in the survey.
 : es: "Proporci\xF3n de unidades cubiertas tanto por la encuesta como por las fuentes\
     \ administrativas en relaci\xF3n con el n\xFAmero total de unidades de la encuesta."
+Provincias. Cotizantes:
+  en: Provinces. Contributors
+Provincias. Cotizantes con relaciones de desempleo:
+  en: Provinces. Contributors with unemployment relations
 ? "Provincias. Cotizantes con relaciones de desempleo: Poblaci\xF3n desempleada por\
   \ sexo, provincia de residencia y tipo de prestaci\xF3n (*)"
 : en: 'Provinces. Contributors with unemployment relations: Unemployed population
     by sex, province of residence and type of benefit (*)'
+"Provincias. Cotizantes con relaciones laborales de ocupaci\xF3n":
+  en: Provinces. Contributors with occupational labour relations
 ? "Provincias. Cotizantes con relaciones laborales de ocupaci\xF3n: Poblaci\xF3n ocupada\
   \ por sexo, provincia de residencia y sector de actividad del \xFAltimo episodio\
   \ de ocupaci\xF3n (*)"
@@ -8913,10 +9174,16 @@ Proportion of units accessible via the frame that do not belong to the target po
 "Provincias. Cotizantes: Poblaci\xF3n por sexo, provincia de residencia y tipo de cotizaci\xF3n (*)":
   en: 'Provinces. Contributors: Population by sex, province of residence and type
     of contribution (*)'
+Provincias. Pensionistas:
+  en: Provinces. Pensioners
+"Provincias. Pensionistas con pensiones de jubilaci\xF3n":
+  en: Provinces. Pensioners with retirement pensions
 ? "Provincias. Pensionistas con pensiones de jubilaci\xF3n: Poblaci\xF3n con pensiones\
   \ de jubilaci\xF3n por sexo, provincia de residencia y tipo de hogar (*)"
 : en: 'Provinces. Pensioners with old-age pensions: Population with old-age pensions
     by sex, province of residence and type of household (*)'
+Provincias. Pensionistas con pensiones de viudedad:
+  en: Provinces. Pensioners with widows' and widowers' pensions
 ? "Provincias. Pensionistas con pensiones de viudedad: Poblaci\xF3n con pensiones\
   \ de jubilaci\xF3n por sexo, provincia de residencia y tipo de hogar (*)"
 : en: 'Provinces. Pensioners with widows'' and widowers'' pensions: Population with
@@ -8952,6 +9219,8 @@ Pull (reporting method):
   es: "Pull (m\xE9todo de informaci\xF3n)"
 Punctuality:
   es: Puntualidad
+Puntos tur/xEDsticos:
+  en: Tourism/xEDstic points
 Puntualidad:
   en: Punctuality
 Purpose of travel:
@@ -8978,10 +9247,16 @@ R/xFAbricas:
   en: R/xPlants
 RELACTIVIDAD:
   en: RELACTIVITY
+RELAC_RESID_NAC:
+  en: RELAC_RESID_NAC
 REMASALAB2008:
   en: REMASALAB2008
+RESITUR:
+  en: RESITUR
 RUBRICAS:
   en: RUBRICAS
+Rama de actividad:
+  en: Branch of activity
 ? Ratio between the in-scope (eligible) units which have not responded to a particular
   item and the in-scope units that are required to respond to that particular item.
 : es: "Relaci\xF3n entre las unidades incluidas en el \xE1mbito de aplicaci\xF3n (elegibles)\
@@ -9031,6 +9306,8 @@ Regular or ad-hoc publications in which the data are made available to the publi
     n del p\xFAblico."
 Relaci/xF3n con la actividad:
   en: Relation to the activity
+Relaci/xF3n entre lugar de residencia y lugar de nacimiento:
+  en: Relationship between place of residence and place of birth
 Release policy:
   es: "Pol\xEDtica de liberaci\xF3n"
 Release policy - release calendar:
@@ -9088,6 +9365,8 @@ Reporting taxonomy:
     \ interfaces y comportamiento cumplen las normas t\xE9cnicas SDMX."
 Representation:
   es: "Representaci\xF3n"
+Residencia de los viajeros:
+  en: Residence of travellers
 "Residentes en Andaluc\xEDa":
   en: Residents in Andalusia
 "Residentes en Espa\xF1a":
@@ -9159,6 +9438,8 @@ SA5. CNAE 16. Madera y corcho:
   en: SA8. CNAE 22. Rubber and plastic materials
 "SA9. CNAE 23. Productos minerales no met\xE1licos diversos":
   en: SA9. CNAE 23. Miscellaneous non-metallic mineral products
+SALUD:
+  en: HEALTH
 SDMX Information Model, SDMX-IM:
   es: "Modelo de informaci\xF3n SDMX, SDMX-IM"
 SDMX Registry:
@@ -9385,8 +9666,18 @@ SE6. CNAE 10.4. Aceites y grasas:
   en: SE91. Water collection, treatment and distribution.
 "SE92. CNAE 37, 38, 39. Actividades de saneamiento, gesti\xF3n de residuos y descontaminaci\xF3n":
   en: SE92. CNAE 37, 38, 39. Sanitation, waste management and decontamination activities.
+SECTORACTIVIDAD:
+  en: SECTORACTIVITY
+SECTORAL_STAT:
+  en: SECTORAL_STAT
 SERIE:
   en: SERIE
+SEXOC2:
+  en: SEXOC2
+SEXO_SOCIOS:
+  en: SEX_MEMBERS
+SITPREVULTEM:
+  en: SITPREVULTEM
 SITUACIONDEPEND:
   en: SITUATIONDEPEND
 SITUACPROFES:
@@ -9401,6 +9692,8 @@ Salario medio:
   en: "Average salary (\u20AC)"
 Salario por unidad de tiempo (equivalente anual a tiempo completo):
   en: Salary per unit of time (annual full-time equivalent)
+"Salarios en Andaluc\xEDa":
+  en: Wages in Andalusia
 Sampling error:
   es: Error de muestreo
 Santiago Pontones:
@@ -9542,6 +9835,10 @@ Set of time series whose keys differ only in the value taken by the frequency di
     \ que toma la dimensi\xF3n frecuencia."
 Sex:
   es: Sexo
+Sexo c/xF3nyuge 2:
+  en: Sex c/xF3nyuge 2
+Sexo socios fundadores:
+  en: Sex founding partners
 Sibling group:
   es: Grupo de hermanos
 ? "Similar to \"daily\", however there are no observations\n            for Saturdays\
@@ -9561,10 +9858,18 @@ Single value of the set of values for a member selection.:
   en: Classification system
 Situaci/xF3n de dependencia:
   en: Dependency situation
+Situaci/xF3n de inactividad 1:
+  en: Situation of inactivity 1
+Situaci/xF3n previa al inicio del /xFAltimo emprendimiento:
+  en: Situation prior to the start of the /xFAst venture
 Situaci/xF3n profesional:
   en: Professional status
 "Situaci\xF3n de inactividad":
   en: Situation of inactivity
+? "Situaci\xF3n laboral de los hogares. Actividad econ\xF3mica en funci\xF3n del parentesco\
+  \ con la persona de referencia y tipolog\xEDa del hogar"
+: en: Employment situation of the households. Economic activity according to relationship
+    with the reference person and household typology.
 ? "Situaci\xF3n laboral de los hogares. Actividad econ\xF3mica en funci\xF3n del parentesco\
   \ con la persona de referencia y tipolog\xEDa del hogar: Poblaci\xF3n seg\xFAn relaci\xF3\
   n con la actividad econ\xF3mica  y sexo por tipolog\xEDa de actividad econ\xF3mica\
@@ -9607,6 +9912,12 @@ Situaci/xF3n profesional:
   en: Survive 9 years
 Social protection:
   es: "Protecci\xF3n social"
+"Sociedades Mercantiles de Andaluc\xEDa":
+  en: Mercantile Companies in Andalusia
+Sociedades mercantiles:
+  en: Trading companies
+Sociedades mercantiles constituidas:
+  en: Incorporated companies
 Socio de cooperativa o de empresa colectiva:
   en: Member of a cooperative or collective enterprise
 Solicitud de patentes internacionales PCT:
@@ -9734,18 +10045,56 @@ Systems and frameworks in place within an organisation to manage the quality of 
   en: General scheme only
 "S\xF3lo subsidio por desempleo":
   en: Unemployment benefit only
+TAMANOEMPRESA:
+  en: TAMANOEMPRESA
 TERRITORIO:
   en: TERRITORY
+TERRITORIOIN:
+  en: TERRITORIOIN
 TERRITORIO_1:
   en: TERRITORY_1
+TERRITROIO:
+  en: TERRITORY
+TIPACTIVIDADHOGAR:
+  en: TYPACTIVITYHOME
 TIPINDOCUPAC:
   en: TIPINDOCUPAC
+TIPOCOTIZACA:
+  en: TIPOCOTIZACA
+TIPOCOTIZACION:
+  en: TYPOCOTISATION
+TIPOHOGAR:
+  en: TYPEHOGAR
+TIPOMATRIMONIO:
+  en: TYPOMATRIMONIO
+TIPOMOVIMIEN:
+  en: TYPOMOVEMENT
+TIPOPRESTACION:
+  en: TYPOPRESTACION
+TIPOULTIEMPR:
+  en: TIPOULTIEMPR
+TIPO_ALOJAM:
+  en: TIPO_ALOJAM
+TIPO_EMPRESA:
+  en: COMPANY_TYPE
+TIPO_ESTAB:
+  en: STAB_TYPE
+TIPO_PERSONAL:
+  en: PERSONAL_TYPE
+TIPRELACIONSS:
+  en: TIPRELATIONSSS
 TOTAL:
   en: TOTAL
 TOTAL SECTOR INDUSTRIAL:
   en: TOTAL SECTOR INDUSTRIAL
 TOTAL SECTOR SERVICIOS:
   en: TOTAL SERVICES SECTOR
+TOURISM:
+  en: TOURISM
+TRABAJO:
+  en: WORK
+Tama/xF1o de la empresa:
+  en: Size of the undertaking
 "Tama\xF1o de la empresa":
   en: Company size
 "Tama\xF1o medio de los establecimientos":
@@ -9871,6 +10220,10 @@ Tipo de Serie:
   en: Type of Series
 Tipo de alojamiento:
   en: Type of accommodation
+Tipo de cotizaci/xF3n:
+  en: Type of quotation/xF3n
+Tipo de cotizaciones tenidas en el a/xF1o:
+  en: Type of contributions held in the year/xF1o
 "Tipo de cotizaciones tenidas en el a\xF1o":
   en: Type of contributions held in the year
 "Tipo de cotizaci\xF3n":
@@ -9881,24 +10234,36 @@ Tipo de establecimiento:
   en: Type of establishment
 Tipo de hogar:
   en: Household type
+Tipo de matrimonio:
+  en: Type of marriage
 Tipo de movimiento:
   en: Type of movement
+Tipo de pensi/xF3n:
+  en: Type of pensi/xF3n
 "Tipo de pensi\xF3n":
   en: Type of pension
 Tipo de personal:
   en: Type of staff
+Tipo de relaci/xF3n con la seguridad social:
+  en: Type of social security relationship
 "Tipo de relaci\xF3n con la seguridad social":
   en: Type of social security relationship
 Tipo de serie:
   en: Type of series
 Tipo de ventas:
   en: Type of sales
+Tipolog/xEDa de la actividad del hogar:
+  en: Typology/xEDa of household activity
+Tipolog/xEDa del /xFAltimo emprendimiento:
+  en: Typology/xEDa of the /xFAlst venture
 "Tipolog\xC3\xADa de la actividad del hogar":
   en: Typology of household activity
 "Tipolog\xEDa del \xFAltimo emprendimiento":
   en: Typology of the latest venture
 "Tipolog\u0102\xADa de la actividad del hogar":
   en: Typology of household activity
+Tipos de prestaci/xF3n:
+  en: Types of performance
 "Tipos de prestaci\xF3n":
   en: Types of benefits
 Title:
@@ -10135,6 +10500,10 @@ Used for expressing totals.:
     \ otra parte, etc.)."
 Usuarios:
   en: Users
+VARIABLE:
+  en: VARIABLE
+VIVIENDA:
+  en: HOUSING
 "Validaci\xF3n de datos":
   en: Data validation
 Validation and transformation language, VTL:
@@ -10152,6 +10521,10 @@ Value in a metadata set of an identifier component defined in a metadata structu
     \ una definici\xF3n de estructura de metadatos."
 Value of a particular variable.:
   es: Valor de una variable concreta.
+Variable:
+  en: Variable
+Variables de uso TIC (primer trimestre):
+  en: ICT usage variables (first quarter)
 "Variables de uso TIC (primer trimestre): Impresi\xF3n 3D":
   en: 'ICT usage variables (first quarter): 3D printing'
 "Variables de uso TIC (primer trimestre): P\xE1gina web":
@@ -10160,9 +10533,16 @@ Value of a particular variable.:
   en: 'ICT usage variables (first trimester): Robotics'
 "Variables de uso TIC (primer trimestre): Uso de ordenadores y otras tecnolog\xEDas":
   en: 'ICT usage variables (first quarter): Use of computers and other technologies'
+"Variables de uso TIC por agrupaci\xF3n de actividad econ\xF3mica y tama\xF1o de la empresa":
+  en: ICT usage variables by economic activity grouping and company size
+"Variables de uso TIC por agrupaci\xF3n de actividad econ\xF3mica y tama\xF1o de la empresa (a\xF1o anterior)":
+  en: ICT usage variables by economic activity grouping and company size (previous
+    year)
 "Variables de uso TIC por agrupaci\xF3n de actividad econ\xF3mica y tama\xF1o de la empresa (a\xF1o anterior): Big Data":
   en: 'ICT usage variables by economic activity grouping and company size (previous
     year): Big Data'
+"Variables de uso TIC por agrupaci\xF3n de actividad econ\xF3mica y tama\xF1o de la empresa (primer trimestre)":
+  en: ICT usage variables by economic activity grouping and company size (first quarter)
 "Variables de uso TIC por agrupaci\xF3n de actividad econ\xF3mica y tama\xF1o de la empresa (primer trimestre): Impresi\xF3n 3D":
   en: 'ICT usage variables by economic activity grouping and company size (first quarter):
     3D printing'
@@ -10188,18 +10568,37 @@ Varios tipos de episodios:
   en: Motor vehicle
 Ventas de productos innovadores nuevos para el mercado y para las empresas:
   en: Sales of innovative products new to the market and new to business
+"Ventas por Comercio electr\xF3nico":
+  en: E-commerce sales
 "Ventas por Comercio electr\xF3nico: Ventas por sector de actividad":
   en: 'E-commerce sales: Sales by sector of activity'
 Version:
   es: "Versi\xF3n"
 Versionable artefact:
   es: Artefacto versionable
+Viajeros, pernoctaciones y estancia media:
+  en: Travellers, overnight stays and average length of stay
+Viajeros, pernoctaciones y estancia media por provincias:
+  en: Travellers, overnight stays and average stay by province
+Viajeros, pernoctaciones y estancia media por provincias y pais de procedencia de los viajeros:
+  en: Travellers, overnight stays and average stay by province and country of origin
+    of travellers
 Viajeros, pernoctaciones y estancia media por provincias y procedencia:
   en: Travellers, overnight stays and average stay by province and origin
+"Viajeros, pernoctaciones y estancia media seg\xFAn comunidad aut\xF3noma de procedencia de los viajeros residentes en Espa\xF1a":
+  en: Travellers, overnight stays and average length of stay by Autonomous Community
+    of origin of travellers resident in Spain
 ? "Viajeros, pernoctaciones y estancia media seg\xFAn comunidad aut\xF3noma de procedencia\
   \ de los viajeros residentes en Espa\xF1a por provincias"
 : en: Travellers, overnight stays and average stay by Autonomous Community of origin
     of travellers resident in Spain, by province
+? "Viajeros, pernoctaciones y estancia media seg\xFAn comunidad aut\xF3noma de procedencia\
+  \ de los viajeros residentes en Espa\xF1a. Costas"
+: en: Travellers, overnight stays and average stay by Autonomous Community of origin
+    of travellers resident in Spain. Coasts
+"Viajeros, pernoctaciones y estancia media seg\xFAn pais de procedencia de los viajeros. Costas":
+  en: Travellers, overnight stays and average stay by country of origin of travellers.
+    Coasts
 "Viajeros, pernoctaciones y estancia media seg\xFAn pa\xEDs de procedencia por provincias":
   en: Travellers, overnight stays and average stay according to country of origin
     by province
@@ -10213,6 +10612,9 @@ Viajeros, pernoctaciones y estancia media por provincias y procedencia:
   en: Travellers, overnight stays and average stay. Tourist attractions
 "Viajeros, pernoctaciones y estancia media. Zonas tur\xEDsticas":
   en: Travellers, overnight stays and average stay. Tourist areas
+"Viajeros, pernoctaciones y estancia mediaseg\xFAn pais de procedencia de los viajeros. Parques":
+  en: Travellers, overnight stays and average stay by country of origin of travellers.
+    Parks
 Viudedad:
   en: Viudedad
 Vivienda:
@@ -10257,6 +10659,8 @@ Year of marriage or similar categories:
   es: "A\xF1o de matrimonio o categor\xEDas similares"
 Yearbooks and similar compendia:
   es: Anuarios y compendios similares
+Zonas tur/xEDsticas:
+  en: Tourist/xEDstic areas
 isExternalReference:
   es: isExternalReference
 isIncluded:

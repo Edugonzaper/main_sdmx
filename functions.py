@@ -16,7 +16,8 @@ def execute_actividades(configuracion_ejecucion, configuracion_global, configura
         actividad.ejecutar()
 
 
-def initialize_codelists_schemes(configuracion_actividad, datos_jerarquias, mapa_conceptos_codelist, controller):
+def initialize_codelists_schemes(configuracion_actividad, datos_jerarquias, mapa_conceptos_codelist, controller,
+                                 configuracion_actividades):
     for dimension in configuracion_actividad['variables']:
         jerarquia = datos_jerarquias[dimension]
 
@@ -40,9 +41,13 @@ def initialize_codelists_schemes(configuracion_actividad, datos_jerarquias, mapa
                                                      codelist_des)
 
         for file_path in jerarquia['fichero']:
-            if configuracion_actividad['NOMBRE'] in file_path:
+            consultas = configuracion_actividades[configuracion_actividad['NOMBRE']]['consultas']
+            consultas = [str(cons).split('?')[0] for cons in consultas]
+            if configuracion_actividad['NOMBRE'] in file_path and any([(str(cons) in file_path) for cons in consultas ]):
+
                 data = pd.read_csv(file_path, sep=';', dtype='string')
                 codelist.add_codes(data)
+
 
         concept_scheme = controller.concept_schemes.add_concept_scheme(concept_scheme_agency, concept_scheme_id,
                                                                        concept_scheme_version,
@@ -83,11 +88,11 @@ def get_configuracion_completo(configuracion_ejecucion):
 
 
 def put_all_codelist_schemes(configuracion_ejecucion, configuracion_actividades_completo, datos_jerarquias,
-                             mapa_conceptos_codelist, controller):
+                             mapa_conceptos_codelist, controller , configuracion_actividades):
     for nombre_actividad in configuracion_ejecucion['actividades']:
         configuracion_actividad = configuracion_actividades_completo[nombre_actividad]
         initialize_codelists_schemes(configuracion_actividad, datos_jerarquias, mapa_conceptos_codelist,
-                                     controller)
+                                     controller, configuracion_actividades)
 
     controller.codelists.put_all_codelists()
     controller.concept_schemes.put_all_concept_schemes()
@@ -140,7 +145,6 @@ def create_dataflows(configuracion_ejecucion, configuracion_actividades, configu
             cube_data = pd.read_csv(
                 f'{configuracion_global["directorio_datos"]}/{nombre_actividad}/procesados/{consulta_id}.csv',
                 sep=';', dtype='string')
-
             cube_data = script_provisional(cube_data, configuracion_actividad['variables'])
             controller.mappings.data[cube_id].load_cube(cube_data)
 
@@ -184,7 +188,7 @@ def volcado_ckan(configuracion_global, traductor, controller):
         agencia = cube[:first_]
         id_df = f'DF_{nombre_actividad}_{id_consulta}'
         id_dataset = f'{nombre_actividad}_{id_consulta}'
-        ckan.datasets.create(id_dataset.lower(), id_dataset, 'instituto-de-estadistica-y-geografia-de-andalucia',
+        ckan.datasets.create(id_dataset.lower(), id_dataset, 'instituto-de-estadistica-y-cartografia-de-andalucia',
                              ckan.groups.groups[nombre_actividad.lower()])
         path = os.path.join(configuracion_global['directorio_datos'], nombre_actividad, 'procesados')
         ckan.resources.create_from_file(f'{path}/{id_consulta}.csv', f'DATA_{id_dataset}', 'csv', id_dataset.lower())

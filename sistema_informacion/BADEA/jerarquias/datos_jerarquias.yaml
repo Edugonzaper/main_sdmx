@@ -5,6 +5,7 @@ AA_BASECOTIZAC:
     es: Base de cotizaci/xF3n
   fichero:
   - sistema_informacion/BADEA/jerarquias/AUTONOMOS/sdmx/45045/D_AA_BASECOTIZAC_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45045\D_AA_BASECOTIZAC_0.csv
   nombre:
     es: BASECOTIZAC
   version: '1.0'
@@ -15,6 +16,7 @@ AA_DURACEMPREND:
     es: Duraci/xF3n del emprendimiento
   fichero:
   - sistema_informacion/BADEA/jerarquias/AUTONOMOS/sdmx/44980/D_AA_DURACEMPREND_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\44980\D_AA_DURACEMPREND_0.csv
   nombre:
     es: DURACEMPREND
   version: '1.0'
@@ -25,6 +27,7 @@ AA_MULTIVARIABL:
     es: Multivariable
   fichero:
   - sistema_informacion/BADEA/jerarquias/AUTONOMOS/sdmx/44980/D_AA_MULTIVARIABL_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\44980\D_AA_MULTIVARIABL_0.csv
   nombre:
     es: MULTIVARIABL
   version: '1.0'
@@ -35,6 +38,7 @@ AA_SITPREVULTEM:
     es: Situaci/xF3n previa al inicio del /xFAltimo emprendimiento
   fichero:
   - sistema_informacion/BADEA/jerarquias/AUTONOMOS/sdmx/45042/D_AA_SITPREVULTEM_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45042\D_AA_SITPREVULTEM_0.csv
   nombre:
     es: SITPREVULTEM
   version: '1.0'
@@ -45,6 +49,7 @@ AA_TERRITORIOIN:
     es: Territorio
   fichero:
   - sistema_informacion/BADEA/jerarquias/AUTONOMOS/sdmx/44980/D_AA_TERRITORIOIN_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\44980\D_AA_TERRITORIOIN_0.csv
   nombre:
     es: TERRITORIOIN
   version: '1.0'
@@ -64,6 +69,16 @@ AA_TERRITROIO:
   - sistema_informacion/BADEA/jerarquias/AUTONOMOS/sdmx/45045/D_AA_TERRITROIO_0.csv
   - sistema_informacion/BADEA/jerarquias/AUTONOMOS/sdmx/45052/D_AA_TERRITROIO_0.csv
   - sistema_informacion/BADEA/jerarquias/AUTONOMOS/sdmx/45056/D_AA_TERRITROIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45064\D_AA_TERRITROIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45033\D_AA_TERRITROIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45038\D_AA_TERRITROIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45037\D_AA_TERRITROIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45039\D_AA_TERRITROIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45042\D_AA_TERRITROIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45044\D_AA_TERRITROIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45045\D_AA_TERRITROIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45052\D_AA_TERRITROIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45056\D_AA_TERRITROIO_0.csv
   nombre:
     es: TERRITROIO
   version: '1.0'
@@ -74,6 +89,7 @@ AA_TIPOCOTIZACA:
     es: Tipo de cotizaciones tenidas en el a/xF1o
   fichero:
   - sistema_informacion/BADEA/jerarquias/AUTONOMOS/sdmx/45037/D_AA_TIPOCOTIZACA_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45037\D_AA_TIPOCOTIZACA_0.csv
   nombre:
     es: TIPOCOTIZACA
   version: '1.0'
@@ -84,6 +100,7 @@ AA_TIPODEHOGAR:
     es: Tipo de hogar
   fichero:
   - sistema_informacion/BADEA/jerarquias/AUTONOMOS/sdmx/45038/D_AA_TIPODEHOGAR_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45038\D_AA_TIPODEHOGAR_0.csv
   nombre:
     es: TIPOHOGAR
   version: '1.0'
@@ -95,6 +112,8 @@ AA_TIPOMOVIMIEN:
   fichero:
   - sistema_informacion/BADEA/jerarquias/AUTONOMOS/sdmx/45052/D_AA_TIPOMOVIMIEN_0.csv
   - sistema_informacion/BADEA/jerarquias/AUTONOMOS/sdmx/45056/D_AA_TIPOMOVIMIEN_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45052\D_AA_TIPOMOVIMIEN_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45056\D_AA_TIPOMOVIMIEN_0.csv
   nombre:
     es: TIPOMOVIMIEN
   version: '1.0'
@@ -105,6 +124,7 @@ AA_TIPOULTIEMPR:
     es: Tipolog/xEDa del /xFAltimo emprendimiento
   fichero:
   - sistema_informacion/BADEA/jerarquias/AUTONOMOS/sdmx/45039/D_AA_TIPOULTIEMPR_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45039\D_AA_TIPOULTIEMPR_0.csv
   nombre:
     es: TIPOULTIEMPR
   version: '1.0'
@@ -115,6 +135,7 @@ ACTIV_EST:
     es: Actividad (Industria-Comercio-Servicios)
   fichero:
   - sistema_informacion/BADEA/jerarquias/EEE/sdmx/12267/D_ACTIV_EST_0.csv
+  - sistema_informacion/BADEA/jerarquias\EEE\sdmx\12267\D_ACTIV_EST_0.csv
   nombre:
     es: ACTIV_EST
   version: '1.0'
@@ -125,6 +146,7 @@ ANOCELEBRMATRIM:
     es: A/xF1os
   fichero:
   - sistema_informacion/BADEA/jerarquias/AUTONOMOS/sdmx/44980/D_ANOCELEBRMATRIM_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\44980\D_ANOCELEBRMATRIM_0.csv
   nombre:
     es: ANOCELEBRMATRIM
   version: '1.0'
@@ -142,15 +164,17 @@ ARE_INSCRIPCION:
     es: INSCRIPCION
   version: '1.0'
 CAT_HOTELES:
-  ID: CL_CAT_HOTELES
+  ID: CL_CAT
   agency: ESC01
   description:
     es: Categor/xEDas de los establecimientos hoteleros
   fichero:
   - sistema_informacion/BADEA/jerarquias/EOH/sdmx/67619/D_CAT_HOTELES_0.csv
   - sistema_informacion/BADEA/jerarquias/EOH/sdmx/67618/D_CAT_HOTELES_0.csv
+  - sistema_informacion/BADEA/jerarquias\EOH\sdmx\67619\D_CAT_HOTELES_0.csv
+  - sistema_informacion/BADEA/jerarquias\EOH\sdmx\67618\D_CAT_HOTELES_0.csv
   nombre:
-    es: CAT_HOTELES
+    es: CAT
   version: '1.0'
 CERTIFICDISCAPAC:
   ID: CL_CERTIFICDISCAPAC
@@ -255,6 +279,26 @@ CNAE09:
   - sistema_informacion/BADEA/jerarquias\DIRECTORIO\sdmx\65506\D_CNAE09_0.csv
   - sistema_informacion/BADEA/jerarquias\SOCMER\sdmx\65647\D_CNAE09_0.csv
   - sistema_informacion/BADEA/jerarquias\SOCMER\sdmx\28098\D_CNAE09_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\7603\D_CNAE09_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\7613\D_CNAE09_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\7651\D_CNAE09_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\7655\D_CNAE09_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14646\D_CNAE09_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\22865\D_CNAE09_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14761\D_CNAE09_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\26203\D_CNAE09_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\26468\D_CNAE09_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\27096\D_CNAE09_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\27089\D_CNAE09_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\27091\D_CNAE09_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\27533\D_CNAE09_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\28760\D_CNAE09_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\28764\D_CNAE09_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\28771\D_CNAE09_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\28772\D_CNAE09_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\50362\D_CNAE09_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\50463\D_CNAE09_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\52845\D_CNAE09_0.csv
   nombre:
     es: CNAE09
   version: '1.0'
@@ -278,6 +322,9 @@ CNED2014:
   - sistema_informacion/BADEA/jerarquias/EPA/sdmx/13513/D_CNED2014_0.csv
   - sistema_informacion/BADEA/jerarquias/EPA/sdmx/13515/D_CNED2014_0.csv
   - sistema_informacion/BADEA/jerarquias/EPA/sdmx/13517/D_CNED2014_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\13513\D_CNED2014_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\13515\D_CNED2014_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\13517\D_CNED2014_0.csv
   nombre:
     es: CNED2014
   version: '1.0'
@@ -290,6 +337,9 @@ CNO11:
   - sistema_informacion/BADEA/jerarquias/EPA/sdmx/14651/D_CNO11_0.csv
   - sistema_informacion/BADEA/jerarquias/EPA/sdmx/22868/D_CNO11_0.csv
   - sistema_informacion/BADEA/jerarquias/EPA/sdmx/14762/D_CNO11_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14651\D_CNO11_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\22868\D_CNO11_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14762\D_CNO11_0.csv
   nombre:
     es: CNO11
   version: '1.0'
@@ -372,6 +422,7 @@ DISCIPLINA:
     es: Disciplina cient/xEDfica
   fichero:
   - sistema_informacion/BADEA/jerarquias/EMPRESASIMD/sdmx/6985/D_DISCIPLINA_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\6985\D_DISCIPLINA_0.csv
   nombre:
     es: DISCIPLINA
   version: '1.0'
@@ -418,27 +469,6 @@ EDAD:
   - sistema_informacion/BADEA/jerarquias/AE/sdmx/439/D_EDAD_0.csv
   - sistema_informacion/BADEA/jerarquias/AE/sdmx/439/D_EDAD_0.csv
   - sistema_informacion/BADEA/jerarquias/DSN/sdmx/64486/D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64582/D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64703/D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64704/D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64705/D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64706/D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64585/D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64773/D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64774/D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64775/D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64776/D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64623/D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64707/D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64708/D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64709/D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64710/D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64670/D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64736/D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64737/D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64739/D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64740/D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64744/D_EDAD_0.csv
   - sistema_informacion/BADEA/jerarquias/MNP/sdmx/64865/D_EDAD_0.csv
   - sistema_informacion/BADEA/jerarquias/MNP/sdmx/65404/D_EDAD_0.csv
   - sistema_informacion/BADEA/jerarquias/MNP/sdmx/65405/D_EDAD_0.csv
@@ -467,33 +497,8 @@ EDAD:
   - sistema_informacion/BADEA/jerarquias/EPA/sdmx/13517/D_EDAD_0.csv
   - sistema_informacion/BADEA/jerarquias/EPA/sdmx/14774/D_EDAD_0.csv
   - sistema_informacion/BADEA/jerarquias/AUTONOMOS/sdmx/45064/D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64746/D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64747/D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64748/D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64683/D_EDAD_0.csv
   - sistema_informacion/BADEA/jerarquias\AE\sdmx\439\D_EDAD_0.csv
   - sistema_informacion/BADEA/jerarquias\DSN\sdmx\64486\D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64582\D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64703\D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64704\D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64705\D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64706\D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64585\D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64773\D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64774\D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64775\D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64776\D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64623\D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64707\D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64708\D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64709\D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64710\D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64670\D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64736\D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64737\D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64739\D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64740\D_EDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64744\D_EDAD_0.csv
   - sistema_informacion/BADEA/jerarquias\MNP\sdmx\64865\D_EDAD_0.csv
   - sistema_informacion/BADEA/jerarquias\MNP\sdmx\65404\D_EDAD_0.csv
   - sistema_informacion/BADEA/jerarquias\MNP\sdmx\65405\D_EDAD_0.csv
@@ -511,6 +516,42 @@ EDAD:
   - sistema_informacion/BADEA/jerarquias\DEFCAU\sdmx\65994\D_EDAD_0.csv
   - sistema_informacion/BADEA/jerarquias\DEFCAU\sdmx\66000\D_EDAD_0.csv
   - sistema_informacion/BADEA/jerarquias\DEFCAU\sdmx\65724\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64582\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64703\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64704\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64705\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64706\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64585\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64773\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64774\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64683\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64744\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64740\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64746\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64775\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64776\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64623\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64707\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64708\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64709\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64710\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64670\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64736\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64737\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64739\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64747\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64748\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45064\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\11883\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\11911\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14646\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14651\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\11950\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\11991\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\13513\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\13515\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\13517\D_EDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14774\D_EDAD_0.csv
   nombre:
     es: EDAD
   version: '1.0'
@@ -543,6 +584,7 @@ EPA_CLASEINACTIV:
     es: Situaci/xF3n de inactividad 1
   fichero:
   - sistema_informacion/BADEA/jerarquias/EPA/sdmx/11991/D_EPA_CLASEINACTIV_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\11991\D_EPA_CLASEINACTIV_0.csv
   nombre:
     es: CLASEINACTIV
   version: '1.0'
@@ -553,6 +595,7 @@ EPA_ESTRUCHOGAR:
     es: Estructura del hogar
   fichero:
   - sistema_informacion/BADEA/jerarquias/EPA/sdmx/14622/D_EPA_ESTRUCHOGAR_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14622\D_EPA_ESTRUCHOGAR_0.csv
   nombre:
     es: ESTRUCHOGAR
   version: '1.0'
@@ -563,6 +606,7 @@ EPA_NACIONALIDAD:
     es: Nacionalidad
   fichero:
   - sistema_informacion/BADEA/jerarquias/EPA/sdmx/11950/D_EPA_NACIONALIDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\11950\D_EPA_NACIONALIDAD_0.csv
   nombre:
     es: EPA_NACIONALIDAD
   version: '1.0'
@@ -577,6 +621,11 @@ EPA_NIVEL:
   - sistema_informacion/BADEA/jerarquias/EPA/sdmx/13515/D_EPA_NIVEL_0.csv
   - sistema_informacion/BADEA/jerarquias/EPA/sdmx/13517/D_EPA_NIVEL_0.csv
   - sistema_informacion/BADEA/jerarquias/EPA/sdmx/14773/D_EPA_NIVEL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\11883\D_EPA_NIVEL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\13513\D_EPA_NIVEL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\13515\D_EPA_NIVEL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\13517\D_EPA_NIVEL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14773\D_EPA_NIVEL_0.csv
   nombre:
     es: NIVEL
   version: '1.0'
@@ -593,6 +642,13 @@ EPA_RELACTIVIDAD:
   - sistema_informacion/BADEA/jerarquias/EPA/sdmx/14622/D_EPA_RELACTIVIDAD_0.csv
   - sistema_informacion/BADEA/jerarquias/EPA/sdmx/14623/D_EPA_RELACTIVIDAD_0.csv
   - sistema_informacion/BADEA/jerarquias/EPA/sdmx/14773/D_EPA_RELACTIVIDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\11883\D_EPA_RELACTIVIDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\13513\D_EPA_RELACTIVIDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\13515\D_EPA_RELACTIVIDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\13517\D_EPA_RELACTIVIDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14622\D_EPA_RELACTIVIDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14623\D_EPA_RELACTIVIDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14773\D_EPA_RELACTIVIDAD_0.csv
   nombre:
     es: RELACTIVIDAD
   version: '1.0'
@@ -603,6 +659,7 @@ EPA_TIPACTIVIDADHOGAR:
     es: Tipolog/xEDa de la actividad del hogar
   fichero:
   - sistema_informacion/BADEA/jerarquias/EPA/sdmx/14623/D_EPA_TIPACTIVIDADHOGAR_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14623\D_EPA_TIPACTIVIDADHOGAR_0.csv
   nombre:
     es: TIPACTIVIDADHOGAR
   version: '1.0'
@@ -726,6 +783,19 @@ EPD_TAMANOEMPRESA:
   - sistema_informacion/BADEA/jerarquias/USO_TIC/sdmx/50362/D_EPD_TAMANOEMPRESA_0.csv
   - sistema_informacion/BADEA/jerarquias/USO_TIC/sdmx/50463/D_EPD_TAMANOEMPRESA_0.csv
   - sistema_informacion/BADEA/jerarquias/USO_TIC/sdmx/52845/D_EPD_TAMANOEMPRESA_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\26203\D_EPD_TAMANOEMPRESA_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\26468\D_EPD_TAMANOEMPRESA_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\27096\D_EPD_TAMANOEMPRESA_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\27089\D_EPD_TAMANOEMPRESA_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\27091\D_EPD_TAMANOEMPRESA_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\27533\D_EPD_TAMANOEMPRESA_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\28760\D_EPD_TAMANOEMPRESA_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\28764\D_EPD_TAMANOEMPRESA_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\28771\D_EPD_TAMANOEMPRESA_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\28772\D_EPD_TAMANOEMPRESA_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\50362\D_EPD_TAMANOEMPRESA_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\50463\D_EPD_TAMANOEMPRESA_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\52845\D_EPD_TAMANOEMPRESA_0.csv
   nombre:
     es: TAMANOEMPRESA
   version: '1.0'
@@ -814,7 +884,6 @@ ESTADO_DATO:
   - sistema_informacion/BADEA/jerarquias/EOH/sdmx/67666/D_ESTADO_DATO_0.csv
   - sistema_informacion/BADEA/jerarquias/CAMPINGS/sdmx/67667/D_ESTADO_DATO_0.csv
   - sistema_informacion/BADEA/jerarquias/CAMPINGS/sdmx/67668/D_ESTADO_DATO_0.csv
-  - sistema_informacion/BADEA/jerarquias/CAMPINGS/sdmx/67669/D_ESTADO_DATO_0.csv
   - sistema_informacion/BADEA/jerarquias/CAMPINGS/sdmx/67670/D_ESTADO_DATO_0.csv
   - sistema_informacion/BADEA/jerarquias/CAMPINGS/sdmx/67671/D_ESTADO_DATO_0.csv
   - sistema_informacion/BADEA/jerarquias/CAMPINGS/sdmx/67672/D_ESTADO_DATO_0.csv
@@ -866,6 +935,32 @@ ESTADO_DATO:
   - sistema_informacion/BADEA/jerarquias\CRA\sdmx\27053\D_ESTADO_DATO_0.csv
   - sistema_informacion/BADEA/jerarquias\CRA\sdmx\27055\D_ESTADO_DATO_0.csv
   - sistema_informacion/BADEA/jerarquias\CRA\sdmx\66051\D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EOH\sdmx\67619\D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EOH\sdmx\67664\D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EOH\sdmx\67665\D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EOH\sdmx\67618\D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EOH\sdmx\67666\D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias\CAMPINGS\sdmx\67667\D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias\CAMPINGS\sdmx\67668\D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias\CAMPINGS\sdmx\67670\D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias\CAMPINGS\sdmx\67671\D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias\CAMPINGS\sdmx\67672\D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias\SOCMER\sdmx\497\D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias\CRA\sdmx\27050\D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias\CRA\sdmx\27052\D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias\CRA\sdmx\27054\D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias\TURISMO_RURAL\sdmx\67785\D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias\TURISMO_RURAL\sdmx\67786\D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias\TURISMO_RURAL\sdmx\67787\D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias\TURISMO_RURAL\sdmx\67788\D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias\TURISMO_RURAL\sdmx\67789\D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias\TURISMO_RURAL\sdmx\67790\D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias\APARTAMENTOS_TURISTICOS\sdmx\67910\D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias\APARTAMENTOS_TURISTICOS\sdmx\67911\D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias\APARTAMENTOS_TURISTICOS\sdmx\67912\D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias\APARTAMENTOS_TURISTICOS\sdmx\67913\D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias\APARTAMENTOS_TURISTICOS\sdmx\67914\D_ESTADO_DATO_0.csv
+  - sistema_informacion/BADEA/jerarquias\APARTAMENTOS_TURISTICOS\sdmx\67915\D_ESTADO_DATO_0.csv
   nombre:
     es: ESTADO_DATO
   version: '1.0'
@@ -883,6 +978,14 @@ ESTRATO_ASALARIADOS:
   - sistema_informacion/BADEA/jerarquias/USO_TIC/sdmx/27533/D_ESTRATO_ASALARIADOS_0.csv
   - sistema_informacion/BADEA/jerarquias/USO_TIC/sdmx/50362/D_ESTRATO_ASALARIADOS_0.csv
   - sistema_informacion/BADEA/jerarquias/USO_TIC/sdmx/50463/D_ESTRATO_ASALARIADOS_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\26203\D_ESTRATO_ASALARIADOS_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\26468\D_ESTRATO_ASALARIADOS_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\27096\D_ESTRATO_ASALARIADOS_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\27089\D_ESTRATO_ASALARIADOS_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\27091\D_ESTRATO_ASALARIADOS_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\27533\D_ESTRATO_ASALARIADOS_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\50362\D_ESTRATO_ASALARIADOS_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\50463\D_ESTRATO_ASALARIADOS_0.csv
   nombre:
     es: ESTRATO_ASALARIADOS
   version: '1.0'
@@ -895,6 +998,9 @@ ESTUDIOS:
   - sistema_informacion/BADEA/jerarquias/EMPRESASIMD/sdmx/6985/D_ESTUDIOS_0.csv
   - sistema_informacion/BADEA/jerarquias/EMPRESASIMD/sdmx/7613/D_ESTUDIOS_0.csv
   - sistema_informacion/BADEA/jerarquias/EMPRESASIMD/sdmx/7655/D_ESTUDIOS_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\6985\D_ESTUDIOS_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\7613\D_ESTUDIOS_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\7655\D_ESTUDIOS_0.csv
   nombre:
     es: ESTUDIOS
   version: '1.0'
@@ -906,6 +1012,7 @@ FORMA_JUR_SOCMER:
   fichero:
   - sistema_informacion/BADEA/jerarquias/SOCMER/sdmx/65646/D_FORMA_JUR_SOCMER_0.csv
   - sistema_informacion/BADEA/jerarquias\SOCMER\sdmx\65646\D_FORMA_JUR_SOCMER_0.csv
+  - sistema_informacion/BADEA/jerarquias\SOCMER\sdmx\497\D_FORMA_JUR_SOCMER_0.csv
   nombre:
     es: FORMA_JUR
   version: '1.0'
@@ -1159,19 +1266,20 @@ LUGARNACIMIEN:
     es: LUGARNACIMIEN
   version: '1.0'
 LUG_NAC_PADRON:
-  ID: CL_TERRITORIO
+  ID: CL_LUG_NAC
   agency: ESC01
   description:
     es: Lugar de nacimiento
   fichero:
   - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64746/D_LUG_NAC_PADRON_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64747/D_LUG_NAC_PADRON_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64748/D_LUG_NAC_PADRON_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64685/D_LUG_NAC_PADRON_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64749/D_LUG_NAC_PADRON_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64750/D_LUG_NAC_PADRON_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64751/D_LUG_NAC_PADRON_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64683/D_LUG_NAC_PADRON_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64683\D_LUG_NAC_PADRON_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64746\D_LUG_NAC_PADRON_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64747\D_LUG_NAC_PADRON_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64748\D_LUG_NAC_PADRON_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64685\D_LUG_NAC_PADRON_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64749\D_LUG_NAC_PADRON_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64750\D_LUG_NAC_PADRON_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64751\D_LUG_NAC_PADRON_0.csv
   nombre:
     es: LUG_NAC
   version: '1.0'
@@ -1187,6 +1295,9 @@ MACROECO:
   - sistema_informacion/BADEA/jerarquias\CRA\sdmx\27051\D_MACROECO_0.csv
   - sistema_informacion/BADEA/jerarquias\CRA\sdmx\27053\D_MACROECO_0.csv
   - sistema_informacion/BADEA/jerarquias\CRA\sdmx\27055\D_MACROECO_0.csv
+  - sistema_informacion/BADEA/jerarquias\CRA\sdmx\27050\D_MACROECO_0.csv
+  - sistema_informacion/BADEA/jerarquias\CRA\sdmx\27052\D_MACROECO_0.csv
+  - sistema_informacion/BADEA/jerarquias\CRA\sdmx\27054\D_MACROECO_0.csv
   nombre:
     es: MACROECO
   version: '1.0'
@@ -1215,6 +1326,15 @@ MCVLS_VARIABLE:
   - sistema_informacion/BADEA/jerarquias/SALARIOS/sdmx/20446/D_MCVLS_VARIABLE_0.csv
   - sistema_informacion/BADEA/jerarquias/SALARIOS/sdmx/20496/D_MCVLS_VARIABLE_0.csv
   - sistema_informacion/BADEA/jerarquias/SALARIOS/sdmx/20506/D_MCVLS_VARIABLE_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20268\D_MCVLS_VARIABLE_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20308\D_MCVLS_VARIABLE_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20405\D_MCVLS_VARIABLE_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20416\D_MCVLS_VARIABLE_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20426\D_MCVLS_VARIABLE_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20436\D_MCVLS_VARIABLE_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20446\D_MCVLS_VARIABLE_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20496\D_MCVLS_VARIABLE_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20506\D_MCVLS_VARIABLE_0.csv
   nombre:
     es: VARIABLE
   version: '1.0'
@@ -1225,6 +1345,7 @@ MCVL_CNAESECTOR:
     es: Sector de actividad
   fichero:
   - sistema_informacion/BADEA/jerarquias/MCVL/sdmx/13255/D_MCVL_CNAESECTOR_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13255\D_MCVL_CNAESECTOR_0.csv
   nombre:
     es: CNAESECTOR
   version: '1.0'
@@ -1236,6 +1357,8 @@ MCVL_COTIZANTE:
   fichero:
   - sistema_informacion/BADEA/jerarquias/MCVL/sdmx/13252/D_MCVL_COTIZANTE_0.csv
   - sistema_informacion/BADEA/jerarquias/MCVL/sdmx/13254/D_MCVL_COTIZANTE_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13252\D_MCVL_COTIZANTE_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13254\D_MCVL_COTIZANTE_0.csv
   nombre:
     es: COTIZANTE
   version: '1.0'
@@ -1246,6 +1369,7 @@ MCVL_DIASCOTIZANO:
     es: D/xEDas cotizados en el a/xF1o
   fichero:
   - sistema_informacion/BADEA/jerarquias/MCVL/sdmx/13254/D_MCVL_DIASCOTIZANO_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13254\D_MCVL_DIASCOTIZANO_0.csv
   nombre:
     es: DIASCOTIZANO
   version: '1.0'
@@ -1256,11 +1380,12 @@ MCVL_INTERVINGRESOS:
     es: Intervalo de ingresos
   fichero:
   - sistema_informacion/BADEA/jerarquias/MCVL/sdmx/13262/D_MCVL_INTERVINGRESOS_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13262\D_MCVL_INTERVINGRESOS_0.csv
   nombre:
     es: INTERVINGRESOS
   version: '1.0'
 MCVL_MONEDAD:
-  ID: CL_EDAD
+  ID: CL_MONEDAD
   agency: ESC01
   description:
     es: Edad
@@ -1274,11 +1399,20 @@ MCVL_MONEDAD:
   - sistema_informacion/BADEA/jerarquias/SALARIOS/sdmx/20446/D_MCVL_MONEDAD_0.csv
   - sistema_informacion/BADEA/jerarquias/SALARIOS/sdmx/20496/D_MCVL_MONEDAD_0.csv
   - sistema_informacion/BADEA/jerarquias/SALARIOS/sdmx/20506/D_MCVL_MONEDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20268\D_MCVL_MONEDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20308\D_MCVL_MONEDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20405\D_MCVL_MONEDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20416\D_MCVL_MONEDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20426\D_MCVL_MONEDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20436\D_MCVL_MONEDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20446\D_MCVL_MONEDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20496\D_MCVL_MONEDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20506\D_MCVL_MONEDAD_0.csv
   nombre:
-    es: MCVL_MONEDAD
+    es: MONEDAD
   version: '1.0'
 MCVL_MONSALARIO:
-  ID: CL_SALARIO
+  ID: CL_MONSALARIO
   agency: ESC01
   description:
     es: Salario
@@ -1292,6 +1426,15 @@ MCVL_MONSALARIO:
   - sistema_informacion/BADEA/jerarquias/SALARIOS/sdmx/20446/D_MCVL_MONSALARIO_0.csv
   - sistema_informacion/BADEA/jerarquias/SALARIOS/sdmx/20496/D_MCVL_MONSALARIO_0.csv
   - sistema_informacion/BADEA/jerarquias/SALARIOS/sdmx/20506/D_MCVL_MONSALARIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20268\D_MCVL_MONSALARIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20308\D_MCVL_MONSALARIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20405\D_MCVL_MONSALARIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20416\D_MCVL_MONSALARIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20426\D_MCVL_MONSALARIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20436\D_MCVL_MONSALARIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20446\D_MCVL_MONSALARIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20496\D_MCVL_MONSALARIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20506\D_MCVL_MONSALARIO_0.csv
   nombre:
     es: MONSALARIO
   version: '1.0'
@@ -1303,6 +1446,8 @@ MCVL_PENSIONISTA:
   fichero:
   - sistema_informacion/BADEA/jerarquias/MCVL/sdmx/13261/D_MCVL_PENSIONISTA_0.csv
   - sistema_informacion/BADEA/jerarquias/MCVL/sdmx/13262/D_MCVL_PENSIONISTA_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13261\D_MCVL_PENSIONISTA_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13262\D_MCVL_PENSIONISTA_0.csv
   nombre:
     es: PENSIONISTA
   version: '1.0'
@@ -1313,6 +1458,7 @@ MCVL_SECTORACTIVIDAD:
     es: Sector de actividad
   fichero:
   - sistema_informacion/BADEA/jerarquias/AUTONOMOS/sdmx/45044/D_MCVL_SECTORACTIVIDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45044\D_MCVL_SECTORACTIVIDAD_0.csv
   nombre:
     es: SECTORACTIVIDAD
   version: '1.0'
@@ -1323,6 +1469,7 @@ MCVL_TIPOCOTIZACION:
     es: Tipo de cotizaci/xF3n
   fichero:
   - sistema_informacion/BADEA/jerarquias/MCVL/sdmx/13252/D_MCVL_TIPOCOTIZACION_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13252\D_MCVL_TIPOCOTIZACION_0.csv
   nombre:
     es: TIPOCOTIZACION
   version: '1.0'
@@ -1335,6 +1482,9 @@ MCVL_TIPOHOGAR:
   - sistema_informacion/BADEA/jerarquias/MCVL/sdmx/13264/D_MCVL_TIPOHOGAR_0.csv
   - sistema_informacion/BADEA/jerarquias/MCVL/sdmx/13271/D_MCVL_TIPOHOGAR_0.csv
   - sistema_informacion/BADEA/jerarquias/MCVL/sdmx/13273/D_MCVL_TIPOHOGAR_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13264\D_MCVL_TIPOHOGAR_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13271\D_MCVL_TIPOHOGAR_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13273\D_MCVL_TIPOHOGAR_0.csv
   nombre:
     es: TIPOHOGAR
   version: '1.0'
@@ -1345,6 +1495,7 @@ MCVL_TIPOPENSION:
     es: Tipo de pensi/xF3n
   fichero:
   - sistema_informacion/BADEA/jerarquias/MCVL/sdmx/13261/D_MCVL_TIPOPENSION_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13261\D_MCVL_TIPOPENSION_0.csv
   nombre:
     es: MCVL_TIPOPENSION
   version: '1.0'
@@ -1355,6 +1506,7 @@ MCVL_TIPOPRESTACION:
     es: Tipos de prestaci/xF3n
   fichero:
   - sistema_informacion/BADEA/jerarquias/MCVL/sdmx/13258/D_MCVL_TIPOPRESTACION_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13258\D_MCVL_TIPOPRESTACION_0.csv
   nombre:
     es: TIPOPRESTACION
   version: '1.0'
@@ -1365,6 +1517,7 @@ MCVL_TIPRELACIONSS:
     es: Tipo de relaci/xF3n con la seguridad social
   fichero:
   - sistema_informacion/BADEA/jerarquias/MCVL/sdmx/13246/D_MCVL_TIPRELACIONSS_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13246\D_MCVL_TIPRELACIONSS_0.csv
   nombre:
     es: TIPRELACIONSS
   version: '1.0'
@@ -1388,6 +1541,8 @@ MES:
   - sistema_informacion/BADEA/jerarquias\DEFCAU\sdmx\65994\D_MES_0.csv
   - sistema_informacion/BADEA/jerarquias\DEFCAU\sdmx\66000\D_MES_0.csv
   - sistema_informacion/BADEA/jerarquias\DEFCAU\sdmx\60318\D_MES_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45052\D_MES_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45056\D_MES_0.csv
   nombre:
     es: MES
   version: '1.0'
@@ -1419,28 +1574,14 @@ NACIONALIDAD:
   description:
     es: Nacionalidad
   fichero:
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64582/D_NACIONALIDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64703/D_NACIONALIDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64704/D_NACIONALIDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64705/D_NACIONALIDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64706/D_NACIONALIDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64623/D_NACIONALIDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64707/D_NACIONALIDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64708/D_NACIONALIDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64709/D_NACIONALIDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64710/D_NACIONALIDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64670/D_NACIONALIDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64736/D_NACIONALIDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64737/D_NACIONALIDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64739/D_NACIONALIDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64740/D_NACIONALIDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64744/D_NACIONALIDAD_0.csv
   - sistema_informacion/BADEA/jerarquias/AUTONOMOS/sdmx/45033/D_NACIONALIDAD_0.csv
   - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64582\D_NACIONALIDAD_0.csv
   - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64703\D_NACIONALIDAD_0.csv
   - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64704\D_NACIONALIDAD_0.csv
   - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64705\D_NACIONALIDAD_0.csv
   - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64706\D_NACIONALIDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64744\D_NACIONALIDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64740\D_NACIONALIDAD_0.csv
   - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64623\D_NACIONALIDAD_0.csv
   - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64707\D_NACIONALIDAD_0.csv
   - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64708\D_NACIONALIDAD_0.csv
@@ -1450,8 +1591,7 @@ NACIONALIDAD:
   - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64736\D_NACIONALIDAD_0.csv
   - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64737\D_NACIONALIDAD_0.csv
   - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64739\D_NACIONALIDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64740\D_NACIONALIDAD_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64744\D_NACIONALIDAD_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45033\D_NACIONALIDAD_0.csv
   nombre:
     es: NACIONALIDAD
   version: '1.0'
@@ -1462,6 +1602,7 @@ NAT_GASTO:
     es: Naturaleza del gasto
   fichero:
   - sistema_informacion/BADEA/jerarquias/EMPRESASIMD/sdmx/6844/D_NAT_GASTO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\6844\D_NAT_GASTO_0.csv
   nombre:
     es: NAT_GASTO
   version: '1.0'
@@ -1477,7 +1618,7 @@ NUMHIJOSMENORED:
     es: NUMHIJOSMENORED
   version: '1.0'
 PARQUES_TURISMO:
-  ID: CL_PARQUES_TURISMO
+  ID: CL_PARQUES
   agency: ESC01
   description:
     es: Zonas tur/xEDsticas
@@ -1485,13 +1626,19 @@ PARQUES_TURISMO:
   - sistema_informacion/BADEA/jerarquias/EOH/sdmx/67664/D_PARQUES_TURISMO_0.csv
   - sistema_informacion/BADEA/jerarquias/EOH/sdmx/67665/D_PARQUES_TURISMO_0.csv
   - sistema_informacion/BADEA/jerarquias/CAMPINGS/sdmx/67668/D_PARQUES_TURISMO_0.csv
-  - sistema_informacion/BADEA/jerarquias/CAMPINGS/sdmx/67669/D_PARQUES_TURISMO_0.csv
   - sistema_informacion/BADEA/jerarquias/CAMPINGS/sdmx/67670/D_PARQUES_TURISMO_0.csv
   - sistema_informacion/BADEA/jerarquias/CAMPINGS/sdmx/67671/D_PARQUES_TURISMO_0.csv
   - sistema_informacion/BADEA/jerarquias/TURISMO_RURAL/sdmx/67788/D_PARQUES_TURISMO_0.csv
   - sistema_informacion/BADEA/jerarquias/APARTAMENTOS_TURISTICOS/sdmx/67913/D_PARQUES_TURISMO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EOH\sdmx\67664\D_PARQUES_TURISMO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EOH\sdmx\67665\D_PARQUES_TURISMO_0.csv
+  - sistema_informacion/BADEA/jerarquias\CAMPINGS\sdmx\67668\D_PARQUES_TURISMO_0.csv
+  - sistema_informacion/BADEA/jerarquias\CAMPINGS\sdmx\67670\D_PARQUES_TURISMO_0.csv
+  - sistema_informacion/BADEA/jerarquias\CAMPINGS\sdmx\67671\D_PARQUES_TURISMO_0.csv
+  - sistema_informacion/BADEA/jerarquias\TURISMO_RURAL\sdmx\67788\D_PARQUES_TURISMO_0.csv
+  - sistema_informacion/BADEA/jerarquias\APARTAMENTOS_TURISTICOS\sdmx\67913\D_PARQUES_TURISMO_0.csv
   nombre:
-    es: PARQUES_TURISMO
+    es: PARQUES
   version: '1.0'
 PCSSA_JUBVIUDEDAD:
   ID: CL_PCSSA_JUBVIUDEDAD
@@ -1513,6 +1660,9 @@ PROCEDENCIA_ECTA:
   - sistema_informacion/BADEA/jerarquias/ECTA/sdmx/2218/D_PROCEDENCIA_ECTA_0.csv
   - sistema_informacion/BADEA/jerarquias/ECTA/sdmx/29331/D_PROCEDENCIA_ECTA_0.csv
   - sistema_informacion/BADEA/jerarquias/ECTA/sdmx/29332/D_PROCEDENCIA_ECTA_0.csv
+  - sistema_informacion/BADEA/jerarquias\ECTA\sdmx\2218\D_PROCEDENCIA_ECTA_0.csv
+  - sistema_informacion/BADEA/jerarquias\ECTA\sdmx\29331\D_PROCEDENCIA_ECTA_0.csv
+  - sistema_informacion/BADEA/jerarquias\ECTA\sdmx\29332\D_PROCEDENCIA_ECTA_0.csv
   nombre:
     es: PROCEDENCIA
   version: '1.0'
@@ -1524,6 +1674,8 @@ PUB_PRIV:
   fichero:
   - sistema_informacion/BADEA/jerarquias/EMPRESASIMD/sdmx/7603/D_PUB_PRIV_0.csv
   - sistema_informacion/BADEA/jerarquias/EMPRESASIMD/sdmx/7651/D_PUB_PRIV_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\7603\D_PUB_PRIV_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\7651\D_PUB_PRIV_0.csv
   nombre:
     es: PUB_PRIV
   version: '1.0'
@@ -1536,6 +1688,9 @@ PUNTOS_TURISTICOS:
   - sistema_informacion/BADEA/jerarquias/EOH/sdmx/67666/D_PUNTOS_TURISTICOS_0.csv
   - sistema_informacion/BADEA/jerarquias/TURISMO_RURAL/sdmx/67789/D_PUNTOS_TURISTICOS_0.csv
   - sistema_informacion/BADEA/jerarquias/APARTAMENTOS_TURISTICOS/sdmx/67914/D_PUNTOS_TURISTICOS_0.csv
+  - sistema_informacion/BADEA/jerarquias\EOH\sdmx\67666\D_PUNTOS_TURISTICOS_0.csv
+  - sistema_informacion/BADEA/jerarquias\TURISMO_RURAL\sdmx\67789\D_PUNTOS_TURISTICOS_0.csv
+  - sistema_informacion/BADEA/jerarquias\APARTAMENTOS_TURISTICOS\sdmx\67914\D_PUNTOS_TURISTICOS_0.csv
   nombre:
     es: PUNTOS_TURISTICOS
   version: '1.0'
@@ -1546,10 +1701,6 @@ RELAC_RESID_NAC:
     es: Relaci/xF3n entre lugar de residencia y lugar de nacimiento
   fichero:
   - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64585/D_RELAC_RESID_NAC_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64773/D_RELAC_RESID_NAC_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64774/D_RELAC_RESID_NAC_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64775/D_RELAC_RESID_NAC_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64776/D_RELAC_RESID_NAC_0.csv
   - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64585\D_RELAC_RESID_NAC_0.csv
   - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64773\D_RELAC_RESID_NAC_0.csv
   - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64774\D_RELAC_RESID_NAC_0.csv
@@ -1580,7 +1731,6 @@ RESITUR:
   - sistema_informacion/BADEA/jerarquias/EOH/sdmx/67665/D_RESITUR_0.csv
   - sistema_informacion/BADEA/jerarquias/CAMPINGS/sdmx/67667/D_RESITUR_0.csv
   - sistema_informacion/BADEA/jerarquias/CAMPINGS/sdmx/67668/D_RESITUR_0.csv
-  - sistema_informacion/BADEA/jerarquias/CAMPINGS/sdmx/67669/D_RESITUR_0.csv
   - sistema_informacion/BADEA/jerarquias/CAMPINGS/sdmx/67670/D_RESITUR_0.csv
   - sistema_informacion/BADEA/jerarquias/CAMPINGS/sdmx/67671/D_RESITUR_0.csv
   - sistema_informacion/BADEA/jerarquias/TURISMO_RURAL/sdmx/67785/D_RESITUR_0.csv
@@ -1593,6 +1743,23 @@ RESITUR:
   - sistema_informacion/BADEA/jerarquias/APARTAMENTOS_TURISTICOS/sdmx/67912/D_RESITUR_0.csv
   - sistema_informacion/BADEA/jerarquias/APARTAMENTOS_TURISTICOS/sdmx/67913/D_RESITUR_0.csv
   - sistema_informacion/BADEA/jerarquias/APARTAMENTOS_TURISTICOS/sdmx/67914/D_RESITUR_0.csv
+  - sistema_informacion/BADEA/jerarquias\EOH\sdmx\67619\D_RESITUR_0.csv
+  - sistema_informacion/BADEA/jerarquias\EOH\sdmx\67664\D_RESITUR_0.csv
+  - sistema_informacion/BADEA/jerarquias\EOH\sdmx\67665\D_RESITUR_0.csv
+  - sistema_informacion/BADEA/jerarquias\CAMPINGS\sdmx\67667\D_RESITUR_0.csv
+  - sistema_informacion/BADEA/jerarquias\CAMPINGS\sdmx\67668\D_RESITUR_0.csv
+  - sistema_informacion/BADEA/jerarquias\CAMPINGS\sdmx\67670\D_RESITUR_0.csv
+  - sistema_informacion/BADEA/jerarquias\CAMPINGS\sdmx\67671\D_RESITUR_0.csv
+  - sistema_informacion/BADEA/jerarquias\TURISMO_RURAL\sdmx\67785\D_RESITUR_0.csv
+  - sistema_informacion/BADEA/jerarquias\TURISMO_RURAL\sdmx\67786\D_RESITUR_0.csv
+  - sistema_informacion/BADEA/jerarquias\TURISMO_RURAL\sdmx\67787\D_RESITUR_0.csv
+  - sistema_informacion/BADEA/jerarquias\TURISMO_RURAL\sdmx\67788\D_RESITUR_0.csv
+  - sistema_informacion/BADEA/jerarquias\TURISMO_RURAL\sdmx\67789\D_RESITUR_0.csv
+  - sistema_informacion/BADEA/jerarquias\APARTAMENTOS_TURISTICOS\sdmx\67910\D_RESITUR_0.csv
+  - sistema_informacion/BADEA/jerarquias\APARTAMENTOS_TURISTICOS\sdmx\67911\D_RESITUR_0.csv
+  - sistema_informacion/BADEA/jerarquias\APARTAMENTOS_TURISTICOS\sdmx\67912\D_RESITUR_0.csv
+  - sistema_informacion/BADEA/jerarquias\APARTAMENTOS_TURISTICOS\sdmx\67913\D_RESITUR_0.csv
+  - sistema_informacion/BADEA/jerarquias\APARTAMENTOS_TURISTICOS\sdmx\67914\D_RESITUR_0.csv
   nombre:
     es: RESITUR
   version: '1.0'
@@ -1631,27 +1798,6 @@ SEXO:
   - sistema_informacion/BADEA/jerarquias/AE/sdmx/1915/D_SEXO_0.csv
   - sistema_informacion/BADEA/jerarquias/AE/sdmx/1917/D_SEXO_0.csv
   - sistema_informacion/BADEA/jerarquias/DSN/sdmx/64491/D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64582/D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64703/D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64704/D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64705/D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64706/D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64585/D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64773/D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64774/D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64775/D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64776/D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64623/D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64707/D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64708/D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64709/D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64710/D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64670/D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64736/D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64737/D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64739/D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64740/D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64744/D_SEXO_0.csv
   - sistema_informacion/BADEA/jerarquias/MNP/sdmx/64783/D_SEXO_0.csv
   - sistema_informacion/BADEA/jerarquias/MNP/sdmx/65403/D_SEXO_0.csv
   - sistema_informacion/BADEA/jerarquias/MNP/sdmx/64865/D_SEXO_0.csv
@@ -1730,14 +1876,6 @@ SEXO:
   - sistema_informacion/BADEA/jerarquias/EMPRESASIMD/sdmx/6985/D_SEXO_0.csv
   - sistema_informacion/BADEA/jerarquias/EMPRESASIMD/sdmx/7613/D_SEXO_0.csv
   - sistema_informacion/BADEA/jerarquias/EMPRESASIMD/sdmx/7655/D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64746/D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64747/D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64748/D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64685/D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64749/D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64750/D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64751/D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64683/D_SEXO_0.csv
   - sistema_informacion/BADEA/jerarquias\AE\sdmx\437\D_SEXO_0.csv
   - sistema_informacion/BADEA/jerarquias\AE\sdmx\439\D_SEXO_0.csv
   - sistema_informacion/BADEA/jerarquias\AE\sdmx\454\D_SEXO_0.csv
@@ -1745,27 +1883,6 @@ SEXO:
   - sistema_informacion/BADEA/jerarquias\AE\sdmx\1915\D_SEXO_0.csv
   - sistema_informacion/BADEA/jerarquias\AE\sdmx\1917\D_SEXO_0.csv
   - sistema_informacion/BADEA/jerarquias\DSN\sdmx\64491\D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64582\D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64703\D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64704\D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64705\D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64706\D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64585\D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64773\D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64774\D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64775\D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64776\D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64623\D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64707\D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64708\D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64709\D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64710\D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64670\D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64736\D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64737\D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64739\D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64740\D_SEXO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64744\D_SEXO_0.csv
   - sistema_informacion/BADEA/jerarquias\MNP\sdmx\64783\D_SEXO_0.csv
   - sistema_informacion/BADEA/jerarquias\MNP\sdmx\65403\D_SEXO_0.csv
   - sistema_informacion/BADEA/jerarquias\MNP\sdmx\64865\D_SEXO_0.csv
@@ -1793,6 +1910,86 @@ SEXO:
   - sistema_informacion/BADEA/jerarquias\EPD\sdmx\66386\D_SEXO_0.csv
   - sistema_informacion/BADEA/jerarquias\EPD\sdmx\66388\D_SEXO_0.csv
   - sistema_informacion/BADEA/jerarquias\EPD\sdmx\66390\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64582\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64703\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64704\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64705\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64706\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64585\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64773\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64774\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64683\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64744\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64740\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64746\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64775\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64776\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64623\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64707\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64708\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64709\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64710\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64670\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64736\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64737\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64739\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64747\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64748\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64685\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64749\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64750\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64751\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45064\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45033\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45038\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45037\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45039\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45042\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45044\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45045\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45052\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45056\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\6785\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\6985\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\7613\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\7655\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\ECTA\sdmx\2218\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\11883\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\11911\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14646\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14651\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\11950\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\11991\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\13513\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\13515\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\13517\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14622\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14623\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\22865\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\22868\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14761\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14762\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14773\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14774\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20268\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20308\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20405\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20416\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20426\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20436\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20446\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20496\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20506\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13246\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13252\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13254\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13255\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13258\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13261\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13262\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13264\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13271\D_SEXO_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13273\D_SEXO_0.csv
   nombre:
     es: SEXO
   version: '2.1'
@@ -1959,27 +2156,6 @@ TEMPORAL:
   - sistema_informacion/BADEA/jerarquias/DSN/sdmx/64510/D_TEMPORAL_0.csv
   - sistema_informacion/BADEA/jerarquias/DSN/sdmx/64511/D_TEMPORAL_0.csv
   - sistema_informacion/BADEA/jerarquias/DSN/sdmx/64512/D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64582/D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64703/D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64704/D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64705/D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64706/D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64585/D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64773/D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64774/D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64775/D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64776/D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64623/D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64707/D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64708/D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64709/D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64710/D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64670/D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64736/D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64737/D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64739/D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64740/D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64744/D_TEMPORAL_0.csv
   - sistema_informacion/BADEA/jerarquias/MNP/sdmx/64783/D_TEMPORAL_0.csv
   - sistema_informacion/BADEA/jerarquias/MNP/sdmx/65403/D_TEMPORAL_0.csv
   - sistema_informacion/BADEA/jerarquias/MNP/sdmx/64864/D_TEMPORAL_0.csv
@@ -2132,18 +2308,10 @@ TEMPORAL:
   - sistema_informacion/BADEA/jerarquias/USO_TIC/sdmx/50362/D_TEMPORAL_0.csv
   - sistema_informacion/BADEA/jerarquias/USO_TIC/sdmx/50463/D_TEMPORAL_0.csv
   - sistema_informacion/BADEA/jerarquias/USO_TIC/sdmx/52845/D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64746/D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64747/D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64748/D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64685/D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64749/D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64750/D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64751/D_TEMPORAL_0.csv
   - sistema_informacion/BADEA/jerarquias/CRTA/sdmx/27650/D_TEMPORAL_0.csv
   - sistema_informacion/BADEA/jerarquias/CRTA/sdmx/27651/D_TEMPORAL_0.csv
   - sistema_informacion/BADEA/jerarquias/CRTA/sdmx/27652/D_TEMPORAL_0.csv
   - sistema_informacion/BADEA/jerarquias/CRTA/sdmx/27653/D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64683/D_TEMPORAL_0.csv
   - sistema_informacion/BADEA/jerarquias/SOCMER/sdmx/65647/D_TEMPORAL_0.csv
   - sistema_informacion/BADEA/jerarquias/SOCMER/sdmx/28098/D_TEMPORAL_0.csv
   - sistema_informacion/BADEA/jerarquias/CRA/sdmx/27051/D_TEMPORAL_0.csv
@@ -2223,27 +2391,6 @@ TEMPORAL:
   - sistema_informacion/BADEA/jerarquias\DSN\sdmx\64510\D_TEMPORAL_0.csv
   - sistema_informacion/BADEA/jerarquias\DSN\sdmx\64511\D_TEMPORAL_0.csv
   - sistema_informacion/BADEA/jerarquias\DSN\sdmx\64512\D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64582\D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64703\D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64704\D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64705\D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64706\D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64585\D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64773\D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64774\D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64775\D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64776\D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64623\D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64707\D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64708\D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64709\D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64710\D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64670\D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64736\D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64737\D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64739\D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64740\D_TEMPORAL_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64744\D_TEMPORAL_0.csv
   - sistema_informacion/BADEA/jerarquias\MNP\sdmx\64783\D_TEMPORAL_0.csv
   - sistema_informacion/BADEA/jerarquias\MNP\sdmx\65403\D_TEMPORAL_0.csv
   - sistema_informacion/BADEA/jerarquias\MNP\sdmx\64864\D_TEMPORAL_0.csv
@@ -2301,6 +2448,140 @@ TEMPORAL:
   - sistema_informacion/BADEA/jerarquias\EPD\sdmx\66390\D_TEMPORAL_0.csv
   - sistema_informacion/BADEA/jerarquias\EPD\sdmx\66391\D_TEMPORAL_0.csv
   - sistema_informacion/BADEA/jerarquias\INDICADORES\sdmx\16861\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EOH\sdmx\67619\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EOH\sdmx\67664\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EOH\sdmx\67665\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EOH\sdmx\67618\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EOH\sdmx\67666\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\CAMPINGS\sdmx\67667\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\CAMPINGS\sdmx\67668\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\CAMPINGS\sdmx\67670\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\CAMPINGS\sdmx\67671\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\CAMPINGS\sdmx\67672\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64582\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64703\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64704\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64705\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64706\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64585\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64773\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64774\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64683\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64744\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64740\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64746\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64775\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64776\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64623\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64707\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64708\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64709\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64710\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64670\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64736\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64737\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64739\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64747\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64748\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64685\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64749\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64750\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64751\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\SOCMER\sdmx\497\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\CRA\sdmx\27050\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\CRA\sdmx\27052\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\CRA\sdmx\27054\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EEE\sdmx\12267\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45064\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45033\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45038\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45037\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45039\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45042\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45044\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45045\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45052\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\45056\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\AUTONOMOS\sdmx\44980\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\6844\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\6785\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\7665\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\17744\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\6985\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\7603\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\7613\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\7651\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\7655\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\TURISMO_RURAL\sdmx\67785\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\TURISMO_RURAL\sdmx\67786\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\TURISMO_RURAL\sdmx\67787\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\TURISMO_RURAL\sdmx\67788\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\TURISMO_RURAL\sdmx\67789\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\TURISMO_RURAL\sdmx\67790\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\APARTAMENTOS_TURISTICOS\sdmx\67910\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\APARTAMENTOS_TURISTICOS\sdmx\67911\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\APARTAMENTOS_TURISTICOS\sdmx\67912\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\APARTAMENTOS_TURISTICOS\sdmx\67913\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\APARTAMENTOS_TURISTICOS\sdmx\67914\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\APARTAMENTOS_TURISTICOS\sdmx\67915\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\ECTA\sdmx\20071\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\ECTA\sdmx\2218\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\ECTA\sdmx\9282\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\ECTA\sdmx\8450\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\ECTA\sdmx\29331\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\ECTA\sdmx\29333\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\ECTA\sdmx\2421\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\ECTA\sdmx\29332\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\ECTA\sdmx\29334\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\11883\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\11911\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14646\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14651\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\11950\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\11991\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\13513\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\13515\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\13517\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14622\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14623\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\22865\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\22868\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14761\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14762\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14773\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14774\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20268\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20308\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20405\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20416\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20426\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20436\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20446\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20496\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20506\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13246\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13252\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13254\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13255\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13258\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13261\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13262\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13264\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13271\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13273\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\26203\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\26468\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\27096\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\27089\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\27091\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\27533\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\28760\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\28764\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\28771\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\28772\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\50362\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\50463\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\52845\D_TEMPORAL_0.csv
   nombre:
     es: TEMPORAL
   version: '1.0'
@@ -2452,27 +2733,6 @@ TERRITORIO:
   - sistema_informacion/BADEA/jerarquias/DSN/sdmx/64510/D_TERRITORIO_0.csv
   - sistema_informacion/BADEA/jerarquias/DSN/sdmx/64511/D_TERRITORIO_0.csv
   - sistema_informacion/BADEA/jerarquias/DSN/sdmx/64512/D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64582/D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64703/D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64704/D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64705/D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64706/D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64585/D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64773/D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64774/D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64775/D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64776/D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64623/D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64707/D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64708/D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64709/D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64710/D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64670/D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64736/D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64737/D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64739/D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64740/D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64744/D_TERRITORIO_0.csv
   - sistema_informacion/BADEA/jerarquias/MNP/sdmx/64783/D_TERRITORIO_0.csv
   - sistema_informacion/BADEA/jerarquias/MNP/sdmx/65403/D_TERRITORIO_0.csv
   - sistema_informacion/BADEA/jerarquias/MNP/sdmx/64864/D_TERRITORIO_0.csv
@@ -2598,13 +2858,6 @@ TERRITORIO:
   - sistema_informacion/BADEA/jerarquias/USO_TIC/sdmx/50362/D_TERRITORIO_0.csv
   - sistema_informacion/BADEA/jerarquias/USO_TIC/sdmx/50463/D_TERRITORIO_0.csv
   - sistema_informacion/BADEA/jerarquias/USO_TIC/sdmx/52845/D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64746/D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64747/D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64748/D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64685/D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64749/D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64750/D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64751/D_TERRITORIO_0.csv
   - sistema_informacion/BADEA/jerarquias/AE/sdmx/455/D_TERRITORIO_1.csv
   - sistema_informacion/BADEA/jerarquias/AE/sdmx/455/D_TERRITORIO_1.csv
   - sistema_informacion/BADEA/jerarquias/AE/sdmx/455/D_TERRITORIO_1.csv
@@ -2615,7 +2868,6 @@ TERRITORIO:
   - sistema_informacion/BADEA/jerarquias/CRTA/sdmx/27653/D_TERRITORIO_0.csv
   - sistema_informacion/BADEA/jerarquias/AE/sdmx/455/D_TERRITORIO_1.csv
   - sistema_informacion/BADEA/jerarquias/AE/sdmx/455/D_TERRITORIO_1.csv
-  - sistema_informacion/BADEA/jerarquias/PADRON/sdmx/64683/D_TERRITORIO_0.csv
   - sistema_informacion/BADEA/jerarquias/SOCMER/sdmx/65647/D_TERRITORIO_0.csv
   - sistema_informacion/BADEA/jerarquias/SOCMER/sdmx/28098/D_TERRITORIO_0.csv
   - sistema_informacion/BADEA/jerarquias/CRA/sdmx/27051/D_TERRITORIO_0.csv
@@ -2722,27 +2974,6 @@ TERRITORIO:
   - sistema_informacion/BADEA/jerarquias\DSN\sdmx\64510\D_TERRITORIO_0.csv
   - sistema_informacion/BADEA/jerarquias\DSN\sdmx\64511\D_TERRITORIO_0.csv
   - sistema_informacion/BADEA/jerarquias\DSN\sdmx\64512\D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64582\D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64703\D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64704\D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64705\D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64706\D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64585\D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64773\D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64774\D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64775\D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64776\D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64623\D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64707\D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64708\D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64709\D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64710\D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64670\D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64736\D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64737\D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64739\D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64740\D_TERRITORIO_0.csv
-  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64744\D_TERRITORIO_0.csv
   - sistema_informacion/BADEA/jerarquias\MNP\sdmx\64783\D_TERRITORIO_0.csv
   - sistema_informacion/BADEA/jerarquias\MNP\sdmx\65403\D_TERRITORIO_0.csv
   - sistema_informacion/BADEA/jerarquias\MNP\sdmx\64864\D_TERRITORIO_0.csv
@@ -2801,6 +3032,114 @@ TERRITORIO:
   - sistema_informacion/BADEA/jerarquias\EPD\sdmx\66391\D_TERRITORIO_0.csv
   - sistema_informacion/BADEA/jerarquias\INDICADORES\sdmx\16861\D_TERRITORIO_0.csv
   - sistema_informacion/BADEA/jerarquias\AE\sdmx\455\D_TERRITORIO_1.csv
+  - sistema_informacion/BADEA/jerarquias\AE\sdmx\455\D_TERRITORIO_1.csv
+  - sistema_informacion/BADEA/jerarquias\EOH\sdmx\67619\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EOH\sdmx\67618\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\CAMPINGS\sdmx\67667\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\CAMPINGS\sdmx\67672\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64582\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64703\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64704\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64705\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64706\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64585\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64773\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64774\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64683\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64744\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64740\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64746\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64775\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64776\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64623\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64707\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64708\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64709\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64710\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64670\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64736\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64737\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64739\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64747\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64748\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64685\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64749\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64750\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\PADRON\sdmx\64751\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\SOCMER\sdmx\497\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\CRA\sdmx\27050\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\CRA\sdmx\27052\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\CRA\sdmx\27054\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EEE\sdmx\12267\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\6844\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\6785\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\7665\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\17744\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\6985\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\7603\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\7613\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\7651\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\7655\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\TURISMO_RURAL\sdmx\67785\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\TURISMO_RURAL\sdmx\67787\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\TURISMO_RURAL\sdmx\67790\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\APARTAMENTOS_TURISTICOS\sdmx\67910\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\APARTAMENTOS_TURISTICOS\sdmx\67911\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\APARTAMENTOS_TURISTICOS\sdmx\67912\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\APARTAMENTOS_TURISTICOS\sdmx\67915\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\ECTA\sdmx\9282\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\ECTA\sdmx\29333\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\ECTA\sdmx\2421\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\ECTA\sdmx\29334\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\11883\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\11911\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14646\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14651\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\11950\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\11991\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\13513\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\13515\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\13517\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14622\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14623\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\22865\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\22868\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14761\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14762\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14773\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\EPA\sdmx\14774\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20268\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20308\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20405\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20416\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20426\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20436\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20446\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20496\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\SALARIOS\sdmx\20506\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13246\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13252\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13254\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13255\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13258\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13261\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13262\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13264\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13271\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\MCVL\sdmx\13273\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\26203\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\26468\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\27096\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\27089\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\27091\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\27533\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\28760\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\28764\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\28771\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\28772\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\50362\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\50463\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\USO_TIC\sdmx\52845\D_TERRITORIO_0.csv
   nombre:
     es: TERRITORIO
   version: '1.0'
@@ -2833,6 +3172,8 @@ TIPO_ALOJAM_ECTA:
   fichero:
   - sistema_informacion/BADEA/jerarquias/ECTA/sdmx/8450/D_TIPO_ALOJAM_ECTA_0.csv
   - sistema_informacion/BADEA/jerarquias/ECTA/sdmx/2421/D_TIPO_ALOJAM_ECTA_0.csv
+  - sistema_informacion/BADEA/jerarquias\ECTA\sdmx\8450\D_TIPO_ALOJAM_ECTA_0.csv
+  - sistema_informacion/BADEA/jerarquias\ECTA\sdmx\2421\D_TIPO_ALOJAM_ECTA_0.csv
   nombre:
     es: TIPO_ALOJAM
   version: '1.0'
@@ -2851,6 +3192,15 @@ TIPO_EMPRESA:
   - sistema_informacion/BADEA/jerarquias/EMPRESASIMD/sdmx/7613/D_TIPO_EMPRESA_0.csv
   - sistema_informacion/BADEA/jerarquias/EMPRESASIMD/sdmx/7651/D_TIPO_EMPRESA_0.csv
   - sistema_informacion/BADEA/jerarquias/EMPRESASIMD/sdmx/7655/D_TIPO_EMPRESA_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\6844\D_TIPO_EMPRESA_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\6785\D_TIPO_EMPRESA_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\7665\D_TIPO_EMPRESA_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\17744\D_TIPO_EMPRESA_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\6985\D_TIPO_EMPRESA_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\7603\D_TIPO_EMPRESA_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\7613\D_TIPO_EMPRESA_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\7651\D_TIPO_EMPRESA_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\7655\D_TIPO_EMPRESA_0.csv
   nombre:
     es: TIPO_EMPRESA
   version: '1.0'
@@ -2867,6 +3217,13 @@ TIPO_ESTAB:
   - sistema_informacion/BADEA/jerarquias/EMPRESASIMD/sdmx/7613/D_TIPO_ESTAB_0.csv
   - sistema_informacion/BADEA/jerarquias/EMPRESASIMD/sdmx/7651/D_TIPO_ESTAB_0.csv
   - sistema_informacion/BADEA/jerarquias/EMPRESASIMD/sdmx/7655/D_TIPO_ESTAB_0.csv
+  - sistema_informacion/BADEA/jerarquias\EEE\sdmx\12267\D_TIPO_ESTAB_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\17744\D_TIPO_ESTAB_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\6985\D_TIPO_ESTAB_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\7603\D_TIPO_ESTAB_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\7613\D_TIPO_ESTAB_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\7651\D_TIPO_ESTAB_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\7655\D_TIPO_ESTAB_0.csv
   nombre:
     es: TIPO_ESTAB
   version: '1.0'
@@ -2880,6 +3237,10 @@ TIPO_PERSONAL:
   - sistema_informacion/BADEA/jerarquias/EMPRESASIMD/sdmx/6985/D_TIPO_PERSONAL_0.csv
   - sistema_informacion/BADEA/jerarquias/EMPRESASIMD/sdmx/7613/D_TIPO_PERSONAL_0.csv
   - sistema_informacion/BADEA/jerarquias/EMPRESASIMD/sdmx/7655/D_TIPO_PERSONAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\6785\D_TIPO_PERSONAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\6985\D_TIPO_PERSONAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\7613\D_TIPO_PERSONAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\EMPRESASIMD\sdmx\7655\D_TIPO_PERSONAL_0.csv
   nombre:
     es: TIPO_PERSONAL
   version: '1.0'
