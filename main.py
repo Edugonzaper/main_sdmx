@@ -53,7 +53,7 @@ if __name__ == "__main__":
         controller.delete_all('ESC01', 'IECA_CAT_EN_ES', '1.0')
 
     if configuracion_global['volcado_mdm']:
-        controller = MDM(configuracion_global, traductor, True)
+        controller = MDM(configuracion_global, traductor)
         configuracion_actividades_sdmx = get_configuracion_completo(configuracion_ejecucion)
 
         put_all_codelist_schemes(configuracion_ejecucion, configuracion_actividades_sdmx, datos_jerarquias,
