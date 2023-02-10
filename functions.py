@@ -43,11 +43,9 @@ def initialize_codelists_schemes(configuracion_actividad, datos_jerarquias, mapa
         for file_path in jerarquia['fichero']:
             consultas = configuracion_actividades[configuracion_actividad['NOMBRE']]['consultas']
             consultas = [str(cons).split('?')[0] for cons in consultas]
-            if configuracion_actividad['NOMBRE'] in file_path and any([(str(cons) in file_path) for cons in consultas ]):
-
+            if configuracion_actividad['NOMBRE'] in file_path and any([(str(cons) in file_path) for cons in consultas]):
                 data = pd.read_csv(file_path, sep=';', dtype='string')
                 codelist.add_codes(data)
-
 
         concept_scheme = controller.concept_schemes.add_concept_scheme(concept_scheme_agency, concept_scheme_id,
                                                                        concept_scheme_version,
@@ -88,12 +86,11 @@ def get_configuracion_completo(configuracion_ejecucion):
 
 
 def put_all_codelist_schemes(configuracion_ejecucion, configuracion_actividades_completo, datos_jerarquias,
-                             mapa_conceptos_codelist, controller , configuracion_actividades):
+                             mapa_conceptos_codelist, controller, configuracion_actividades):
     for nombre_actividad in configuracion_ejecucion['actividades']:
         configuracion_actividad = configuracion_actividades_completo[nombre_actividad]
         initialize_codelists_schemes(configuracion_actividad, datos_jerarquias, mapa_conceptos_codelist,
                                      controller, configuracion_actividades)
-
     controller.codelists.put_all_codelists()
     controller.concept_schemes.put_all_concept_schemes()
     controller.codelists.put_all_data()
@@ -133,7 +130,8 @@ def create_dataflows(configuracion_ejecucion, configuracion_actividades, configu
             dimensiones = {variable: mapa_conceptos_codelist[variable] for variable in
                            configuracion_actividad['variables']}
             cube_id = controller.cubes.put(cube_code, id_cube_cat, 'DSD_' + nombre_actividad,
-                                           configuracion_actividades_sdmx[nombre_actividad]['metadatos_title'][consulta_id], dimensiones)
+                                           configuracion_actividades_sdmx[nombre_actividad]['metadatos_title'][
+                                               consulta_id], dimensiones)
 
             variables = configuracion_actividad['variables'] + ['INDICATOR', 'TEMPORAL',
                                                                 'FREQ',
@@ -170,35 +168,33 @@ def script_provisional(cube_data, columns):
     return cube_data
 
 
-def volcado_ckan(configuracion_global, traductor, controller):
+def volcado_ckan(configuracion_global, configuracion_ejecucion, configuracion_actividades, category_scheme=None):
     ckan = Ckan(configuracion_global)
     if configuracion_global['reset_ckan']:
         ckan.datasets.remove_all_datasets()
 
-    if not controller:
-        controller = MDM(configuracion_global, traductor, True)  # Supongo que esta solucion es temporal.
-
     if configuracion_global['create_groups']:
-        ckan.groups.create_groups(controller.category_schemes.data['ESC01']['IECA_CAT_EN_ES']['1.0'].categories)
-    for cube in controller.cubes.data:
-        first_ = cube.find('_')
-        second_ = cube.find('_', first_ + 1)
-        nombre_actividad = cube[first_ + 1:second_]
-        id_consulta = cube[second_ + 1:]
-        agencia = cube[:first_]
-        id_df = f'DF_{nombre_actividad}_{id_consulta}'
-        id_dataset = f'{nombre_actividad}_{id_consulta}'
-        ckan.datasets.create(id_dataset.lower(), id_dataset, 'instituto-de-estadistica-y-cartografia-de-andalucia',
-                             ckan.groups.groups[nombre_actividad.lower()])
-        path = os.path.join(configuracion_global['directorio_datos'], nombre_actividad, 'procesados')
-        ckan.resources.create_from_file(f'{path}/{id_consulta}.csv', f'DATA_{id_dataset}', 'csv', id_dataset.lower())
-        ckan.resources.create_from_file(
-            f'{configuracion_global["directorio_metadatos_html"]}/REPORT_{id_dataset}.html',
-            f'REPORT_{id_dataset}', 'html', id_dataset.lower())
+        ckan.groups.create_groups(category_scheme.data['ESC01']['IECA_CAT_EN_ES']['1.0'].categories)
+
+    for nombre_actividad in configuracion_ejecucion['actividades']:
+        for consulta in configuracion_actividades[nombre_actividad]['consultas']:
+            id_consulta = str(consulta).split('?')[0]
+            id_df = f'DF_{nombre_actividad}_{id_consulta}'
+            id_dataset = f'{nombre_actividad}_{id_consulta}'
+            ckan.datasets.create(id_dataset.lower(), id_dataset, 'instituto-de-estadistica-y-cartografia-de-andalucia',
+                                 ckan.groups.groups[nombre_actividad.lower()])
+            path = os.path.join(configuracion_global['directorio_datos'], nombre_actividad, 'procesados')
+
+            data = pd.read_csv(f'{path}/{id_consulta}.csv', sep=';')
+            ckan.resources.create(data, f'DATA_{id_dataset}', 'csv',
+                                  id_dataset.lower())
+            ckan.resources.create_from_file(
+                f'{configuracion_global["directorio_metadatos_html"]}/REPORT_{id_dataset}.html',
+                f'REPORT_{id_dataset}', 'html', id_dataset.lower())
 
 
 def create_metadatos(configuracion_ejecucion, configuracion_actividades, category_scheme, controller,
-                     configuracion_global,configuracion_actividades_sdmx):
+                     configuracion_global, configuracion_actividades_sdmx):
     for nombre_actividad in configuracion_ejecucion['actividades']:
 
         for consulta in configuracion_actividades[nombre_actividad]['consultas']:
@@ -222,3 +218,4 @@ def create_metadatos(configuracion_ejecucion, configuracion_actividades, categor
             controller.metadatasets.data[id_mds].init_data()
             controller.metadatasets.data[id_mds].publish_all()
             controller.metadatasets.data[id_mds].download_all_reports()
+            controller.metadatasets.data[id_mds].extract_info_html()

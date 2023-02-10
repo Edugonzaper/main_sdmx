@@ -1,0 +1,1821 @@
+<!DOCTYPE html>
+                    <head>
+                        <meta http-equiv="Content-Type" content="text/html; charset=charset=utf-8">
+                        <style type="text/css">
+                            
+							#introtable {
+								display:none;
+							}
+							
+							.Cl-TitleTable {
+                                border-collapse: collapse;
+                                width: 50%;
+                                margin-left: 25%;
+                                background-color: #368940;/*#ffcc99;*/ 
+                                text-align: center;
+	                            color:#FFFFFF;
+                            }
+
+                            .Cl-TitleSummary {
+                                text-align: center;
+                                border: solid black 1pt;
+                                background-color: #368940;/*#ffcc99;*/ 
+                                color: #000000;
+                                /*padding: 2pt 6.45pt 2pt 6.45pt;*/
+                                vertical-align: top;
+	                            color: #ffffff;
+                            }
+
+                            .Cl-SubTitleSummary {
+                                text-align: center;
+                                border: solid black 1pt;
+                                border-bottom: none;
+                                FONT-SIZE: 11pt;
+                                font-weight: normal;
+                                /*padding: 1pt 6.45pt 1pt 6.45pt;*/
+                                height: 15pt;
+                                vertical-align: top;
+                            }
+
+                            .Cl-MainTable {
+                                border-collapse: collapse;
+                                width: 100%;
+                            }
+
+                            .Cl-SummaryTable {
+                                border-collapse: collapse;
+                                width: 50%;
+                                border-spacing:0px;
+                            }
+
+                            .Cl-SummaryItem {
+                                border: solid black 1pt;
+                                padding: 1pt 6.45pt 1pt 6.45pt;
+                                height: 15pt;
+                                vertical-align: top;
+                                border-top: none;
+                                FONT-SIZE: 11pt;
+                                font-weight: normal;
+                            }
+
+                            .Cl-HeaderAttributeTable {
+                                width :100%;
+                            }
+
+                            .Cl-AttributeTable {
+                                width: 100%;
+                                border-collapse: collapse;
+                                border: none;
+                            }
+
+                            .DocCommon, P.DocCommon {
+                                FONT-SIZE: 11pt;
+                                font-weight: normal;
+                                MARGIN: 0;
+                                text-align: right;
+	                            color: #FFFFFF !important;
+                            }
+
+                            LI.DocCommon {
+                                FONT-SIZE: 11pt;
+                                MARGIN: 0;
+                            }
+
+                            DIV.DocCommon {
+                                FONT-SIZE: 11pt;
+                                MARGIN: 0;
+                            }
+
+                            .TblBottom {
+                                border-collapse: collapse;
+                                border: none;
+                            }
+
+                            .Cl-Level1 {
+                                border: solid black 1pt;
+                                background-color: #368940;/*#ffcc99;*/
+                                color: #000000;
+                                padding: 2pt 6.45pt 2pt 6.45pt;
+                                vertical-align: top;
+                            }
+
+                            .Cl-Level1, .Cl-Level1-NoBorder {
+                                FONT-SIZE: 16pt;
+                                font-weight: bold;
+                                text-align: left;
+                                margin: 0;
+	                            color:#FFFFFF;
+                            }
+
+                            .Cl-Level2 {
+                                border: solid black 1pt;
+                                padding: 1pt 6.45pt 1pt 6.45pt;
+                                background-color: #c7c4c4;/*#ffffcc;*/
+                                /*vertical-align: top;*/
+                            }
+
+                            .Cl-Level2 {
+                                FONT-SIZE: 11pt;
+                                font-weight: bold;
+                                width: 206px;
+                            }
+
+                            .Cl-Content {
+                                border: solid black 1pt;
+                                padding: 1pt 6.45pt 1pt 6.45pt;
+                                height: 15pt;
+                                vertical-align: top;
+                            }
+
+                            .Cl-Content {
+                                FONT-SIZE: 11pt;
+                                font-weight: normal;
+                            }
+
+                            .Cl-AttributeAttachedFileDownloadButton {
+                                background-color: transparent;
+                                border: 0;
+                                cursor: pointer;
+                            }
+
+                            .Cl-DownloadReportLink {
+                                cursor: pointer;tra
+                            }
+
+                            a:link,
+                            a:visited,
+                            a:hover,
+                            a:active {
+                              /*text-decoration: none; */
+                              color: #333;
+                            }
+                        </style>
+                    </head > <body id="report-body" onload="renderData()">
+<div class="container-fluid">
+  
+
+  <div class="row">
+    <div class="col-1">
+      <div id="header-img-catalog">
+        <img src="https://i.ibb.co/0CKYfG3/Statkit-mini.png" style="width:47px; 
+		height: 47px;">
+      </div>
+    </div>
+    <div class="col-10">
+      <div id="header-title-catalog" class="Cl-Header-Title-Catalog"></div>
+    </div>
+	
+    <div class="col-1" style="visibilty:hidden">
+      <div style="float: right;visibility:hidden;">
+        <button type="button" class="btn btn-default Cl-dropdown-menu Cl-flag-btn" style="min-width: 70px;text-align: center;float: right;" data-toggle="dropdown">
+          <div id="spa-language-en" style="display: none;"><i style="width: 1.3em;height: 1em;display: inline-block;margin-right:8px;vertical-align: middle;"></i><i class="caret"></i></div>
+		  <div id="spa-language-es" style="display: block;"><i style="width: 1.3em;height: 1em;display: inline-block;margin-right:8px;vertical-align: middle;"></i><i class="caret"></i></div> 
+        </button>
+        <ul class="dropdown-menu Cl-dropdown-menu" role="menu">
+          <li><a href="#" onclick="changeLanguageMenuIcon('en')">English</a></li>
+		  <li><a href="#" onclick="changeLanguageMenuIcon('es')">Español</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <p class="col-12" id="target">
+    <table class="Cl-TitleTable" id="introtable">
+      <tbody><tr>
+        <td><b>ID</b>: REPORT_PADRON_64776</td>
+      </tr>
+      <tr>
+        <td><b>Target</b>: MetadataTarget</td>
+      </tr>
+      <tr id="tr-span-DATAFLOW"><td><b>Dataflow</b>: <span id="span-DATAFLOW">DF_PADRON_64776</span></td></tr>
+    </tbody></table>
+    <br>
+    <table class="Cl-MainTable">
+      <tbody>
+      <tr>
+        <td>
+          <table class="Cl-SummaryTable">
+            <tbody>
+            <tr>
+             <td class="Cl-TitleSummary">Metadata</td>
+            </tr>
+            <tr>
+              <td class="Cl-SubTitleSummary"><b>Reference metadata</b></td>
+            </tr>
+            <tr>
+              <td class="Cl-SummaryItem">
+                <span id="A-h1">1.</span>
+                <a class="Cl-SummaryItemLink" href="#link_A">Contacto</a> <br>
+
+                <!--
+    <a id="R1-i1" class="Cl-SummaryItemLink" href="#link_R1">Organización de contacto</a>
+    <br>
+    <a id="R2-i1" class="Cl-SummaryItemLink" href="#link_R2">Unidad de organización de contacto</a>
+    <br>
+    <a id="R3-i1" class="Cl-SummaryItemLink" href="#link_R3">Nombre de contacto</a>
+    <br>
+    <a id="R4-i1" class="Cl-SummaryItemLink" href="#link_R4">Función de la persona de contacto</a>
+    <br>
+    <a id="R5-i1" class="Cl-SummaryItemLink" href="#link_R5">Dirección postal de contacto</a>
+    <br>
+    <a id="R6-i1" class="Cl-SummaryItemLink" href="#link_R6">Dirección de correo electrónico de contacto</a>
+    <br>
+    <a id="R7-i1" class="Cl-SummaryItemLink" href="#link_R7">Número de teléfono de contacto</a>
+    <br>
+    <a id="R8-i1" class="Cl-SummaryItemLink" href="#link_R8">Número de fax de contacto</a>
+    <br>
+  -->
+                <span id="B-h1">2.</span>
+                <a class="Cl-SummaryItemLink" href="#link_B">Actualización de metadatos</a> <br>
+
+                <!--
+    <a id="R9-i1" class="Cl-SummaryItemLink" href="#link_R9">Última certificación de metadatos</a>
+    <br>
+    <a id="R10-i1" class="Cl-SummaryItemLink" href="#link_R10">Última difusión de metadatos</a>
+    <br>
+    <a id="R11-i1" class="Cl-SummaryItemLink" href="#link_R11">Última actualización de metadatos</a>
+    <br>
+  -->
+                <span id="C-h1">3.</span>
+                <a class="Cl-SummaryItemLink" href="#link_C">Presentación estadística</a> <br>
+
+                <!--
+    <a id="R12-i1" class="Cl-SummaryItemLink" href="#link_R12">Descripción de los datos</a>
+    <br>
+    <a id="R13-i1" class="Cl-SummaryItemLink" href="#link_R13">Sistema de clasificación</a>
+    <br>
+    <a id="R14-i1" class="Cl-SummaryItemLink" href="#link_R14">Cobertura por sectores</a>
+    <br>
+    <a id="R15-i1" class="Cl-SummaryItemLink" href="#link_R15">Definiciones y conceptos</a>
+    <br>
+    <a id="R16-i1" class="Cl-SummaryItemLink" href="#link_R16">Unidad estadística</a>
+    <br>
+    <a id="R17-i1" class="Cl-SummaryItemLink" href="#link_R17">Población estadística</a>
+    <br>
+    <a id="R18-i1" class="Cl-SummaryItemLink" href="#link_R18">Ámbito geográfico</a>
+    <br>
+    <a id="R19-i1" class="Cl-SummaryItemLink" href="#link_R19">Cobertura temporal</a>
+    <br>
+    <a id="R20-i1" class="Cl-SummaryItemLink" href="#link_R20">Período base</a>
+    <br>
+  -->
+                <span id="D-h1">4.</span>
+                <a class="Cl-SummaryItemLink" href="#link_D">Unidad de medida</a> <br>
+
+                <!--
+    <a id="R21-i1" class="Cl-SummaryItemLink" href="#link_R21">Unidad de medida</a>
+    <br>
+  -->
+                <span id="E-h1">5.</span>
+                <a class="Cl-SummaryItemLink" href="#link_E">Período de referencia</a> <br>
+
+                <!--
+    <a id="R22-i1" class="Cl-SummaryItemLink" href="#link_R22">Período de referencia</a>
+    <br>
+  -->
+                <span id="F-h1">6.</span>
+                <a class="Cl-SummaryItemLink" href="#link_F">Mandato institucional</a> <br>
+
+                <!--
+    <a id="R23-i1" class="Cl-SummaryItemLink" href="#link_R23">Actos jurídicos y otros acuerdos</a>
+    <br>
+    <a id="R24-i1" class="Cl-SummaryItemLink" href="#link_R24">Intercambio de datos</a>
+    <br>
+  -->
+                <span id="G-h1">7.</span>
+                <a class="Cl-SummaryItemLink" href="#link_G">Confidencialidad</a> <br>
+
+                <!--
+    <a id="R25-i1" class="Cl-SummaryItemLink" href="#link_R25">Política de confidencialidad</a>
+    <br>
+    <a id="R26-i1" class="Cl-SummaryItemLink" href="#link_R26">Tratamiento de datos confidenciales</a>
+    <br>
+  -->
+                <span id="H-h1">8.</span>
+                <a class="Cl-SummaryItemLink" href="#link_H">Política de difusión</a> <br>
+
+                <!--
+    <a id="R27-i1" class="Cl-SummaryItemLink" href="#link_R27">Fecha de difusión de resultados</a>
+    <br>
+    <a id="R28-i1" class="Cl-SummaryItemLink" href="#link_R28">Fecha prevista de difusión de resultados</a>
+    <br>
+    <a id="R29-i1" class="Cl-SummaryItemLink" href="#link_R29">Acceso a los resultados</a>
+    <br>
+  -->
+                <span id="I-h1">9.</span>
+                <a class="Cl-SummaryItemLink" href="#link_I">Frecuencia de la difusión</a> <br>
+
+                <!--
+    <a id="R30-i1" class="Cl-SummaryItemLink" href="#link_R30">Frecuencia de la difusión</a>
+    <br>
+  -->
+                <span id="J-h1">10.</span>
+                <a class="Cl-SummaryItemLink" href="#link_J">Formato de difusión</a> <br>
+
+                <!--
+    <a id="R31-i1" class="Cl-SummaryItemLink" href="#link_R31">Comunicados</a>
+    <br>
+    <a id="R32-i1" class="Cl-SummaryItemLink" href="#link_R32">Publicaciones</a>
+    <br>
+    <a id="R33-i1" class="Cl-SummaryItemLink" href="#link_R33">Base de datos online</a>
+    <br>
+    <a id="R34-i1" class="Cl-SummaryItemLink" href="#link_R34">Acceso a microdatos</a>
+    <br>
+    <a id="R35-i1" class="Cl-SummaryItemLink" href="#link_R35">Otros</a>
+    <br>
+  -->
+                <span id="K-h1">11.</span>
+                <a class="Cl-SummaryItemLink" href="#link_K">Accesibilidad de la documentación</a> <br>
+
+                <!--
+    <a id="R36-i1" class="Cl-SummaryItemLink" href="#link_R36">Documentación sobre metodología</a>
+    <br>
+    <a id="R37-i1" class="Cl-SummaryItemLink" href="#link_R37">Documentación sobre calidad</a>
+    <br>
+  -->
+                <span id="L-h1">12.</span>
+                <a class="Cl-SummaryItemLink" href="#link_L">Gestión de la calidad</a> <br>
+
+                <!--
+    <a id="R38-i1" class="Cl-SummaryItemLink" href="#link_R38">Garantía de calidad</a>
+    <br>
+    <a id="R39-i1" class="Cl-SummaryItemLink" href="#link_R39">Evaluación de calidad</a>
+    <br>
+  -->
+                <span id="M-h1">13.</span>
+                <a class="Cl-SummaryItemLink" href="#link_M">Relevancia</a> <br>
+
+                <!--
+    <a id="R40-i1" class="Cl-SummaryItemLink" href="#link_R40">Usuarios</a>
+    <br>
+    <a id="R41-i1" class="Cl-SummaryItemLink" href="#link_R41">Satisfacción del usuario</a>
+    <br>
+    <a id="R42-i1" class="Cl-SummaryItemLink" href="#link_R42">Exhaustividad</a>
+    <br>
+  -->
+                <span id="N-h1">14.</span>
+                <a class="Cl-SummaryItemLink" href="#link_N">Exactitud y fiabilidad</a> <br>
+
+                <!--
+    <a id="R43-i1" class="Cl-SummaryItemLink" href="#link_R43">Exactitud global</a>
+    <br>
+    <a id="R44-i1" class="Cl-SummaryItemLink" href="#link_R44">Errores de muestreo</a>
+    <br>
+    <a id="R45-i1" class="Cl-SummaryItemLink" href="#link_R45">Errores ajenos al muestreo</a>
+    <br>
+  -->
+                <span id="O-h1">15.</span>
+                <a class="Cl-SummaryItemLink" href="#link_O">Oportunidad y puntualidad</a> <br>
+
+                <!--
+    <a id="R46-i1" class="Cl-SummaryItemLink" href="#link_R46">Oportunidad</a>
+    <br>
+    <a id="R47-i1" class="Cl-SummaryItemLink" href="#link_R47">Puntualidad</a>
+    <br>
+  -->
+                <span id="P-h1">16.</span>
+                <a class="Cl-SummaryItemLink" href="#link_P">Comparabilidad</a> <br>
+
+                <!--
+    <a id="R48-i1" class="Cl-SummaryItemLink" href="#link_R48">Comparabilidad geográfica</a>
+    <br>
+    <a id="R49-i1" class="Cl-SummaryItemLink" href="#link_R49">Comparabilidad temporal</a>
+    <br>
+  -->
+                <span id="Q-h1">17.</span>
+                <a class="Cl-SummaryItemLink" href="#link_Q">Coherencia</a> <br>
+
+                <!--
+    <a id="R50-i1" class="Cl-SummaryItemLink" href="#link_R50">Coherencia - cruce de sectores</a>
+    <br>
+    <a id="R51-i1" class="Cl-SummaryItemLink" href="#link_R51">Coherencia - interna</a>
+    <br>
+  -->
+                <span id="R-h1">18.</span>
+                <a class="Cl-SummaryItemLink" href="#link_R">Costes y carga</a> <br>
+
+                <!--
+    <a id="R52-i1" class="Cl-SummaryItemLink" href="#link_R52">Costes y carga</a>
+    <br>
+  -->
+                <span id="S-h1">19.</span>
+                <a class="Cl-SummaryItemLink" href="#link_S">Revisión de los datos</a> <br>
+
+                <!--
+    <a id="R53-i1" class="Cl-SummaryItemLink" href="#link_R53">Revisión de datos - política</a>
+    <br>
+    <a id="R54-i1" class="Cl-SummaryItemLink" href="#link_R54">Revisión de datos - práctica</a>
+    <br>
+  -->
+                <span id="T-h1">20.</span>
+                <a class="Cl-SummaryItemLink" href="#link_T">Tratamiento estadístico</a> <br>
+
+                <!--
+    <a id="R55-i1" class="Cl-SummaryItemLink" href="#link_R55">Datos de origen</a>
+    <br>
+    <a id="R56-i1" class="Cl-SummaryItemLink" href="#link_R56">Frecuencia de la recogida de datos</a>
+    <br>
+    <a id="R57-i1" class="Cl-SummaryItemLink" href="#link_R57">Recopilación de datos</a>
+    <br>
+    <a id="R58-i1" class="Cl-SummaryItemLink" href="#link_R58">Validación de datos</a>
+    <br>
+    <a id="R59-i1" class="Cl-SummaryItemLink" href="#link_R59">Compilación de los datos</a>
+    <br>
+    <a id="R60-i1" class="Cl-SummaryItemLink" href="#link_R60">Ajuste</a>
+    <br>
+  -->
+                <span id="U-h1">21.</span>
+                <a class="Cl-SummaryItemLink" href="#link_U">Observaciones</a> <br>
+
+                <!--
+    <a id="R61-i1" class="Cl-SummaryItemLink" href="#link_R61">Observaciones</a>
+    <br>
+  -->
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <br>
+          <a class="Cl-DownloadReportLink" id="download-report-button"></a>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+    <br>
+    <table class="Cl-AttributeTable">
+      <tbody>
+
+    <tr>
+      <td class="Cl-Level1" colspan="2" id="A-l1">
+        <a name="A"></a><a name="link_A"></a>
+        <table class="Cl-HeaderAttributeTable">
+          <tbody>
+          <tr>
+            <td class="Cl-Level1-NoBorder"><span id="A-r1">1. </span><a name="link_A"></a>Contacto</td>
+            <td align="right"><a class="DocCommon" href="#">Top</a></td>
+          </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  
+
+    <tr id="R1-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R1-r1">R1</span>
+        <a name="link_R1">Organización de contacto</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R1-r2">Instituto de Estadística y Cartografía de Andalucía</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R2-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R2-r1">R2</span>
+        <a name="link_R2">Unidad de organización de contacto</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R2-r2">Servicio de Difusión y Publicaciones</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R3-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R3-r1">R3</span>
+        <a name="link_R3">Nombre de contacto</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R3-r2">--</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R4-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R4-r1">R4</span>
+        <a name="link_R4">Función de la persona de contacto</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R4-r2">Atención a la demanda de información</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R5-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R5-r1">R5</span>
+        <a name="link_R5">Dirección postal de contacto</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R5-r2">Pabellón de Nueva Zelanda. C/ Leonardo Da Vinci, nº 21. Isla de La Cartuja. 41071 - Sevilla</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R6-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R6-r1">R6</span>
+        <a name="link_R6">Dirección de correo electrónico de contacto</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R6-r2">informacion.ieca@juntadeandalucia.es</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R7-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R7-r1">R7</span>
+        <a name="link_R7">Número de teléfono de contacto</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R7-r2">Atención al público: 900 101 407 Centralita: 955 033 800</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R8-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R8-r1">R8</span>
+        <a name="link_R8">Número de fax de contacto</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R8-r2">955 033 816/17</div>
+      </td>
+    </tr>
+  
+          </tbody>
+    </table>
+    <br>
+    <table class="Cl-AttributeTable">
+      <tbody>
+
+    <tr>
+      <td class="Cl-Level1" colspan="2" id="B-l1">
+        <a name="B"></a><a name="link_B"></a>
+        <table class="Cl-HeaderAttributeTable">
+          <tbody>
+          <tr>
+            <td class="Cl-Level1-NoBorder"><span id="B-r1">2. </span><a name="link_B"></a>Actualización de metadatos</td>
+            <td align="right"><a class="DocCommon" href="#">Top</a></td>
+          </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  
+
+    <tr id="R9-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R9-r1">R9</span>
+        <a name="link_R9">Última certificación de metadatos</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R9-r2">14/01/2022</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R10-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R10-r1">R10</span>
+        <a name="link_R10">Última difusión de metadatos</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R10-r2">17/01/2022</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R11-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R11-r1">R11</span>
+        <a name="link_R11">Última actualización de metadatos</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R11-r2">14/01/2022</div>
+      </td>
+    </tr>
+  
+          </tbody>
+    </table>
+    <br>
+    <table class="Cl-AttributeTable">
+      <tbody>
+
+    <tr>
+      <td class="Cl-Level1" colspan="2" id="C-l1">
+        <a name="C"></a><a name="link_C"></a>
+        <table class="Cl-HeaderAttributeTable">
+          <tbody>
+          <tr>
+            <td class="Cl-Level1-NoBorder"><span id="C-r1">3. </span><a name="link_C"></a>Presentación estadística</td>
+            <td align="right"><a class="DocCommon" href="#">Top</a></td>
+          </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  
+
+    <tr id="R12-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R12-r1">R12</span>
+        <a name="link_R12">Descripción de los datos</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R12-r2"><p style="margin-left:0px; margin-right:0px; text-align:justify">En la&nbsp;Estadística del Padrón se hace una explotación de las variables básicas que contiene el Padrón&nbsp;a partir del fichero derivado de la base padronal del INE ajustado a las Cifras Oficiales de Población provenientes de la Revisión del Padrón Municipal.</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:justify">Las cifras de población del Padrón con referencia a uno de enero de cada año se obtienen según se detalla en la normativa padronal y se difunden por el INE una vez que se ha publicado en el BOE el Real Decreto de aprobación de las mismas.</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:justify">Se ofrecen los datos de la población residente en España a&nbsp;1 de enero de cada año, según las siguientes variables de clasificación: lugar de residencia, sexo, edad, nacionalidad y lugar de nacimiento.</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:justify">Los datos de lugar de residencia se facilitan para distintos niveles de desagregación territorial: provincial, comunidad autónoma, municipios y secciones censales.</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:justify">&nbsp;La inscripción en el Padrón municipal contiene como obligatorios sólo los siguientes datos de cada vecino:</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:justify">a) Nombre y apellidos</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:justify">b) Sexo</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:justify">c) Domicilio Habitual</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:justify">d) Nacionalidad</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:justify">e) Lugar y Fecha de Nacimiento</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:justify">f) Número de Documento Nacional de Identidad o, tratándose de extranjeros, del documento que lo sustituya.</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:justify">g) Certificado o título escolar o académico</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:justify">&nbsp;</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:justify">La presente consulta muestra los datos de "Población por municipio de residencia y país de nacimiento extranjero según sexo".</p>
+</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R13-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R13-r1">R13</span>
+        <a name="link_R13">Sistema de clasificación</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R13-r2">--</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R14-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R14-r1">R14</span>
+        <a name="link_R14">Cobertura por sectores</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R14-r2">Recoge todas las personas empadronadas en España. La Ley 7/1985 Reguladora de las Bases del Régimen Local establece la obligatoriedad de la inscripción en el Padrón de toda persona que viva en España, sin hacer distinción por su nacionalidad, ni exigir la residencia legal en España. </div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R15-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R15-r1">R15</span>
+        <a name="link_R15">Definiciones y conceptos</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R15-r2"><ul style="margin-left:0em; margin-right:0em">
+	<li>Edad
+	<div style="margin-left:2em; margin-right:0em">La edad en años cumplidos se refiere al número de aniversarios del nacimiento transcurridos en la fecha de referencia, es decir, a la edad en el último cumpleaños.</div>
+	</li>
+	<li>Lugar de nacimiento
+	<div style="margin-left:2em; margin-right:0em">Lugar en que ha nacido una persona, es decir, el lugar de residencia habitual de la madre en el momento del nacimiento, determinado en la fecha de la recogida de datos.</div>
+	</li>
+	<li>Nacionalidad
+	<div style="margin-left:2em; margin-right:0em">Vínculo jurídico particular entre un individuo y su Estado, adquirido mediante nacimiento, naturalización, declaración, opción, matrimonio y otras fórmulas acordes con la legislación nacional.</div>
+	</li>
+	<li>Población residente
+	<div style="margin-left:2em; margin-right:0em">Se define como población residente en un determinado ámbito geográfico a aquellas personas que en la fecha de referencia tienen establecida su residencia habitual en el mismo.</div>
+	</li>
+	<li>Residencia habitual según Padrón
+	<div style="margin-left:2em; margin-right:0em">Lugar en que una persona pasa normalmente el período diario de descanso, independientemente de ausencias temporales con fines de ocio, vacaciones, visitas a amigos o parientes, negocios, tratamiento médico o peregrinaje religioso.</div>
+	</li>
+	<li>Sexo
+	<div style="margin-left:2em; margin-right:0em">El sexo se refiere al sexo biológico de la persona. Según la OMS, el "sexo" hace referencia a las características biológicas y fisiológicas que definen a hombres y mujeres, mientras que el "género" se refiere a los roles, conductas, actividades y atributos construidos socialmente que una cultura determinada considera apropiados para hombres y mujeres. De acuerdo con esta descripción, la OMS considera que "hombre" y "mujer" son categorías de sexo, mientras que "masculino" y "femenino" son categorías de género.</div>
+	</li>
+</ul>
+</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R16-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R16-r1">R16</span>
+        <a name="link_R16">Unidad estadística</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R16-r2">Persona residente en España inscrita en la base padronal del INE.</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R17-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R17-r1">R17</span>
+        <a name="link_R17">Población estadística</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R17-r2">La población objeto de estudio de la estadística son todas las personas empadronadas en España.</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R18-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R18-r1">R18</span>
+        <a name="link_R18">Ámbito geográfico</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R18-r2">Andalucía</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R19-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R19-r1">R19</span>
+        <a name="link_R19">Cobertura temporal</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R19-r2">La estadística se lleva a cabo con carácter anual con fecha de referencia 1 de enero de cada año, con resultados disponibles desde al año 1998. También se ofrecen datos de la Renovación del Padrón municipal de habitantes a 1 de mayo de 1996.</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R20-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R20-r1">R20</span>
+        <a name="link_R20">Período base</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R20-r2">La serie comienza con los datos a 1 de enero de 1998.</div>
+      </td>
+    </tr>
+  
+          </tbody>
+    </table>
+    <br>
+    <table class="Cl-AttributeTable">
+      <tbody>
+
+    <tr>
+      <td class="Cl-Level1" colspan="2" id="D-l1">
+        <a name="D"></a><a name="link_D"></a>
+        <table class="Cl-HeaderAttributeTable">
+          <tbody>
+          <tr>
+            <td class="Cl-Level1-NoBorder"><span id="D-r1">4. </span><a name="link_D"></a>Unidad de medida</td>
+            <td align="right"><a class="DocCommon" href="#">Top</a></td>
+          </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  
+
+    <tr id="R21-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R21-r1">R21</span>
+        <a name="link_R21">Unidad de medida</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R21-r2">Número de personas.</div>
+      </td>
+    </tr>
+  
+          </tbody>
+    </table>
+    <br>
+    <table class="Cl-AttributeTable">
+      <tbody>
+
+    <tr>
+      <td class="Cl-Level1" colspan="2" id="E-l1">
+        <a name="E"></a><a name="link_E"></a>
+        <table class="Cl-HeaderAttributeTable">
+          <tbody>
+          <tr>
+            <td class="Cl-Level1-NoBorder"><span id="E-r1">5. </span><a name="link_E"></a>Período de referencia</td>
+            <td align="right"><a class="DocCommon" href="#">Top</a></td>
+          </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  
+
+    <tr id="R22-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R22-r1">R22</span>
+        <a name="link_R22">Período de referencia</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R22-r2">1 de enero de cada año
+Datos referidos al periodo: Anual A: 2021</div>
+      </td>
+    </tr>
+  
+          </tbody>
+    </table>
+    <br>
+    <table class="Cl-AttributeTable">
+      <tbody>
+
+    <tr>
+      <td class="Cl-Level1" colspan="2" id="F-l1">
+        <a name="F"></a><a name="link_F"></a>
+        <table class="Cl-HeaderAttributeTable">
+          <tbody>
+          <tr>
+            <td class="Cl-Level1-NoBorder"><span id="F-r1">6. </span><a name="link_F"></a>Mandato institucional</td>
+            <td align="right"><a class="DocCommon" href="#">Top</a></td>
+          </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  
+
+    <tr id="R23-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R23-r1">R23</span>
+        <a name="link_R23">Actos jurídicos y otros acuerdos</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R23-r2"><p style="margin-left:0px; margin-right:0px; text-align:left">La recogida, tratamiento y difusión de los datos de las operaciones estadísticas para fines estatales se rige por lo establecido en la Ley 12/1989, de 9 de mayo, de la Función Estadística Pública (LFEP), y en la Disposición Adicional Cuarta de la Ley 4/1990, de 29 de junio. En la LFEP se establece que el Plan Estadístico Nacional es el principal instrumento ordenador de la actividad estadística de la Administración del Estado y contiene las estadísticas que han de elaborarse en el cuatrienio por los servicios de la Administración del Estado o cualesquiera otras entidades dependientes de ella. Todas las estadísticas incluidas en el Plan Estadístico Nacional son estadísticas para fines estatales y de cumplimentación obligatoria. El Plan Estadístico Nacional 2021-2024, aprobado por el Real Decreto 1110/2020, de 15 de diciembre, es el plan actualmente vigente. Esta operación es una estadística para fines estatales y está incluida en el Plan Estadístico Nacional 2021-2024.&nbsp;<a href="https://www.ine.es/ss/Satellite?c=Page&amp;p=1254735904936&amp;pagename=INE%2FINELayout&amp;cid=1254735904936&amp;L=0" style="box-sizing: border-box; color: rgb(69, 126, 118); text-decoration: none; background-color: transparent;" target="_blank">(La estadística en la Administración del Estado)</a></p>
+
+<p>&nbsp;</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:left">El INE está obligado por Ley (artículo 17.3 de la Ley 7/1985 Reguladora de las Bases del Régimen Local) a elevar al Gobierno de la Nación para su aprobación mediante Real Decreto la propuesta de cifras oficiales de población de los municipios españoles, en base a la coordinación que realiza de los Padrones municipales.<br>
+El procedimiento para obtener las cifras de población resultantes de la Revisión padronal a 1 de enero contiene diferentes fases y se encuentra regulado en la Resolución de 25 de octubre de 2005 de la Presidenta del Instituto Nacional de Estadística y el Director General de Cooperación Local, por la que se dictan instrucciones técnicas a los Ayuntamientos sobre la revisión anual del Padrón Municipal y sobre el procedimiento de obtención de la propuesta de cifras oficiales de población.</p>
+</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R24-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R24-r1">R24</span>
+        <a name="link_R24">Intercambio de datos</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R24-r2"><p><span style="background-color:#ffffff; color:#333333; font-family:Arial,Helvetica,sans-serif; font-size:12.96px">Los intercambios de datos entre el INE y los restantes servicios estadísticos del Estado (departamentos ministeriales, organismos autónomos y entidades públicas de la Administración del Estado), así como entre estos y los servicios estadísticos de las Comunidades Autónomas para el desarrollo de las estadísticas a ellos encomendadas se regulan en la LFEP. La LFEP establece, también, los mecanismos de coordinación estadística entre administraciones, así como la celebración de acuerdos de cooperación cuando ello se considere oportuno.</span></p>
+</div>
+      </td>
+    </tr>
+  
+          </tbody>
+    </table>
+    <br>
+    <table class="Cl-AttributeTable">
+      <tbody>
+
+    <tr>
+      <td class="Cl-Level1" colspan="2" id="G-l1">
+        <a name="G"></a><a name="link_G"></a>
+        <table class="Cl-HeaderAttributeTable">
+          <tbody>
+          <tr>
+            <td class="Cl-Level1-NoBorder"><span id="G-r1">7. </span><a name="link_G"></a>Confidencialidad</td>
+            <td align="right"><a class="DocCommon" href="#">Top</a></td>
+          </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  
+
+    <tr id="R25-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R25-r1">R25</span>
+        <a name="link_R25">Política de confidencialidad</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R25-r2"><p style="text-align:justify"><span style="background-color:#ffffff; color:#333333; font-family:Arial,Helvetica,sans-serif; font-size:12.96px">La Ley 12/1989, de 9 de mayo, de la Función Estadística Pública obliga al INE a no difundir en ningún caso los datos personales cualquiera que sea su origen. Se entiende que son datos personales los referentes a personas físicas o jurídicas que o bien permitan la identificación inmediata de los interesados, o bien conduzcan por su estructura, contenido o grado de desagregación a la identificación indirecta de los mismos. Por otra parte, el Reglamento (CE) nº 223/2009 del Parlamento Europeo y del Consejo, de 11 de marzo de 2009, relativo a la estadística europea establece la necesidad de establecer principios y orientaciones comunes que garanticen la confidencialidad de los datos utilizados para elaborar estadísticas europeas y el acceso a esos datos confidenciales, habida cuenta del progreso técnico y de las necesidades de los usuarios en una sociedad democrática.</span></p>
+</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R26-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R26-r1">R26</span>
+        <a name="link_R26">Tratamiento de datos confidenciales</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R26-r2"><p style="margin-left:0px; margin-right:0px; text-align:justify">El INE adopta las medidas lógicas, físicas y administrativas necesarias para que la protección de los datos confidenciales sea efectiva, desde la recogida de datos hasta su publicación.</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:justify">En los cuestionarios de las encuestas se incluye una cláusula legal que informa de la protección que ampara a los datos recogidos.</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:justify">En las fases de tratamiento de la información los datos que permiten la identificación directa solo se conservan mientras son estrictamente necesarios para garantizar la calidad de los procesos</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:justify">En la publicación de las tablas de resultados se analiza el detalle de la información para evitar que puedan deducirse datos confidenciales de las unidades estadísticas. En los casos en que se difunden ficheros de microdatos, éstos siempre están anonimizados.</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:justify">La Estadística del Padrón Continuo es una operación estadística incluida dentro del Plan Estadístico Nacional, sujeta por tanto a la Ley de la Función Estadística Pública de 9 de mayo de 1989, y por consiguiente, sus datos están protegidos por el Secreto Estadístico en todas las etapas de su elaboración.<br>
+Los microdatos que se difunden están anonimizados y los códigos de los municipios menores de 10.000 habitantes aparecen blanqueados.</p>
+</div>
+      </td>
+    </tr>
+  
+          </tbody>
+    </table>
+    <br>
+    <table class="Cl-AttributeTable">
+      <tbody>
+
+    <tr>
+      <td class="Cl-Level1" colspan="2" id="H-l1">
+        <a name="H"></a><a name="link_H"></a>
+        <table class="Cl-HeaderAttributeTable">
+          <tbody>
+          <tr>
+            <td class="Cl-Level1-NoBorder"><span id="H-r1">8. </span><a name="link_H"></a>Política de difusión</td>
+            <td align="right"><a class="DocCommon" href="#">Top</a></td>
+          </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  
+
+    <tr id="R27-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R27-r1">R27</span>
+        <a name="link_R27">Fecha de difusión de resultados</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R27-r2">La publicación avance del calendario se realiza en el último trimestre de cada año y muestra las fechas exactas de la publicación de las estadísticas coyunturales y el mes de publicación de las estadísticas estructurales; posteriormente, el último viernes de cada mes (t) se anuncia el día exacto de publicación de las estadísticas estructurales programadas para el mes (t+2)</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R28-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R28-r1">R28</span>
+        <a name="link_R28">Fecha prevista de difusión de resultados</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R28-r2">El calendario de publicaciones se difunde en la página web del INE (Calendario de publicaciones)</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R29-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R29-r1">R29</span>
+        <a name="link_R29">Acceso a los resultados</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R29-r2">Los datos se difunden de forma simultánea según el calendario de publicación a todas las partes interesadas, en la mayoría de los casos acompañados de nota de prensa. Al mismo tiempo los datos se publican en la web del IECA. También se envían peticiones a medida a usuarios registrados. Algunos usuarios pueden recibir información bajo embargo según se especifica en el Código de Buenas Prácticas de las Estadísticas Europeas.</div>
+      </td>
+    </tr>
+  
+          </tbody>
+    </table>
+    <br>
+    <table class="Cl-AttributeTable">
+      <tbody>
+
+    <tr>
+      <td class="Cl-Level1" colspan="2" id="I-l1">
+        <a name="I"></a><a name="link_I"></a>
+        <table class="Cl-HeaderAttributeTable">
+          <tbody>
+          <tr>
+            <td class="Cl-Level1-NoBorder"><span id="I-r1">9. </span><a name="link_I"></a>Frecuencia de la difusión</td>
+            <td align="right"><a class="DocCommon" href="#">Top</a></td>
+          </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  
+
+    <tr id="R30-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R30-r1">R30</span>
+        <a name="link_R30">Frecuencia de la difusión</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R30-r2">Los datos se difunden anualmente.</div>
+      </td>
+    </tr>
+  
+          </tbody>
+    </table>
+    <br>
+    <table class="Cl-AttributeTable">
+      <tbody>
+
+    <tr>
+      <td class="Cl-Level1" colspan="2" id="J-l1">
+        <a name="J"></a><a name="link_J"></a>
+        <table class="Cl-HeaderAttributeTable">
+          <tbody>
+          <tr>
+            <td class="Cl-Level1-NoBorder"><span id="J-r1">10. </span><a name="link_J"></a>Formato de difusión</td>
+            <td align="right"><a class="DocCommon" href="#">Top</a></td>
+          </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  
+
+    <tr id="R31-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R31-r1">R31</span>
+        <a name="link_R31">Comunicados</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R31-r2">Los resultados de las operaciones estadísticas se difunden generalmente con notas de prensa que se pueden consultar tanto en el menú correspondiente a la operación como en el apartado de Notas de prensa</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R32-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R32-r1">R32</span>
+        <a name="link_R32">Publicaciones</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R32-r2">Los resultados de la estadística se difunden a través de la web del INE.
+Se difunde nota de prensa cuando se publica el Avance con datos provisionales. </div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R33-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R33-r1">R33</span>
+        <a name="link_R33">Base de datos online</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R33-r2"><p style="margin-left:0px; margin-right:0px; text-align:left">La unidad básica es la operación estadística, definida como el conjunto de actividades, incluidas las preparatorias, que conducen a la obtención de resultados estadísticos para un determinado sector o tema o territorio.</p>
+</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R34-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R34-r1">R34</span>
+        <a name="link_R34">Acceso a microdatos</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R34-r2"><a target="_blank" href="https://www.juntadeandalucia.es/institutodeestadisticaycartografia/padron/index.htm">https://www.juntadeandalucia.es/institutodeestadisticaycartografia/padron/index.htm</a></div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R35-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R35-r1">R35</span>
+        <a name="link_R35">Otros</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R35-r2">--</div>
+      </td>
+    </tr>
+  
+          </tbody>
+    </table>
+    <br>
+    <table class="Cl-AttributeTable">
+      <tbody>
+
+    <tr>
+      <td class="Cl-Level1" colspan="2" id="K-l1">
+        <a name="K"></a><a name="link_K"></a>
+        <table class="Cl-HeaderAttributeTable">
+          <tbody>
+          <tr>
+            <td class="Cl-Level1-NoBorder"><span id="K-r1">11. </span><a name="link_K"></a>Accesibilidad de la documentación</td>
+            <td align="right"><a class="DocCommon" href="#">Top</a></td>
+          </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  
+
+    <tr id="R36-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R36-r1">R36</span>
+        <a name="link_R36">Documentación sobre metodología</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R36-r2">Información disponible en:
+https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&amp;cid=1254736177012&amp;menu=metodologia&amp;idp=1254734710990</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R37-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R37-r1">R37</span>
+        <a name="link_R37">Documentación sobre calidad</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R37-r2">--</div>
+      </td>
+    </tr>
+  
+          </tbody>
+    </table>
+    <br>
+    <table class="Cl-AttributeTable">
+      <tbody>
+
+    <tr>
+      <td class="Cl-Level1" colspan="2" id="L-l1">
+        <a name="L"></a><a name="link_L"></a>
+        <table class="Cl-HeaderAttributeTable">
+          <tbody>
+          <tr>
+            <td class="Cl-Level1-NoBorder"><span id="L-r1">12. </span><a name="link_L"></a>Gestión de la calidad</td>
+            <td align="right"><a class="DocCommon" href="#">Top</a></td>
+          </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  
+
+    <tr id="R38-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R38-r1">R38</span>
+        <a name="link_R38">Garantía de calidad</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R38-r2"><p style="margin-left:0px; margin-right:0px; text-align:left">El marco de garantía de calidad para las estadísticas del INE está basado en el ESSCoP, el&nbsp;<a href="https://www.ine.es/ine/codigobp/codigobupr.pdf" style="box-sizing: border-box; color: rgb(69, 126, 118); text-decoration: none; background-color: transparent;" target="_blank">Código de Buenas prácticas de las Estadísticas Europeas</a>&nbsp;de EUROSTAT. El ESSCoP consta de 16 principios, agrupados en tres áreas: Entorno Institucional, Procesos y Productos. Cada principio tiene asociado una serie de indicadores que permiten su medida. Para valorar la calidad se utilizan diferentes herramientas proporcionadas por EUROSTAT: los indicadores ya mencionados, la Autoevaluación inspirada en el modelo DESAP , la Revisión por homólogos (Peer Review), las Encuestas de satisfacción de usuarios, y otros procedimientos de evaluación.</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:left">El proceso de elaboración de la estadística tiene establecidos controles para detectar y corregir los errores con el fin de garantizar la calidad de la misma. El&nbsp;volumen de errores detectados es pequeño y el porcentaje de registros&nbsp;en los cuales se hace alguna correción para alguna de sus variables es&nbsp;del orden del 0,3%.</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:left">Para detectar estos errores se hacen contrastes de la información que consta en el Padrón relativa a cada habitante con los datos del DNI de españoles y datos del NIE de extranjeros facilitados por del Ministerio del Interior para la coordinación de los padrones municipales y comunicación a los ayuntamientos, introduciendo correcciones en la variable sexo y en la fecha de nacimiento en el caso de centenarios.&nbsp;</p>
+</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R39-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R39-r1">R39</span>
+        <a name="link_R39">Evaluación de calidad</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R39-r2"><p style="margin-left:0px; margin-right:0px; text-align:justify">Los datos proceden de&nbsp;los Padrones municipales de habitantes, que son registros administrativos que gestiona cada ayuntamiento,&nbsp;en&nbsp;los cuales se realiza un proceso continuo de actualización y depuración de datos.</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:justify">El INE es el&nbsp;responsable de la coordinación de estos padrones municipales y se encarga, entre otras tareas, de&nbsp;evitar que se produzcan duplicidades.</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:justify">La principal ventaja de esta estadística es que, al obtenerse los datos de un registro, para cada habitante se&nbsp;dispone de&nbsp;la información de todas las variables y por tanto se podrían obtener datos con todos los cruces de variables que se deseen. Asimismo, al constar el domicilio exacto de cada persona también&nbsp;sería posible desagregar la información a cualquier nivel territorial.</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:justify">La única variable para la cual no se publican datos por el momento es el nivel de estudios, por tener un grado de fiabilidad bajo.</p>
+</div>
+      </td>
+    </tr>
+  
+          </tbody>
+    </table>
+    <br>
+    <table class="Cl-AttributeTable">
+      <tbody>
+
+    <tr>
+      <td class="Cl-Level1" colspan="2" id="M-l1">
+        <a name="M"></a><a name="link_M"></a>
+        <table class="Cl-HeaderAttributeTable">
+          <tbody>
+          <tr>
+            <td class="Cl-Level1-NoBorder"><span id="M-r1">13. </span><a name="link_M"></a>Relevancia</td>
+            <td align="right"><a class="DocCommon" href="#">Top</a></td>
+          </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  
+
+    <tr id="R40-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R40-r1">R40</span>
+        <a name="link_R40">Usuarios</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R40-r2"><p style="text-align:justify"><span style="background-color:#ffffff; color:#333333; font-family:Arial,Helvetica,sans-serif; font-size:12.96px">Las necesidades específicas de los usuarios son tenidas en cuenta a la hora de ampliar la información que se ofrece en la web con nuevas tablas o ficheros de datos, siempre respetando la confidencialidad estadística.</span><br>
+<span style="background-color:#ffffff; color:#333333; font-family:Arial,Helvetica,sans-serif; font-size:12.96px">Entre los usuarios de la estadística hay que destacar:</span><br>
+<span style="background-color:#ffffff; color:#333333; font-family:Arial,Helvetica,sans-serif; font-size:12.96px">· Ministerios y otros organismos públicos</span><br>
+<span style="background-color:#ffffff; color:#333333; font-family:Arial,Helvetica,sans-serif; font-size:12.96px">· Administraciones territoriales (comunidades autónomas, diputaciones provinciales, ayuntamientos)</span><br>
+<span style="background-color:#ffffff; color:#333333; font-family:Arial,Helvetica,sans-serif; font-size:12.96px">· Universidades y centros de investigación</span><br>
+<span style="background-color:#ffffff; color:#333333; font-family:Arial,Helvetica,sans-serif; font-size:12.96px">· Empresas</span><br>
+<span style="background-color:#ffffff; color:#333333; font-family:Arial,Helvetica,sans-serif; font-size:12.96px">· Prensa y medios especializados</span><br>
+<span style="background-color:#ffffff; color:#333333; font-family:Arial,Helvetica,sans-serif; font-size:12.96px">· Particulares</span><br>
+<span style="background-color:#ffffff; color:#333333; font-family:Arial,Helvetica,sans-serif; font-size:12.96px">· Otras unidades del INE</span><br>
+<span style="background-color:#ffffff; color:#333333; font-family:Arial,Helvetica,sans-serif; font-size:12.96px">· Congreso y Senado: preguntas parlamentarias</span><br>
+<span style="background-color:#ffffff; color:#333333; font-family:Arial,Helvetica,sans-serif; font-size:12.96px">· Organismos internacionales: Eurostat, OCDE, ...</span><br>
+<span style="background-color:#ffffff; color:#333333; font-family:Arial,Helvetica,sans-serif; font-size:12.96px">Estas necesidades se centran en conocer la estructura de la población y se diferencian según el nivel de desagregación territorial requerido (nacional, comunidad autónoma, provincia, municipio o sección censal) y las variables necesarias en cada caso (distribución según el sexo, edad, nacionalidad, ...)</span><br>
+<span style="background-color:#ffffff; color:#333333; font-family:Arial,Helvetica,sans-serif; font-size:12.96px">En algunas ocasiones no se pueden satisfacer las solicitudes de información de los usuarios por la necesidad de salvaguardar el secreto estadístico. En otras ocasiones las solicitudes se refieren a cifras de población con distintas fechas de referencia a lo largo del año y no se pueden atender ya que por ley la Revisión de los padrones municipales&nbsp;de la cual se derivan las cifras oficiales de población debe realizarse a 1 de enero de cada año.</span></p>
+</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R41-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R41-r1">R41</span>
+        <a name="link_R41">Satisfacción del usuario</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R41-r2"><p style="margin-left:0px; margin-right:0px; text-align:justify">El INE ha realizado encuestas generales de satisfacción de usuarios los años 2007, 2010, 2013, 2016 y 2019 y proyecta seguir realizándolas cada 3 años. Su objeto es conocer la percepción que tienen los usuarios de las estadísticas del INE respecto a la calidad de la información que utilizan, y en qué grado se encuentran cubiertas sus necesidades. Además, se realizan otras encuestas especiales para conocer determinadas facetas: difusión de la información, calidad de determinadas publicaciones, etc.</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:justify">En la página web del INE, en su apartado de Métodos y Proyectos / Calidad y Código de Buenas Prácticas / Gestión de la calidad del INE / Encuestas a usuarios<br>
+se pueden consultar las encuestas realizadas hasta la fecha pulsando en el siguiente&nbsp;<a href="https://www.ine.es/ss/Satellite?c=Page&amp;cid=1259944133654&amp;pagename=MetodologiaYEstandares%2FINELayout&amp;L=0" style="box-sizing: border-box; color: rgb(69, 126, 118); text-decoration: none; background-color: transparent;">enlace</a></p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:justify">En la ESU de 2016&nbsp;el indice de valoracion global de las estadisticas del sector "Poblacion" fue de 4.04 sobre 5&nbsp;</p>
+</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R42-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R42-r1">R42</span>
+        <a name="link_R42">Exhaustividad</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R42-r2">Se encuentra disponible toda la información requerida según las directrices y regulaciones relevantes. Por tanto, la tasa de información obligatoria disponible es del 100%.
+R1=100%</div>
+      </td>
+    </tr>
+  
+          </tbody>
+    </table>
+    <br>
+    <table class="Cl-AttributeTable">
+      <tbody>
+
+    <tr>
+      <td class="Cl-Level1" colspan="2" id="N-l1">
+        <a name="N"></a><a name="link_N"></a>
+        <table class="Cl-HeaderAttributeTable">
+          <tbody>
+          <tr>
+            <td class="Cl-Level1-NoBorder"><span id="N-r1">14. </span><a name="link_N"></a>Exactitud y fiabilidad</td>
+            <td align="right"><a class="DocCommon" href="#">Top</a></td>
+          </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  
+
+    <tr id="R43-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R43-r1">R43</span>
+        <a name="link_R43">Exactitud global</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R43-r2">La fiabilidad global de la estadística está condicionada a la del fichero base que se explota que procede de la coordinación de los padrones municipales</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R44-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R44-r1">R44</span>
+        <a name="link_R44">Errores de muestreo</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R44-r2">No se presentan errores de muestreo por ser la explotación directa de un registro.</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R45-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R45-r1">R45</span>
+        <a name="link_R45">Errores ajenos al muestreo</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R45-r2"><p style="margin-left:0px; margin-right:0px; text-align:left">Los datos proceden de un registro administrativo y todas las unidades aceptadas tienen información,&nbsp;pudiendo existir algunos errores puntuales en algunas de las variables que afectan aproximadamente al 0,3% de los registros y que son depurados en las distintas fases.</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:left">En cuanto a la cobertura del registro, para los españoles se considera que la incidencia de las omisiones es muy pequeña ya que el empadronamiento es un requisito necesario para muchos trámites administrativos.</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:left">Respecto a la sobrecobertura, en el caso de los españoles que se trasladan al extranjero se tiene constancia en el Padrón sólo en la medida en la que éstos se den de alta en los Registros de Matrícula Consular, lo cual no siempre ocurre, de ahí que puedan seguir constando como residentes en España cuando en realidad residen en el extranjero.</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:left">Por lo que se refiere a los extranjeros que dejan España para trasladarse a otro país, dependiendo de que sean comunitarios o no, y según el tipo de permiso de residencia de que dispongan, podrían permanecer inscritos en el Padrón durante 2 ó 5 años (según el caso) hasta que se les aplique un procedimiento de baja por caducidad (para no comunitarios y sin autorización de residencia permanente) o baja por inscripción indebida (para el resto).</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:left">A4=0</p>
+</div>
+      </td>
+    </tr>
+  
+          </tbody>
+    </table>
+    <br>
+    <table class="Cl-AttributeTable">
+      <tbody>
+
+    <tr>
+      <td class="Cl-Level1" colspan="2" id="O-l1">
+        <a name="O"></a><a name="link_O"></a>
+        <table class="Cl-HeaderAttributeTable">
+          <tbody>
+          <tr>
+            <td class="Cl-Level1-NoBorder"><span id="O-r1">15. </span><a name="link_O"></a>Oportunidad y puntualidad</td>
+            <td align="right"><a class="DocCommon" href="#">Top</a></td>
+          </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  
+
+    <tr id="R46-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R46-r1">R46</span>
+        <a name="link_R46">Oportunidad</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R46-r2"><p style="margin-left:0px; margin-right:0px; text-align:left">En el mes de abril del año t se publican unos datos provisionales cuya fecha de referencia es 1 de enero del año t.</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:left">Los datos definitivos se publican en el mes de enero&nbsp;del año t+1, es decir, en un plazo de 12 meses.&nbsp;&nbsp;</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:left">TP1=3 meses</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:left">TP2=12 meses</p>
+</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R47-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R47-r1">R47</span>
+        <a name="link_R47">Puntualidad</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R47-r2">La difusión de los datos se realiza de acuerdo con el calendario de disponibilidad de las estadísticas estructurales que el INE elabora y publica para cada año.
+TP3=0</div>
+      </td>
+    </tr>
+  
+          </tbody>
+    </table>
+    <br>
+    <table class="Cl-AttributeTable">
+      <tbody>
+
+    <tr>
+      <td class="Cl-Level1" colspan="2" id="P-l1">
+        <a name="P"></a><a name="link_P"></a>
+        <table class="Cl-HeaderAttributeTable">
+          <tbody>
+          <tr>
+            <td class="Cl-Level1-NoBorder"><span id="P-r1">16. </span><a name="link_P"></a>Comparabilidad</td>
+            <td align="right"><a class="DocCommon" href="#">Top</a></td>
+          </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  
+
+    <tr id="R48-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R48-r1">R48</span>
+        <a name="link_R48">Comparabilidad geográfica</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R48-r2">Todos los datos son comparables para cualquier desagregación territorial ya que todos proceden de los padrones municipales, que se rigen por la misma normativa y cuya coordinación realiza el INE.</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R49-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R49-r1">R49</span>
+        <a name="link_R49">Comparabilidad temporal</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R49-r2">Los datos de la estadística son comparables desde 1998, que son las cifras ya obtenidas a 1 de enero de cada año a partir de la implantación del nuevo sistema de gestión padronal, por tanto el número de elementos comparables de la serie temporal es de 24. 
+CC2=24</div>
+      </td>
+    </tr>
+  
+          </tbody>
+    </table>
+    <br>
+    <table class="Cl-AttributeTable">
+      <tbody>
+
+    <tr>
+      <td class="Cl-Level1" colspan="2" id="Q-l1">
+        <a name="Q"></a><a name="link_Q"></a>
+        <table class="Cl-HeaderAttributeTable">
+          <tbody>
+          <tr>
+            <td class="Cl-Level1-NoBorder"><span id="Q-r1">17. </span><a name="link_Q"></a>Coherencia</td>
+            <td align="right"><a class="DocCommon" href="#">Top</a></td>
+          </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  
+
+    <tr id="R50-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R50-r1">R50</span>
+        <a name="link_R50">Coherencia - cruce de sectores</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R50-r2"><p style="margin-left:0px; margin-right:0px; text-align:left">Las cifras de&nbsp;la Estadística del Padrón son coincidentes con las Cifras Oficiales de Población puesto que la fuente es la misma y son resultado del mismo procedimiento.</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:left">Sin embargo, existen diferencias con las cifras obtenidas en las Estimaciones de la Población Actual y las de los Censos de Población&nbsp; justificadas por las diferentes metodología seguidas. Algunas de las diferencias con las cifras de los Censos de Población también son debidas a que tienen distintas fechas de referencia.</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:left">La Estadística del Padrón no es totalmente&nbsp;coherente con la Estadística de Variaciones Residenciales, ya que aunque ambas se derivan de la misma fuente, la base padronal del INE, se basan en metodologías distintas.</p>
+</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R51-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R51-r1">R51</span>
+        <a name="link_R51">Coherencia - interna</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R51-r2">Todos los resultados se obtienen de un registro administrativo y son coherentes entre sí.</div>
+      </td>
+    </tr>
+  
+          </tbody>
+    </table>
+    <br>
+    <table class="Cl-AttributeTable">
+      <tbody>
+
+    <tr>
+      <td class="Cl-Level1" colspan="2" id="R-l1">
+        <a name="R"></a><a name="link_R"></a>
+        <table class="Cl-HeaderAttributeTable">
+          <tbody>
+          <tr>
+            <td class="Cl-Level1-NoBorder"><span id="R-r1">18. </span><a name="link_R"></a>Costes y carga</td>
+            <td align="right"><a class="DocCommon" href="#">Top</a></td>
+          </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  
+
+    <tr id="R52-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R52-r1">R52</span>
+        <a name="link_R52">Costes y carga</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R52-r2">Puesto que los datos de la Estadística se obtienen directamente de la base padronal del INE, no hay costes asociados a la recogida ni carga para los informantes.</div>
+      </td>
+    </tr>
+  
+          </tbody>
+    </table>
+    <br>
+    <table class="Cl-AttributeTable">
+      <tbody>
+
+    <tr>
+      <td class="Cl-Level1" colspan="2" id="S-l1">
+        <a name="S"></a><a name="link_S"></a>
+        <table class="Cl-HeaderAttributeTable">
+          <tbody>
+          <tr>
+            <td class="Cl-Level1-NoBorder"><span id="S-r1">19. </span><a name="link_S"></a>Revisión de los datos</td>
+            <td align="right"><a class="DocCommon" href="#">Top</a></td>
+          </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  
+
+    <tr id="R53-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R53-r1">R53</span>
+        <a name="link_R53">Revisión de datos - política</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R53-r2"><p style="margin-left:0px; margin-right:0px; text-align:left">El INE dispone de una Política que regula los aspectos básicos de la revisión de los datos estadísticos, garantizando la transparencia de los procesos y la calidad de los productos. Esta política se describe en el documento aprobado por el Consejo de Dirección en la reunión celebrada el día 13 de marzo de 2015. El documento está disponible en la sección de "Métodos y proyectos / Calidad y Código de Buenas Prácticas / Gestión de la calidad del INE / Política de revisión del Instituto Nacional de Estadística" (<a href="https://www.ine.es/ine/codigobp/politica_revision.pdf" style="box-sizing: border-box; color: rgb(69, 126, 118); text-decoration: none; background-color: transparent;">enlace</a>).</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:left">Esta política general fija los criterios que se deben seguir para los diferentes tipos de revisiones:&nbsp;<strong>rutinarias</strong>&nbsp;- en los casos de estadísticas que por su naturaleza se revisan de manera regular - ;&nbsp;<strong>revisiones mayores</strong>, por cambios metodológicos o de fuentes básicas de referencia de la estadística; y&nbsp;<strong>revisiones extraordinarias</strong>&nbsp;(por ejemplo, las debidas a un error en estadísticas ya publicadas).</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:left">Se difunden unos resultados provisionales&nbsp;a nivel nacional, de CCAA y provincias en el mes de abril del año de referencia de los datos. Los&nbsp;resultados definitivos, con desagregaciones hasta nivel municipal y de sección censal, se publican en el mes de enero&nbsp;del siguiente año&nbsp;y estos datos ya no se revisan.</p>
+</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R54-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R54-r1">R54</span>
+        <a name="link_R54">Revisión de datos - práctica</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R54-r2"><p style="margin-left:0px; margin-right:0px; text-align:left">La diferencia en la cifra de la población total a nivel nacional entre los datos provisionales y los definitivos de 2021&nbsp;ha sido de 40.458&nbsp;habitantes, lo que supone una variación relativa del 0,08%.</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:left">Estas diferencias&nbsp;son debidas al proceso de reparos y alegaciones con los ayuntamientos que se realiza de acuerdo a la&nbsp; Resolución de 25 de octubre de 2005 del Instituto Nacional de Estadística y de la Dirección General para la Administración Local, por la que se dictan instrucciones técnicas a los Ayuntamientos sobre la revisión anual del Padrón Municipal y sobre el procedimiento de obtención de la propuesta de cifras oficiales de población.</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:left">A6-MAR=40.458</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:left">A6-RMAR=0,08%</p>
+</div>
+      </td>
+    </tr>
+  
+          </tbody>
+    </table>
+    <br>
+    <table class="Cl-AttributeTable">
+      <tbody>
+
+    <tr>
+      <td class="Cl-Level1" colspan="2" id="T-l1">
+        <a name="T"></a><a name="link_T"></a>
+        <table class="Cl-HeaderAttributeTable">
+          <tbody>
+          <tr>
+            <td class="Cl-Level1-NoBorder"><span id="T-r1">20. </span><a name="link_T"></a>Tratamiento estadístico</td>
+            <td align="right"><a class="DocCommon" href="#">Top</a></td>
+          </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  
+
+    <tr id="R55-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R55-r1">R55</span>
+        <a name="link_R55">Datos de origen</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R55-r2"><p style="margin-left:0px; margin-right:0px; text-align:left">Los datos de la estadística se obtienen a partir de la información que cumplimentan los ciudadanos en el Padrón municipal.<br>
+El Padrón municipal es el registro administrativo donde constan los vecinos del municipio. Toda persona que viva en España está obligada a inscribirse en el Padrón del municipio en que resida habitualmente. Quien viva en varios municipios deberá inscribirse únicamente en el que habite durante más tiempo al año.<br>
+<br>
+Su formación, actualización, revisión y custodia corresponde a los ayuntamientos, quienes deben realizar las actuaciones y operaciones necesarias para que los datos de sus Padrones concuerden con la realidad.<br>
+Su gestión se realiza por los ayuntamientos de forma informatizada y en los casos en los que éstos carecen de medios se realiza por las Diputaciones Provinciales.</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:left">Por extensión, se conoce como Padrón del INE a la base de datos formada por todos los ficheros padronales municipales.</p>
+</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R56-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R56-r1">R56</span>
+        <a name="link_R56">Frecuencia de la recogida de datos</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R56-r2"><p style="text-align:justify"><span style="background-color:#ffffff; color:#333333; font-family:Arial,Helvetica,sans-serif; font-size:12.96px">La Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local y el Reglamento de Población y Demarcación Territorial de las Entidades Locales, establecen que los Ayuntamientos deben remitir, por medios informáticos o telemáticos, las variaciones mensuales que se vayan produciendo en los datos de sus Padrones municipales al Instituto Nacional de Estadística para que éste, en cumplimiento de las obligaciones que le impone el artículo 17.3 de la citada Ley de Bases, realice las comprobaciones oportunas en aras a subsanar posibles errores y evitar duplicidades y para que las cifras oficiales resultantes de las revisiones anuales puedan ser declaradas oficiales.</span></p>
+</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R57-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R57-r1">R57</span>
+        <a name="link_R57">Recopilación de datos</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R57-r2"><p style="text-align:justify"><span style="background-color:#ffffff; color:#333333; font-family:Arial,Helvetica,sans-serif; font-size:12.96px">Los ayuntamientos son los encargados de mantener permanentemente actualizados sus padrones municipales con los datos que declaran&nbsp;los ciudadanos&nbsp;y deben realizar las actuaciones y operaciones necesarias para que los datos de sus padrones concuerden con la realidad.</span><br>
+<span style="background-color:#ffffff; color:#333333; font-family:Arial,Helvetica,sans-serif; font-size:12.96px">Asimismo, los ayuntamientos deben enviar al INE mensualmente todas las variaciones producidas en los mismos (altas, bajas y modificaciones) siendo el INE el encargado de la&nbsp;coordinación de todos los padrones municipales para evitar que se produzcan duplicidades entre los distintos padrones.</span></p>
+</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R58-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R58-r1">R58</span>
+        <a name="link_R58">Validación de datos</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R58-r2"><p style="margin-left:0px; margin-right:0px; text-align:left">El Padrón es un registro permanentemente actualizado del que se obtienen los datos para elaborar la Estadística del Padrón Continuo. Por tratarse de un registro todas las unidades consideradas contienen información de todas las variables para cada habitante.</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:left">En algunos casos puntuales pueden aparecer ciertos valores inválidos en las variables nacionalidad y lugar de nacimiento a los que se les aplica un proceso de imputación cuando no se encuentra la información en otros registros administrativos.</p>
+
+<p style="margin-left:0px; margin-right:0px; text-align:left">También se realiza un proceso de detección de posibles incoherencias en la variable sexo contrastando con fuentes del Ministerio del Interior, así como de la fecha de nacimiento.</p>
+</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R59-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R59-r1">R59</span>
+        <a name="link_R59">Compilación de los datos</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R59-r2"><p style="text-align:justify"><span style="background-color:#ffffff; color:#333333; font-family:arial,helvetica,sans-serif; font-size:12px">Al fichero del que se obtienen las cifras oficiales de población se le realiza una depuración de las variables que se consideran en la explotación estadística para que no aparezca ningún valor inválido.</span><br>
+<span style="background-color:#ffffff; color:#333333; font-family:arial,helvetica,sans-serif; font-size:12px">También se realiza una depuración a nivel de sección censal que permite ofrecer información de la población para niveles inferiores al municipio.</span></p>
+</div>
+      </td>
+    </tr>
+  
+  
+    <tr id="R60-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R60-r1">R60</span>
+        <a name="link_R60">Ajuste</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R60-r2">No se realiza ningún tipo de ajuste estacional, descomposición de series temporales o métodos similares.</div>
+      </td>
+    </tr>
+  
+          </tbody>
+    </table>
+    <br>
+    <table class="Cl-AttributeTable">
+      <tbody>
+
+    <tr>
+      <td class="Cl-Level1" colspan="2" id="U-l1">
+        <a name="U"></a><a name="link_U"></a>
+        <table class="Cl-HeaderAttributeTable">
+          <tbody>
+          <tr>
+            <td class="Cl-Level1-NoBorder"><span id="U-r1">21. </span><a name="link_U"></a>Observaciones</td>
+            <td align="right"><a class="DocCommon" href="#">Top</a></td>
+          </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  
+
+    <tr id="R61-tr">
+      <td class="Cl-Level2" colspan="2">
+        <span id="R61-r1">R61</span>
+        <a name="link_R61">Observaciones</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="Cl-Content" colspan="2">
+        <div id="R61-r2">--</div>
+      </td>
+    </tr>
+  
+          </tbody>
+    </table>
+    <br>
+  </p>
+  </div>
+</div>
+
+</body></html > 
