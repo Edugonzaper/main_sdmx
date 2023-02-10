@@ -52,53 +52,30 @@ if __name__ == "__main__":
         controller = MDM(configuracion_global, traductor, False)
         controller.delete_all('ESC01', 'IECA_CAT_EN_ES', '1.0')
 
-    # if configuracion_global['volcado_mdm']:
-    #     controller = MDM(configuracion_global, traductor, True)
-    #     configuracion_actividades_sdmx = get_configuracion_completo(configuracion_ejecucion)
-    #
-    #     put_all_codelist_schemes(configuracion_ejecucion, configuracion_actividades_sdmx, datos_jerarquias,
-    #                              mapa_conceptos_codelist, controller, configuracion_actividades)
-    #
-    #     put_dsds(configuracion_ejecucion, configuracion_actividades_sdmx, mapa_conceptos_codelist, controller)
-    #
-    #     category_scheme = controller.category_schemes.data['ESC01']['IECA_CAT_EN_ES']['1.0']
-    #
-    #     if configuracion_global['translate']:
-    #         category_scheme.translate()
-    #
-    #     create_categories(category_scheme, configuracion_ejecucion, configuracion_actividades_sdmx)
-    #
-    #     create_dataflows(configuracion_ejecucion, configuracion_actividades, configuracion_actividades_sdmx,
-    #                      category_scheme, configuracion_global, mapa_conceptos_codelist, controller)
-    #
-    #     create_metadatos(configuracion_ejecucion, configuracion_actividades, category_scheme, controller,
-    #                      configuracion_global, configuracion_actividades_sdmx)
-    #
-    # if configuracion_global['volcado_ckan']:
-    #     volcado_ckan(configuracion_global, configuracion_ejecucion, configuracion_actividades)
-    # # controller = MDM(configuracion_global, traductor, True)
-    #
-    # dict = {}
-    #
-    # for actividad in configuracion_ejecucion['actividades']:
-    #     consulta = str(configuracion_actividades[actividad]['consultas'][0]).split('?')[0]
-    #     soup = BeautifulSoup(
-    #         open(f'sistema_informacion/metadatos_html/REPORT_{actividad}_{consulta}.html', 'r', encoding='utf-8'),
-    #         'html.parser')
-    #     r15 = soup.find(attrs={'id': 'R15-r2'})
-    #     nombre = configuracion_actividades[actividad]['subcategoria']
-    #     dict[nombre] = r15.text
-    #
-    # string_grande = ''
-    # for nombre_actividad, texto in dict.items():
-    #     string_grande += f'{nombre_actividad}:\n{texto}\n\n'
-    # file = open('aina.txt', 'w', encoding='utf-8')
-    # file.write(string_grande)
-    # file.close()
-    controller = MDM(configuracion_global, traductor)
-    for nombre_actividad in configuracion_ejecucion['actividades']:
-        for consulta in configuracion_actividades[nombre_actividad]['consultas']:
-            consulta_id = str(consulta).split('?')[0]
-            id_mds = f'MDS_{nombre_actividad}_{consulta_id}'
-            controller.metadatasets.data[id_mds].extract_info_html()
+    if configuracion_global['volcado_mdm']:
+        controller = MDM(configuracion_global, traductor, True)
+        configuracion_actividades_sdmx = get_configuracion_completo(configuracion_ejecucion)
+
+        put_all_codelist_schemes(configuracion_ejecucion, configuracion_actividades_sdmx, datos_jerarquias,
+                                 mapa_conceptos_codelist, controller, configuracion_actividades)
+
+        put_dsds(configuracion_ejecucion, configuracion_actividades_sdmx, mapa_conceptos_codelist, controller)
+
+        category_scheme = controller.category_schemes.data['ESC01']['IECA_CAT_EN_ES']['1.0']
+
+        if configuracion_global['translate']:
+            category_scheme.translate()
+
+        create_categories(category_scheme, configuracion_ejecucion, configuracion_actividades_sdmx)
+
+        create_dataflows(configuracion_ejecucion, configuracion_actividades, configuracion_actividades_sdmx,
+                         category_scheme, configuracion_global, mapa_conceptos_codelist, controller)
+
+        create_metadatos(configuracion_ejecucion, configuracion_actividades, category_scheme, controller,
+                         configuracion_global, configuracion_actividades_sdmx)
+
+    if configuracion_global['volcado_ckan']:
+        volcado_ckan(configuracion_global, configuracion_ejecucion, configuracion_actividades)
+    # controller = MDM(configuracion_global, traductor, True)
+
     controller.logout()
