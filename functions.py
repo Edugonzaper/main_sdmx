@@ -225,5 +225,5 @@ def create_metadatos(configuracion_ejecucion, configuracion_actividades, categor
             controller.metadatasets.data[id_mds].put(path)
             controller.metadatasets.data[id_mds].init_data()
             controller.metadatasets.data[id_mds].publish_all()
-            controller.metadatasets.data[id_mds].download_all_reports()
+            controller.metadatasets.data[id_mds].get_report()
             controller.metadatasets.data[id_mds].extract_info_html()
