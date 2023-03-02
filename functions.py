@@ -184,29 +184,37 @@ def script_provisional(cube_data, columns):
     return cube_data
 
 
-def volcado_ckan(configuracion_global, configuracion_ejecucion, configuracion_actividades, category_scheme=None):
+def volcado_ckan(configuracion_global, configuracion_ejecucion, configuracion_actividades,
+                 configuracion_actividades_sdmx, descripciones, category_scheme=None):
     ckan = Ckan(configuracion_global)
     if configuracion_global['reset_ckan']:
         ckan.datasets.remove_all_datasets()
 
     if configuracion_global['create_groups']:
-        ckan.groups.create_groups(category_scheme.data['ESC01']['IECA_CAT_EN_ES']['1.0'].categories)
+        ckan.groups.create_groups(category_scheme)
 
     for nombre_actividad in configuracion_ejecucion['actividades']:
         for consulta in configuracion_actividades[nombre_actividad]['consultas']:
             id_consulta = str(consulta).split('?')[0]
-            id_df = f'DF_{nombre_actividad}_{id_consulta}'
             id_dataset = f'{nombre_actividad}_{id_consulta}'
-            ckan.datasets.create(id_dataset.lower(), id_dataset, 'instituto-de-estadistica-y-cartografia-de-andalucia',
-                                 ckan.groups.groups[nombre_actividad.lower()])
+            title = configuracion_actividades_sdmx[nombre_actividad]['metadatos_title'][str(id_consulta)]
+            if configuracion_actividades_sdmx[nombre_actividad]['metadatos_subtitle'][str(id_consulta)]:
+                title = f'{title}. {configuracion_actividades_sdmx[nombre_actividad]["metadatos_subtitle"][str(id_consulta)]}'
+            extras = [{'key': 'Actividad', 'value': configuracion_actividades_sdmx[nombre_actividad]['subcategoria']}]
+            tags = [{'name': tag} for tag in descripciones[nombre_actividad]['tags']]
+            ckan.datasets.create(id_dataset.lower(),
+                                 title, 'instituto-de-estadistica-y-cartografia-de-andalucia',
+                                 ckan.groups.groups[nombre_actividad.lower()],
+                                 descripciones[nombre_actividad]['descripcion'], extras, tags,
+                                 'Creative Commons Attribution')
             path = os.path.join(configuracion_global['directorio_datos'], nombre_actividad, 'procesados')
 
             data = pd.read_csv(f'{path}/{id_consulta}.csv', sep=';')
-            ckan.resources.create(data, f'DATA_{id_dataset}', 'csv',
+            ckan.resources.create(data, f'DATOS_{id_dataset}', 'csv',
                                   id_dataset.lower())
             ckan.resources.create_from_file(
                 f'{configuracion_global["directorio_metadatos_html"]}/REPORT_{id_dataset}.html',
-                f'REPORT_{id_dataset}', 'html', id_dataset.lower())
+                f'METADATOS_DE_REFERENCIA_{id_dataset}', 'html', id_dataset.lower())
 
 
 def create_metadatos(configuracion_ejecucion, configuracion_actividades, category_scheme, controller,
@@ -233,5 +241,5 @@ def create_metadatos(configuracion_ejecucion, configuracion_actividades, categor
             controller.metadatasets.data[id_mds].put(path)
             controller.metadatasets.data[id_mds].init_data()
             controller.metadatasets.data[id_mds].publish_all()
-            controller.metadatasets.data[id_mds].download_all_reports()
+            controller.metadatasets.data[id_mds].get_report()
             controller.metadatasets.data[id_mds].extract_info_html()
