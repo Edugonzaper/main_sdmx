@@ -7,21 +7,21 @@ actividades:
 #    - SOCMER
 #    - CONTPROV #solo funciona desde vpn
 #    - PENSIONES
-#    - DEFCAU  #algunas peticiones demasiado grandes
+    - DEFCAU
 #    - CRA
 #    - EPD
 #    - INDICADORES
 #    - EOH
-#    - CAMPINGS #una consulta no conecta
+#    - CAMPINGS
 #    - TURISMO_RURAL
 #    - APARTAMENTOS_TURISTICOS
 #    - ECTA
 #    - EEE #preguntar a susana por el mapeo de asteriscos
 #    - EPA
-#    - AUTONOMOS  #F
+#    - AUTONOMOS
 #    - SALARIOS
 #    - MCVL
-#    - EMPRESASIMD #F
+#    - EMPRESASIMD
 #    - USO_TIC
 #    - IASS
 #    - AE
@@ -29,3 +29,6 @@ actividades:
 #    - ICMA
 #    - PIIA
 #    - CRTA
+#    - ICEA
+#    - DEA
+#    - EEISS

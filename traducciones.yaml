@@ -10805,6 +10805,8 @@ Custodia compartida:
   en: D. Electricity, gas, steam and air-conditioning supply
 D/xEDas cotizados en el a/xF1o:
   en: D/xEDas quoted in the year/xF1o
+DEA_ESTRASALAR:
+  en: DEA_ESTRASALAR
 DEMOGRAFIA:
   en: DEMOGRAPHY
 DEMOGRAPHY:
@@ -10813,6 +10815,8 @@ DIASCOTIZANO:
   en: DIASCOTIZANO
 DISCIPLINA:
   en: DISCIPLINE
+DISTRIBUCION:
+  en: DISTRIBUTION
 DISTRIBUCION_MNP:
   en: DISTRIBUTION_MNP
 DSD agreed by a number of international organisations for use within their respective constituencies:
@@ -11296,6 +11300,8 @@ Demanda regional:
   en: Regional demand
 Demanda regional*:
   en: Regional demand*
+"Demograf\xEDa Empresarial de Andaluc\xEDa":
+  en: Business Demographics of Andalusia
 Demographic and social statistics:
   es: "Estad\xEDsticas demogr\xE1ficas y sociales"
 Demographic balance - DEMOBAL (list):
@@ -11514,6 +11520,8 @@ EPA_NACIONALIDAD:
   en: EPA_NATIONALITY
 ESTADOCIVILC2:
   en: CIVILC2 STATE
+ESTRASALAR:
+  en: ESTRASALAR
 ESTRATO_ASALARIADOS:
   en: EMPLOYEE_STRATUM
 ESTRUCHOGAR:
@@ -11784,6 +11792,13 @@ Establecimientos medios abiertos estimados:
   en: Estimated average open establishments
 Establecimientos medios estimados:
   en: Estimated average establishments
+? Establecimientos que han tomado en su negocio alguna medida para reducir su impacto
+  medioambiental por sector de actividad*
+: en: Establishments that have taken any measures in their business to reduce their
+    environmental impact by sector of activity*.
+"Establecimientos que han tomado en su negocio alguna medida para reducir su impacto medioambiental por tama\xF1o*":
+  en: Establishments that have taken any measures in their business to reduce their
+    environmental impact by size*.
 Estado % Empresas que forman en TIC a su personal:
   en: State % Companies that train their personnel in ICTs
 "Estado Co-publicaciones cient\xEDficas internacionales":
@@ -11831,6 +11846,8 @@ Estados Unidos:
   en: United States
 "Estad\xEDstica Estructural de Empresas":
   en: Structural Business Statistics
+"Estad\xEDstica de Empresas Inscritas en la Seguridad Social":
+  en: Statistics on Companies Registered with Social Security
 "Estad\xEDstica sobre actividades de I+D. Resultados de Andaluc\xEDa":
   en: Statistics on R&D activities. Results for Andalusia
 Estancia media:
@@ -11849,6 +11866,8 @@ Estimated value:
   es: Valor estimado
 Estonia:
   en: Estonia
+Estrato de asalariados:
+  en: Employee stratum
 Estructura del hogar:
   en: Household structure
 "Estructura demogr\xE1fica. Relaci\xF3n con la actividad econ\xF3mica":
@@ -11865,6 +11884,8 @@ Euros por habitante:
   en: Euros per inhabitant
 "Evaluaci\xF3n de calidad":
   en: Quality assessment
+"Evoluci\xF3n de los indicadores de confianza empresarial":
+  en: Developments in business confidence indicators
 Exact time at which the data can be made available to the public.:
   es: "Momento exacto en que los datos pueden ponerse a disposici\xF3n del p\xFAblico."
 Exactitud global:
@@ -11930,8 +11951,12 @@ Extremadura:
   en: Extremadura
 "F. Construcci\xF3n":
   en: F. Construction
+FACTORES_MOTIVACION:
+  en: MOTIVATIONAL_FACTORS
 FORMA_JUR:
   en: FORMA_JUR
+FORMA_JURIDICA:
+  en: JURIDIC_SHAPE
 "Fabricaci\xF3n de maquinaria y equipo n.c.o.p.":
   en: Manufacture of machinery and equipment n.e.c.
 "Fabricaci\xF3n de material de transporte":
@@ -11950,6 +11975,14 @@ FORMA_JUR:
   en: Manufacture of computer, electronic and optical products
 Facet:
   es: Facet
+"Factores de motivaci\xF3n":
+  en: Motivational factors
+"Factores que limitan la marcha del negocio seg\xFAn sectores de actividad del panel de establecimientos (multirrespuesta)*":
+  en: Factors limiting business performance according to sectors of activity of the
+    panel of establishments (multi-response)*.
+"Factores que limitan la marcha del negocio seg\xFAn tama\xF1o del panel de establecimientos (multirrespuesta)*":
+  en: Factors limiting business performance by size of the panel of establishments
+    (multi-response)*.
 "Faraj\xE1n":
   en: "Faraj\xE1n"
 Fast-track change:
@@ -11984,6 +12017,8 @@ Forecast value:
   es: Valor previsto
 Forma jur/xEDdica:
   en: Legal/exEDdical form
+"Forma jur\xEDdica":
+  en: Legal form
 "Formaci\xF3n bruta de capital":
   en: Gross capital formation
 Format specification of a component's content when reported in a data or metadata set.:
@@ -12057,6 +12092,8 @@ G. TOTAL SECTOR COMERCIOasterisco:
   en: G. TOTAL SECTOR COMERCIOasterisk
 G102:
   en: G102
+GRADO_UTILIZACION:
+  en: DEGREE_OF_USE
 GRUPOSEDAD:
   en: GROUPSEDAD
 GRUPOSESPECIALES:
@@ -12499,6 +12536,14 @@ Indicadores:
   en: Indicators
 Indicadores de Actividad del Sector Servicios:
   en: Service Sector Activity Indicators
+"Indicadores de Confianza Empresarial de Andaluc\xEDa":
+  en: Andalusia Business Confidence Indicators
+"Indicadores de Confianza Empresarial por n\xFAmero de empleados del panel de establecimientos":
+  en: Business Confidence Indicators by number of employees in the panel of establishments
+Indicadores de Confianza Empresarial por provincias:
+  en: Business Confidence Indicators by province
+Indicadores de Confianza Empresarial por sectores:
+  en: Business Confidence Indicators by sector
 "Indicadores de I+D en alta tecnolog\xEDa":
   en: High-tech R&D indicators
 Indication of the dependency of the presence of a data or metadata attribute when reported in a Data or Metadata Set.:
@@ -12619,6 +12664,8 @@ Iznatoraf:
 JSON format for the dissemination of SDMX-structured data and metadata on the web.:
   es: "Formato JSON para la difusi\xF3n de datos y metadatos estructurados en SDMX\
     \ en la web."
+JUBVIUDEDAD:
+  en: JUBVIUDEDAD
 Jabalquinto:
   en: Jabalquinto
 Jabugo:
@@ -12914,10 +12961,14 @@ Luxemburgo:
   en: M. Professional, scientific and technical activities
 MACROECO:
   en: MACROECO
+MACROMAG:
+  en: MACROMAG
 MACROMAG_CPA:
   en: MACROMAG_CPA
 MCVL_TIPOPENSION:
   en: MCVL_TIPOPENSION
+MEDIDA_IMPACTO:
+  en: IMPACT_MEASURE
 MES:
   en: MES
 MONEDAD:
@@ -13036,6 +13087,8 @@ Mecina-Tedel:
   en: Mecina-Tedel
 Media by which statistical data and metadata are disseminated.:
   es: "Medios por los que se difunden los datos y metadatos estad\xEDsticos."
+Medidas de impacto medioambiental:
+  en: Environmental impact measures
 Medina Sidonia:
   en: Medina Sidonia
 "Meleg\xEDs":
@@ -13193,6 +13246,10 @@ Motril:
   en: Natural Population Movement
 Muebles:
   en: Furniture
+Muertes de empresas por municipio, actividad principal y estrato de asalariados*:
+  en: Business deaths by municipality, main activity and employee stratum*.
+"Muertes de empresas por municipio, actividad principal y forma jur\xEDdica*":
+  en: Company deaths by municipality, main activity and legal form*.
 "Muertes fetales tard\xEDas":
   en: Late foetal deaths
 Muestra Continua de Vidas Laborales:
@@ -13271,6 +13328,10 @@ Nacimiento:
   en: Birth
 Nacimientos:
   en: Births
+Nacimientos de empresas por municipio, actividad principal y estrato de asalariados:
+  en: Business births by municipality, main activity and employee stratum
+"Nacimientos de empresas por municipio, actividad principal y forma jur\xEDdica":
+  en: Births of companies by municipality, main activity and legal form
 "Nacimientos por sexo y grupo de edad de la madre seg\xFAn muncipio de residencia de la madre":
   en: Births by sex and age group of mother according to municipality of mother's
     residence
@@ -13582,6 +13643,19 @@ Nunca:
   en: Number of self-employed
 "N\xFAmero de empresas":
   en: Number of companies
+"N\xFAmero de empresas por municipio seg\xFAn actividad econ\xF3mica*":
+  en: Number of enterprises by municipality according to economic activity* Number
+    of enterprises by municipality according to economic activity* Number of enterprises
+    by municipality according to economic activity
+"N\xFAmero de empresas por municipio seg\xFAn actividad econ\xF3mica, tama\xF1o de empresa y forma jur\xEDdica*":
+  en: Number of enterprises by municipality according to economic activity, enterprise
+    size and legal form*.
+"N\xFAmero de empresas por municipio seg\xFAn forma jur\xEDdica*":
+  en: Number of enterprises by municipality according to legal form* Number of enterprises
+    by municipality according to legal form* Number of enterprises by municipality
+    according to legal form
+"N\xFAmero de empresas por municipio seg\xFAn tama\xF1o de empresa*":
+  en: Number of enterprises by municipality according to enterprise size*.
 "N\xFAmero de fax de contacto":
   en: Contact fax number
 "N\xFAmero de locales":
@@ -13594,6 +13668,15 @@ Nunca:
   en: Number of pensioners
 "N\xFAmero de tel\xE9fono de contacto":
   en: Contact telephone number
+"N\xFAmero de trabajadores por provincia seg\xFAn actividad econ\xF3mica":
+  en: Number of workers by province according to economic activity
+"N\xFAmero de trabajadores por provincia seg\xFAn actividad econ\xF3mica, tama\xF1o de empresa y forma jur\xEDdica":
+  en: Number of workers by province according to economic activity, company size and
+    legal form
+"N\xFAmero de trabajadores por provincia seg\xFAn forma jur\xEDdica":
+  en: Number of workers by province according to legal form
+"N\xFAmero de trabajadores por provincia seg\xFAn tama\xF1o de empresa":
+  en: Number of workers by province according to company size
 "N\xFAmero de turistas. Anual.":
   en: Number of tourists. Annual.
 "N\xFAmero medio de robots industriales y de servicios (c)":
@@ -13805,6 +13888,8 @@ PCSSA_JUBVIUDEDAD:
   en: PCSSA_JUBVIUDEDAD
 PENSIONISTA:
   en: PENSIONIST
+PERCEPCION:
+  en: PERCEPTION
 PERCEPPRESINVAL:
   en: PERCEPPRESINVAL
 POBLACION:
@@ -14041,6 +14126,8 @@ Pensionista:
   en: Half board
 Percepci/xF3n de prestaci/xF3n de invalidez:
   en: Receipt of invalidity benefits
+"Percepci\xF3n":
+  en: Perception
 "Percepci\xF3n de prestaciones":
   en: Receipt of benefits
 "Percibiendo pensi\xF3n distinta a jubilaci\xF3n":
@@ -14279,6 +14366,8 @@ Primary measure:
   en: Lower secondary education and similar
 Principado de Asturias:
   en: Principality of Asturias
+Principales indicadores por municipio y actividad principal:
+  en: Main indicators by municipality and main activity
 Procedencia:
   en: Source
 Procedure followed to update at short notice an SDMX artefact, e.g. a code list.:
@@ -15021,6 +15110,10 @@ SECTORACTIVIDAD:
   en: SECTORACTIVITY
 SECTORAL_STAT:
   en: SECTORAL_STAT
+SECTORES:
+  en: SECTORS
+SECTORES_ICEA:
+  en: SECTORS_ICEA
 SERIE:
   en: SERIE
 SEXOC2:
@@ -15168,6 +15261,8 @@ Sector de actividad:
   en: Sector of activity
 Sectoral statistics:
   es: "Estad\xEDsticas sectoriales"
+Sectores:
+  en: Sectors
 "Secundaria o m\xE1s":
   en: Secondary or higher
 "Secundaria y programas de formaci\xF3n e inserci\xF3n laboral":
@@ -15365,6 +15460,14 @@ Situaci/xF3n profesional:
     with the reference person and household typology.
 "Situaci\xF3n previa al inicio del \xFAltimo emprendimiento (otros ocupados)":
   en: Situation prior to the start of the last venture (other employed)
+"Situaci\xF3n y expectativa de la inversi\xF3n del panel de establecimientos*":
+  en: Investment situation and expectation of the establishment panel*.
+"Situaci\xF3n y expectativa de las exportaciones del panel de establecimientos exportadores*":
+  en: Export situation and expectation of the export panel of exporting establishments*.
+"Situaci\xF3n y expectativa del empleo del panel de establecimientos":
+  en: Employment situation and expectation of the panel of establishments
+"Situaci\xF3n y expectativa del nivel de precios del panel de establecimientos":
+  en: Situation and expectation of the price level of the panel of establishments
 "Sobreviven 1 a\xF1o":
   en: Survive 1 year
 "Sobreviven 10 a\xF1os o m\xE1s":
@@ -15507,6 +15610,10 @@ Statistical unit:
   es: "Unidad estad\xEDstica"
 Statistical variable:
   es: "Variable estad\xEDstica"
+Stock de empresas por municipio, actividad principal y estrato de asalariados:
+  en: Stock of companies by municipality, main activity and employee stratum
+"Stock de empresas por municipio, actividad principal y forma jur\xEDdica":
+  en: Stock of companies by municipality, main activity and legal form
 Strike and other special events:
   es: Huelga y otros acontecimientos especiales
 Structural artefact used to define the structure of a data or metadata set.:
@@ -15541,6 +15648,16 @@ Suiza:
   en: Electricity, gas, steam and air conditioning supply
 Superiores, incluyendo doctorado:
   en: Higher education, including doctorate
+"Supervivencias de empresas nacidas en T-1 por actividad principal y a\xF1o*":
+  en: Survival of enterprises born in T-1 by main activity and year*.
+"Supervivencias de empresas nacidas en T-2 por actividad principal y a\xF1o*":
+  en: Survival of enterprises born in T-2 by main activity and year*.
+"Supervivencias de empresas nacidas en T-3 por actividad principal y a\xF1o*":
+  en: Survival of enterprises born in T-3 by main activity and year*.
+"Supervivencias de empresas nacidas en T-4 por actividad principal y a\xF1o*":
+  en: Survival of enterprises born in T-4 by main activity and year*.
+"Supervivencias de empresas nacidas en T-5 por actividad principal y a\xF1o*":
+  en: Survival of enterprises born in T-5 by main activity and year*.
 Supervivientes:
   en: Survivors
 Surface area:
@@ -15588,16 +15705,24 @@ Systems and frameworks in place within an organisation to manage the quality of 
     households as producers of goods and services for their own use
 TAMANOEMPRESA:
   en: TAMANOEMPRESA
+TAMA_EMP:
+  en: TAMA_EMP
+TAMA_EMP_INS_SS:
+  en: TAMA_EMP_INS_SS
 TERRITORIO:
   en: TERRITORY
 TERRITORIOIN:
   en: TERRITORIOIN
 TERRITORIO_1:
   en: TERRITORY_1
+TERRITROIO:
+  en: TERRITORY
 TIPACTIVIDADHOGAR:
   en: TYPACTIVITYHOME
 TIPINDOCUPAC:
   en: TIPINDOCUPAC
+TIPO:
+  en: TYPE
 TIPOCOTIZACA:
   en: TIPOCOTIZACA
 TIPOCOTIZACION:
@@ -15624,6 +15749,8 @@ TIPO_EMPRESA:
   en: COMPANY_TYPE
 TIPO_ESTAB:
   en: STAB_TYPE
+TIPO_ICEA:
+  en: TYPE_ICEA
 TIPO_PERSONAL:
   en: PERSONAL_TYPE
 TIPRELACIONSS:
@@ -15638,6 +15765,10 @@ TOURISM:
   en: TOURISM
 TRABAJO:
   en: WORK
+TRAMO_EMPLEO:
+  en: EMPLOYMENT_TRACK
+TRAMO_EMPLEO_ICEA:
+  en: EMPLOYMENT_STRETCH_ICEA
 Tabernas:
   en: Tabernas
 Taberno:
@@ -15646,6 +15777,8 @@ Tahal:
   en: Tahal
 Tama/xF1o de la empresa:
   en: Size of the undertaking
+"Tama\xF1o de empresa":
+  en: Company size
 "Tama\xF1o medio de los establecimientos":
   en: Average size of establishments
 Tarifa:
@@ -15805,6 +15938,8 @@ Timespan or point in time to which the measured observation is intended to refer
   es: "Per\xEDodo o momento al que se refiere la observaci\xF3n medida."
 Timespan or point in time to which the observation actually refers.:
   es: "Per\xEDodo o momento al que se refiere realmente la observaci\xF3n."
+Tipo:
+  en: Type
 Tipo de /xEDndice de ocupaci/xF3n:
   en: Type of occupancy rate/xF3n
 Tipo de Serie:
@@ -16028,6 +16163,8 @@ Trabajos otras empresas:
   en: Jobs in other companies
 Trabajos realizados por la empresa para su activo:
   en: Work carried out by the company for its assets
+Tramo de empleo:
+  en: Employment tranche
 Transport:
   es: Transporte
 Transporte y almacenamiento:
@@ -16201,6 +16338,10 @@ Used, for example, when some data are not reported/disseminated because they are
     \ est\xE1n por debajo de un determinado umbral."
 Usuarios:
   en: Users
+"Utilizaci\xF3n de la capacidad productiva":
+  en: Capacity utilisation
+"Utilizaci\xF3n de la capacidad productiva en el sector industrial":
+  en: Capacity utilisation in the industrial sector
 Utrera:
   en: Utrera
 V. Trastornos mentales y del comportamiento:

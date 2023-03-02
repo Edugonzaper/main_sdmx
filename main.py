@@ -47,13 +47,16 @@ if __name__ == "__main__":
     if configuracion_global["extractor"]:
         execute_actividades(configuracion_ejecucion, configuracion_global, configuracion_actividades,
                             configuracion_plantilla_actividad, mapa_conceptos_codelist)
+        datos_jerarquias = open("sistema_informacion/BADEA/jerarquias/datos_jerarquias.yaml", 'r',
+                 encoding='utf-8')
+        datos_jerarquias = yaml.safe_load(datos_jerarquias)
 
     if configuracion_global['reset_ddb']:
-        controller = MDM(configuracion_global, traductor, False)
+        controller = MDM(configuracion_global, traductor, True)
         controller.delete_all('ESC01', 'IECA_CAT_EN_ES', '1.0')
 
     if configuracion_global['volcado_mdm']:
-        controller = MDM(configuracion_global, traductor)
+        controller = MDM(configuracion_global, traductor) #inicializar los datos?
         configuracion_actividades_sdmx = get_configuracion_completo(configuracion_ejecucion)
 
         put_all_codelist_schemes(configuracion_ejecucion, configuracion_actividades_sdmx, datos_jerarquias,
@@ -71,8 +74,9 @@ if __name__ == "__main__":
         create_dataflows(configuracion_ejecucion, configuracion_actividades, configuracion_actividades_sdmx,
                          category_scheme, configuracion_global, mapa_conceptos_codelist, controller)
 
-        create_metadatos(configuracion_ejecucion, configuracion_actividades, category_scheme, controller,
-                         configuracion_global, configuracion_actividades_sdmx)
+
+        # create_metadatos(configuracion_ejecucion, configuracion_actividades, category_scheme, controller,
+        #                  configuracion_global, configuracion_actividades_sdmx)
 
     if configuracion_global['volcado_ckan']:
         volcado_ckan(configuracion_global, configuracion_ejecucion, configuracion_actividades)

@@ -446,6 +446,22 @@ CUSTODIA:
     es: Custodia
   nombre_dimension: CUSTODIA
   tipo: dimension
+DEA_ESTRASALAR:
+  codelist:
+    agency: ESC01
+    id: CL_ESTRASALAR
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: ESTRASALAR
+    id: CS_BUSINESS_STAT
+    version: '1.0'
+  descripcion:
+    es: Estrato de asalariados
+  nombre:
+    es: Estrato de asalariados
+  nombre_dimension: ESTRASALAR
+  tipo: dimension
 DISCIPLINA:
   codelist:
     agency: ESC01
@@ -465,18 +481,18 @@ DISCIPLINA:
 DISTRIBUCION_MNP:
   codelist:
     agency: ESC01
-    id: CL_DISTRIBUCION_MNP
+    id: CL_DISTRIBUCION
     version: '1.0'
   concept_scheme:
     agency: ESC01
-    concepto: DISTRIBUCION_MNP
+    concepto: DISTRIBUCION
     id: CS_POBLACION
     version: '1.0'
   descripcion:
     es: "Distribuci\xF3n"
   nombre:
     es: "Distribuci\xF3n"
-  nombre_dimension: DISTRIBUCION_MNP
+  nombre_dimension: DISTRIBUCION
   tipo: dimension
 DURACMATRIM:
   codelist:
@@ -545,18 +561,18 @@ EDADC2:
 EDCA_LUGDEF:
   codelist:
     agency: ESC01
-    id: CL_EDCA_LUGDEF
+    id: CL_LUGDEF
     version: '1.0'
   concept_scheme:
     agency: ESC01
-    concepto: EDCA_LUGDEF
+    concepto: LUGDEF
     id: CS_HEALTH
     version: '1.0'
   descripcion:
     es: Lugar de ocurrencia
   nombre:
     es: Lugar de ocurrencia
-  nombre_dimension: EDCA_LUGDEF
+  nombre_dimension: LUGDEF
   tipo: dimension
 EPA_CLASEINACTIV:
   codelist:
@@ -894,6 +910,38 @@ ESTUDIOS:
     es: Estudios
   nombre_dimension: ESTUDIOS
   tipo: dimension
+FACTORES_MOTIVACION:
+  codelist:
+    agency: ESC01
+    id: CL_FACTORES_MOTIVACION
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: FACTORES_MOTIVACION
+    id: CS_BUSINESS_STAT
+    version: '1.0'
+  descripcion:
+    es: "Factores de motivaci\xF3n"
+  nombre:
+    es: "Factores de motivaci\xF3n"
+  nombre_dimension: FACTORES_MOTIVACION
+  tipo: dimension
+FORMA_JURIDICA:
+  codelist:
+    agency: ESC01
+    id: CL_FORMA_JURIDICA
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: FORMA_JURIDICA
+    id: CS_BUSINESS_STAT
+    version: '1.0'
+  descripcion:
+    es: "Forma jur\xEDdica"
+  nombre:
+    es: "Forma jur\xEDdica"
+  nombre_dimension: FORMA_JURIDICA
+  tipo: dimension
 FORMA_JUR_SOCMER:
   codelist:
     agency: ESC01
@@ -925,6 +973,22 @@ G102:
   nombre:
     es: G102
   nombre_dimension: G102
+  tipo: dimension
+GRADO_UTILIZACION:
+  codelist:
+    agency: ESC01
+    id: CL_GRADO_UTILIZACION
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: GRADO_UTILIZACION
+    id: CS_BUSINESS_STAT
+    version: '1.0'
+  descripcion:
+    es: "Utilizaci\xF3n de la capacidad productiva"
+  nombre:
+    es: "Utilizaci\xF3n de la capacidad productiva"
+  nombre_dimension: GRADO_UTILIZACION
   tipo: dimension
 IASS_TIPOVENTAS:
   codelist:
@@ -1089,18 +1153,18 @@ MACROECO:
 MACROMAG_CPA:
   codelist:
     agency: ESC01
-    id: CL_MACROMAG_CPA
+    id: CL_MACROMAG
     version: '1.0'
   concept_scheme:
     agency: ESC01
-    concepto: MACROMAG_CPA
+    concepto: MACROMAG
     id: CS_ECO_ACCOUNTS
     version: '1.0'
   descripcion:
     es: Macromagnitudes
   nombre:
     es: Macromagnitudes
-  nombre_dimension: MACROMAG_CPA
+  nombre_dimension: MACROMAG
   tipo: dimension
 MCVLS_VARIABLE:
   codelist:
@@ -1326,6 +1390,22 @@ MCVL_TIPRELACIONSS:
     es: "Tipo de relaci\xF3n con la seguridad social"
   nombre_dimension: TIPRELACIONSS
   tipo: dimension
+MEDIDA_IMPACTO:
+  codelist:
+    agency: ESC01
+    id: CL_MEDIDA_IMPACTO
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: MEDIDA_IMPACTO
+    id: CS_BUSINESS_STAT
+    version: '1.0'
+  descripcion:
+    es: Medidas de impacto medioambiental
+  nombre:
+    es: Medidas de impacto medioambiental
+  nombre_dimension: MEDIDA_IMPACTO
+  tipo: dimension
 MES:
   codelist:
     agency: ESC01
@@ -1441,18 +1521,34 @@ PARQUES_TURISMO:
 PCSSA_JUBVIUDEDAD:
   codelist:
     agency: ESC01
-    id: CL_PCSSA_JUBVIUDEDAD
+    id: CL_JUBVIUDEDAD
     version: '1.0'
   concept_scheme:
     agency: ESC01
-    concepto: PCSSA_JUBVIUDEDAD
+    concepto: JUBVIUDEDAD
     id: CS_SOCIAL_PROTECT
     version: '1.0'
   descripcion:
     es: "Jubilaci\xF3n con viudedad"
   nombre:
     es: "Jubilaci\xF3n con viudedad"
-  nombre_dimension: PCSSA_JUBVIUDEDAD
+  nombre_dimension: JUBVIUDEDAD
+  tipo: dimension
+PERCEPCION:
+  codelist:
+    agency: ESC01
+    id: CL_PERCEPCION
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: PERCEPCION
+    id: CS_BUSINESS_STAT
+    version: '1.0'
+  descripcion:
+    es: "Percepci\xF3n"
+  nombre:
+    es: "Percepci\xF3n"
+  nombre_dimension: PERCEPCION
   tipo: dimension
 PROCEDENCIA_ECTA:
   codelist:
@@ -1566,6 +1662,22 @@ SECC_CNAE09:
     es: Secciones Cnae09 CPA
   nombre_dimension: SECC_CNAE09
   tipo: dimension
+SECTORES_ICEA:
+  codelist:
+    agency: ESC01
+    id: CL_SECTORES
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: SECTORES
+    id: CS_BUSINESS_STAT
+    version: '1.0'
+  descripcion:
+    es: Sectores
+  nombre:
+    es: Sectores
+  nombre_dimension: SECTORES
+  tipo: dimension
 SEXO:
   codelist:
     agency: SDMX
@@ -1613,6 +1725,22 @@ SEXO_SOCIOS:
   nombre:
     es: Sexo socios fundadores
   nombre_dimension: SEXO_SOCIOS
+  tipo: dimension
+TAMA_EMP_INS_SS:
+  codelist:
+    agency: ESC01
+    id: CL_TAMA_EMP
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TAMA_EMP
+    id: CS_BUSINESS_STAT
+    version: '1.0'
+  descripcion:
+    es: "Tama\xF1o de empresa"
+  nombre:
+    es: "Tama\xF1o de empresa"
+  nombre_dimension: TAMA_EMP
   tipo: dimension
 TEMPORAL:
   codelist:
@@ -1726,6 +1854,22 @@ TIPO_ESTAB:
     es: Tipo de establecimiento
   nombre_dimension: TIPO_ESTAB
   tipo: dimension
+TIPO_ICEA:
+  codelist:
+    agency: ESC01
+    id: CL_TIPO
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TIPO
+    id: CS_BUSINESS_STAT
+    version: '1.0'
+  descripcion:
+    es: Tipo
+  nombre:
+    es: Tipo
+  nombre_dimension: TIPO
+  tipo: dimension
 TIPO_PERSONAL:
   codelist:
     agency: ESC01
@@ -1741,4 +1885,36 @@ TIPO_PERSONAL:
   nombre:
     es: Tipo de personal
   nombre_dimension: TIPO_PERSONAL
+  tipo: dimension
+TRAMO_EMPLEO:
+  codelist:
+    agency: ESC01
+    id: CL_TRAMO_EMPLEO
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TRAMO_EMPLEO
+    id: CS_BUSINESS_STAT
+    version: '1.0'
+  descripcion:
+    es: Tramo de empleo
+  nombre:
+    es: Tramo de empleo
+  nombre_dimension: TRAMO_EMPLEO
+  tipo: dimension
+TRAMO_EMPLEO_ICEA:
+  codelist:
+    agency: ESC01
+    id: CL_TRAMO_EMPLEO
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TRAMO_EMPLEO
+    id: CS_BUSINESS_STAT
+    version: '1.0'
+  descripcion:
+    es: Tramo de empleo
+  nombre:
+    es: Tramo de empleo
+  nombre_dimension: TRAMO_EMPLEO
   tipo: dimension

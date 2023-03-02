@@ -72,7 +72,18 @@ def put_dsds(configuracion_ejecucion, configuracion_actividades_completo, mapa_c
         dsd_des = None
         dimensions = {variable: mapa_conceptos_codelist[variable] for variable in
                       configuracion_actividad['variables']}
-        controller.dsds.put(dsd_agency, dsd_id, dsd_version, dsd_names, dsd_des, dimensions)
+
+        validFrom = "3500-01-01"
+        validTo = "1500-01-01"
+        for c_id in list(configuracion_actividad["periodicidad"].keys()):
+            v_from = configuracion_actividad["periodicidad"][c_id]["validFrom"]
+            v_to = configuracion_actividad["periodicidad"][c_id]["validTo"]
+            if v_from<validFrom:
+                validFrom=v_from
+            if v_to>validTo:
+                validTo = v_to
+
+        controller.dsds.put(dsd_agency, dsd_id, dsd_version, dsd_names, dsd_des, dimensions,validFrom,validTo)
 
 
 def get_configuracion_completo(configuracion_ejecucion):
@@ -147,18 +158,23 @@ def create_dataflows(configuracion_ejecucion, configuracion_actividades, configu
             controller.mappings.data[cube_id].load_cube(cube_data)
 
             df_id = f'DF_{nombre_actividad}_{consulta_id}'
-
+            df_title = configuracion_actividades_sdmx[nombre_actividad]["metadatos_title"][consulta_id] + configuracion_actividades_sdmx[nombre_actividad]["metadatos_subtitle"][consulta_id]
             df_name = {'es': configuracion_actividades_sdmx[nombre_actividad]["metadatos_title"][consulta_id]}
             dataflow_columns = [
                 f'ID_{column}' if column not in ['OBS_VALUE', 'TEMPORAL'] else column.replace('TEMPORAL',
                                                                                               'ID_TIME_PERIOD') for
                 column in
                 variables.values()]
+            validFrom = configuracion_actividad["periodicidad"][consulta_id]["validFrom"]
+            validTo = configuracion_actividad["periodicidad"][consulta_id]["validTo"]
+            print("debug antes de creación,",validTo,validFrom)
 
             df = controller.dataflows.put(df_id, 'ESC01', '1.0', df_name, None, dataflow_columns, cube_id,
                                           controller.dsds.data['ESC01'][f'DSD_{nombre_actividad}']['1.0'],
-                                          category_scheme, nombre_actividad)
+                                          category_scheme, nombre_actividad,validFrom,validTo)
             df.publish()
+
+            controller.synchronizeAuthDB()
 
 
 def script_provisional(cube_data, columns):

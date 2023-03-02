@@ -25,3 +25,16 @@ metadatos_subtitle:
   '6525': ''
   '6528': ''
   '6530': ''
+periodicidad:
+  '6525':
+    frecuencia: Mensual
+    validFrom: '2005-01-01'
+    validTo: '2022-08-31'
+  '6528':
+    frecuencia: Mensual
+    validFrom: '2005-01-01'
+    validTo: '2022-08-31'
+  '6530':
+    frecuencia: (Mensual)
+    validFrom: '2005-01-01'
+    validTo: '2022-08-31'
