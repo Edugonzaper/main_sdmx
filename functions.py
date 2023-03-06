@@ -200,7 +200,8 @@ def volcado_ckan(configuracion_global, configuracion_ejecucion, configuracion_ac
             title = configuracion_actividades_sdmx[nombre_actividad]['metadatos_title'][str(id_consulta)]
             if configuracion_actividades_sdmx[nombre_actividad]['metadatos_subtitle'][str(id_consulta)]:
                 title = f'{title}. {configuracion_actividades_sdmx[nombre_actividad]["metadatos_subtitle"][str(id_consulta)]}'
-            extras = [{'key': 'Actividad', 'value': configuracion_actividades_sdmx[nombre_actividad]['subcategoria']}]
+            extras = [{'key': 'Actividad', 'value': configuracion_actividades_sdmx[nombre_actividad]['subcategoria']},
+                      {'key': 'Periocidad', 'value': f'{configuracion_actividades[nombre_actividad]["periocidad"]}'}]
             tags = [{'name': tag} for tag in descripciones[nombre_actividad]['tags']]
             ckan.datasets.create(id_dataset.lower(),
                                  title, 'instituto-de-estadistica-y-cartografia-de-andalucia',
