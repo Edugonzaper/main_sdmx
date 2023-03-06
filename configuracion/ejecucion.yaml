@@ -1,13 +1,13 @@
 actividades:
-#    - IPC
+    - IPC
 #    - DSN
-#    - PADRON
+    - PMH
 #    - MNP
 #    - DIRECTORIO
 #    - SOCMER
 #    - CONTPROV #solo funciona desde vpn
 #    - PENSIONES
-    - DEFCAU
+#    - DEFCAU
 #    - CRA
 #    - EPD
 #    - INDICADORES

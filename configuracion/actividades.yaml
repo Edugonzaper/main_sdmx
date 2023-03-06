@@ -26,7 +26,7 @@ DSN:
   informe_metadatos:
     REPORT_DSN
 
-PADRON:
+PMH:
   consultas:
     - 64582
     - 64703
@@ -84,7 +84,7 @@ PADRON:
     extender_con_disjuntos: True
     agrupar_consultas_SDMX: True
   informe_metadatos:
-    REPORT_PADRON
+    REPORT_PMH
 
 MNP:
   consultas:
