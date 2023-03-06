@@ -25,8 +25,6 @@ if __name__ == "__main__":
     with open("configuracion/global.yaml", 'r', encoding='utf-8') as configuracion_global, \
             open("configuracion/ejecucion.yaml", 'r', encoding='utf-8') as configuracion_ejecucion, \
             open("configuracion/actividades.yaml", 'r', encoding='utf-8') as configuracion_actividades, \
-            open("configuracion/plantilla_actividad.yaml", 'r',
-                 encoding='utf-8') as plantilla_configuracion_actividad, \
             open("sistema_informacion/BADEA/jerarquias/datos_jerarquias.yaml", 'r',
                  encoding='utf-8') as datos_jerarquias, \
             open("sistema_informacion/mapas/conceptos_codelist.yaml", 'r',
@@ -38,17 +36,16 @@ if __name__ == "__main__":
         configuracion_global = yaml.safe_load(configuracion_global)
         configuracion_ejecucion = yaml.safe_load(configuracion_ejecucion)
         configuracion_actividades = yaml.safe_load(configuracion_actividades)
-        configuracion_plantilla_actividad = yaml.safe_load(plantilla_configuracion_actividad)
         mapa_conceptos_codelist = yaml.safe_load(mapa_conceptos_codelist_file)
         traducciones = yaml.safe_load(traducciones)
         datos_jerarquias = yaml.safe_load(datos_jerarquias)
         traductor = deepl.Translator('6a0fd2f4-27e7-82d7-1036-42a75f8037f7:fx')
 
-    configuracion_actividades_sdmx = get_configuracion_completo(configuracion_ejecucion)
+
     if configuracion_global["extractor"]:
         execute_actividades(configuracion_ejecucion, configuracion_global, configuracion_actividades,
-                            configuracion_plantilla_actividad, mapa_conceptos_codelist)
-
+                            mapa_conceptos_codelist)
+    configuracion_actividades_sdmx = get_configuracion_completo(configuracion_ejecucion)
     if configuracion_global['reset_ddb']:
         controller = MDM(configuracion_global, traductor, False)
         controller.delete_all('ESC01', 'IECA_CAT_EN_ES', '1.0')
