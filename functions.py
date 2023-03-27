@@ -11,7 +11,7 @@ def execute_actividades(configuracion_ejecucion, configuracion_global, configura
                         configuracion_plantilla_actividad, mapa_conceptos_codelist):
     for nombre_actividad in configuracion_ejecucion['actividades']:
         actividad = Actividad(configuracion_global, configuracion_actividades[nombre_actividad],
-                              configuracion_plantilla_actividad, mapa_conceptos_codelist, nombre_actividad)
+                               mapa_conceptos_codelist, nombre_actividad)
         actividad.generar_consultas()
         actividad.ejecutar()
 
@@ -154,8 +154,9 @@ def create_dataflows(configuracion_ejecucion, configuracion_actividades, configu
             cube_data = pd.read_csv(
                 f'{configuracion_global["directorio_datos"]}/{nombre_actividad}/procesados/{consulta_id}.csv',
                 sep=';', dtype='string')
+            print("el datito del cubo", cube_data)
             cube_data = script_provisional(cube_data, configuracion_actividad['variables'])
-
+            print("cubito a imprimir" , cube_data)
             controller.mappings.data[cube_id].load_cube(cube_data)
 
             df_id = f'DF_{nombre_actividad}_{consulta_id}'

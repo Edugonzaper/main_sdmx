@@ -10603,6 +10603,8 @@ Consumos intermedios:
   en: Intermediate consumption
 "Consumos intermedios a precios de adquisici\xF3n":
   en: Intermediate consumption at purchasers' prices
+"Contabilidad Provincial Anual de Andaluc\xEDa":
+  en: Annual Provincial Accounts of Andalusia
 "Contabilidad Provincial Anual de Andaluc\xEDa. Revisi\xF3n estad\xEDstica 2019":
   en: Annual Provincial Accounts of Andalusia. Statistical Revision 2019
 "Contabilidad Regional Anual de Andaluc\xEDa":
@@ -11698,6 +11700,8 @@ Encinasola:
   en: Hotel Occupancy Survey
 "Encuesta de Ocupaci\xF3n en Campings":
   en: Campsite Occupancy Survey
+"Encuesta de estructura de la industria de la construcci\xF3n":
+  en: Construction Industry Structure Survey
 "Encuesta de ocupaci\xF3n de alojamientos de turismo rural":
   en: Rural tourism accommodation occupancy survey
 "Encuesta de ocupaci\xF3n en apartamentos tur\xEDsticos":
@@ -11761,6 +11765,8 @@ Escacena del Campo:
   en: Escacena del Campo
 "Esca\xF1uela":
   en: "Esca\xF1uela"
+Escenario:
+  en: Scenario
 "Esc\xFAllar":
   en: Hide
 "Esc\xFAzar":
@@ -11848,6 +11854,8 @@ Estados Unidos:
   en: Structural Business Statistics
 "Estad\xEDstica de Empresas Inscritas en la Seguridad Social":
   en: Statistics on Companies Registered with Social Security
+"Estad\xEDstica sobre Sociedades Mercantiles de Andaluc\xEDa":
+  en: Statistics on Mercantile Companies in Andalusia
 "Estad\xEDstica sobre actividades de I+D. Resultados de Andaluc\xEDa":
   en: Statistics on R&D activities. Results for Andalusia
 Estancia media:
@@ -13906,6 +13914,10 @@ PRODUCTO INTERIOR BRUTO a precios de mercado. Oferta:
   en: GROSS DOMESTIC PRODUCT at market prices. Supply
 PROTECCION_SOCIAL:
   en: SOCIAL_PROTECTION
+PROYECC_ESCENARIO:
+  en: PROJECC_SCENARIO
+PROY_TAMMUNICOL:
+  en: TAMMUNICOL_PROJECT
 'PTA - De las cuales: Industria manufacturera':
   en: 'PTA - Of which: Manufacturing industry'
 "PTA Actividades art\xEDsticas, recreativas y otros servicios":
@@ -14228,6 +14240,8 @@ Plazas medias estimadas:
   en: Estimated average number of places
 Plurality:
   es: Pluralidad
+Poblaciones a 1 de enero. Comarcas Agrarias:
+  en: Populations on 1 January. Agricultural Counties
 "Poblaci\xF3n":
   en: Population
 "Poblaci\xF3n 25-34 a\xF1os educ super. AMBOS SEXOS":
@@ -14236,6 +14250,8 @@ Plurality:
   en: Population 25-34 years educ super. MEN
 "Poblaci\xF3n 25-34 a\xF1os educ super. MUJERES":
   en: Population 25-34 years educ super. WOMEN
+"Poblaci\xF3n a 1 de enero. Sevilla":
+  en: Population on 1 January. Seville
 "Poblaci\xF3n estad\xEDstica":
   en: Statistical population
 "Poblaci\xF3n extranjera por pa\xEDs de nacionalidad y provincias seg\xFAn grupos quinquenales de edad y sexo":
@@ -14476,6 +14492,8 @@ Provisional value:
 : es: "Disposiciones para garantizar la cualificaci\xF3n del personal y permitirle\
     \ desempe\xF1ar sus funciones sin intervenciones motivadas por objetivos no estad\xED\
     sticos."
+"Proyecci\xF3n de la Poblaci\xF3n de Andaluc\xEDa, Provincias y \xC1mbitos Subregionales 2016-2070":
+  en: Population Projection for Andalusia, Provinces and Sub-regional Areas 2016-2070
 Pruna:
   en: Pruna
 Publicaciones:
@@ -14789,6 +14807,12 @@ Resultados municipales. Pensiones en alta:
   en: Municipal results. Pensions in discharge
 Resultados municipales. Pensionistas en alta:
   en: Municipal results. Pensioners registered
+"Resultados por locales ubicados en Andaluc\xEDa":
+  en: Results by premises located in Andalusia
+"Resultados por sede social ubicada en Andaluc\xEDa":
+  en: Results by head office located in Andalusia
+"Resultados por unidades locales en Andaluc\xEDa":
+  en: Results by local units in Andalusia
 Revised value:
   es: Valor revisado
 "Revisi\xF3n de datos - pol\xEDtica":
@@ -15779,6 +15803,8 @@ Tama/xF1o de la empresa:
   en: Size of the undertaking
 "Tama\xF1o de empresa":
   en: Company size
+"Tama\xF1o del municipio":
+  en: Size of the municipality
 "Tama\xF1o medio de los establecimientos":
   en: Average size of establishments
 Tarifa:

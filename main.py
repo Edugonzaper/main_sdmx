@@ -44,13 +44,16 @@ if __name__ == "__main__":
         datos_jerarquias = yaml.safe_load(datos_jerarquias)
         traductor = deepl.Translator('6a0fd2f4-27e7-82d7-1036-42a75f8037f7:fx')
 
-    configuracion_actividades_sdmx = get_configuracion_completo(configuracion_ejecucion)
-    if configuracion_global["extractor"]:
-        execute_actividades(configuracion_ejecucion, configuracion_global, configuracion_actividades,
-                            configuracion_plantilla_actividad, mapa_conceptos_codelist)
+
+
+        if configuracion_global["extractor"]:
+            execute_actividades(configuracion_ejecucion, configuracion_global, configuracion_actividades,
+                                configuracion_plantilla_actividad, mapa_conceptos_codelist)
+        configuracion_actividades_sdmx = get_configuracion_completo(configuracion_ejecucion)
+
 
     if configuracion_global['reset_ddb']:
-        controller = MDM(configuracion_global, traductor, False)
+        controller = MDM(configuracion_global, traductor, True)
         controller.delete_all('ESC01', 'IECA_CAT_EN_ES', '1.0')
 
     if configuracion_global['volcado_mdm']:

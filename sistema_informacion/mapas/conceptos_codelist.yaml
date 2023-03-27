@@ -1566,6 +1566,38 @@ PROCEDENCIA_ECTA:
     es: Procedencia
   nombre_dimension: PROCEDENCIA
   tipo: dimension
+PROYECC_ESCENARIO:
+  codelist:
+    agency: ESC01
+    id: CL_PROYECC_ESCENARIO
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: PROYECC_ESCENARIO
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Escenario
+  nombre:
+    es: Escenario
+  nombre_dimension: PROYECC_ESCENARIO
+  tipo: dimension
+PROY_TAMMUNICOL:
+  codelist:
+    agency: ESC01
+    id: CL_PROY_TAMMUNICOL
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: PROY_TAMMUNICOL
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: "Tama\xF1o del municipio"
+  nombre:
+    es: "Tama\xF1o del municipio"
+  nombre_dimension: PROY_TAMMUNICOL
+  tipo: dimension
 PUB_PRIV:
   codelist:
     agency: ESC01
