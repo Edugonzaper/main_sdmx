@@ -186,12 +186,13 @@ def script_provisional(cube_data, columns):
 
 
 def volcado_ckan(configuracion_global, configuracion_ejecucion, configuracion_actividades,
-                 configuracion_actividades_sdmx, descripciones, category_scheme=None):
+                 configuracion_actividades_sdmx, descripciones):
     ckan = Ckan(configuracion_global)
     if configuracion_global['reset_ckan']:
         ckan.datasets.remove_all_datasets()
 
     if configuracion_global['create_groups']:
+        category_scheme = pd.read_csv(configuracion_global['esquema_categorias'],sep=';')
         ckan.groups.create_groups(category_scheme)
 
     for nombre_actividad in configuracion_ejecucion['actividades']:
@@ -201,8 +202,8 @@ def volcado_ckan(configuracion_global, configuracion_ejecucion, configuracion_ac
             title = configuracion_actividades_sdmx[nombre_actividad]['metadatos_title'][str(id_consulta)]
             if configuracion_actividades_sdmx[nombre_actividad]['metadatos_subtitle'][str(id_consulta)]:
                 title = f'{title}. {configuracion_actividades_sdmx[nombre_actividad]["metadatos_subtitle"][str(id_consulta)]}'
-            extras = [{'key': 'Actividad', 'value': configuracion_actividades_sdmx[nombre_actividad]['subcategoria']},
-                      {'key': 'Periocidad', 'value': f'{configuracion_actividades[nombre_actividad]["periocidad"]}'}]
+            extras = [{'key': 'Actividad', 'value': configuracion_actividades_sdmx[nombre_actividad]['subcategoria']}]
+                      # {'key': 'Periocidad', 'value': f'{configuracion_actividades[nombre_actividad]["periocidad"]}'}]
             tags = [{'name': tag} for tag in descripciones[nombre_actividad]['tags']]
             ckan.datasets.create(id_dataset.lower(),
                                  title, 'instituto-de-estadistica-y-cartografia-de-andalucia',

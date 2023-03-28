@@ -76,9 +76,6 @@ if __name__ == "__main__":
             descripciones = yaml.safe_load(file)
             file.close()
 
-        categories = controller.category_schemes.data['ESC01']['IECA_CAT_EN_ES']['1.0'].categories if \
-            configuracion_global['create_groups'] else None
-
         volcado_ckan(configuracion_global, configuracion_ejecucion, configuracion_actividades,
                      configuracion_actividades_sdmx, descripciones)
 
