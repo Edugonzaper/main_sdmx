@@ -2546,6 +2546,16 @@ GRADO_UTILIZACION:
   nombre:
     es: GRADO_UTILIZACION
   version: '1.0'
+GU_FUENTE:
+  ID: CL_GU_FUENTE
+  agency: ESC01
+  description:
+    es: Fuente
+  fichero:
+  - sistema_informacion/BADEA/jerarquias/CGU/sdmx/6803/D_GU_FUENTE_0.csv
+  nombre:
+    es: GU_FUENTE
+  version: '1.0'
 IASS_TIPOVENTAS:
   ID: CL_TIPOVENTAS
   agency: ESC01
@@ -7723,6 +7733,12 @@ TEMPORAL:
   - sistema_informacion/BADEA/jerarquias\PPA\sdmx\83095\D_TEMPORAL_0.csv
   - sistema_informacion/BADEA/jerarquias\PPA\sdmx\83096\D_TEMPORAL_0.csv
   - sistema_informacion/BADEA/jerarquias\PPA\sdmx\83097\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\CGU\sdmx\6803\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\CGU\sdmx\6803\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\CGU\sdmx\6803\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\CGU\sdmx\6803\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\CGU\sdmx\6803\D_TEMPORAL_0.csv
+  - sistema_informacion/BADEA/jerarquias\CGU\sdmx\6803\D_TEMPORAL_0.csv
   nombre:
     es: TEMPORAL
   version: '1.0'
@@ -9923,6 +9939,12 @@ TERRITORIO:
   - sistema_informacion/BADEA/jerarquias\PPA\sdmx\83095\D_TERRITORIO_0.csv
   - sistema_informacion/BADEA/jerarquias\PPA\sdmx\83096\D_TERRITORIO_0.csv
   - sistema_informacion/BADEA/jerarquias\PPA\sdmx\83097\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\CGU\sdmx\6803\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\CGU\sdmx\6803\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\CGU\sdmx\6803\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\CGU\sdmx\6803\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\CGU\sdmx\6803\D_TERRITORIO_0.csv
+  - sistema_informacion/BADEA/jerarquias\CGU\sdmx\6803\D_TERRITORIO_0.csv
   nombre:
     es: TERRITORIO
   version: '1.0'

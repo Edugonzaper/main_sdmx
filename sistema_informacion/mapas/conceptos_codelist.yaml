@@ -990,6 +990,22 @@ GRADO_UTILIZACION:
     es: "Utilizaci\xF3n de la capacidad productiva"
   nombre_dimension: GRADO_UTILIZACION
   tipo: dimension
+GU_FUENTE:
+  codelist:
+    agency: ESC01
+    id: CL_GU_FUENTE
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: GU_FUENTE
+    id: CS_SECTORAL_STAT
+    version: '1.0'
+  descripcion:
+    es: Fuente
+  nombre:
+    es: Fuente
+  nombre_dimension: GU_FUENTE
+  tipo: dimension
 IASS_TIPOVENTAS:
   codelist:
     agency: ESC01

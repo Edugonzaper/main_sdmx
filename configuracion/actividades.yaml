@@ -692,4 +692,9 @@ EEIC:
 CGU:
   consultas:
     - 6803?D_TEMPORAL_0=1957,2185,2239,55498,55517,55536,180156&D_GU_FUENTE_0=215235,215234&Measures=[C3194_M4625]
-    -
+  categoria:
+    SECTORAL_STAT
+  subcategoria:
+    Clasificación del grado de urbanización
+  informe_metadatos:
+    REPORT_CGU

@@ -112,6 +112,9 @@ CAMPINGS:
     \ a la consulta: Encuesta de Ocupaci\xF3n en Campings. Viajeros, pernoctaciones\
     \ y estancia media por provincias y procedencia\n"
   tags: []
+CGU_6803:
+  descripcion: --
+  tags: []
 CONTPROV:
   descripcion: "La Contabilidad Provincial Anual de Andaluc\xEDa se engloba dentro\
     \ del Sistema de Cuentas Econ\xF3micas de Andaluc\xEDa, que integra un conjunto\

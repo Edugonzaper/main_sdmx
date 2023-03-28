@@ -142,7 +142,7 @@ def create_dataflows(configuracion_ejecucion, configuracion_actividades, configu
                            configuracion_actividad['variables']}
             cube_id = controller.cubes.put(cube_code, id_cube_cat, 'DSD_' + nombre_actividad,
                                            configuracion_actividades_sdmx[nombre_actividad]['metadatos_title'][
-                                               consulta_id], dimensiones)
+                                               consulta_id], dimensiones, is_alphanumeric=True)
 
             variables = configuracion_actividad['variables'] + ['INDICATOR', 'TEMPORAL',
                                                                 'FREQ',

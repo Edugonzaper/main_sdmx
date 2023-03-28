@@ -10372,6 +10372,8 @@ Civil status:
   es: Estado civil
 Clase de pensi/xF3n:
   en: Pension class
+"Clasificaci\xF3n del grado de urbanizaci\xF3n":
+  en: Classification of the degree of urbanisation
 ? Classification structure arranged in levels of detail from the broadest to the most
   detailed level. Each level of the classification is defined in terms of the categories
   at the next lower level of the classification.
@@ -12064,6 +12066,8 @@ Fuengirola:
   en: Fuengirola
 Fuensanta de Martos:
   en: Fuensanta de Martos
+Fuente:
+  en: Source
 Fuente Carreteros:
   en: Fuente Carreteros
 Fuente Obejuna:
@@ -12106,6 +12110,8 @@ GRUPOSEDAD:
   en: GROUPSEDAD
 GRUPOSESPECIALES:
   en: SPECIALGROUPS
+GU_FUENTE:
+  en: GU_SOURCE
 Gabia la Chica:
   en: Gabia la Chica
 Gabia la Grande:
@@ -12240,6 +12246,8 @@ Government finance, fiscal and public sector statistics:
   en: Occupancy rate by bedplaces
 "Grado de ocupaci\xF3n por plazas de fin de semana":
   en: Weekend occupancy rate by bedplaces
+"Grado de urbanizaci\xF3n de los municipios andaluces":
+  en: Degree of urbanisation of Andalusian municipalities
 Granada:
   en: Grenada
 Granada (capital):
