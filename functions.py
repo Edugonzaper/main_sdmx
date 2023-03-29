@@ -140,9 +140,13 @@ def create_dataflows(configuracion_ejecucion, configuracion_actividades, configu
             cube_code = configuracion_global['nodeId'] + "_" + nombre_actividad + "_" + consulta_id
             dimensiones = {variable: mapa_conceptos_codelist[variable] for variable in
                            configuracion_actividad['variables']}
+
+
+            print("configuracionsita  " ,configuracion_actividades_sdmx)
             cube_id = controller.cubes.put(cube_code, id_cube_cat, 'DSD_' + nombre_actividad,
                                            configuracion_actividades_sdmx[nombre_actividad]['metadatos_title'][
-                                               consulta_id], dimensiones, is_alphanumeric=True)
+                                               consulta_id], dimensiones,
+                                           configuracion_actividades_sdmx[nombre_actividad]['is_alphanumeric'])
 
             variables = configuracion_actividad['variables'] + ['INDICATOR', 'TEMPORAL',
                                                                 'FREQ',
