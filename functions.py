@@ -16,6 +16,34 @@ def execute_actividades(configuracion_ejecucion, configuracion_global, configura
         actividad.ejecutar()
 
 
+def download_struval(configuracion_ejecucion,controller):
+    print(configuracion_ejecucion)
+    for nombre_actividad in configuracion_ejecucion['actividades']:
+
+        directorio_DF = os.path.join("mdm_data","DF",nombre_actividad)
+        directorio_DSD = os.path.join("mdm_data","DSD",nombre_actividad)
+
+
+        if not os.path.exists(directorio_DF):
+            os.makedirs(directorio_DF)
+        if not os.path.exists(directorio_DSD):
+            os.makedirs(directorio_DSD)
+
+
+
+
+
+
+    for dsd in controller.dsds.data:
+        controller.dsds.get_all_sdmx(os.path.join("mdm_data","DSD"))
+    controller.dataflows.get_all_sdmx(os.path.join("mdm_data","DF"))
+    controller.codelists.get_all_sdmx(os.path.join("mdm_data","CL"))
+    controller.concept_schemes.get_all_sdmx(os.path.join("mdm_data","conceptschemes"))
+    controller.category_schemes.get_all_sdmx(os.path.join("mdm_data","categoryschemes"))
+
+
+
+
 def initialize_codelists_schemes(configuracion_actividad, datos_jerarquias, mapa_conceptos_codelist, controller,
                                  configuracion_actividades):
     for dimension in configuracion_actividad['variables']:
@@ -86,6 +114,15 @@ def put_dsds(configuracion_ejecucion, configuracion_actividades_completo, mapa_c
         controller.dsds.put(dsd_agency, dsd_id, dsd_version, dsd_names, dsd_des, dimensions, validFrom, validTo)
 
 
+
+def load_initial_data(controller):
+
+    path = os.path.join("mdm_data","initial")
+    controller.put_all_sdmx(path)
+
+
+
+
 def get_configuracion_completo(configuracion_ejecucion):
     configuracion_actividades_completo = {}
     for nombre_actividad in configuracion_ejecucion['actividades']:
@@ -111,9 +148,11 @@ def put_all_codelist_schemes(configuracion_ejecucion, configuracion_actividades_
 def create_categories(category_scheme, configuracion_ejecucion, configuracion_actividades_completo):
     category_scheme.init_categories()
     for nombre_actividad in configuracion_ejecucion['actividades']:
+
         configuracion_actividad = configuracion_actividades_completo[nombre_actividad]
         category_scheme.add_category(nombre_actividad, configuracion_actividad['categoria'],
                                      configuracion_actividad['subcategoria'], None)
+
     category_scheme.put()
 
 
@@ -158,9 +197,7 @@ def create_dataflows(configuracion_ejecucion, configuracion_actividades, configu
             cube_data = pd.read_csv(
                 f'{configuracion_global["directorio_datos"]}/{nombre_actividad}/procesados/{consulta_id}.csv',
                 sep=';', dtype='string')
-            print("el datito del cubo", cube_data)
             cube_data = script_provisional(cube_data, configuracion_actividad['variables'])
-            print("cubito a imprimir" , cube_data)
             controller.mappings.data[cube_id].load_cube(cube_data)
 
             df_id = f'DF_{nombre_actividad}_{consulta_id}'
@@ -174,7 +211,6 @@ def create_dataflows(configuracion_ejecucion, configuracion_actividades, configu
                 variables.values()]
             validFrom = configuracion_actividad["periodicidad"][consulta_id]["validFrom"]
             validTo = configuracion_actividad["periodicidad"][consulta_id]["validTo"]
-            print("debug antes de creación,", validTo, validFrom)
 
             df = controller.dataflows.put(df_id, 'ESC01', '1.0', df_name, None, dataflow_columns, cube_id,
                                           controller.dsds.data['ESC01'][f'DSD_{nombre_actividad}']['1.0'],

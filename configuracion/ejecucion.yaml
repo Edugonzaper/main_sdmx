@@ -1,37 +1,37 @@
 actividades:
-#    - IPC
-#    - DSN
-#    - PMH
-#    - MNP
-#    - DE
-#    - SMA
-#    - CPAA #solo funciona desde vpn
-#    - PCSSRA
-#    - DCA
-#    - CRA
-#    - EPD
-#    - INDICADORES
-#    - EOH
-#    - EOC
-#    - EOATR
-#    - EOAT
-#    - ECTA
-#    - EEE #preguntar a susana por el mapeo de asteriscos
-#    - EPA
-#    - AA
-#    - SA
-#    - MCVL
-#    - AID
-#    - ETCE
-#    - IASS
-#    - AE
-#    - IVGSA
-#    - ICMA
-#    - PIIA
-#    - CRTA
-    - ICEA #septima certificacion
+    - IPC
+    - DSN
+    - PMH
+    - MNP
+    - DE
+    - SMA
+    - CPAA #solo funciona desde vpn
+    - PCSSRA
+    - DCA
+    - CRA
+    - EPD
+    - INDICADORES
+    - EOH
+    - EOC
+    - EOATR
+    - EOAT
+    - ECTA
+    - EEE #preguntar a susana por el mapeo de asteriscos
+    - EPA
+    - AA
+    - SA
+    - MCVL
+    - AID
+    - ETCE
+    - IASS
+    - AE
+    - IVGSA
+    - ICMA
+    - PIIA
+    - CRTA
+#    - ICEA #septima certificacion
 #    - DEA
 #    - EEISS
-#    - PPA #llegan filas duplicadas
+#    - PPA #83092 y 83093
 #    - EEIC
-    - CGU
+#    - CGU

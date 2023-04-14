@@ -13,6 +13,7 @@ grupos_consultas:
     consultas:
     - '6528'
     id: '2'
+is_alphanumeric: true
 metadatos_subtitle:
   '6525': ''
   '6528': ''

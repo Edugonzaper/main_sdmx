@@ -19,6 +19,7 @@ grupos_consultas:
     consultas:
     - '1917'
     id: '4'
+is_alphanumeric: false
 metadatos_subtitle:
   '1915': "Poblaci\xF3n nacida en Andaluc\xEDa por provincia de nacimiento y lugar\
     \ de inscripci\xF3n seg\xFAn sexo *"

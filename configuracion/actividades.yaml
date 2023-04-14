@@ -645,8 +645,7 @@ PPA:
   consultas:
     - 83090
     - 83091
-    - 83092
-    - 83093
+    - 84829 #anteriormente (83092 y 83093) replicada por duplicación de datos
     - 83094
     - 83095
     - 83096
