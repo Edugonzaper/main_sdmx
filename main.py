@@ -70,14 +70,10 @@ if __name__ == "__main__":
 
         create_metadatos(configuracion_ejecucion, configuracion_actividades, category_scheme, controller,
                          configuracion_global, configuracion_actividades_sdmx)
-
     if configuracion_global['volcado_ckan']:
         with open('sistema_informacion/descripciones.yaml', 'r', encoding='utf-8') as file:
             descripciones = yaml.safe_load(file)
             file.close()
-
-        categories = controller.category_schemes.data['ESC01']['IECA_CAT_EN_ES']['1.0'].categories if \
-            configuracion_global['create_groups'] else None
 
         volcado_ckan(configuracion_global, configuracion_ejecucion, configuracion_actividades,
                      configuracion_actividades_sdmx, descripciones)

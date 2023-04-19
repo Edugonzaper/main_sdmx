@@ -1,34 +1,37 @@
 actividades:
 #    - IPC
 #    - DSN
-#    - PADRON
+#    - PMH
 #    - MNP
-#    - DIRECTORIO
-#    - SOCMER
-#    - CONTPROV #solo funciona desde vpn
-#    - PENSIONES
-    - DEFCAU
+#    - DE
+#    - SMA
+#    - CPAA #solo funciona desde vpn
+#    - PCSSRA
+#    - DCA
 #    - CRA
 #    - EPD
 #    - INDICADORES
 #    - EOH
-#    - CAMPINGS
-#    - TURISMO_RURAL
-#    - APARTAMENTOS_TURISTICOS
+#    - EOC
+#    - EOATR
+#    - EOAT
 #    - ECTA
 #    - EEE #preguntar a susana por el mapeo de asteriscos
 #    - EPA
-#    - AUTONOMOS
-#    - SALARIOS
+#    - AA
+#    - SA
 #    - MCVL
-#    - EMPRESASIMD
-#    - USO_TIC
+#    - AID
+#    - ETCE
 #    - IASS
 #    - AE
 #    - IVGSA
 #    - ICMA
 #    - PIIA
 #    - CRTA
-#    - ICEA
-#    - DEA
-#    - EEISS
+    - ICEA #septima certificacion
+    - DEA
+    - EEISS
+    - PPA #83092 y 83093
+    - EEIC
+    - CGU

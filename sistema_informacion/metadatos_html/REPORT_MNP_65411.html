@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-                    <head>
-                        <meta http-equiv="Content-Type" content="text/html; charset=charset=utf-8">
-                        <style type="text/css">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<style type="text/css">
                             
 							#introtable {
 								display:none;
@@ -150,66 +151,58 @@
                               color: #333;
                             }
                         </style>
-                    </head > <body id="report-body" onload="renderData()">
+</head> <body id="report-body" onload="renderData()">
 <div class="container-fluid">
-  
-
-  <div class="row">
-    <div class="col-1">
-      <div id="header-img-catalog">
-        <img src="https://i.ibb.co/0CKYfG3/Statkit-mini.png" style="width:47px; 
-		height: 47px;">
-      </div>
-    </div>
-    <div class="col-10">
-      <div id="header-title-catalog" class="Cl-Header-Title-Catalog"></div>
-    </div>
-	
-    <div class="col-1" style="visibilty:hidden">
-      <div style="float: right;visibility:hidden;">
-        <button type="button" class="btn btn-default Cl-dropdown-menu Cl-flag-btn" style="min-width: 70px;text-align: center;float: right;" data-toggle="dropdown">
-          <div id="spa-language-en" style="display: none;"><i style="width: 1.3em;height: 1em;display: inline-block;margin-right:8px;vertical-align: middle;"></i><i class="caret"></i></div>
-		  <div id="spa-language-es" style="display: block;"><i style="width: 1.3em;height: 1em;display: inline-block;margin-right:8px;vertical-align: middle;"></i><i class="caret"></i></div> 
-        </button>
-        <ul class="dropdown-menu Cl-dropdown-menu" role="menu">
-          <li><a href="#" onclick="changeLanguageMenuIcon('en')">English</a></li>
-		  <li><a href="#" onclick="changeLanguageMenuIcon('es')">Español</a></li>
-
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="row">
-    <p class="col-12" id="target">
-    <table class="Cl-TitleTable" id="introtable">
-      <tbody><tr>
-        <td><b>ID</b>: REPORT_MNP_65411</td>
-      </tr>
-      <tr>
-        <td><b>Target</b>: MetadataTarget</td>
-      </tr>
-      <tr id="tr-span-DATAFLOW"><td><b>Dataflow</b>: <span id="span-DATAFLOW">DF_MNP_65411</span></td></tr>
-    </tbody></table>
-    <br>
-    <table class="Cl-MainTable">
-      <tbody>
-      <tr>
-        <td>
-          <table class="Cl-SummaryTable">
-            <tbody>
-            <tr>
-             <td class="Cl-TitleSummary">Metadata</td>
-            </tr>
-            <tr>
-              <td class="Cl-SubTitleSummary"><b>Reference metadata</b></td>
-            </tr>
-            <tr>
-              <td class="Cl-SummaryItem">
-                <span id="A-h1">1.</span>
-                <a class="Cl-SummaryItemLink" href="#link_A">Contacto</a> <br>
-
-                <!--
+<div class="row">
+<div class="col-1">
+<div id="header-img-catalog">
+<img src="https://i.ibb.co/0CKYfG3/Statkit-mini.png" style="width:47px; 
+		height: 47px;"/>
+</div>
+</div>
+<div class="col-10">
+<div class="Cl-Header-Title-Catalog" id="header-title-catalog"></div>
+</div>
+<div class="col-1" style="visibilty:hidden">
+<div style="float: right;visibility:hidden;">
+<button class="btn btn-default Cl-dropdown-menu Cl-flag-btn" data-toggle="dropdown" style="min-width: 70px;text-align: center;float: right;" type="button">
+<div id="spa-language-en" style="display: none;"><i style="width: 1.3em;height: 1em;display: inline-block;margin-right:8px;vertical-align: middle;"></i><i class="caret"></i></div>
+<div id="spa-language-es" style="display: block;"><i style="width: 1.3em;height: 1em;display: inline-block;margin-right:8px;vertical-align: middle;"></i><i class="caret"></i></div>
+</button>
+<ul class="dropdown-menu Cl-dropdown-menu" role="menu">
+<li><a href="#" onclick="changeLanguageMenuIcon('en')">English</a></li>
+<li><a href="#" onclick="changeLanguageMenuIcon('es')">Español</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row">
+<p class="col-12" id="target">
+<table class="Cl-TitleTable" id="introtable">
+<tbody><tr>REPORT_MNP_65411</tr>
+<tr>
+<td><b>Target</b>: MetadataTarget</td>
+</tr>
+<tr id="tr-span-DATAFLOW"><td><b>Dataflow</b>: <span id="span-DATAFLOW">DF_MNP_65411</span></td></tr>
+</tbody></table>
+<br/>
+<table class="Cl-MainTable">
+<tbody>
+<tr>
+<td>
+<table class="Cl-SummaryTable">
+<tbody>
+<tr>
+<td class="Cl-TitleSummary">Metadata</td>
+</tr>
+<tr>
+<td class="Cl-SubTitleSummary"><b>Reference metadata</b></td>
+</tr>
+<tr>
+<td class="Cl-SummaryItem">
+<span id="A-h1">1.</span>
+<a class="Cl-SummaryItemLink" href="#link_A">Contacto</a> <br/>
+<!--
     <a id="R1-i1" class="Cl-SummaryItemLink" href="#link_R1">Organización de contacto</a>
     <br>
     <a id="R2-i1" class="Cl-SummaryItemLink" href="#link_R2">Unidad de organización de contacto</a>
@@ -227,10 +220,9 @@
     <a id="R8-i1" class="Cl-SummaryItemLink" href="#link_R8">Número de fax de contacto</a>
     <br>
   -->
-                <span id="B-h1">2.</span>
-                <a class="Cl-SummaryItemLink" href="#link_B">Actualización de metadatos</a> <br>
-
-                <!--
+<span id="B-h1">2.</span>
+<a class="Cl-SummaryItemLink" href="#link_B">Actualización de metadatos</a> <br/>
+<!--
     <a id="R9-i1" class="Cl-SummaryItemLink" href="#link_R9">Última certificación de metadatos</a>
     <br>
     <a id="R10-i1" class="Cl-SummaryItemLink" href="#link_R10">Última difusión de metadatos</a>
@@ -238,10 +230,9 @@
     <a id="R11-i1" class="Cl-SummaryItemLink" href="#link_R11">Última actualización de metadatos</a>
     <br>
   -->
-                <span id="C-h1">3.</span>
-                <a class="Cl-SummaryItemLink" href="#link_C">Presentación estadística</a> <br>
-
-                <!--
+<span id="C-h1">3.</span>
+<a class="Cl-SummaryItemLink" href="#link_C">Presentación estadística</a> <br/>
+<!--
     <a id="R12-i1" class="Cl-SummaryItemLink" href="#link_R12">Descripción de los datos</a>
     <br>
     <a id="R13-i1" class="Cl-SummaryItemLink" href="#link_R13">Sistema de clasificación</a>
@@ -261,42 +252,37 @@
     <a id="R20-i1" class="Cl-SummaryItemLink" href="#link_R20">Período base</a>
     <br>
   -->
-                <span id="D-h1">4.</span>
-                <a class="Cl-SummaryItemLink" href="#link_D">Unidad de medida</a> <br>
-
-                <!--
+<span id="D-h1">4.</span>
+<a class="Cl-SummaryItemLink" href="#link_D">Unidad de medida</a> <br/>
+<!--
     <a id="R21-i1" class="Cl-SummaryItemLink" href="#link_R21">Unidad de medida</a>
     <br>
   -->
-                <span id="E-h1">5.</span>
-                <a class="Cl-SummaryItemLink" href="#link_E">Período de referencia</a> <br>
-
-                <!--
+<span id="E-h1">5.</span>
+<a class="Cl-SummaryItemLink" href="#link_E">Período de referencia</a> <br/>
+<!--
     <a id="R22-i1" class="Cl-SummaryItemLink" href="#link_R22">Período de referencia</a>
     <br>
   -->
-                <span id="F-h1">6.</span>
-                <a class="Cl-SummaryItemLink" href="#link_F">Mandato institucional</a> <br>
-
-                <!--
+<span id="F-h1">6.</span>
+<a class="Cl-SummaryItemLink" href="#link_F">Mandato institucional</a> <br/>
+<!--
     <a id="R23-i1" class="Cl-SummaryItemLink" href="#link_R23">Actos jurídicos y otros acuerdos</a>
     <br>
     <a id="R24-i1" class="Cl-SummaryItemLink" href="#link_R24">Intercambio de datos</a>
     <br>
   -->
-                <span id="G-h1">7.</span>
-                <a class="Cl-SummaryItemLink" href="#link_G">Confidencialidad</a> <br>
-
-                <!--
+<span id="G-h1">7.</span>
+<a class="Cl-SummaryItemLink" href="#link_G">Confidencialidad</a> <br/>
+<!--
     <a id="R25-i1" class="Cl-SummaryItemLink" href="#link_R25">Política de confidencialidad</a>
     <br>
     <a id="R26-i1" class="Cl-SummaryItemLink" href="#link_R26">Tratamiento de datos confidenciales</a>
     <br>
   -->
-                <span id="H-h1">8.</span>
-                <a class="Cl-SummaryItemLink" href="#link_H">Política de difusión</a> <br>
-
-                <!--
+<span id="H-h1">8.</span>
+<a class="Cl-SummaryItemLink" href="#link_H">Política de difusión</a> <br/>
+<!--
     <a id="R27-i1" class="Cl-SummaryItemLink" href="#link_R27">Fecha de difusión de resultados</a>
     <br>
     <a id="R28-i1" class="Cl-SummaryItemLink" href="#link_R28">Fecha prevista de difusión de resultados</a>
@@ -304,17 +290,15 @@
     <a id="R29-i1" class="Cl-SummaryItemLink" href="#link_R29">Acceso a los resultados</a>
     <br>
   -->
-                <span id="I-h1">9.</span>
-                <a class="Cl-SummaryItemLink" href="#link_I">Frecuencia de la difusión</a> <br>
-
-                <!--
+<span id="I-h1">9.</span>
+<a class="Cl-SummaryItemLink" href="#link_I">Frecuencia de la difusión</a> <br/>
+<!--
     <a id="R30-i1" class="Cl-SummaryItemLink" href="#link_R30">Frecuencia de la difusión</a>
     <br>
   -->
-                <span id="J-h1">10.</span>
-                <a class="Cl-SummaryItemLink" href="#link_J">Formato de difusión</a> <br>
-
-                <!--
+<span id="J-h1">10.</span>
+<a class="Cl-SummaryItemLink" href="#link_J">Formato de difusión</a> <br/>
+<!--
     <a id="R31-i1" class="Cl-SummaryItemLink" href="#link_R31">Comunicados</a>
     <br>
     <a id="R32-i1" class="Cl-SummaryItemLink" href="#link_R32">Publicaciones</a>
@@ -326,28 +310,25 @@
     <a id="R35-i1" class="Cl-SummaryItemLink" href="#link_R35">Otros</a>
     <br>
   -->
-                <span id="K-h1">11.</span>
-                <a class="Cl-SummaryItemLink" href="#link_K">Accesibilidad de la documentación</a> <br>
-
-                <!--
+<span id="K-h1">11.</span>
+<a class="Cl-SummaryItemLink" href="#link_K">Accesibilidad de la documentación</a> <br/>
+<!--
     <a id="R36-i1" class="Cl-SummaryItemLink" href="#link_R36">Documentación sobre metodología</a>
     <br>
     <a id="R37-i1" class="Cl-SummaryItemLink" href="#link_R37">Documentación sobre calidad</a>
     <br>
   -->
-                <span id="L-h1">12.</span>
-                <a class="Cl-SummaryItemLink" href="#link_L">Gestión de la calidad</a> <br>
-
-                <!--
+<span id="L-h1">12.</span>
+<a class="Cl-SummaryItemLink" href="#link_L">Gestión de la calidad</a> <br/>
+<!--
     <a id="R38-i1" class="Cl-SummaryItemLink" href="#link_R38">Garantía de calidad</a>
     <br>
     <a id="R39-i1" class="Cl-SummaryItemLink" href="#link_R39">Evaluación de calidad</a>
     <br>
   -->
-                <span id="M-h1">13.</span>
-                <a class="Cl-SummaryItemLink" href="#link_M">Relevancia</a> <br>
-
-                <!--
+<span id="M-h1">13.</span>
+<a class="Cl-SummaryItemLink" href="#link_M">Relevancia</a> <br/>
+<!--
     <a id="R40-i1" class="Cl-SummaryItemLink" href="#link_R40">Usuarios</a>
     <br>
     <a id="R41-i1" class="Cl-SummaryItemLink" href="#link_R41">Satisfacción del usuario</a>
@@ -355,10 +336,9 @@
     <a id="R42-i1" class="Cl-SummaryItemLink" href="#link_R42">Exhaustividad</a>
     <br>
   -->
-                <span id="N-h1">14.</span>
-                <a class="Cl-SummaryItemLink" href="#link_N">Exactitud y fiabilidad</a> <br>
-
-                <!--
+<span id="N-h1">14.</span>
+<a class="Cl-SummaryItemLink" href="#link_N">Exactitud y fiabilidad</a> <br/>
+<!--
     <a id="R43-i1" class="Cl-SummaryItemLink" href="#link_R43">Exactitud global</a>
     <br>
     <a id="R44-i1" class="Cl-SummaryItemLink" href="#link_R44">Errores de muestreo</a>
@@ -366,53 +346,47 @@
     <a id="R45-i1" class="Cl-SummaryItemLink" href="#link_R45">Errores ajenos al muestreo</a>
     <br>
   -->
-                <span id="O-h1">15.</span>
-                <a class="Cl-SummaryItemLink" href="#link_O">Oportunidad y puntualidad</a> <br>
-
-                <!--
+<span id="O-h1">15.</span>
+<a class="Cl-SummaryItemLink" href="#link_O">Oportunidad y puntualidad</a> <br/>
+<!--
     <a id="R46-i1" class="Cl-SummaryItemLink" href="#link_R46">Oportunidad</a>
     <br>
     <a id="R47-i1" class="Cl-SummaryItemLink" href="#link_R47">Puntualidad</a>
     <br>
   -->
-                <span id="P-h1">16.</span>
-                <a class="Cl-SummaryItemLink" href="#link_P">Comparabilidad</a> <br>
-
-                <!--
+<span id="P-h1">16.</span>
+<a class="Cl-SummaryItemLink" href="#link_P">Comparabilidad</a> <br/>
+<!--
     <a id="R48-i1" class="Cl-SummaryItemLink" href="#link_R48">Comparabilidad geográfica</a>
     <br>
     <a id="R49-i1" class="Cl-SummaryItemLink" href="#link_R49">Comparabilidad temporal</a>
     <br>
   -->
-                <span id="Q-h1">17.</span>
-                <a class="Cl-SummaryItemLink" href="#link_Q">Coherencia</a> <br>
-
-                <!--
+<span id="Q-h1">17.</span>
+<a class="Cl-SummaryItemLink" href="#link_Q">Coherencia</a> <br/>
+<!--
     <a id="R50-i1" class="Cl-SummaryItemLink" href="#link_R50">Coherencia - cruce de sectores</a>
     <br>
     <a id="R51-i1" class="Cl-SummaryItemLink" href="#link_R51">Coherencia - interna</a>
     <br>
   -->
-                <span id="R-h1">18.</span>
-                <a class="Cl-SummaryItemLink" href="#link_R">Costes y carga</a> <br>
-
-                <!--
+<span id="R-h1">18.</span>
+<a class="Cl-SummaryItemLink" href="#link_R">Costes y carga</a> <br/>
+<!--
     <a id="R52-i1" class="Cl-SummaryItemLink" href="#link_R52">Costes y carga</a>
     <br>
   -->
-                <span id="S-h1">19.</span>
-                <a class="Cl-SummaryItemLink" href="#link_S">Revisión de los datos</a> <br>
-
-                <!--
+<span id="S-h1">19.</span>
+<a class="Cl-SummaryItemLink" href="#link_S">Revisión de los datos</a> <br/>
+<!--
     <a id="R53-i1" class="Cl-SummaryItemLink" href="#link_R53">Revisión de datos - política</a>
     <br>
     <a id="R54-i1" class="Cl-SummaryItemLink" href="#link_R54">Revisión de datos - práctica</a>
     <br>
   -->
-                <span id="T-h1">20.</span>
-                <a class="Cl-SummaryItemLink" href="#link_T">Tratamiento estadístico</a> <br>
-
-                <!--
+<span id="T-h1">20.</span>
+<a class="Cl-SummaryItemLink" href="#link_T">Tratamiento estadístico</a> <br/>
+<!--
     <a id="R55-i1" class="Cl-SummaryItemLink" href="#link_R55">Datos de origen</a>
     <br>
     <a id="R56-i1" class="Cl-SummaryItemLink" href="#link_R56">Frecuencia de la recogida de datos</a>
@@ -426,1278 +400,1077 @@
     <a id="R60-i1" class="Cl-SummaryItemLink" href="#link_R60">Ajuste</a>
     <br>
   -->
-                <span id="U-h1">21.</span>
-                <a class="Cl-SummaryItemLink" href="#link_U">Observaciones</a> <br>
-
-                <!--
+<span id="U-h1">21.</span>
+<a class="Cl-SummaryItemLink" href="#link_U">Observaciones</a> <br/>
+<!--
     <a id="R61-i1" class="Cl-SummaryItemLink" href="#link_R61">Observaciones</a>
     <br>
   -->
-              </td>
-            </tr>
-            </tbody>
-          </table>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <br>
-          <a class="Cl-DownloadReportLink" id="download-report-button"></a>
-        </td>
-      </tr>
-      </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="A-l1">
-        <a name="A"></a><a name="link_A"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="A-r1">1. </span><a name="link_A"></a>Contacto</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R1-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R1-r1">R1</span>
-        <a name="link_R1">Organización de contacto</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R1-r2">Instituto de Estadística y Cartografía de Andalucía</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R2-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R2-r1">R2</span>
-        <a name="link_R2">Unidad de organización de contacto</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R2-r2">Servicio de Difusión y Publicaciones</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R3-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R3-r1">R3</span>
-        <a name="link_R3">Nombre de contacto</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R3-r2">--</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R4-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R4-r1">R4</span>
-        <a name="link_R4">Función de la persona de contacto</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R4-r2">Atención a la demanda de información</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R5-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R5-r1">R5</span>
-        <a name="link_R5">Dirección postal de contacto</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R5-r2">Pabellón de Nueva Zelanda. C/ Leonardo Da Vinci, nº 21. Isla de La Cartuja. 41071 - Sevilla</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R6-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R6-r1">R6</span>
-        <a name="link_R6">Dirección de correo electrónico de contacto</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R6-r2">informacion.ieca@juntadeandalucia.es</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R7-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R7-r1">R7</span>
-        <a name="link_R7">Número de teléfono de contacto</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R7-r2">Atención al público: 900 101 407 Centralita: 955 033 800</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R8-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R8-r1">R8</span>
-        <a name="link_R8">Número de fax de contacto</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R8-r2">955 033 816/17</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="B-l1">
-        <a name="B"></a><a name="link_B"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="B-r1">2. </span><a name="link_B"></a>Actualización de metadatos</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R9-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R9-r1">R9</span>
-        <a name="link_R9">Última certificación de metadatos</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R9-r2">20/09/2018</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R10-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R10-r1">R10</span>
-        <a name="link_R10">Última difusión de metadatos</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R10-r2">18/10/2018</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R11-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R11-r1">R11</span>
-        <a name="link_R11">Última actualización de metadatos</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R11-r2">27/09/2018</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="C-l1">
-        <a name="C"></a><a name="link_C"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="C-r1">3. </span><a name="link_C"></a>Presentación estadística</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R12-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R12-r1">R12</span>
-        <a name="link_R12">Descripción de los datos</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R12-r2"><p style="text-align:justify">Las estadísticas de nacimientos, matrimonios y defunciones, denominadas tradicionalmente como Movimiento Natural de Población (MNP), es la operación clásica que ha servido para acercarnos al conocimiento de los flujos poblacionales, constituyendo, después de la operación censal, la operación estadística de mayor tradición y con series históricas más largas tanto en nuestro país como en los países de nuestro entorno</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<br/>
+<a class="Cl-DownloadReportLink" id="download-report-button"></a>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="A-l1">
+<a name="A"></a><a name="link_A"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="A-r1">1. </span><a name="link_A"></a>Contacto</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R1-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R1-r1">R1</span>
+<a name="link_R1">Organización de contacto</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R1-r2">Instituto de Estadística y Cartografía de Andalucía</div>
+</td>
+</tr>
+<tr id="R2-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R2-r1">R2</span>
+<a name="link_R2">Unidad de organización de contacto</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R2-r2">Servicio de Difusión y Publicaciones</div>
+</td>
+</tr>
+<tr id="R3-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R3-r1">R3</span>
+<a name="link_R3">Nombre de contacto</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R3-r2">--</div>
+</td>
+</tr>
+<tr id="R4-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R4-r1">R4</span>
+<a name="link_R4">Función de la persona de contacto</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R4-r2">Atención a la demanda de información</div>
+</td>
+</tr>
+<tr id="R5-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R5-r1">R5</span>
+<a name="link_R5">Dirección postal de contacto</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R5-r2">Pabellón de Nueva Zelanda. C/ Leonardo Da Vinci, nº 21. Isla de La Cartuja. 41071 - Sevilla</div>
+</td>
+</tr>
+<tr id="R6-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R6-r1">R6</span>
+<a name="link_R6">Dirección de correo electrónico de contacto</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R6-r2">informacion.ieca@juntadeandalucia.es</div>
+</td>
+</tr>
+<tr id="R7-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R7-r1">R7</span>
+<a name="link_R7">Número de teléfono de contacto</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R7-r2">Atención al público: 900 101 407 Centralita: 955 033 800</div>
+</td>
+</tr>
+<tr id="R8-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R8-r1">R8</span>
+<a name="link_R8">Número de fax de contacto</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R8-r2">955 033 816/17</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="B-l1">
+<a name="B"></a><a name="link_B"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="B-r1">2. </span><a name="link_B"></a>Actualización de metadatos</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R9-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R9-r1">R9</span>
+<a name="link_R9">Última certificación de metadatos</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R9-r2">16/12/2021</div>
+</td>
+</tr>
+<tr id="R10-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R10-r1">R10</span>
+<a name="link_R10">Última difusión de metadatos</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R10-r2">27/05/2022</div>
+</td>
+</tr>
+<tr id="R11-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R11-r1">R11</span>
+<a name="link_R11">Última actualización de metadatos</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R11-r2">27/05/2022</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="C-l1">
+<a name="C"></a><a name="link_C"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="C-r1">3. </span><a name="link_C"></a>Presentación estadística</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R12-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R12-r1">R12</span>
+<a name="link_R12">Descripción de los datos</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R12-r2">Las estadísticas de nacimientos, matrimonios y defunciones, denominadas tradicionalmente como Movimiento Natural de Población (MNP), es la operación clásica que ha servido para acercarnos al conocimiento de los flujos poblacionales, constituyendo, después de la operación censal, la operación estadística de mayor tradición y con series históricas más largas tanto en nuestro país como en los países de nuestro entorno</div>
+</td>
+</tr>
+<tr id="R13-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R13-r1">R13</span>
+<a name="link_R13">Sistema de clasificación</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R13-r2">Esta actividad utiliza, en lo referente a la información sobre causas de muerte, la Clasificación Internacional de Enfermedades 10ª revisión, (CIE 10)</div>
+</td>
+</tr>
+<tr id="R14-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R14-r1">R14</span>
+<a name="link_R14">Cobertura por sectores</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R14-r2">En el caso de la causa de muerte que utiliza la clasificación CIE 10, se cubren todos los sectores</div>
+</td>
+</tr>
+<tr id="R15-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R15-r1">R15</span>
+<a name="link_R15">Definiciones y conceptos</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R15-r2">- Defunción: Se considera defunción a la muerte de toda persona con vida. Hasta 1975 estaba limitada a los seres que sobrepasaban las 24 horas de vida, empleándose desde entonces el concepto biológico de nacido vivo. Defunción cubre a los nacidos con vida fallecidos durante las primeras 24 horas de vida a diferencia del concepto legal - Matrimonio: Se consideran las uniones legales inscritas en el Registro Civil - Muerte Fetal Tardía: Se considera como tal al feto muerto con seis o más meses de gestación. En España sólo existe obligación de comunicar al Registro Civil las muertes fetales de más de 180 días de gestación, por lo que se ha adoptado, a efectos estadísticos, la definición anterior - Nacidos vivos y defunciones: la definición estadística (que no legal) de defunción y nacido vivo es que las defunciones de los menores de 24 horas se incluyeron junto con las defunciones de los menores de un año, e igualmente se contabilizaron como nacidos vivos Parto: Conjunto de fenómenos fisiológicos que conducen a la salida del claustro materno de un feto viable y sus anexos, por lo que queda excluido el aborto o expulsión del feto no viable</div>
+</td>
+</tr>
+<tr id="R16-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R16-r1">R16</span>
+<a name="link_R16">Unidad estadística</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R16-r2">Los partos, matrimonios y defunciones inscritas en los correspondientes boletines que edita el INE inscritos en las oficinas municipales del Registro Civil</div>
+</td>
+</tr>
+<tr id="R17-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R17-r1">R17</span>
+<a name="link_R17">Población estadística</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R17-r2">Durante la gestión continua de la información, está constituida por los partos, matrimonios y defunciones registrados en Andalucía. Sin embargo, para la publicación de datos anuales, se completa con aquellos sucesos registrados fuera de Andalucía, cuyas personas involucradas son residentes en Andalucía: las madres (en el caso de partos), los matrimonios o cualquiera de sus cónyuges y las personas difuntas</div>
+</td>
+</tr>
+<tr id="R18-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R18-r1">R18</span>
+<a name="link_R18">Ámbito geográfico</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R18-r2">Andalucía</div>
+</td>
+</tr>
+<tr id="R19-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R19-r1">R19</span>
+<a name="link_R19">Cobertura temporal</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R19-r2">En Enero de 1996 se firmó un Convenio con el INE para la realización de las Estadísticas del Movimiento Natural de la Población y defunciones por causa de muerte por el cual el IECA colabora en los procesos de elaboración de las Estadísticas de partos y matrimonios, y continua con la codificación de la causa de muerte en las estadísticas de defunciones así como en los procesos de elaboración de ésta estadística, pudiendo, de este modo, disponer de datos estadísticos del MNP con mayor rapidez de la hasta ahora existente. Los datos publicados son desde 1996</div>
+</td>
+</tr>
+<tr id="R20-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R20-r1">R20</span>
+<a name="link_R20">Período base</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R20-r2">--</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="D-l1">
+<a name="D"></a><a name="link_D"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="D-r1">4. </span><a name="link_D"></a>Unidad de medida</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R21-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R21-r1">R21</span>
+<a name="link_R21">Unidad de medida</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R21-r2">En todos los casos la unidad de medida que se utiliza es el recuento de los datos: - Número de nacimientos - Número de matrimonios - Número de defunciones</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="E-l1">
+<a name="E"></a><a name="link_E"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="E-r1">5. </span><a name="link_E"></a>Período de referencia</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R22-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R22-r1">R22</span>
+<a name="link_R22">Período de referencia</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R22-r2">Difusión de Movimiento Natural de la Población: Tri2/2019, Tri3/2019, Tri4/19, Tri1/20, 2019 (Avance), 2019 (Definitivos) Estadística de Nombres de los Recién Nacidos Andaluces: 2019 Estadísticas de defunciones por causas en Andalucía: Tri1/2019, Tri2/2019, Tri3/2019, Tri4/19, Tri1/20, Ene-May/2020 (Avance)</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="F-l1">
+<a name="F"></a><a name="link_F"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="F-r1">6. </span><a name="link_F"></a>Mandato institucional</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R23-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R23-r1">R23</span>
+<a name="link_R23">Actos jurídicos y otros acuerdos</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R23-r2">Ley 4/1989, de 12 de diciembre, de Estadística de la Comunidad Autónoma de Andalucía Ley 3/2013, de 24 de julio, por la que se aprueba el Plan Estadístico y Cartográfico de Andalucía 2013-2017 y Ley 6/2017, de 27 de diciembre, por la que se modifica la Ley 3/2013, de 24 de julio, por la que se aprueba el Plan Estadístico y Cartográfico de Andalucía 2013-2017 para ampliar su vigencia hasta el 2020 Decreto 25/2020, de 24 de febrero, por el que se aprueba el Programa Estadístico y Cartográfico de la Comunidad Autónoma de Andalucía para el año 2020</div>
+</td>
+</tr>
+<tr id="R24-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R24-r1">R24</span>
+<a name="link_R24">Intercambio de datos</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R24-r2">- Acuerdo Marco sobre cooperación estadística e intercambio de información entre el Instituto Nacional de Estadística y el Instituto de Estadística de Andalucía - Convenio de colaboración entre el Instituto Nacional de Estadística y el Instituto de Estadística de Andalucía para la realización de las estadísticas del movimiento natural de la población y defunciones según la causa de muerte - Por otra parte, existe un convenio de colaboración de fecha 29 de septiembre de 1997, que se renueva automáticamente cada año entre la (entonces) Consejería de Salud, el Servicio Andaluz de Salud y el (entonces) IEA para la codificación, explotación estadística y mejora de la calidad de la información sanitaria contenida en las estadísticas del MNP en el ámbito de la comunidad autónoma de Andalucía</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="G-l1">
+<a name="G"></a><a name="link_G"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="G-r1">7. </span><a name="link_G"></a>Confidencialidad</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R25-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R25-r1">R25</span>
+<a name="link_R25">Política de confidencialidad</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R25-r2">Ley 4/1989, de 12 de diciembre, de Estadística de la Comunidad Autónoma de Andalucía Ley 12/1989, de 9 de mayo, de la Función Estadística Pública Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales</div>
+</td>
+</tr>
+<tr id="R26-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R26-r1">R26</span>
+<a name="link_R26">Tratamiento de datos confidenciales</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R26-r2">Con el fin de salvaguardar el Secreto Estadístico, la desagregación territorial máxima alcanzada en la difusión no permite la identificación directa o indirecta de las personas. En la publicación de las tablas de resultados se analiza el detalle de la información para evitar que puedan deducirse datos confidenciales de las unidades estadísticas</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="H-l1">
+<a name="H"></a><a name="link_H"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="H-r1">8. </span><a name="link_H"></a>Política de difusión</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R27-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R27-r1">R27</span>
+<a name="link_R27">Fecha de difusión de resultados</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R27-r2">Movimiento Natural de la Población: 17/01/2020, 17/04/2020, 30/06/2020, 16/10/2020, 30/06/2020 (Avance), 16/12/2020 (Definitivos) Estadística de Nombres de los Recién Nacidos Andaluces: 10/07/2020 Estadísticas de defunciones por causas en Andalucía: 24/01/2020, 24/04/2020, 17/07/2020, 23/10/2020, 09/12/2020, 10/12/2020 (Avance)</div>
+</td>
+</tr>
+<tr id="R28-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R28-r1">R28</span>
+<a name="link_R28">Fecha prevista de difusión de resultados</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R28-r2">Movimiento Natural de la Población: 17/01/2020, 24/04/2020, 16/06/2020, 20/10/2020, Jun/2020 (Avance), Dic/2020 (Definitivos) Estadística de Nombres de los Recién Nacidos Andaluces: 14/Jul/2020 Estadísticas de defunciones por causas en Andalucía: 27/01/2020, Abr/2020, Jun/2020, Oct/2020, Jun/2020 (Avance), Dic/2020 (Definitivos)</div>
+</td>
+</tr>
+<tr id="R29-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R29-r1">R29</span>
+<a name="link_R29">Acceso a los resultados</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R29-r2">La actividad se difunde a través de la página web del IECA. La información se ofrece en formato excel a través de un árbol temático y a través de la base de datos BADEA. Los distintos productos y sus enlaces de difusión son: - Movimiento Natural de Población http://www.juntadeandalucia.es/institutodeestadisticaycartografia/mnp/index.htm - Estadísticas de mortalidad por causas de Andalucía http://www.juntadeandalucia.es/institutodeestadisticaycartografia/ema/index.htm - Estadística de nombres de los recién nacidos andaluces http://www.juntadeandalucia.es/institutodeestadisticaycartografia/estnombres/index.htm</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="I-l1">
+<a name="I"></a><a name="link_I"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="I-r1">9. </span><a name="link_I"></a>Frecuencia de la difusión</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R30-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R30-r1">R30</span>
+<a name="link_R30">Frecuencia de la difusión</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R30-r2">Anual, Trimestral</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="J-l1">
+<a name="J"></a><a name="link_J"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="J-r1">10. </span><a name="link_J"></a>Formato de difusión</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R31-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R31-r1">R31</span>
+<a name="link_R31">Comunicados</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R31-r2">Sí - Movimiento Natural de Población http://www.juntadeandalucia.es/institutodeestadisticaycartografia/mnp/index.htm - Estadísticas de Mortalidad de Andalucía. Defunciones en Andalucía http://www.juntadeandalucia.es/institutodeestadisticaycartografia/ema/index.htm - Estadística de nombres de los recién nacidos andaluces http://www.juntadeandalucia.es/institutodeestadisticaycartografia/estnombres/index.htm </div>
+</td>
+</tr>
+<tr id="R32-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R32-r1">R32</span>
+<a name="link_R32">Publicaciones</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R32-r2">Movimiento Natural de la Población, Estadísticas de mortalidad por causas de Andalucía, Estadística de nombres de recién nacidos andaluces</div>
+</td>
+</tr>
+<tr id="R33-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R33-r1">R33</span>
+<a name="link_R33">Base de datos online</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R33-r2">Esta actividad permite elaborar resultados a medida en el Banco de Datos estadístico de Andalucía (BADEA)</div>
+</td>
+</tr>
+<tr id="R34-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R34-r1">R34</span>
+<a name="link_R34">Acceso a microdatos</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R34-r2">--</div>
+</td>
+</tr>
+<tr id="R35-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R35-r1">R35</span>
+<a name="link_R35">Otros</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R35-r2">--</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="K-l1">
+<a name="K"></a><a name="link_K"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="K-r1">11. </span><a name="link_K"></a>Accesibilidad de la documentación</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R36-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R36-r1">R36</span>
+<a name="link_R36">Documentación sobre metodología</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R36-r2">La memoria técnica está disponible en Internet en el apartado Metodología</div>
+</td>
+</tr>
+<tr id="R37-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R37-r1">R37</span>
+<a name="link_R37">Documentación sobre calidad</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R37-r2">El IECA para garantizar la calidad en esta actividad aporta la memoria técnica, la ficha de indicadores de calidad y el informe metodológico estandarizado de la actividad</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="L-l1">
+<a name="L"></a><a name="link_L"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="L-r1">12. </span><a name="link_L"></a>Gestión de la calidad</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R38-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R38-r1">R38</span>
+<a name="link_R38">Garantía de calidad</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R38-r2">Antes de publicar cualquier información, se efectúan controles de depuración y validación de la información. Si en el momento de realizar las publicaciones provisionales (trimestrales o anuales) no es posible recuperar alguna de las variables, sus valores se clasifican como “No consta”. Las publicaciones anuales definitivas se hacen en base a los ficheros recibidos del INE y éstos ya están imputados por su parte</div>
+</td>
+</tr>
+<tr id="R39-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R39-r1">R39</span>
+<a name="link_R39">Evaluación de calidad</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R39-r2">Se ha elaborado una ficha de calidad y está disponible en Internet en el apartado Metodología</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="M-l1">
+<a name="M"></a><a name="link_M"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="M-r1">13. </span><a name="link_M"></a>Relevancia</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R40-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R40-r1">R40</span>
+<a name="link_R40">Usuarios</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R40-r2">Investigadores, alumnado de enseñanzas medias y Universidad, periodistas, organizaciones empresariales y sindicales, Administración</div>
+</td>
+</tr>
+<tr id="R41-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R41-r1">R41</span>
+<a name="link_R41">Satisfacción del usuario</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R41-r2">--</div>
+</td>
+</tr>
+<tr id="R42-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R42-r1">R42</span>
+<a name="link_R42">Exhaustividad</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R42-r2">Se trata de una actividad con recogida de información mediante censo, por loq ue la actividad el grado de cobertura de la población objeto de estudio es total</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="N-l1">
+<a name="N"></a><a name="link_N"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="N-r1">14. </span><a name="link_N"></a>Exactitud y fiabilidad</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R43-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R43-r1">R43</span>
+<a name="link_R43">Exactitud global</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R43-r2">Esta actividad es fiable ya que ya que la información es extraída directamente de los Registros Cilviles donde se registra cada evento</div>
+</td>
+</tr>
+<tr id="R44-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R44-r1">R44</span>
+<a name="link_R44">Errores de muestreo</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R44-r2">--</div>
+</td>
+</tr>
+<tr id="R45-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R45-r1">R45</span>
+<a name="link_R45">Errores ajenos al muestreo</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R45-r2">Una primera restricción importante en la fase de mejora de la calidad de la información, tras los procesos de depuración y validación, hace referencia a la comunicación con las oficinas del registro civil. Esta comunicación hasta ahora no es electrónica, debe ser o bien escrita mediante correo postal, o bien telefónica o bien presencial. Además el conjunto de oficinas es numeroso, lo que agudiza el problema de contactar con las mismas</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="O-l1">
+<a name="O"></a><a name="link_O"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="O-r1">15. </span><a name="link_O"></a>Oportunidad y puntualidad</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R46-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R46-r1">R46</span>
+<a name="link_R46">Oportunidad</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R46-r2">226 días para Movimiento Natural de la Población, 287 días para Estadísticas de Mortalidad por causas en Andalucía, 191 días para Estadística de nombres de recién nacidos andaluces,</div>
+</td>
+</tr>
+<tr id="R47-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R47-r1">R47</span>
+<a name="link_R47">Puntualidad</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R47-r2">1 días para Movimiento Natural de la Población, 50 días para Estadísticas de Mortalidad por causas en Andalucía, -4 días para Estadística de nombres de recién nacidos andaluces,</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="P-l1">
+<a name="P"></a><a name="link_P"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="P-r1">16. </span><a name="link_P"></a>Comparabilidad</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R48-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R48-r1">R48</span>
+<a name="link_R48">Comparabilidad geográfica</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R48-r2">Casi todas las Comunidades Autónomas, al igual que en Andalucía, incluyen entre sus actividades estadísticas la Estadística de Movimiento Natural de Población para su ámbito territorial. Así por ejemplo, la Comunidad de Cataluña la incluye en su Ley 13/2010, de 21 de mayo, del Plan estadístico de Cataluña 2011-2014</div>
+</td>
+</tr>
+<tr id="R49-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R49-r1">R49</span>
+<a name="link_R49">Comparabilidad temporal</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R49-r2">Existen series históricas desde el año 1984, pero los datos con mayor desagregación son desde el año 1996 y son comparables porque no ha habido ruptura en la serie</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="Q-l1">
+<a name="Q"></a><a name="link_Q"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="Q-r1">17. </span><a name="link_Q"></a>Coherencia</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R50-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R50-r1">R50</span>
+<a name="link_R50">Coherencia - cruce de sectores</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R50-r2">La información es coherente con la obtenida en otras fuentes o sectores</div>
+</td>
+</tr>
+<tr id="R51-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R51-r1">R51</span>
+<a name="link_R51">Coherencia - interna</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R51-r2">La coherencia interna se garantiza a través de diversas validaciones realizadas antes de la publicación de los datos</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="R-l1">
+<a name="R"></a><a name="link_R"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="R-r1">18. </span><a name="link_R"></a>Costes y carga</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R52-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R52-r1">R52</span>
+<a name="link_R52">Costes y carga</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R52-r2">36.000,00€</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="S-l1">
+<a name="S"></a><a name="link_S"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="S-r1">19. </span><a name="link_S"></a>Revisión de los datos</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R53-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R53-r1">R53</span>
+<a name="link_R53">Revisión de datos - política</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R53-r2">Los datos trimestrales tienen carácter provisional y pretenden ofrecer un adelanto de la tendencia de los fenómenos demográficos en el trimestre correspondiente. Los datos anuales, a su vez tienen una componente provisional y otra definitiva</div>
+</td>
+</tr>
+<tr id="R54-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R54-r1">R54</span>
+<a name="link_R54">Revisión de datos - práctica</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R54-r2">Los datos provisionales pasan a ser definitivos cuando se han recibido todos los boletines, se han realizado todos los controles y comprobaciones</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="T-l1">
+<a name="T"></a><a name="link_T"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="T-r1">20. </span><a name="link_T"></a>Tratamiento estadístico</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R55-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R55-r1">R55</span>
+<a name="link_R55">Datos de origen</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R55-r2">Observación directa</div>
+</td>
+</tr>
+<tr id="R56-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R56-r1">R56</span>
+<a name="link_R56">Frecuencia de la recogida de datos</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R56-r2">Mensual</div>
+</td>
+</tr>
+<tr id="R57-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R57-r1">R57</span>
+<a name="link_R57">Recopilación de datos</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R57-r2">Los datos se recogen en los correspondientes boletines: Boletín Estadístico de Partos (BEP), Boletín Estadístico de Matrimonios (BEM) y Certificado Médico de Defunción/Boletín Estadístico de Defunción (BED) que se encuentran en los Registros Civiles y que para tal efecto edita el Instituto Nacional de Estadística, siendo éste el sujeto informante de esta actividad. El tipo de recogida de información se establece como censo, ya que se registran la totalidad de los acontecimientos objeto de esta actividad. Estos boletines Estadísticos inscritos durante un mes en la oficina municipal del Registro Civil, son enviados a las delegaciones provinciales del INE. En éstas, la información se almacena en base de datos gracias al escaneado de los boletines mediante equipos dotados de reconocimiento óptico de caracteres. Un equipo de grabadores en cada delegación realiza una primera depuración de la información almacenada, corrigiendo un conjunto de errores que el lector óptico haya podido cometer.</div>
+</td>
+</tr>
+<tr id="R58-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R58-r1">R58</span>
+<a name="link_R58">Validación de datos</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R58-r2">Un equipo de grabadores en cada delegación realiza una primera depuración de la información almacenada, corrigiendo un conjunto de errores que el lector óptico haya podido cometer. Posteriormente y de forma mensual, las delegaciones del INE de las distintas provincias envían en soporte DVD al IECA la información sobre estos eventos en lo que se denominan lotes. La información recibida es almacenada en la base de datos del IECA y gestionada por una aplicación informática. Dicha aplicación tiene implementados diversos controles de depuración y validación de la información</div>
+</td>
+</tr>
+<tr id="R59-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R59-r1">R59</span>
+<a name="link_R59">Compilación de los datos</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R59-r2">Existe una única aplicación que gestiona las estadísticas de nacimientos, matrimonios y defunciones, aunque el tratamiento de los diferentes eventos es distinto e independiente. Los boletines estadísticos de defunción tienen un tratamiento especial ya que hay que añadirles además la causa de defunción. Una vez cargada la información contenida en los soportes magnéticos en la base de datos, se somete a una serie de procesos básicos, como la grabación de la causa de la muerte, controles de consistencia y exhaustividad, etc. Tras la depuración de los ficheros, se ejecutan un conjunto de reglas de validación. Aquellos valores de variables que deben tener un valor válido y que tras los procesos de validación y depuración siguen tomando valores imposibles o están en blanco, son imputados pero por el INE, tras recibir el fichero anual de la comunidad autónoma de Andalucía</div>
+</td>
+</tr>
+<tr id="R60-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R60-r1">R60</span>
+<a name="link_R60">Ajuste</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R60-r2">--</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="U-l1">
+<a name="U"></a><a name="link_U"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="U-r1">21. </span><a name="link_U"></a>Observaciones</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R61-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R61-r1">R61</span>
+<a name="link_R61">Observaciones</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R61-r2">--</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+</p>
 </div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R13-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R13-r1">R13</span>
-        <a name="link_R13">Sistema de clasificación</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R13-r2">Esta actividad utiliza, en lo referente a la información sobre causas de muerte, la Clasificación Internacional de Enfermedades 10ª
-revisión, (CIE 10)</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R14-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R14-r1">R14</span>
-        <a name="link_R14">Cobertura por sectores</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R14-r2">En el caso de la causa de muerte que utiliza la clasificación CIE 10, se cubren todos los sectores</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R15-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R15-r1">R15</span>
-        <a name="link_R15">Definiciones y conceptos</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R15-r2"><p>- Defunción: Se considera defunción a la muerte de toda persona con vida. Hasta 1975 estaba limitada a los seres que sobrepasaban las 24 horas de vida, empleándose desde entonces el concepto biológico de nacido vivo. Defunción cubre a los nacidos con vida fallecidos durante las primeras 24 horas de vida a diferencia del concepto legal.<br>
-- Matrimonio: Se consideran las uniones legales inscritas en el Registro Civil.<br>
-- Muerte Fetal Tardía: Se considera como tal al feto muerto con seis o más meses de gestación. En España sólo existe obligación de comunicar al Registro Civil las muertes fetales de más de 180 días de gestación, por lo que se ha adoptado, a efectos estadísticos, la definición anterior.<br>
-- Nacidos vivos y defunciones: la definición estadística (que no legal) de defunción y nacido vivo es que las defunciones de los menores de 24 horas se incluyeron junto con las defunciones de los menores de un año, e igualmente se contabilizaron como nacidos vivos.<br>
-Parto: Conjunto de fenómenos fisiológicos que conducen a la salida del claustro materno de un feto viable y sus anexos, por lo que queda excluido el aborto o expulsión del feto no viable.</p>
 </div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R16-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R16-r1">R16</span>
-        <a name="link_R16">Unidad estadística</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R16-r2">Los partos, matrimonios y defunciones inscritas en los correspondientes boletines que edita el INE inscritos en las oficinas municipales del Registro Civil</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R17-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R17-r1">R17</span>
-        <a name="link_R17">Población estadística</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R17-r2">Durante la gestión continua de la información, está constituida por los partos, matrimonios y defunciones registrados en Andalucía. Sin embargo, para la publicación de datos anuales, se completa con aquellos sucesos registrados fuera de Andalucía, cuyas personas involucradas son residentes en Andalucía: las madres (en el caso de partos), los matrimonios o cualquiera de sus cónyuges y las personas difuntas</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R18-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R18-r1">R18</span>
-        <a name="link_R18">Ámbito geográfico</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R18-r2">Andalucía</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R19-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R19-r1">R19</span>
-        <a name="link_R19">Cobertura temporal</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R19-r2">En Enero de 1996 se firmó un Convenio con el INE para la realización de las Estadísticas del Movimiento Natural de la Población y defunciones por causa de muerte por el cual el IECA colabora en los procesos de elaboración de las Estadísticas de partos y matrimonios, y continua con la codificación de la causa de muerte en las estadísticas de defunciones así como en los procesos de elaboración de ésta estadística, pudiendo, de este modo, disponer de datos estadísticos del MNP con mayor rapidez de la hasta ahora existente. Los datos publicados son desde 1996</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R20-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R20-r1">R20</span>
-        <a name="link_R20">Período base</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R20-r2">--</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="D-l1">
-        <a name="D"></a><a name="link_D"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="D-r1">4. </span><a name="link_D"></a>Unidad de medida</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R21-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R21-r1">R21</span>
-        <a name="link_R21">Unidad de medida</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R21-r2"><p>En todos los casos la unidad de medida que se utiliza es el recuento de los datos:<br>
-- Número de nacimientos<br>
-- Número de matrimonios<br>
-- Número de defunciones</p>
-</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="E-l1">
-        <a name="E"></a><a name="link_E"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="E-r1">5. </span><a name="link_E"></a>Período de referencia</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R22-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R22-r1">R22</span>
-        <a name="link_R22">Período de referencia</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R22-r2">Tri2/2016, Tri3/2016, Tri4/16, Tri1/17, 2016, 2016 (Definitivos), 2016 (Avance), Tri1/16, Tri2/16, Tri3/16, Tri4/16</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="F-l1">
-        <a name="F"></a><a name="link_F"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="F-r1">6. </span><a name="link_F"></a>Mandato institucional</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R23-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R23-r1">R23</span>
-        <a name="link_R23">Actos jurídicos y otros acuerdos</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R23-r2">Ley 4/1989, de 12 diciembre, de Estadística de la Comunidad Autónoma de Andalucía Ley 3/2013, de 24 de julio, por la que se aprueba el Plan Estadístico y Cartográfico de Andalucía 2013-2017 Decreto 151/2017, de 26 de septiembre, por el que se aprueba el Programa Estadístico y Cartográfico de la Comunidad Autónoma de Andalucía para el año 2017, y se modifica el Decreto 372/2009, de 17 de noviembre, por el que se regula la organización y funcionamiento del Sistema Estadístico de Andalucía</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R24-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R24-r1">R24</span>
-        <a name="link_R24">Intercambio de datos</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R24-r2"><p>- Acuerdo Marco sobre cooperación estadística e intercambio de información entre el Instituto Nacional de Estadística y el Instituto de Estadística de Andalucía.<br>
-- Convenio de colaboración entre el Instituto Nacional de Estadística y el Instituto de Estadística de Andalucía para la realización de las estadísticas del movimiento natural de la población y defunciones según la causa de muerte.<br>
-- Por otra parte, existe un convenio de colaboración de fecha 29 de septiembre de 1997, que se renueva automáticamente cada año entre la (entonces) Consejería de Salud, el Servicio Andaluz de Salud y el (entonces) IEA para la ¿codificación, explotación estadística y mejora de la calidad de la información sanitaria contenida en las estadísticas del MNP en el ámbito de la comunidad<br>
-autónoma de Andalucía</p>
-</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="G-l1">
-        <a name="G"></a><a name="link_G"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="G-r1">7. </span><a name="link_G"></a>Confidencialidad</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R25-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R25-r1">R25</span>
-        <a name="link_R25">Política de confidencialidad</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R25-r2">Ley 4/1989, de 12 diciembre, de Estadística de la Comunidad Autónoma de Andalucía Ley 12/1989, de 9 de mayo, de la Función Estadística Pública Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal.</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R26-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R26-r1">R26</span>
-        <a name="link_R26">Tratamiento de datos confidenciales</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R26-r2">Con el fin de salvaguardar el Secreto Estadístico, la desagregación territorial máxima alcanzada en la difusión no permite la identificación directa o indirecta de las personas. En la publicación de las tablas de resultados se analiza el detalle de la información para evitar que puedan deducirse datos confidenciales de las unidades estadísticas.</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="H-l1">
-        <a name="H"></a><a name="link_H"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="H-r1">8. </span><a name="link_H"></a>Política de difusión</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R27-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R27-r1">R27</span>
-        <a name="link_R27">Fecha de difusión de resultados</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R27-r2">20/01/2017, 21/04/2017, 23/06/2017, 20/10/2017, 27/01/2017, 28/04/2017, 21/07/2017, 27/10/2017, 15/12/2017, 30/06/2017, 07/03/2017, 22/12/2017, 13/07/2017</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R28-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R28-r1">R28</span>
-        <a name="link_R28">Fecha prevista de difusión de resultados</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R28-r2">Ene/2018, Abr/2018, Jun/2018, Jul/2017, Jun/2018, Dic/2018, Ene/2018, Abr/2018, Jul/2018, Oct/2018, Mar/2018, Dic/2018, Jul/2018</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R29-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R29-r1">R29</span>
-        <a name="link_R29">Acceso a los resultados</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R29-r2"><p>La actividad se difunde a través de la página web del IECA. La información se ofrece en formato excel a través de un árbol temático y a través de la base de datos BADEA. Los distintos productos y sus enlaces de difusión son:<br>
-- Movimiento Natural de Población<br>
-http://www.juntadeandalucia.es/institutodeestadisticaycartografia/mnp/index.htm<br>
-- Estadísticas de mortalidad por causas de Andalucía<br>
-http://www.juntadeandalucia.es/institutodeestadisticaycartografia/ema/index.htm<br>
-- Estadística de nombres de los recién nacidos andaluces<br>
-http://www.juntadeandalucia.es/institutodeestadisticaycartografia/estnombres/index.htm</p>
-</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="I-l1">
-        <a name="I"></a><a name="link_I"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="I-r1">9. </span><a name="link_I"></a>Frecuencia de la difusión</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R30-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R30-r1">R30</span>
-        <a name="link_R30">Frecuencia de la difusión</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R30-r2">Anual, Trimestral</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="J-l1">
-        <a name="J"></a><a name="link_J"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="J-r1">10. </span><a name="link_J"></a>Formato de difusión</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R31-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R31-r1">R31</span>
-        <a name="link_R31">Comunicados</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R31-r2"><p>Sí<br>
-- Movimiento Natural de Población<br>
-http://www.juntadeandalucia.es/institutodeestadisticaycartografia/mnp/index.htm<br>
-- Estadísticas de Mortalidad de Andalucía. Defunciones en Andalucía<br>
-http://www.juntadeandalucia.es/institutodeestadisticaycartografia/ema/index.htm<br>
-- Estadística de nombres de los recién nacidos andaluces<br>
-http://www.juntadeandalucia.es/institutodeestadisticaycartografia/estnombres/index.htm</p>
-</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R32-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R32-r1">R32</span>
-        <a name="link_R32">Publicaciones</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R32-r2">Movimiento Natural de la Población, Estadísticas de mortalidad por causas de Andalucía, Estadística de nombres de recién nacidos andaluces</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R33-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R33-r1">R33</span>
-        <a name="link_R33">Base de datos online</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R33-r2">Esta actividad permite elaborar resultados a medida en el Banco de Datos estadístico de Andalucía (BADEA)</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R34-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R34-r1">R34</span>
-        <a name="link_R34">Acceso a microdatos</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R34-r2">--</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R35-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R35-r1">R35</span>
-        <a name="link_R35">Otros</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R35-r2">--</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="K-l1">
-        <a name="K"></a><a name="link_K"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="K-r1">11. </span><a name="link_K"></a>Accesibilidad de la documentación</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R36-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R36-r1">R36</span>
-        <a name="link_R36">Documentación sobre metodología</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R36-r2">La memoria técnica está disponible en Internet en el apartado Metodología</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R37-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R37-r1">R37</span>
-        <a name="link_R37">Documentación sobre calidad</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R37-r2">El IECA para garantizar la calidad en esta actividad aporta la memoria técnica, la ficha de indicadores de calidad y el informe metodológico estandarizado de la actividad</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="L-l1">
-        <a name="L"></a><a name="link_L"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="L-r1">12. </span><a name="link_L"></a>Gestión de la calidad</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R38-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R38-r1">R38</span>
-        <a name="link_R38">Garantía de calidad</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R38-r2">Antes de publicar cualquier información, se efectúan controles de depuración y validación de la información. Si en el momento de realizar las publicaciones provisionales (trimestrales o anuales) no es posible recuperar alguna de las variables, sus valores se clasifican como “No consta”. Las publicaciones anuales definitivas se hacen en base a los ficheros recibidos del INE y éstos ya están imputados por su parte</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R39-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R39-r1">R39</span>
-        <a name="link_R39">Evaluación de calidad</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R39-r2">Se ha elaborado una ficha de calidad y está disponible en Internet en el apartado Metodología</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="M-l1">
-        <a name="M"></a><a name="link_M"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="M-r1">13. </span><a name="link_M"></a>Relevancia</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R40-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R40-r1">R40</span>
-        <a name="link_R40">Usuarios</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R40-r2">Investigadores, alumnado de enseñanzas medias y Universidad, periodistas, organizaciones  empresariales y sindicales, Administración</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R41-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R41-r1">R41</span>
-        <a name="link_R41">Satisfacción del usuario</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R41-r2">--</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R42-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R42-r1">R42</span>
-        <a name="link_R42">Exhaustividad</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R42-r2">Se trata de una actividad con recogida de información mediante censo, por lo que la actividad el grado de cobertura de la población objeto de estudio es total</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="N-l1">
-        <a name="N"></a><a name="link_N"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="N-r1">14. </span><a name="link_N"></a>Exactitud y fiabilidad</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R43-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R43-r1">R43</span>
-        <a name="link_R43">Exactitud global</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R43-r2">Esta actividad es fiable ya que ya que la información es extraída directamente de los Registros Cilviles donde se registra cada evento</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R44-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R44-r1">R44</span>
-        <a name="link_R44">Errores de muestreo</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R44-r2">--</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R45-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R45-r1">R45</span>
-        <a name="link_R45">Errores ajenos al muestreo</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R45-r2">Una primera restricción importante en la fase de mejora de la calidad de la información, tras los procesos de depuración y validación, hace referencia a la comunicación con las oficinas del registro civil. Esta comunicación hasta ahora no es electrónica, debe ser o bien escrita mediante correo postal, o bien telefónica o bien presencial. Además el conjunto de oficinas es numeroso, lo que agudiza el problema de contactar con las mismas</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="O-l1">
-        <a name="O"></a><a name="link_O"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="O-r1">15. </span><a name="link_O"></a>Oportunidad y puntualidad</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R46-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R46-r1">R46</span>
-        <a name="link_R46">Oportunidad</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R46-r2">343 días para el producto Movimiento natual de la población, 330 días para el producto Estadísticas de mortalidad por causas en Andalucía y 193 días para el producto Estadística de nombres de los recién nacidos andaluces</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R47-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R47-r1">R47</span>
-        <a name="link_R47">Puntualidad</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R47-r2">0 días</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="P-l1">
-        <a name="P"></a><a name="link_P"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="P-r1">16. </span><a name="link_P"></a>Comparabilidad</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R48-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R48-r1">R48</span>
-        <a name="link_R48">Comparabilidad geográfica</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R48-r2">Casi todas las Comunidades Autónomas, al igual que en Andalucía, incluyen entre sus actividades estadísticas la Estadística de Movimiento Natural de Población para su ámbito territorial. Así por ejemplo, la Comunidad de Cataluña la incluye en su Ley 13/2010, de 21 de mayo, del Plan estadístico de Cataluña 2011-2014</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R49-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R49-r1">R49</span>
-        <a name="link_R49">Comparabilidad temporal</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R49-r2">Existen series históricas desde el año 1984, pero los datos con mayor desagregación son desde el año 1996 y son comparables porque no ha habido ruptura en la serie</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="Q-l1">
-        <a name="Q"></a><a name="link_Q"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="Q-r1">17. </span><a name="link_Q"></a>Coherencia</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R50-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R50-r1">R50</span>
-        <a name="link_R50">Coherencia - cruce de sectores</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R50-r2">La información es coherente con la obtenida en otras fuentes o sectores</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R51-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R51-r1">R51</span>
-        <a name="link_R51">Coherencia - interna</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R51-r2">La coherencia interna se garantiza a través de diversas validaciones realizadas antes de la publicación de los datos</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="R-l1">
-        <a name="R"></a><a name="link_R"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="R-r1">18. </span><a name="link_R"></a>Costes y carga</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R52-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R52-r1">R52</span>
-        <a name="link_R52">Costes y carga</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R52-r2">41.000,00€</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="S-l1">
-        <a name="S"></a><a name="link_S"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="S-r1">19. </span><a name="link_S"></a>Revisión de los datos</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R53-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R53-r1">R53</span>
-        <a name="link_R53">Revisión de datos - política</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R53-r2">Los datos trimestrales tienen carácter provisional y pretenden ofrecer un adelanto de la tendencia de los fenómenos demográficos en el trimestre correspondiente. Los datos anuales, a su vez tienen una componente provisional y otra definitiva</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R54-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R54-r1">R54</span>
-        <a name="link_R54">Revisión de datos - práctica</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R54-r2">Los datos trimestrales tienen carácter provisional y pretenden ofrecer un adelanto de la tendencia de los fenómenos demográficos en el trimestre correspondiente. Los datos anuales, a su vez tienen una componente provisional y otra definitiva</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="T-l1">
-        <a name="T"></a><a name="link_T"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="T-r1">20. </span><a name="link_T"></a>Tratamiento estadístico</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R55-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R55-r1">R55</span>
-        <a name="link_R55">Datos de origen</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R55-r2">Observación directa</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R56-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R56-r1">R56</span>
-        <a name="link_R56">Frecuencia de la recogida de datos</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R56-r2">Mensual</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R57-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R57-r1">R57</span>
-        <a name="link_R57">Recopilación de datos</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R57-r2"><p style="text-align:justify">Los datos se recogen en los correspondientes boletines: Boletín Estadístico de Partos (BEP), Boletín Estadístico de Matrimonios (BEM) y Certificado Médico de Defunción/Boletín Estadístico de Defunción (BED) que se encuentran en los Registros Civiles y que para tal efecto edita el Instituto Nacional de Estadística, siendo éste el sujeto informante de esta actividad. El tipo de recogida de información se establece como censo, ya que se registran la totalidad de los acontecimientos objeto de esta actividad.<br>
-Estos boletines Estadísticos inscritos durante un mes en la oficina municipal del Registro Civil, son enviados a las delegaciones provinciales del INE. En éstas, la información se almacena en base de datos gracias al escaneado de los boletines mediante equipos dotados de reconocimiento óptico de caracteres. Un equipo de grabadores en cada delegación realiza una primera depuración de la información almacenada, corrigiendo un conjunto de errores que el lector óptico haya podido cometer.</p>
-</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R58-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R58-r1">R58</span>
-        <a name="link_R58">Validación de datos</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R58-r2"><p style="text-align:justify">Un equipo de grabadores en cada delegación realiza una primera depuración de la información almacenada, corrigiendo un conjunto de errores que el lector óptico haya podido cometer. Posteriormente y de forma mensual, las delegaciones del INE de las distintas provincias envían en soporte DVD al IECA la información sobre estos eventos en lo que se denominan lotes. La información recibida es almacenada en la base de datos del IECA y gestionada por una aplicación informática. Dicha aplicación tiene implementados diversos controles de depuración y validación de la información</p>
-</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R59-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R59-r1">R59</span>
-        <a name="link_R59">Compilación de los datos</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R59-r2"><p style="text-align:justify">Existe una única aplicación que gestiona las estadísticas de nacimientos, matrimonios y defunciones, aunque el tratamiento de los diferentes eventos es distinto e independiente. Los boletines estadísticos de defunción tienen un tratamiento especial ya que hay que añadirles además la causa de defunción. Una vez cargada la información contenida en los soportes magnéticos en la base de datos, se somete a una serie de procesos básicos, como la grabación de la causa de la muerte, controles de consistencia y<br>
-exhaustividad, etc. Tras la depuración de los ficheros, se ejecutan un conjunto de reglas de validación.<br>
-Aquellos valores de variables que deben tener un valor válido y que tras los procesos de validación y depuración siguen tomando valores imposibles o están en blanco, son imputados pero por el INE, tras recibir el fichero anual de la comunidad autónoma de Andalucía.</p>
-</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R60-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R60-r1">R60</span>
-        <a name="link_R60">Ajuste</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R60-r2">--</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="U-l1">
-        <a name="U"></a><a name="link_U"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="U-r1">21. </span><a name="link_U"></a>Observaciones</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R61-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R61-r1">R61</span>
-        <a name="link_R61">Observaciones</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R61-r2">--</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-  </p>
-  </div>
-</div>
-
-</body></html > 
+</body> 

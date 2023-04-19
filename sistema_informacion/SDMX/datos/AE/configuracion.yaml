@@ -1,53 +1,54 @@
 NOMBRE: AE
 categoria: POP_MIGRATION
-subcategoria: Andaluces en el Exterior
 grupos_consultas:
-  Andaluces residentes en el resto de España:
-    id: '1'
-    consultas:
-    - '437'
-  Andaluces Residentes en el Resto de España:
-    id: '2'
+  "Andaluces Residentes en el Resto de Espa\xF1a":
     consultas:
     - '439'
+    id: '2'
+  "Andaluces residentes en el resto de Espa\xF1a":
+    consultas:
+    - '437'
+    id: '1'
   Andaluces residentes en el resto del mundo:
-    id: '3'
     consultas:
     - '454'
     - '455'
     - '1915'
-  Población residente en el resto del mundo:
-    id: '4'
+    id: '3'
+  "Poblaci\xF3n residente en el resto del mundo":
     consultas:
     - '1917'
-variables:
-- SEXO
-- TERRITORIO
-- LUGARNACIMIEN
-- EDAD
-- TERRITORIO_1
-- ARE_INSCRIPCION
+    id: '4'
+is_alphanumeric: false
+metadatos_subtitle:
+  '1915': "Poblaci\xF3n nacida en Andaluc\xEDa por provincia de nacimiento y lugar\
+    \ de inscripci\xF3n seg\xFAn sexo *"
+  '1917': "Nuevas inscripciones por lugar de inscripci\xF3n * y lugar de nacimiento\
+    \ seg\xFAn sexo **"
+  '437': "Andaluces residentes en el resto de Espa\xF1a por comunidad aut\xF3noma\
+    \ de residencia y provincia de nacimiento seg\xFAn sexo *"
+  '439': "Andaluces residentes en el resto de Espa\xF1a por grupos de edad y provincia\
+    \ de nacimiento seg\xFAn sexo *"
+  '454': "Poblaci\xF3n inscrita en Andaluc\xEDa por provincia de inscripci\xF3n y\
+    \ lugar de nacimiento seg\xFAn sexo *"
+  '455': "Poblaci\xF3n inscrita en Andaluc\xEDa por continente/pa\xEDs de residencia,\
+    \ lugar de nacimiento seg\xFAn provincia de inscripci\xF3n y sexo *"
 metadatos_title:
-  '437': Andaluces residentes en el resto de España
-  '439': Andaluces Residentes en el Resto de España
+  '1915': Andaluces residentes en el resto del mundo
+  '1917': "Poblaci\xF3n residente en el resto del mundo"
+  '437': "Andaluces residentes en el resto de Espa\xF1a"
+  '439': "Andaluces Residentes en el Resto de Espa\xF1a"
   '454': Andaluces residentes en el resto del mundo
   '455': Andaluces residentes en el resto del mundo
-  '1915': Andaluces residentes en el resto del mundo
-  '1917': Población residente en el resto del mundo
-metadatos_subtitle:
-  '437': Andaluces residentes en el resto de España por comunidad autónoma de residencia
-    y provincia de nacimiento según sexo *
-  '439': Andaluces residentes en el resto de España por grupos de edad y provincia
-    de nacimiento según sexo *
-  '454': Población inscrita en Andalucía por provincia de inscripción y lugar de nacimiento
-    según sexo *
-  '455': Población inscrita en Andalucía por continente/país de residencia, lugar
-    de nacimiento según provincia de inscripción y sexo *
-  '1915': Población nacida en Andalucía por provincia de nacimiento y lugar de inscripción
-    según sexo *
-  '1917': Nuevas inscripciones por lugar de inscripción * y lugar de nacimiento según
-    sexo **
 periodicidad:
+  '1915':
+    frecuencia: Anual
+    validFrom: '2009-01-01'
+    validTo: '2022-12-31'
+  '1917':
+    frecuencia: Anual
+    validFrom: '2016-01-01'
+    validTo: '2022-12-31'
   '437':
     frecuencia: Anual
     validFrom: '1998-01-01'
@@ -64,11 +65,11 @@ periodicidad:
     frecuencia: Anual
     validFrom: '2009-01-01'
     validTo: '2022-12-31'
-  '1915':
-    frecuencia: Anual
-    validFrom: '2009-01-01'
-    validTo: '2022-12-31'
-  '1917':
-    frecuencia: Anual
-    validFrom: '2016-01-01'
-    validTo: '2022-12-31'
+subcategoria: Andaluces en el Exterior
+variables:
+- SEXO
+- TERRITORIO
+- LUGARNACIMIEN
+- EDAD
+- TERRITORIO_1
+- ARE_INSCRIPCION

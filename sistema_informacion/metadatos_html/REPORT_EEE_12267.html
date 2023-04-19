@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-                    <head>
-                        <meta http-equiv="Content-Type" content="text/html; charset=charset=utf-8">
-                        <style type="text/css">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<style type="text/css">
                             
 							#introtable {
 								display:none;
@@ -150,66 +151,58 @@
                               color: #333;
                             }
                         </style>
-                    </head > <body id="report-body" onload="renderData()">
+</head> <body id="report-body" onload="renderData()">
 <div class="container-fluid">
-  
-
-  <div class="row">
-    <div class="col-1">
-      <div id="header-img-catalog">
-        <img src="https://i.ibb.co/0CKYfG3/Statkit-mini.png" style="width:47px; 
-		height: 47px;">
-      </div>
-    </div>
-    <div class="col-10">
-      <div id="header-title-catalog" class="Cl-Header-Title-Catalog"></div>
-    </div>
-	
-    <div class="col-1" style="visibilty:hidden">
-      <div style="float: right;visibility:hidden;">
-        <button type="button" class="btn btn-default Cl-dropdown-menu Cl-flag-btn" style="min-width: 70px;text-align: center;float: right;" data-toggle="dropdown">
-          <div id="spa-language-en" style="display: none;"><i style="width: 1.3em;height: 1em;display: inline-block;margin-right:8px;vertical-align: middle;"></i><i class="caret"></i></div>
-		  <div id="spa-language-es" style="display: block;"><i style="width: 1.3em;height: 1em;display: inline-block;margin-right:8px;vertical-align: middle;"></i><i class="caret"></i></div> 
-        </button>
-        <ul class="dropdown-menu Cl-dropdown-menu" role="menu">
-          <li><a href="#" onclick="changeLanguageMenuIcon('en')">English</a></li>
-		  <li><a href="#" onclick="changeLanguageMenuIcon('es')">Español</a></li>
-
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="row">
-    <p class="col-12" id="target">
-    <table class="Cl-TitleTable" id="introtable">
-      <tbody><tr>
-        <td><b>ID</b>: REPORT_EEE_12267</td>
-      </tr>
-      <tr>
-        <td><b>Target</b>: MetadataTarget</td>
-      </tr>
-      <tr id="tr-span-DATAFLOW"><td><b>Dataflow</b>: <span id="span-DATAFLOW">DF_EEE_12267</span></td></tr>
-    </tbody></table>
-    <br>
-    <table class="Cl-MainTable">
-      <tbody>
-      <tr>
-        <td>
-          <table class="Cl-SummaryTable">
-            <tbody>
-            <tr>
-             <td class="Cl-TitleSummary">Metadata</td>
-            </tr>
-            <tr>
-              <td class="Cl-SubTitleSummary"><b>Reference metadata</b></td>
-            </tr>
-            <tr>
-              <td class="Cl-SummaryItem">
-                <span id="A-h1">1.</span>
-                <a class="Cl-SummaryItemLink" href="#link_A">Contacto</a> <br>
-
-                <!--
+<div class="row">
+<div class="col-1">
+<div id="header-img-catalog">
+<img src="https://i.ibb.co/0CKYfG3/Statkit-mini.png" style="width:47px; 
+		height: 47px;"/>
+</div>
+</div>
+<div class="col-10">
+<div class="Cl-Header-Title-Catalog" id="header-title-catalog"></div>
+</div>
+<div class="col-1" style="visibilty:hidden">
+<div style="float: right;visibility:hidden;">
+<button class="btn btn-default Cl-dropdown-menu Cl-flag-btn" data-toggle="dropdown" style="min-width: 70px;text-align: center;float: right;" type="button">
+<div id="spa-language-en" style="display: none;"><i style="width: 1.3em;height: 1em;display: inline-block;margin-right:8px;vertical-align: middle;"></i><i class="caret"></i></div>
+<div id="spa-language-es" style="display: block;"><i style="width: 1.3em;height: 1em;display: inline-block;margin-right:8px;vertical-align: middle;"></i><i class="caret"></i></div>
+</button>
+<ul class="dropdown-menu Cl-dropdown-menu" role="menu">
+<li><a href="#" onclick="changeLanguageMenuIcon('en')">English</a></li>
+<li><a href="#" onclick="changeLanguageMenuIcon('es')">Español</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row">
+<p class="col-12" id="target">
+<table class="Cl-TitleTable" id="introtable">
+<tbody><tr>REPORT_EEE_12267</tr>
+<tr>
+<td><b>Target</b>: MetadataTarget</td>
+</tr>
+<tr id="tr-span-DATAFLOW"><td><b>Dataflow</b>: <span id="span-DATAFLOW">DF_EEE_12267</span></td></tr>
+</tbody></table>
+<br/>
+<table class="Cl-MainTable">
+<tbody>
+<tr>
+<td>
+<table class="Cl-SummaryTable">
+<tbody>
+<tr>
+<td class="Cl-TitleSummary">Metadata</td>
+</tr>
+<tr>
+<td class="Cl-SubTitleSummary"><b>Reference metadata</b></td>
+</tr>
+<tr>
+<td class="Cl-SummaryItem">
+<span id="A-h1">1.</span>
+<a class="Cl-SummaryItemLink" href="#link_A">Contacto</a> <br/>
+<!--
     <a id="R1-i1" class="Cl-SummaryItemLink" href="#link_R1">Organización de contacto</a>
     <br>
     <a id="R2-i1" class="Cl-SummaryItemLink" href="#link_R2">Unidad de organización de contacto</a>
@@ -227,10 +220,9 @@
     <a id="R8-i1" class="Cl-SummaryItemLink" href="#link_R8">Número de fax de contacto</a>
     <br>
   -->
-                <span id="B-h1">2.</span>
-                <a class="Cl-SummaryItemLink" href="#link_B">Actualización de metadatos</a> <br>
-
-                <!--
+<span id="B-h1">2.</span>
+<a class="Cl-SummaryItemLink" href="#link_B">Actualización de metadatos</a> <br/>
+<!--
     <a id="R9-i1" class="Cl-SummaryItemLink" href="#link_R9">Última certificación de metadatos</a>
     <br>
     <a id="R10-i1" class="Cl-SummaryItemLink" href="#link_R10">Última difusión de metadatos</a>
@@ -238,10 +230,9 @@
     <a id="R11-i1" class="Cl-SummaryItemLink" href="#link_R11">Última actualización de metadatos</a>
     <br>
   -->
-                <span id="C-h1">3.</span>
-                <a class="Cl-SummaryItemLink" href="#link_C">Presentación estadística</a> <br>
-
-                <!--
+<span id="C-h1">3.</span>
+<a class="Cl-SummaryItemLink" href="#link_C">Presentación estadística</a> <br/>
+<!--
     <a id="R12-i1" class="Cl-SummaryItemLink" href="#link_R12">Descripción de los datos</a>
     <br>
     <a id="R13-i1" class="Cl-SummaryItemLink" href="#link_R13">Sistema de clasificación</a>
@@ -261,42 +252,37 @@
     <a id="R20-i1" class="Cl-SummaryItemLink" href="#link_R20">Período base</a>
     <br>
   -->
-                <span id="D-h1">4.</span>
-                <a class="Cl-SummaryItemLink" href="#link_D">Unidad de medida</a> <br>
-
-                <!--
+<span id="D-h1">4.</span>
+<a class="Cl-SummaryItemLink" href="#link_D">Unidad de medida</a> <br/>
+<!--
     <a id="R21-i1" class="Cl-SummaryItemLink" href="#link_R21">Unidad de medida</a>
     <br>
   -->
-                <span id="E-h1">5.</span>
-                <a class="Cl-SummaryItemLink" href="#link_E">Período de referencia</a> <br>
-
-                <!--
+<span id="E-h1">5.</span>
+<a class="Cl-SummaryItemLink" href="#link_E">Período de referencia</a> <br/>
+<!--
     <a id="R22-i1" class="Cl-SummaryItemLink" href="#link_R22">Período de referencia</a>
     <br>
   -->
-                <span id="F-h1">6.</span>
-                <a class="Cl-SummaryItemLink" href="#link_F">Mandato institucional</a> <br>
-
-                <!--
+<span id="F-h1">6.</span>
+<a class="Cl-SummaryItemLink" href="#link_F">Mandato institucional</a> <br/>
+<!--
     <a id="R23-i1" class="Cl-SummaryItemLink" href="#link_R23">Actos jurídicos y otros acuerdos</a>
     <br>
     <a id="R24-i1" class="Cl-SummaryItemLink" href="#link_R24">Intercambio de datos</a>
     <br>
   -->
-                <span id="G-h1">7.</span>
-                <a class="Cl-SummaryItemLink" href="#link_G">Confidencialidad</a> <br>
-
-                <!--
+<span id="G-h1">7.</span>
+<a class="Cl-SummaryItemLink" href="#link_G">Confidencialidad</a> <br/>
+<!--
     <a id="R25-i1" class="Cl-SummaryItemLink" href="#link_R25">Política de confidencialidad</a>
     <br>
     <a id="R26-i1" class="Cl-SummaryItemLink" href="#link_R26">Tratamiento de datos confidenciales</a>
     <br>
   -->
-                <span id="H-h1">8.</span>
-                <a class="Cl-SummaryItemLink" href="#link_H">Política de difusión</a> <br>
-
-                <!--
+<span id="H-h1">8.</span>
+<a class="Cl-SummaryItemLink" href="#link_H">Política de difusión</a> <br/>
+<!--
     <a id="R27-i1" class="Cl-SummaryItemLink" href="#link_R27">Fecha de difusión de resultados</a>
     <br>
     <a id="R28-i1" class="Cl-SummaryItemLink" href="#link_R28">Fecha prevista de difusión de resultados</a>
@@ -304,17 +290,15 @@
     <a id="R29-i1" class="Cl-SummaryItemLink" href="#link_R29">Acceso a los resultados</a>
     <br>
   -->
-                <span id="I-h1">9.</span>
-                <a class="Cl-SummaryItemLink" href="#link_I">Frecuencia de la difusión</a> <br>
-
-                <!--
+<span id="I-h1">9.</span>
+<a class="Cl-SummaryItemLink" href="#link_I">Frecuencia de la difusión</a> <br/>
+<!--
     <a id="R30-i1" class="Cl-SummaryItemLink" href="#link_R30">Frecuencia de la difusión</a>
     <br>
   -->
-                <span id="J-h1">10.</span>
-                <a class="Cl-SummaryItemLink" href="#link_J">Formato de difusión</a> <br>
-
-                <!--
+<span id="J-h1">10.</span>
+<a class="Cl-SummaryItemLink" href="#link_J">Formato de difusión</a> <br/>
+<!--
     <a id="R31-i1" class="Cl-SummaryItemLink" href="#link_R31">Comunicados</a>
     <br>
     <a id="R32-i1" class="Cl-SummaryItemLink" href="#link_R32">Publicaciones</a>
@@ -326,28 +310,25 @@
     <a id="R35-i1" class="Cl-SummaryItemLink" href="#link_R35">Otros</a>
     <br>
   -->
-                <span id="K-h1">11.</span>
-                <a class="Cl-SummaryItemLink" href="#link_K">Accesibilidad de la documentación</a> <br>
-
-                <!--
+<span id="K-h1">11.</span>
+<a class="Cl-SummaryItemLink" href="#link_K">Accesibilidad de la documentación</a> <br/>
+<!--
     <a id="R36-i1" class="Cl-SummaryItemLink" href="#link_R36">Documentación sobre metodología</a>
     <br>
     <a id="R37-i1" class="Cl-SummaryItemLink" href="#link_R37">Documentación sobre calidad</a>
     <br>
   -->
-                <span id="L-h1">12.</span>
-                <a class="Cl-SummaryItemLink" href="#link_L">Gestión de la calidad</a> <br>
-
-                <!--
+<span id="L-h1">12.</span>
+<a class="Cl-SummaryItemLink" href="#link_L">Gestión de la calidad</a> <br/>
+<!--
     <a id="R38-i1" class="Cl-SummaryItemLink" href="#link_R38">Garantía de calidad</a>
     <br>
     <a id="R39-i1" class="Cl-SummaryItemLink" href="#link_R39">Evaluación de calidad</a>
     <br>
   -->
-                <span id="M-h1">13.</span>
-                <a class="Cl-SummaryItemLink" href="#link_M">Relevancia</a> <br>
-
-                <!--
+<span id="M-h1">13.</span>
+<a class="Cl-SummaryItemLink" href="#link_M">Relevancia</a> <br/>
+<!--
     <a id="R40-i1" class="Cl-SummaryItemLink" href="#link_R40">Usuarios</a>
     <br>
     <a id="R41-i1" class="Cl-SummaryItemLink" href="#link_R41">Satisfacción del usuario</a>
@@ -355,10 +336,9 @@
     <a id="R42-i1" class="Cl-SummaryItemLink" href="#link_R42">Exhaustividad</a>
     <br>
   -->
-                <span id="N-h1">14.</span>
-                <a class="Cl-SummaryItemLink" href="#link_N">Exactitud y fiabilidad</a> <br>
-
-                <!--
+<span id="N-h1">14.</span>
+<a class="Cl-SummaryItemLink" href="#link_N">Exactitud y fiabilidad</a> <br/>
+<!--
     <a id="R43-i1" class="Cl-SummaryItemLink" href="#link_R43">Exactitud global</a>
     <br>
     <a id="R44-i1" class="Cl-SummaryItemLink" href="#link_R44">Errores de muestreo</a>
@@ -366,53 +346,47 @@
     <a id="R45-i1" class="Cl-SummaryItemLink" href="#link_R45">Errores ajenos al muestreo</a>
     <br>
   -->
-                <span id="O-h1">15.</span>
-                <a class="Cl-SummaryItemLink" href="#link_O">Oportunidad y puntualidad</a> <br>
-
-                <!--
+<span id="O-h1">15.</span>
+<a class="Cl-SummaryItemLink" href="#link_O">Oportunidad y puntualidad</a> <br/>
+<!--
     <a id="R46-i1" class="Cl-SummaryItemLink" href="#link_R46">Oportunidad</a>
     <br>
     <a id="R47-i1" class="Cl-SummaryItemLink" href="#link_R47">Puntualidad</a>
     <br>
   -->
-                <span id="P-h1">16.</span>
-                <a class="Cl-SummaryItemLink" href="#link_P">Comparabilidad</a> <br>
-
-                <!--
+<span id="P-h1">16.</span>
+<a class="Cl-SummaryItemLink" href="#link_P">Comparabilidad</a> <br/>
+<!--
     <a id="R48-i1" class="Cl-SummaryItemLink" href="#link_R48">Comparabilidad geográfica</a>
     <br>
     <a id="R49-i1" class="Cl-SummaryItemLink" href="#link_R49">Comparabilidad temporal</a>
     <br>
   -->
-                <span id="Q-h1">17.</span>
-                <a class="Cl-SummaryItemLink" href="#link_Q">Coherencia</a> <br>
-
-                <!--
+<span id="Q-h1">17.</span>
+<a class="Cl-SummaryItemLink" href="#link_Q">Coherencia</a> <br/>
+<!--
     <a id="R50-i1" class="Cl-SummaryItemLink" href="#link_R50">Coherencia - cruce de sectores</a>
     <br>
     <a id="R51-i1" class="Cl-SummaryItemLink" href="#link_R51">Coherencia - interna</a>
     <br>
   -->
-                <span id="R-h1">18.</span>
-                <a class="Cl-SummaryItemLink" href="#link_R">Costes y carga</a> <br>
-
-                <!--
+<span id="R-h1">18.</span>
+<a class="Cl-SummaryItemLink" href="#link_R">Costes y carga</a> <br/>
+<!--
     <a id="R52-i1" class="Cl-SummaryItemLink" href="#link_R52">Costes y carga</a>
     <br>
   -->
-                <span id="S-h1">19.</span>
-                <a class="Cl-SummaryItemLink" href="#link_S">Revisión de los datos</a> <br>
-
-                <!--
+<span id="S-h1">19.</span>
+<a class="Cl-SummaryItemLink" href="#link_S">Revisión de los datos</a> <br/>
+<!--
     <a id="R53-i1" class="Cl-SummaryItemLink" href="#link_R53">Revisión de datos - política</a>
     <br>
     <a id="R54-i1" class="Cl-SummaryItemLink" href="#link_R54">Revisión de datos - práctica</a>
     <br>
   -->
-                <span id="T-h1">20.</span>
-                <a class="Cl-SummaryItemLink" href="#link_T">Tratamiento estadístico</a> <br>
-
-                <!--
+<span id="T-h1">20.</span>
+<a class="Cl-SummaryItemLink" href="#link_T">Tratamiento estadístico</a> <br/>
+<!--
     <a id="R55-i1" class="Cl-SummaryItemLink" href="#link_R55">Datos de origen</a>
     <br>
     <a id="R56-i1" class="Cl-SummaryItemLink" href="#link_R56">Frecuencia de la recogida de datos</a>
@@ -426,1283 +400,1077 @@
     <a id="R60-i1" class="Cl-SummaryItemLink" href="#link_R60">Ajuste</a>
     <br>
   -->
-                <span id="U-h1">21.</span>
-                <a class="Cl-SummaryItemLink" href="#link_U">Observaciones</a> <br>
-
-                <!--
+<span id="U-h1">21.</span>
+<a class="Cl-SummaryItemLink" href="#link_U">Observaciones</a> <br/>
+<!--
     <a id="R61-i1" class="Cl-SummaryItemLink" href="#link_R61">Observaciones</a>
     <br>
   -->
-              </td>
-            </tr>
-            </tbody>
-          </table>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <br>
-          <a class="Cl-DownloadReportLink" id="download-report-button"></a>
-        </td>
-      </tr>
-      </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="A-l1">
-        <a name="A"></a><a name="link_A"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="A-r1">1. </span><a name="link_A"></a>Contacto</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R1-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R1-r1">R1</span>
-        <a name="link_R1">Organización de contacto</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R1-r2">Instituto de Estadística y Cartografía de Andalucía</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R2-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R2-r1">R2</span>
-        <a name="link_R2">Unidad de organización de contacto</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R2-r2">Servicio de Difusión y Publicaciones</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R3-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R3-r1">R3</span>
-        <a name="link_R3">Nombre de contacto</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R3-r2">--</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R4-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R4-r1">R4</span>
-        <a name="link_R4">Función de la persona de contacto</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R4-r2">Atención a la demanda de información</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R5-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R5-r1">R5</span>
-        <a name="link_R5">Dirección postal de contacto</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R5-r2">Pabellón de Nueva Zelanda. C/ Leonardo da Vinci, nº 21. Isla de la Cartuja. 41041 Sevilla</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R6-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R6-r1">R6</span>
-        <a name="link_R6">Dirección de correo electrónico de contacto</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R6-r2">informacion.ieca@juntadeandalucia.es</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R7-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R7-r1">R7</span>
-        <a name="link_R7">Número de teléfono de contacto</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R7-r2">Atención al público: 900 101 407 Centralita: 955 033 800</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R8-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R8-r1">R8</span>
-        <a name="link_R8">Número de fax de contacto</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R8-r2">955 033 816/17</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="B-l1">
-        <a name="B"></a><a name="link_B"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="B-r1">2. </span><a name="link_B"></a>Actualización de metadatos</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R9-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R9-r1">R9</span>
-        <a name="link_R9">Última certificación de metadatos</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R9-r2">--</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R10-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R10-r1">R10</span>
-        <a name="link_R10">Última difusión de metadatos</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R10-r2">09/05/2018</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R11-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R11-r1">R11</span>
-        <a name="link_R11">Última actualización de metadatos</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R11-r2">09/05/2018</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="C-l1">
-        <a name="C"></a><a name="link_C"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="C-r1">3. </span><a name="link_C"></a>Presentación estadística</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R12-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R12-r1">R12</span>
-        <a name="link_R12">Descripción de los datos</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R12-r2">Se estudia la actividad empresarial del sector Comercio en el ámbito de la Comunidad Autónoma de Andalucía.</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R13-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R13-r1">R13</span>
-        <a name="link_R13">Sistema de clasificación</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R13-r2">La Clasificación Nacional de Actividades Económicas (CNAE-2009).</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R14-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R14-r1">R14</span>
-        <a name="link_R14">Cobertura por sectores</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R14-r2"><p>Se estudian las siguientes agrupaciones de la Clasificación Nacional de Actividades Económicas (CNAE-2009):<br>
-B: Industrias extractivas<br>
-C: Industrias manufactureras<br>
-D: Suministro de energía eléctrica, gas, vapor y aire acondicionado<br>
-E: Suministro de agua, actividades de saneamiento, gestión de residuos y descontaminación<br>
-G: Comercio al por mayor y al por menor; reparación de vehículos de motor y motocicletas<br>
-H: Transporte y almacenamiento<br>
-I: Hostelería<br>
-J: Información y Comunicaciones<br>
-L: Actividades Inmobiliarias<br>
-M: Actividades profesionales, científicas, y técnicas.<br>
-N: Actividades administrativas y servicios auxiliares<br>
-R: Actividades artísticas, recreativas y de entretenimiento<br>
-S: Otros servicios. De esta sección de actividad no se estudian las actividades asociativas (división 94 de la CNAE2009).</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<br/>
+<a class="Cl-DownloadReportLink" id="download-report-button"></a>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="A-l1">
+<a name="A"></a><a name="link_A"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="A-r1">1. </span><a name="link_A"></a>Contacto</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R1-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R1-r1">R1</span>
+<a name="link_R1">Organización de contacto</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R1-r2">Instituto%20de%20Estad%C3%ADstica%20y%20Cartograf%C3%ADa%20de%20Andaluc%C3%ADa</div>
+</td>
+</tr>
+<tr id="R2-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R2-r1">R2</span>
+<a name="link_R2">Unidad de organización de contacto</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R2-r2">Servicio%20de%20Difusi%C3%B3n%20y%20Publicaciones</div>
+</td>
+</tr>
+<tr id="R3-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R3-r1">R3</span>
+<a name="link_R3">Nombre de contacto</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R3-r2">--</div>
+</td>
+</tr>
+<tr id="R4-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R4-r1">R4</span>
+<a name="link_R4">Función de la persona de contacto</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R4-r2">Atenci%C3%B3n%20a%20la%20demanda%20de%20informaci%C3%B3n</div>
+</td>
+</tr>
+<tr id="R5-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R5-r1">R5</span>
+<a name="link_R5">Dirección postal de contacto</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R5-r2">Pabell%C3%B3n%20de%20Nueva%20Zelanda.%20C%2F%20Leonardo%20da%20Vinci%2C%20n%C2%BA%2021.%20Isla%20de%20la%20Cartuja.%2041041%20Sevilla</div>
+</td>
+</tr>
+<tr id="R6-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R6-r1">R6</span>
+<a name="link_R6">Dirección de correo electrónico de contacto</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R6-r2">informacion.ieca%40juntadeandalucia.es</div>
+</td>
+</tr>
+<tr id="R7-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R7-r1">R7</span>
+<a name="link_R7">Número de teléfono de contacto</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R7-r2">Atenci%C3%B3n%20al%20p%C3%BAblico%3A%20900%20101%20407%20Centralita%3A%20955%20033%20800</div>
+</td>
+</tr>
+<tr id="R8-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R8-r1">R8</span>
+<a name="link_R8">Número de fax de contacto</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R8-r2">955%20033%20816%2F17</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="B-l1">
+<a name="B"></a><a name="link_B"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="B-r1">2. </span><a name="link_B"></a>Actualización de metadatos</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R9-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R9-r1">R9</span>
+<a name="link_R9">Última certificación de metadatos</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R9-r2">--</div>
+</td>
+</tr>
+<tr id="R10-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R10-r1">R10</span>
+<a name="link_R10">Última difusión de metadatos</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R10-r2">09%2F05%2F2018</div>
+</td>
+</tr>
+<tr id="R11-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R11-r1">R11</span>
+<a name="link_R11">Última actualización de metadatos</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R11-r2">09%2F05%2F2018</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="C-l1">
+<a name="C"></a><a name="link_C"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="C-r1">3. </span><a name="link_C"></a>Presentación estadística</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R12-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R12-r1">R12</span>
+<a name="link_R12">Descripción de los datos</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R12-r2">Se%20estudia%20la%20actividad%20empresarial%20del%20sector%20Comercio%20en%20el%20%C3%A1mbito%20de%20la%20Comunidad%20Aut%C3%B3noma%20de%20Andaluc%C3%ADa.</div>
+</td>
+</tr>
+<tr id="R13-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R13-r1">R13</span>
+<a name="link_R13">Sistema de clasificación</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R13-r2">La%20Clasificaci%C3%B3n%20Nacional%20de%20Actividades%20Econ%C3%B3micas%20(CNAE-2009).</div>
+</td>
+</tr>
+<tr id="R14-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R14-r1">R14</span>
+<a name="link_R14">Cobertura por sectores</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R14-r2">%3Cp%3ESe%20estudian%20las%20siguientes%20agrupaciones%20de%20la%20Clasificaci%26oacute%3Bn%20Nacional%20de%20Actividades%20Econ%26oacute%3Bmicas%20(CNAE-2009)%3A%3Cbr%20%2F%3E%0AB%3A%20Industrias%20extractivas%3Cbr%20%2F%3E%0AC%3A%20Industrias%20manufactureras%3Cbr%20%2F%3E%0AD%3A%20Suministro%20de%20energ%26iacute%3Ba%20el%26eacute%3Bctrica%2C%20gas%2C%20vapor%20y%20aire%20acondicionado%3Cbr%20%2F%3E%0AE%3A%20Suministro%20de%20agua%2C%20actividades%20de%20saneamiento%2C%20gesti%26oacute%3Bn%20de%20residuos%20y%20descontaminaci%26oacute%3Bn%3Cbr%20%2F%3E%0AG%3A%20Comercio%20al%20por%20mayor%20y%20al%20por%20menor%3B%20reparaci%26oacute%3Bn%20de%20veh%26iacute%3Bculos%20de%20motor%20y%20motocicletas%3Cbr%20%2F%3E%0AH%3A%20Transporte%20y%20almacenamiento%3Cbr%20%2F%3E%0AI%3A%20Hosteler%26iacute%3Ba%3Cbr%20%2F%3E%0AJ%3A%20Informaci%26oacute%3Bn%20y%20Comunicaciones%3Cbr%20%2F%3E%0AL%3A%20Actividades%20Inmobiliarias%3Cbr%20%2F%3E%0AM%3A%20Actividades%20profesionales%2C%20cient%26iacute%3Bficas%2C%20y%20t%26eacute%3Bcnicas.%3Cbr%20%2F%3E%0AN%3A%20Actividades%20administrativas%20y%20servicios%20auxiliares%3Cbr%20%2F%3E%0AR%3A%20Actividades%20art%26iacute%3Bsticas%2C%20recreativas%20y%20de%20entretenimiento%3Cbr%20%2F%3E%0AS%3A%20Otros%20servicios.%20De%20esta%20secci%26oacute%3Bn%20de%20actividad%20no%20se%20estudian%20las%20actividades%20asociativas%20(divisi%26oacute%3Bn%2094%20de%20la%20CNAE2009).%3C%2Fp%3E%0A</div>
+</td>
+</tr>
+<tr id="R15-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R15-r1">R15</span>
+<a name="link_R15">Definiciones y conceptos</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R15-r2">%3Cp%20style%3D%22text-align%3Ajustify%22%3E-%20Se%20define%20actividad%20econ%26oacute%3Bmica%20la%20realizada%20por%20una%20empresa%20para%20la%20creaci%26oacute%3Bn%20de%20valor%20a%26ntilde%3Badido%20mediante%20la%20producci%26oacute%3Bn%20de%20bienes%20y%20servicios.%20Las%20actividades%20desarrolladas%20por%20una%20unidad%20econ%26oacute%3Bmica%20pueden%20ser%20de%20tres%20tipos%3A%20actividad%20principal%2C%20secundarias%20y%20auxiliares.%20Se%20considera%20como%20actividad%20principal%20aqu%26eacute%3Blla%20que%20genera%20mayor%20volumen%20de%20negocio%20o%2C%20en%20su%20defecto%2C%20la%20que%20emplee%20un%20mayor%20n%26uacute%3Bmero%20de%20personas%20ocupadas.%3Cbr%20%2F%3E%0A-%20Personal%20no%20remunerado%3A%20constituido%20por%20las%20personas%20empleadas%20que%20dirigen%20o%20participa%20activamente%20en%20los%20trabajos%20de%20la%20empresa%20sin%20percibir%20una%20remuneraci%26oacute%3Bn%20fija%20o%20salario.%3Cbr%20%2F%3E%0A-%20Personal%20remunerado%3A%20est%26aacute%3B%20formado%20por%20los%20trabajadores%20ligados%20a%20la%20empresa%20por%20un%20contrato%20de%20trabajo%20y%20que%20son%20retribuidos%20-%20Cifra%20de%20negocios%3A%20comprende%20los%20importes%20facturados%20por%20la%20empresa%20durante%20el%20a%26ntilde%3Bo%20de%20referencia%20por%20prestaci%26oacute%3Bn%20de%20servicios%20y%20ventas%20de%20bienes%20que%20son%20objeto%20del%20tr%26aacute%3Bfico%20de%20la%20empresa.%20Las%20ventas%20se%20contabilizan%20sin%20incluir%20el%20IVA%20repercutido%20al%20cliente.%3Cbr%20%2F%3E%0A-%20Trabajos%20realizados%20por%20la%20empresa%20para%20su%20activo.%20Son%20los%20efectuados%20por%20la%20empresa%20para%20su%20inmovilizado%2C%20utilizando%20sus%20equipos%20y%20su%20personal%2C%20que%20se%20activan.%20Tambi%26eacute%3Bn%20se%20contabilizan%20es%20este%20subgrupo%20los%20realizados%2C%20mediante%20encargo%2C%20por%20otras%20empresas%20con%20finalidad%20de%20investigaci%26oacute%3Bn%20y%20desarrollo.%3Cbr%20%2F%3E%0A-%20Compras%20netas%20de%20mercader%26iacute%3Bas.%20Importe%20neto%20de%20los%20bienes%20adquiridos%20por%20la%20empresa%20para%20revenderlos%20en%20el%20mismo%20estado%20en%20que%20se%20adquieren%20sin%20someterlos%20a%20transformaci%26oacute%3Bn.%3Cbr%20%2F%3E%0A-%20Compras%20netas%20de%20materias%20primas.%20Valor%20neto%20de%20los%20bienes%20adquiridos%20para%20su%20transformaci%26oacute%3Bn%20durante%20el%20proceso%20productivo.%3Cbr%20%2F%3E%0A-%20Compras%20netas%20de%20otros%20aprovisionamientos.%20Importe%20de%20las%20compras%20de%20aprovisionamientos%20tales%20como%20combustible%2C%20repuestos%2C%20embalajes%2C%20material%20de%20oficina%2C%20etc.%2C%20tienen%20que%20tener%20la%20caracter%26iacute%3Bstica%20de%20ser%20almacenables.%3C%2Fp%3E%0A</div>
+</td>
+</tr>
+<tr id="R16-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R16-r1">R16</span>
+<a name="link_R16">Unidad estadística</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R16-r2">Empresas%20que%20realizan%20actividades%20englobadas%20en%20las%20secciones%20B%2C%20C%2C%20D%2C%20E%2CG%2C%20H%2C%20I%2C%20J%2C%20L%2C%20M%2C%20N%2C%20R%20y%20S%20(excepto%20la%20divisi%C3%B3n%2094)%20de%20la%20CNAE2009%2C%20que%20han%20formado%20parte%20de%20la%20muestra%20a%20partir%20de%20los%20ficheros%20de%20microdatos%20que%20facilita%20el%20INE.</div>
+</td>
+</tr>
+<tr id="R17-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R17-r1">R17</span>
+<a name="link_R17">Población estadística</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R17-r2">La%20poblaci%C3%B3n%20objeto%20de%20la%20Estad%C3%ADstica%20Estructural%20de%20Empresas%20est%C3%A1%20formada%20por%20las%20empresas%2C%20sociedades%20y%20personas%20f%C3%ADsicas%20cuya%20actividad%20principal%20se%20describe%20en%20las%20secciones%20B%2C%20C%2C%20D%2C%20E%2CG%2C%20H%2C%20I%2C%20J%2C%20L%2C%20M%2C%20N%2C%20R%20y%20S%20(excepto%20la%20divisi%C3%B3n%2094)%20de%20la%20CNAE2009.</div>
+</td>
+</tr>
+<tr id="R18-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R18-r1">R18</span>
+<a name="link_R18">Ámbito geográfico</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R18-r2">Andaluc%C3%ADa</div>
+</td>
+</tr>
+<tr id="R19-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R19-r1">R19</span>
+<a name="link_R19">Cobertura temporal</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R19-r2">Como%20actividad%20estad%C3%ADstica%20oficial%20aparece%20por%20primera%20vez%20en%20el%20Programa%20Estad%C3%ADstico%20y%20Cartogr%C3%A1fico%202013%20y%20ofrece%20datos%20desde%20el%20a%C3%B1o%202008%2C%20coincidiendo%20con%20la%20adaptaci%C3%B3n%20de%20la%20actividad%20a%20la%20CNAE-2009%20y%20el%20nuevo%20Plan%20general%20de%20Contabilidad.</div>
+</td>
+</tr>
+<tr id="R20-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R20-r1">R20</span>
+<a name="link_R20">Período base</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R20-r2">--</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="D-l1">
+<a name="D"></a><a name="link_D"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="D-r1">4. </span><a name="link_D"></a>Unidad de medida</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R21-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R21-r1">R21</span>
+<a name="link_R21">Unidad de medida</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R21-r2">%3Cp%3E-%20Para%20los%20%26iacute%3Bndices%20se%20utilizan%20plos%20porcentajes.%3Cbr%20%2F%3E%0A-%20Para%20los%20datos%20referidos%20a%20cuotas%2C%20devoluciones%20o%20ventas%20se%20utilizan%20%26ldquo%3Bmiles%20de%20euros%26rdquo%3B.%3Cbr%20%2F%3E%0A-%20El%20resto%20se%20expresa%20en%20unidades.%3C%2Fp%3E%0A</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="E-l1">
+<a name="E"></a><a name="link_E"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="E-r1">5. </span><a name="link_E"></a>Período de referencia</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R22-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R22-r1">R22</span>
+<a name="link_R22">Período de referencia</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R22-r2">2016%20(Avance)</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="F-l1">
+<a name="F"></a><a name="link_F"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="F-r1">6. </span><a name="link_F"></a>Mandato institucional</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R23-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R23-r1">R23</span>
+<a name="link_R23">Actos jurídicos y otros acuerdos</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R23-r2">%3Cp%20style%3D%22text-align%3Ajustify%22%3E-%20Ley%204%2F1989%2C%20de%2012%20diciembre%2C%20de%20Estad%26iacute%3Bstica%20de%20la%20Comunidad%20Aut%26oacute%3Bnoma%20de%20Andaluc%26iacute%3Ba%3Cbr%20%2F%3E%0A-%20Ley%203%2F2013%2C%20de%2024%20de%20julio%2C%20por%20la%20que%20se%20aprueba%20el%20Plan%20Estad%26iacute%3Bstico%20y%20Cartogr%26aacute%3Bfico%20de%20Andaluc%26iacute%3Ba%202013-2017%3Cbr%20%2F%3E%0A-%20Decreto%20151%2F2017%2C%20de%2026%20de%20septiembre%2C%20por%20el%20que%20se%20aprueba%20el%20Programa%20Estad%26iacute%3Bstico%20y%20Cartogr%26aacute%3Bfico%20de%20la%20Comunidad%20Aut%26oacute%3Bnoma%20de%20Andaluc%26iacute%3Ba%20para%20el%20a%26ntilde%3Bo%202017%2C%20y%20se%20modifica%20el%20Decreto%20372%2F2009%2C%20de%2017%20de%20noviembre%2C%20por%20el%20que%20se%20regula%20la%20organizaci%26oacute%3Bn%20y%20funcionamiento%20del%20Sistema%20Estad%26iacute%3Bstico%20de%20Andaluc%26iacute%3Ba.%3C%2Fp%3E%0A</div>
+</td>
+</tr>
+<tr id="R24-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R24-r1">R24</span>
+<a name="link_R24">Intercambio de datos</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R24-r2">%3Cp%20style%3D%22text-align%3Ajustify%22%3EAcuerdo%20Marco%20sobre%20cooperaci%26oacute%3Bn%20estad%26iacute%3Bstica%20e%20intercambio%20de%20informaci%26oacute%3Bn%20entre%20el%20Instituto%20Nacional%20de%20Estad%26iacute%3Bstica%20y%20el%20Instituto%20de%20Estad%26iacute%3Bstica%20de%20Andaluc%26iacute%3Ba%20y%20Convenio%20de%20colaboraci%26oacute%3Bn%20con%20el%20Instituto%20Nacional%20de%20Estad%26iacute%3Bstica%20y%20el%20Consejo%20Andaluz%20de%20C%26aacute%3Bmaras%20de%20Comercio%2C%20Industria%20y%20Navegaci%26oacute%3Bn.%3C%2Fp%3E%0A</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="G-l1">
+<a name="G"></a><a name="link_G"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="G-r1">7. </span><a name="link_G"></a>Confidencialidad</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R25-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R25-r1">R25</span>
+<a name="link_R25">Política de confidencialidad</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R25-r2">%3Cp%3E-%20Ley%204%2F1989%2C%20de%2012%20diciembre%2C%20de%20Estad%26iacute%3Bstica%20de%20la%20Comunidad%20Aut%26oacute%3Bnoma%20de%20Andaluc%26iacute%3Ba.%3Cbr%20%2F%3E%0A-%20Ley%2012%2F1989%2C%20de%209%20de%20mayo%2C%20de%20la%20Funci%26oacute%3Bn%20Estad%26iacute%3Bstica%20P%26uacute%3Bblica.%3Cbr%20%2F%3E%0A-%20Ley%20Org%26aacute%3Bnica%2015%2F1999%2C%20de%2013%20de%20diciembre%2C%20de%20Protecci%26oacute%3Bn%20de%20Datos%20de%20Car%26aacute%3Bcter%20Personal.%3C%2Fp%3E%0A</div>
+</td>
+</tr>
+<tr id="R26-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R26-r1">R26</span>
+<a name="link_R26">Tratamiento de datos confidenciales</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R26-r2">A%20la%20hora%20de%20publicar%20los%20datos%2C%20se%20difunden%20de%20forma%20agregada%20por%20sectores%2C%20provincias%2C%20tramos%20de%20empleo%2C%20garantizando%20en%20todo%20momento%20el%20secreto%20estad%C3%ADstico.</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="H-l1">
+<a name="H"></a><a name="link_H"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="H-r1">8. </span><a name="link_H"></a>Política de difusión</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R27-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R27-r1">R27</span>
+<a name="link_R27">Fecha de difusión de resultados</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R27-r2">30%2F04%2F18</div>
+</td>
+</tr>
+<tr id="R28-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R28-r1">R28</span>
+<a name="link_R28">Fecha prevista de difusión de resultados</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R28-r2">09%2F2018%20datos%20definitivos</div>
+</td>
+</tr>
+<tr id="R29-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R29-r1">R29</span>
+<a name="link_R29">Acceso a los resultados</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R29-r2">%3Cp%20style%3D%22text-align%3Ajustify%22%3ELa%20actividad%20se%20difunde%20a%20trav%26eacute%3Bs%20de%20la%20p%26aacute%3Bgina%20web%20del%20IECA.%20La%20informaci%26oacute%3Bn%20se%20ofrece%20a%20trav%26eacute%3Bs%20de%20un%20%26aacute%3Brbol%20tem%26aacute%3Btico%20y%20a%20trav%26eacute%3Bs%20de%20la%20base%20de%20datos%20BADEA%3A%3Cbr%20%2F%3E%0A-%20Estad%26iacute%3Bstica%20Estructural%20de%20Empresas%3A%20Sector%20Industria%3A%3Cbr%20%2F%3E%0Ahttps%3A%2F%2Fwww.juntadeandalucia.es%2Finstitutodeestadisticaycartografia%2Feindus%2Findex.htm%3C%2Fp%3E%0A</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="I-l1">
+<a name="I"></a><a name="link_I"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="I-r1">9. </span><a name="link_I"></a>Frecuencia de la difusión</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R30-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R30-r1">R30</span>
+<a name="link_R30">Frecuencia de la difusión</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R30-r2">Anual</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="J-l1">
+<a name="J"></a><a name="link_J"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="J-r1">10. </span><a name="link_J"></a>Formato de difusión</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R31-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R31-r1">R31</span>
+<a name="link_R31">Comunicados</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R31-r2">No%20existe%20comunicados%20o%20nota%20de%20prensa%20de%20esta%20actividad</div>
+</td>
+</tr>
+<tr id="R32-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R32-r1">R32</span>
+<a name="link_R32">Publicaciones</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R32-r2">%3Cp%3E-%20Estad%26iacute%3Bstica%20Estructural%20de%20Empresas.%20Sector%20industria%3Cbr%20%2F%3E%0A-%20Estad%26iacute%3Bstica%20Estructural%20de%20Empresas.%20Sector%20comercio%3Cbr%20%2F%3E%0A-%20Estad%26iacute%3Bstica%20Estructural%20de%20Empresas.%20Sector%20servicios%3C%2Fp%3E%0A</div>
+</td>
+</tr>
+<tr id="R33-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R33-r1">R33</span>
+<a name="link_R33">Base de datos online</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R33-r2">Esta%20actividad%20permite%20elaborar%20resultados%20a%20medida%20en%20el%20Banco%20de%20Datos%20Estad%C3%ADsticos%20de%20Andaluc%C3%ADa%20(BADEA)</div>
+</td>
+</tr>
+<tr id="R34-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R34-r1">R34</span>
+<a name="link_R34">Acceso a microdatos</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R34-r2">No%20existe%20disponibilidad%20de%20microdatos%20para%20esta%20actividad</div>
+</td>
+</tr>
+<tr id="R35-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R35-r1">R35</span>
+<a name="link_R35">Otros</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R35-r2">--</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="K-l1">
+<a name="K"></a><a name="link_K"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="K-r1">11. </span><a name="link_K"></a>Accesibilidad de la documentación</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R36-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R36-r1">R36</span>
+<a name="link_R36">Documentación sobre metodología</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R36-r2">La%20memoria%20t%C3%A9cnica%20est%C3%A1%20disponible%20en%20Internet%20en%20el%20apartado%20Metodolog%C3%ADa.</div>
+</td>
+</tr>
+<tr id="R37-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R37-r1">R37</span>
+<a name="link_R37">Documentación sobre calidad</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R37-r2">El%20IECA%20para%20garantizar%20la%20calidad%20en%20esta%20actividad%20aporta%20la%20memoria%20t%C3%A9cnica%2C%20la%20ficha%20de%20indicadores%20de%20calidad%20y%20el%20informe%20metodol%C3%B3gico%20estandarizado%20de%20la%20actividad.</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="L-l1">
+<a name="L"></a><a name="link_L"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="L-r1">12. </span><a name="link_L"></a>Gestión de la calidad</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R38-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R38-r1">R38</span>
+<a name="link_R38">Garantía de calidad</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R38-r2">A%20los%20microdatos%20proporcionados%20por%20el%20INE%20se%20le%20realizan%20comprobaciones%20para%20ver%20si%20coinciden%20con%20los%20resultados%20que%20publica%20el%20INE%20para%20la%20Comunidad%20Aut%C3%B3noma.</div>
+</td>
+</tr>
+<tr id="R39-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R39-r1">R39</span>
+<a name="link_R39">Evaluación de calidad</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R39-r2">Se%20ha%20elaborado%20una%20ficha%20de%20calidad%20y%20est%C3%A1%20disponible%20en%20Internet%20en%20el%20apartado%20Metodolog%C3%ADa.</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="M-l1">
+<a name="M"></a><a name="link_M"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="M-r1">13. </span><a name="link_M"></a>Relevancia</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R40-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R40-r1">R40</span>
+<a name="link_R40">Usuarios</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R40-r2">AnalIstas%20econ%C3%B3micos%20y%20Administraci%C3%B3n%20P%C3%BAblica</div>
+</td>
+</tr>
+<tr id="R41-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R41-r1">R41</span>
+<a name="link_R41">Satisfacción del usuario</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R41-r2">--</div>
+</td>
+</tr>
+<tr id="R42-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R42-r1">R42</span>
+<a name="link_R42">Exhaustividad</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R42-r2">--</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="N-l1">
+<a name="N"></a><a name="link_N"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="N-r1">14. </span><a name="link_N"></a>Exactitud y fiabilidad</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R43-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R43-r1">R43</span>
+<a name="link_R43">Exactitud global</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R43-r2">Esta%20actividad%20es%20fiable</div>
+</td>
+</tr>
+<tr id="R44-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R44-r1">R44</span>
+<a name="link_R44">Errores de muestreo</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R44-r2">No%20procede%20al%20no%20usarse%20un%20dise%C3%B1o%20muestral%20probabil%C3%ADstico.%20No%20se%20calculan%20errores%20de%20muestreo%2C%20ya%20que%2C%20en%20t%C3%A9rminos%20estrictos%2C%20no%20es%20una%20encuesta%20por%20muestreo.</div>
+</td>
+</tr>
+<tr id="R45-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R45-r1">R45</span>
+<a name="link_R45">Errores ajenos al muestreo</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R45-r2">La%20difusi%C3%B3n%20de%20los%20datos%20de%20la%20Encuesta%20y%20el%20poder%20dar%20informaci%C3%B3n%20de%20algunas%20caracter%C3%ADsticas%20con%20mayor%20desagregaci%C3%B3n%20est%C3%A1n%20restringidos%20a%20los%20errores%20de%20muestreo%20derivados%20de%20su%20propia%20condici%C3%B3n%20de%20encuesta%20por%20muestreo%20que%20realiza%20el%20INE.</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="O-l1">
+<a name="O"></a><a name="link_O"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="O-r1">15. </span><a name="link_O"></a>Oportunidad y puntualidad</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R46-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R46-r1">R46</span>
+<a name="link_R46">Oportunidad</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R46-r2">391%20d%C3%ADas%20para%20el%20Sector%20de%20Industria%20y%20557%20d%C3%ADas%20para%20los%20Sectores%20de%20Comercio%20y%20Servicios.</div>
+</td>
+</tr>
+<tr id="R47-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R47-r1">R47</span>
+<a name="link_R47">Puntualidad</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R47-r2">0%20d%C3%ADas</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="P-l1">
+<a name="P"></a><a name="link_P"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="P-r1">16. </span><a name="link_P"></a>Comparabilidad</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R48-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R48-r1">R48</span>
+<a name="link_R48">Comparabilidad geográfica</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R48-r2">A%20nivel%20de%20comunidad%20aut%C3%B3noma%20podemos%20destacar%20al%20Instituto%20Aragon%C3%A9s%20de%20Estad%C3%ADstica%2C%20y%20el%20Instituto%20Gallego%20de%20Estad%C3%ADstica.</div>
+</td>
+</tr>
+<tr id="R49-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R49-r1">R49</span>
+<a name="link_R49">Comparabilidad temporal</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R49-r2">Existen%20datos%20desde%20el%20a%C3%B1o%202008%2C%20public%C3%A1ndose%20datos%20en%20la%20web%20desde%20el%20a%C3%B1o%202008%20y%20son%20comparables%20porque%20no%20ha%20habido%20ruptura%20en%20la%20serie.%20Para%20el%20sector%20Servicios%20existen%20datos%20disponibles%20desde%20el%20a%C3%B1o%201993.</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="Q-l1">
+<a name="Q"></a><a name="link_Q"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="Q-r1">17. </span><a name="link_Q"></a>Coherencia</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R50-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R50-r1">R50</span>
+<a name="link_R50">Coherencia - cruce de sectores</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R50-r2">Esta%20actividad%20es%20coherente%20con%20otras%20actividades%20del%20mismo%20sector.</div>
+</td>
+</tr>
+<tr id="R51-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R51-r1">R51</span>
+<a name="link_R51">Coherencia - interna</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R51-r2">La%20coherencia%20interna%20se%20garantiza%20a%20trav%C3%A9s%20de%20diversas%20validaciones%20realizadas%20antes%20de%20la%20publicaci%C3%B3n%20de%20los%20datos.</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="R-l1">
+<a name="R"></a><a name="link_R"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="R-r1">18. </span><a name="link_R"></a>Costes y carga</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R52-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R52-r1">R52</span>
+<a name="link_R52">Costes y carga</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R52-r2">11.415%2C18%E2%82%AC.</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="S-l1">
+<a name="S"></a><a name="link_S"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="S-r1">19. </span><a name="link_S"></a>Revisión de los datos</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R53-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R53-r1">R53</span>
+<a name="link_R53">Revisión de datos - política</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R53-r2">Al%20no%20existir%20datos%20provisionales%20no%20se%20realiza%20una%20revisi%C3%B3n%20de%20los%20datos.</div>
+</td>
+</tr>
+<tr id="R54-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R54-r1">R54</span>
+<a name="link_R54">Revisión de datos - práctica</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R54-r2">Los%20datos%20son%20definitivos.</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="T-l1">
+<a name="T"></a><a name="link_T"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="T-r1">20. </span><a name="link_T"></a>Tratamiento estadístico</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R55-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R55-r1">R55</span>
+<a name="link_R55">Datos de origen</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R55-r2">Explotaci%C3%B3n%20de%20informaci%C3%B3n%20estad%C3%ADstica.</div>
+</td>
+</tr>
+<tr id="R56-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R56-r1">R56</span>
+<a name="link_R56">Frecuencia de la recogida de datos</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R56-r2">Anual</div>
+</td>
+</tr>
+<tr id="R57-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R57-r1">R57</span>
+<a name="link_R57">Recopilación de datos</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R57-r2">En%20el%20mes%20de%20Julio%20se%20reciben%20los%20microdatos%20correspondientes%20a%20la%20Estad%C3%ADstica%20Estructural%20de%20Empresas%2C%20por%20tanto%2C%20la%20periodicidad%20de%20recogida%20de%20la%20informaci%C3%B3n%20es%20anual%20y%20el%20sujeto%20informante%20es%20el%20INE.</div>
+</td>
+</tr>
+<tr id="R58-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R58-r1">R58</span>
+<a name="link_R58">Validación de datos</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R58-r2">--</div>
+</td>
+</tr>
+<tr id="R59-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R59-r1">R59</span>
+<a name="link_R59">Compilación de los datos</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R59-r2">%3Cp%20style%3D%22text-align%3Ajustify%22%3ELos%20datos%20son%20recibidos%20del%20Instituto%20Nacional%20de%20Estad%26iacute%3Bstica%20debidamente%20depurados%20y%20con%20las%20imputaciones%20correspondientes%20realizadas%20por%20lo%20que%20son%20considerados%20como%20datos%20definitivos.%20El%20%26uacute%3Bnico%20tratamiento%20que%20se%20realiza%20son%20operaciones%20de%20tipo%20aritm%26eacute%3Bticas%20con%20Microsoft%20Office%20para%20obtener%20los%20indicadores%20deseados%20por%20nivel%20de%20actividad%2C%20asegur%26aacute%3Bndose%20en%20todo%20momento%20la%20coherencia%20con%20los%20datos%20suministrados%20por%20el%20INE%20a%20nivel%20de%20Comunidad%20Aut%26oacute%3Bnoma.%3C%2Fp%3E%0A</div>
+</td>
+</tr>
+<tr id="R60-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R60-r1">R60</span>
+<a name="link_R60">Ajuste</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R60-r2">--</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="Cl-AttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1" colspan="2" id="U-l1">
+<a name="U"></a><a name="link_U"></a>
+<table class="Cl-HeaderAttributeTable">
+<tbody>
+<tr>
+<td class="Cl-Level1-NoBorder"><span id="U-r1">21. </span><a name="link_U"></a>Observaciones</td>
+<td align="right"><a class="DocCommon" href="#">Top</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr id="R61-tr">
+<td class="Cl-Level2" colspan="2">
+<span id="R61-r1">R61</span>
+<a name="link_R61">Observaciones</a>
+</td>
+</tr>
+<tr>
+<td class="Cl-Content" colspan="2">
+<div id="R61-r2">%3Cp%20style%3D%22text-align%3Ajustify%22%3ESe%20puede%20consultar%20con%20detalle%20la%20metodolog%26iacute%3Ba%20de%20la%20Estad%26iacute%3Bstica%20estructural%20de%20Empresa%20en%20la%20siguiente%20URL%3A%3Cbr%20%2F%3E%0A%26bull%3B%20http%3A%2F%2Fwww.ine.es%2Fmetodologia%2Ft37%2Fmet%20odologia_eee.pdf%3C%2Fp%3E%0A</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+</p>
 </div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R15-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R15-r1">R15</span>
-        <a name="link_R15">Definiciones y conceptos</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R15-r2"><p style="text-align:justify">- Se define actividad económica la realizada por una empresa para la creación de valor añadido mediante la producción de bienes y servicios. Las actividades desarrolladas por una unidad económica pueden ser de tres tipos: actividad principal, secundarias y auxiliares. Se considera como actividad principal aquélla que genera mayor volumen de negocio o, en su defecto, la que emplee un mayor número de personas ocupadas.<br>
-- Personal no remunerado: constituido por las personas empleadas que dirigen o participa activamente en los trabajos de la empresa sin percibir una remuneración fija o salario.<br>
-- Personal remunerado: está formado por los trabajadores ligados a la empresa por un contrato de trabajo y que son retribuidos - Cifra de negocios: comprende los importes facturados por la empresa durante el año de referencia por prestación de servicios y ventas de bienes que son objeto del tráfico de la empresa. Las ventas se contabilizan sin incluir el IVA repercutido al cliente.<br>
-- Trabajos realizados por la empresa para su activo. Son los efectuados por la empresa para su inmovilizado, utilizando sus equipos y su personal, que se activan. También se contabilizan es este subgrupo los realizados, mediante encargo, por otras empresas con finalidad de investigación y desarrollo.<br>
-- Compras netas de mercaderías. Importe neto de los bienes adquiridos por la empresa para revenderlos en el mismo estado en que se adquieren sin someterlos a transformación.<br>
-- Compras netas de materias primas. Valor neto de los bienes adquiridos para su transformación durante el proceso productivo.<br>
-- Compras netas de otros aprovisionamientos. Importe de las compras de aprovisionamientos tales como combustible, repuestos, embalajes, material de oficina, etc., tienen que tener la característica de ser almacenables.</p>
 </div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R16-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R16-r1">R16</span>
-        <a name="link_R16">Unidad estadística</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R16-r2">Empresas que realizan actividades englobadas en las secciones B, C, D, E,G, H, I, J, L, M, N, R y S (excepto la división 94) de la CNAE2009, que han formado parte de la muestra a partir de los ficheros de microdatos que facilita el INE.</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R17-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R17-r1">R17</span>
-        <a name="link_R17">Población estadística</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R17-r2">La población objeto de la Estadística Estructural de Empresas está formada por las empresas, sociedades y personas físicas cuya actividad principal se describe en las secciones B, C, D, E,G, H, I, J, L, M, N, R y S (excepto la división 94) de la CNAE2009.</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R18-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R18-r1">R18</span>
-        <a name="link_R18">Ámbito geográfico</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R18-r2">Andalucía</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R19-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R19-r1">R19</span>
-        <a name="link_R19">Cobertura temporal</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R19-r2">Como actividad estadística oficial aparece por primera vez en el Programa Estadístico y Cartográfico 2013 y ofrece datos desde el año 2008, coincidiendo con la adaptación de la actividad a la CNAE-2009 y el nuevo Plan general de Contabilidad.</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R20-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R20-r1">R20</span>
-        <a name="link_R20">Período base</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R20-r2">--</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="D-l1">
-        <a name="D"></a><a name="link_D"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="D-r1">4. </span><a name="link_D"></a>Unidad de medida</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R21-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R21-r1">R21</span>
-        <a name="link_R21">Unidad de medida</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R21-r2"><p>- Para los índices se utilizan plos porcentajes.<br>
-- Para los datos referidos a cuotas, devoluciones o ventas se utilizan “miles de euros”.<br>
-- El resto se expresa en unidades.</p>
-</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="E-l1">
-        <a name="E"></a><a name="link_E"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="E-r1">5. </span><a name="link_E"></a>Período de referencia</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R22-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R22-r1">R22</span>
-        <a name="link_R22">Período de referencia</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R22-r2">2016 (Avance)</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="F-l1">
-        <a name="F"></a><a name="link_F"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="F-r1">6. </span><a name="link_F"></a>Mandato institucional</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R23-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R23-r1">R23</span>
-        <a name="link_R23">Actos jurídicos y otros acuerdos</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R23-r2"><p style="text-align:justify">- Ley 4/1989, de 12 diciembre, de Estadística de la Comunidad Autónoma de Andalucía<br>
-- Ley 3/2013, de 24 de julio, por la que se aprueba el Plan Estadístico y Cartográfico de Andalucía 2013-2017<br>
-- Decreto 151/2017, de 26 de septiembre, por el que se aprueba el Programa Estadístico y Cartográfico de la Comunidad Autónoma de Andalucía para el año 2017, y se modifica el Decreto 372/2009, de 17 de noviembre, por el que se regula la organización y funcionamiento del Sistema Estadístico de Andalucía.</p>
-</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R24-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R24-r1">R24</span>
-        <a name="link_R24">Intercambio de datos</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R24-r2"><p style="text-align:justify">Acuerdo Marco sobre cooperación estadística e intercambio de información entre el Instituto Nacional de Estadística y el Instituto de Estadística de Andalucía y Convenio de colaboración con el Instituto Nacional de Estadística y el Consejo Andaluz de Cámaras de Comercio, Industria y Navegación.</p>
-</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="G-l1">
-        <a name="G"></a><a name="link_G"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="G-r1">7. </span><a name="link_G"></a>Confidencialidad</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R25-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R25-r1">R25</span>
-        <a name="link_R25">Política de confidencialidad</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R25-r2"><p>- Ley 4/1989, de 12 diciembre, de Estadística de la Comunidad Autónoma de Andalucía.<br>
-- Ley 12/1989, de 9 de mayo, de la Función Estadística Pública.<br>
-- Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal.</p>
-</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R26-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R26-r1">R26</span>
-        <a name="link_R26">Tratamiento de datos confidenciales</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R26-r2">A la hora de publicar los datos, se difunden de forma agregada por sectores, provincias, tramos de empleo, garantizando en todo momento el secreto estadístico.</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="H-l1">
-        <a name="H"></a><a name="link_H"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="H-r1">8. </span><a name="link_H"></a>Política de difusión</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R27-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R27-r1">R27</span>
-        <a name="link_R27">Fecha de difusión de resultados</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R27-r2">30/04/18</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R28-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R28-r1">R28</span>
-        <a name="link_R28">Fecha prevista de difusión de resultados</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R28-r2">09/2018 datos definitivos</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R29-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R29-r1">R29</span>
-        <a name="link_R29">Acceso a los resultados</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R29-r2"><p style="text-align:justify">La actividad se difunde a través de la página web del IECA. La información se ofrece a través de un árbol temático y a través de la base de datos BADEA:<br>
-- Estadística Estructural de Empresas: Sector Industria:<br>
-https://www.juntadeandalucia.es/institutodeestadisticaycartografia/eindus/index.htm</p>
-</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="I-l1">
-        <a name="I"></a><a name="link_I"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="I-r1">9. </span><a name="link_I"></a>Frecuencia de la difusión</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R30-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R30-r1">R30</span>
-        <a name="link_R30">Frecuencia de la difusión</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R30-r2">Anual</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="J-l1">
-        <a name="J"></a><a name="link_J"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="J-r1">10. </span><a name="link_J"></a>Formato de difusión</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R31-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R31-r1">R31</span>
-        <a name="link_R31">Comunicados</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R31-r2">No existe comunicados o nota de prensa de esta actividad</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R32-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R32-r1">R32</span>
-        <a name="link_R32">Publicaciones</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R32-r2"><p>- Estadística Estructural de Empresas. Sector industria<br>
-- Estadística Estructural de Empresas. Sector comercio<br>
-- Estadística Estructural de Empresas. Sector servicios</p>
-</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R33-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R33-r1">R33</span>
-        <a name="link_R33">Base de datos online</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R33-r2">Esta actividad permite elaborar resultados a medida en el Banco de Datos Estadísticos de Andalucía (BADEA)</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R34-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R34-r1">R34</span>
-        <a name="link_R34">Acceso a microdatos</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R34-r2">No existe disponibilidad de microdatos para esta actividad</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R35-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R35-r1">R35</span>
-        <a name="link_R35">Otros</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R35-r2">--</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="K-l1">
-        <a name="K"></a><a name="link_K"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="K-r1">11. </span><a name="link_K"></a>Accesibilidad de la documentación</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R36-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R36-r1">R36</span>
-        <a name="link_R36">Documentación sobre metodología</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R36-r2">La memoria técnica está disponible en Internet en el apartado Metodología.</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R37-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R37-r1">R37</span>
-        <a name="link_R37">Documentación sobre calidad</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R37-r2">El IECA para garantizar la calidad en esta actividad aporta la memoria técnica, la ficha de indicadores de calidad y el informe metodológico estandarizado de la actividad.</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="L-l1">
-        <a name="L"></a><a name="link_L"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="L-r1">12. </span><a name="link_L"></a>Gestión de la calidad</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R38-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R38-r1">R38</span>
-        <a name="link_R38">Garantía de calidad</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R38-r2">A los microdatos proporcionados por el INE se le realizan comprobaciones para ver si coinciden con los resultados que publica el INE para la Comunidad Autónoma.</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R39-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R39-r1">R39</span>
-        <a name="link_R39">Evaluación de calidad</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R39-r2">Se ha elaborado una ficha de calidad y está disponible en Internet en el apartado Metodología.</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="M-l1">
-        <a name="M"></a><a name="link_M"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="M-r1">13. </span><a name="link_M"></a>Relevancia</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R40-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R40-r1">R40</span>
-        <a name="link_R40">Usuarios</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R40-r2">AnalIstas económicos y Administración Pública</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R41-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R41-r1">R41</span>
-        <a name="link_R41">Satisfacción del usuario</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R41-r2">--</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R42-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R42-r1">R42</span>
-        <a name="link_R42">Exhaustividad</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R42-r2">--</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="N-l1">
-        <a name="N"></a><a name="link_N"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="N-r1">14. </span><a name="link_N"></a>Exactitud y fiabilidad</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R43-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R43-r1">R43</span>
-        <a name="link_R43">Exactitud global</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R43-r2">Esta actividad es fiable</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R44-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R44-r1">R44</span>
-        <a name="link_R44">Errores de muestreo</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R44-r2">No procede al no usarse un diseño muestral probabilístico. No se calculan errores de muestreo, ya que, en términos estrictos, no es una encuesta por muestreo.</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R45-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R45-r1">R45</span>
-        <a name="link_R45">Errores ajenos al muestreo</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R45-r2">La difusión de los datos de la Encuesta y el poder dar información de algunas características con mayor desagregación están restringidos a los errores de muestreo derivados de su propia condición de encuesta por muestreo que realiza el INE.</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="O-l1">
-        <a name="O"></a><a name="link_O"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="O-r1">15. </span><a name="link_O"></a>Oportunidad y puntualidad</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R46-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R46-r1">R46</span>
-        <a name="link_R46">Oportunidad</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R46-r2">391 días para el Sector de Industria y 557 días para los Sectores de Comercio y Servicios.</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R47-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R47-r1">R47</span>
-        <a name="link_R47">Puntualidad</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R47-r2">0 días</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="P-l1">
-        <a name="P"></a><a name="link_P"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="P-r1">16. </span><a name="link_P"></a>Comparabilidad</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R48-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R48-r1">R48</span>
-        <a name="link_R48">Comparabilidad geográfica</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R48-r2">A nivel de comunidad autónoma podemos destacar al Instituto Aragonés de Estadística, y el Instituto Gallego de Estadística.</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R49-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R49-r1">R49</span>
-        <a name="link_R49">Comparabilidad temporal</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R49-r2">Existen datos desde el año 2008, publicándose datos en la web desde el año 2008 y son comparables porque no ha habido ruptura en la serie. Para el sector Servicios existen datos disponibles desde el año 1993.</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="Q-l1">
-        <a name="Q"></a><a name="link_Q"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="Q-r1">17. </span><a name="link_Q"></a>Coherencia</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R50-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R50-r1">R50</span>
-        <a name="link_R50">Coherencia - cruce de sectores</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R50-r2">Esta actividad es coherente con otras actividades del mismo sector.</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R51-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R51-r1">R51</span>
-        <a name="link_R51">Coherencia - interna</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R51-r2">La coherencia interna se garantiza a través de diversas validaciones realizadas antes de la publicación de los datos.</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="R-l1">
-        <a name="R"></a><a name="link_R"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="R-r1">18. </span><a name="link_R"></a>Costes y carga</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R52-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R52-r1">R52</span>
-        <a name="link_R52">Costes y carga</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R52-r2">11.415,18€.</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="S-l1">
-        <a name="S"></a><a name="link_S"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="S-r1">19. </span><a name="link_S"></a>Revisión de los datos</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R53-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R53-r1">R53</span>
-        <a name="link_R53">Revisión de datos - política</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R53-r2">Al no existir datos provisionales no se realiza una revisión de los datos.</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R54-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R54-r1">R54</span>
-        <a name="link_R54">Revisión de datos - práctica</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R54-r2">Los datos son definitivos.</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="T-l1">
-        <a name="T"></a><a name="link_T"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="T-r1">20. </span><a name="link_T"></a>Tratamiento estadístico</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R55-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R55-r1">R55</span>
-        <a name="link_R55">Datos de origen</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R55-r2">Explotación de información estadística.</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R56-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R56-r1">R56</span>
-        <a name="link_R56">Frecuencia de la recogida de datos</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R56-r2">Anual</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R57-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R57-r1">R57</span>
-        <a name="link_R57">Recopilación de datos</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R57-r2">En el mes de Julio se reciben los microdatos correspondientes a la Estadística Estructural de Empresas, por tanto, la periodicidad de recogida de la información es anual y el sujeto informante es el INE.</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R58-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R58-r1">R58</span>
-        <a name="link_R58">Validación de datos</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R58-r2">--</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R59-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R59-r1">R59</span>
-        <a name="link_R59">Compilación de los datos</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R59-r2"><p style="text-align:justify">Los datos son recibidos del Instituto Nacional de Estadística debidamente depurados y con las imputaciones correspondientes realizadas por lo que son considerados como datos definitivos. El único tratamiento que se realiza son operaciones de tipo aritméticas con Microsoft Office para obtener los indicadores deseados por nivel de actividad, asegurándose en todo momento la coherencia con los datos suministrados por el INE a nivel de Comunidad Autónoma.</p>
-</div>
-      </td>
-    </tr>
-  
-  
-    <tr id="R60-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R60-r1">R60</span>
-        <a name="link_R60">Ajuste</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R60-r2">--</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-    <table class="Cl-AttributeTable">
-      <tbody>
-
-    <tr>
-      <td class="Cl-Level1" colspan="2" id="U-l1">
-        <a name="U"></a><a name="link_U"></a>
-        <table class="Cl-HeaderAttributeTable">
-          <tbody>
-          <tr>
-            <td class="Cl-Level1-NoBorder"><span id="U-r1">21. </span><a name="link_U"></a>Observaciones</td>
-            <td align="right"><a class="DocCommon" href="#">Top</a></td>
-          </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  
-
-    <tr id="R61-tr">
-      <td class="Cl-Level2" colspan="2">
-        <span id="R61-r1">R61</span>
-        <a name="link_R61">Observaciones</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="Cl-Content" colspan="2">
-        <div id="R61-r2"><p style="text-align:justify">Se puede consultar con detalle la metodología de la Estadística estructural de Empresa en la siguiente URL:<br>
-• http://www.ine.es/metodologia/t37/met odologia_eee.pdf</p>
-</div>
-      </td>
-    </tr>
-  
-          </tbody>
-    </table>
-    <br>
-  </p>
-  </div>
-</div>
-
-</body></html > 
+</body> 
