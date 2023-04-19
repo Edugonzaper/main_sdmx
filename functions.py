@@ -192,10 +192,8 @@ def volcado_ckan(configuracion_global, configuracion_ejecucion, configuracion_ac
         ckan.datasets.remove_all_datasets()
 
     if configuracion_global['create_groups']:
-        category_scheme = pd.read_csv(configuracion_global['directorio_esquema_categorias'], sep=';')
-        category_scheme.columns = ['id', 'name_es', 'Description', 'parent', 'Order', 'FullName', 'IsDefault']
+        category_scheme = pd.read_csv(configuracion_global['esquema_categorias'],sep=';')
         ckan.groups.create_groups(category_scheme)
-        ckan.groups.groups = ckan.groups.get_groups()
 
     for nombre_actividad in configuracion_ejecucion['actividades']:
         for consulta in configuracion_actividades[nombre_actividad]['consultas']:
@@ -204,14 +202,13 @@ def volcado_ckan(configuracion_global, configuracion_ejecucion, configuracion_ac
             title = configuracion_actividades_sdmx[nombre_actividad]['metadatos_title'][str(id_consulta)]
             if configuracion_actividades_sdmx[nombre_actividad]['metadatos_subtitle'][str(id_consulta)]:
                 title = f'{title}. {configuracion_actividades_sdmx[nombre_actividad]["metadatos_subtitle"][str(id_consulta)]}'
-            extras = [{'key': 'Actividad', 'value': configuracion_actividades_sdmx[nombre_actividad]['subcategoria']},
-                      {'key': 'Periocidad',
-                       'value': f'{configuracion_actividades_sdmx[nombre_actividad]["periodicidad"][id_consulta]["frecuencia"]}'}]
-            tags = [{'name': tag} for tag in descripciones[f'{nombre_actividad}_{id_consulta}']['tags']]
+            extras = [{'key': 'Actividad', 'value': configuracion_actividades_sdmx[nombre_actividad]['subcategoria']}]
+                      # {'key': 'Periocidad', 'value': f'{configuracion_actividades[nombre_actividad]["periocidad"]}'}]
+            tags = [{'name': tag} for tag in descripciones[nombre_actividad]['tags']]
             ckan.datasets.create(id_dataset.lower(),
                                  title, 'instituto-de-estadistica-y-cartografia-de-andalucia',
                                  ckan.groups.groups[nombre_actividad.lower()],
-                                 descripciones[f'{nombre_actividad}_{id_consulta}']['descripcion'], extras, tags,
+                                 descripciones[nombre_actividad]['descripcion'], extras, tags,
                                  'Creative Commons Attribution')
             path = os.path.join(configuracion_global['directorio_datos'], nombre_actividad, 'procesados')
 
