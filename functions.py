@@ -192,7 +192,8 @@ def volcado_ckan(configuracion_global, configuracion_ejecucion, configuracion_ac
         ckan.datasets.remove_all_datasets()
 
     if configuracion_global['create_groups']:
-        category_scheme = pd.read_csv(configuracion_global['esquema_categorias'],sep=';')
+        category_scheme = pd.read_csv(configuracion_global['esquema_categorias'], sep=';')
+        category_scheme.columns = ['id', 'name_es', 'Description', 'parent', 'Order', 'FullName', 'IsDefault']
         ckan.groups.create_groups(category_scheme)
 
     for nombre_actividad in configuracion_ejecucion['actividades']:
@@ -202,13 +203,13 @@ def volcado_ckan(configuracion_global, configuracion_ejecucion, configuracion_ac
             title = configuracion_actividades_sdmx[nombre_actividad]['metadatos_title'][str(id_consulta)]
             if configuracion_actividades_sdmx[nombre_actividad]['metadatos_subtitle'][str(id_consulta)]:
                 title = f'{title}. {configuracion_actividades_sdmx[nombre_actividad]["metadatos_subtitle"][str(id_consulta)]}'
-            extras = [{'key': 'Actividad', 'value': configuracion_actividades_sdmx[nombre_actividad]['subcategoria']}]
-                      # {'key': 'Periocidad', 'value': f'{configuracion_actividades[nombre_actividad]["periocidad"]}'}]
-            tags = [{'name': tag} for tag in descripciones[nombre_actividad]['tags']]
+            extras = [{'key': 'Actividad', 'value': configuracion_actividades_sdmx[nombre_actividad]['subcategoria']},
+                      {'key': 'Periocidad', 'value': f'{configuracion_actividades[nombre_actividad]["periocidad"]}'}]
+            tags = [{'name': tag} for tag in descripciones[f'{nombre_actividad}_{id_consulta}']['tags']]
             ckan.datasets.create(id_dataset.lower(),
                                  title, 'instituto-de-estadistica-y-cartografia-de-andalucia',
                                  ckan.groups.groups[nombre_actividad.lower()],
-                                 descripciones[nombre_actividad]['descripcion'], extras, tags,
+                                 descripciones[f'{nombre_actividad}_{id_consulta}']['descripcion'], extras, tags,
                                  'Creative Commons Attribution')
             path = os.path.join(configuracion_global['directorio_datos'], nombre_actividad, 'procesados')
 
