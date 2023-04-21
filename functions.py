@@ -47,8 +47,8 @@ def download_struval(configuracion_ejecucion,controller):
 def initialize_codelists_schemes(configuracion_actividad, datos_jerarquias, mapa_conceptos_codelist, controller,
                                  configuracion_actividades):
     for dimension in configuracion_actividad['variables']:
-        jerarquia = datos_jerarquias[dimension]
 
+        jerarquia = datos_jerarquias[dimension]
         codelist_id = jerarquia['ID']
         codelist_agency = jerarquia['agency']
         codelist_version = jerarquia['version']
@@ -181,7 +181,7 @@ def create_dataflows(configuracion_ejecucion, configuracion_actividades, configu
                            configuracion_actividad['variables']}
 
 
-            print("configuracionsita  " ,configuracion_actividades_sdmx)
+
             cube_id = controller.cubes.put(cube_code, id_cube_cat, 'DSD_' + nombre_actividad,
                                            configuracion_actividades_sdmx[nombre_actividad]['metadatos_title'][
                                                consulta_id], dimensiones,
@@ -198,9 +198,12 @@ def create_dataflows(configuracion_ejecucion, configuracion_actividades, configu
                 f'{configuracion_global["directorio_datos"]}/{nombre_actividad}/procesados/{consulta_id}.csv',
                 sep=';', dtype='string')
             cube_data = script_provisional(cube_data, configuracion_actividad['variables'])
-            controller.mappings.data[cube_id].load_cube(cube_data)
-
+            dsd_name = 'DSD_' + nombre_actividad
             df_id = f'DF_{nombre_actividad}_{consulta_id}'
+
+            controller.mappings.data[cube_id].load_cube(cube_data,dsd_name,df_id)
+
+
             df_title = configuracion_actividades_sdmx[nombre_actividad]["metadatos_title"][consulta_id] + \
                        configuracion_actividades_sdmx[nombre_actividad]["metadatos_subtitle"][consulta_id]
             df_name = {'es': configuracion_actividades_sdmx[nombre_actividad]["metadatos_title"][consulta_id]}
