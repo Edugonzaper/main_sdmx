@@ -18,7 +18,7 @@ url_base: http://localhost/sdmx_172/ws/NODE_API/
 volcado_mdm: True
 reset_ddb: False
 cache_search: True
-extractor: False
+extractor: True
 
 volcado_ckan: False
 reset_ckan: False

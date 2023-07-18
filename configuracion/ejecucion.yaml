@@ -35,3 +35,9 @@ actividades:
 #    - PPA #83092 y 83093
 #    - EEIC
 #    - CGU
+#    - EPF
+    - SIEIA
+    - SIE
+    - IMPCM #falta una consulta correcta, modificada a mano el JSON
+    - SIEIARIS3
+    - CPV #modificados a mano los json de las consultas para que funcione en el databrowser

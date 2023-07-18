@@ -1,3 +1,35 @@
+? ''
+: codelist:
+    agency: ESC01
+    id: CL_
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: ''
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Anual
+  nombre:
+    es: Anual
+  nombre_dimension: ''
+  tipo: dimension
+'1':
+  codelist:
+    agency: ESC01
+    id: CL_1
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: '1'
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Territorio
+  nombre:
+    es: Territorio
+  nombre_dimension: '1'
+  tipo: dimension
 1010COMPONPIB2008:
   codelist:
     agency: ESC01
@@ -13,6 +45,38 @@
   nombre:
     es: Componentes del PIB
   nombre_dimension: COMPONPIB2008
+  tipo: dimension
+'2':
+  codelist:
+    agency: ESC01
+    id: CL_2
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: '2'
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Sexo
+  nombre:
+    es: Sexo
+  nombre_dimension: '2'
+  tipo: dimension
+'61':
+  codelist:
+    agency: ESC01
+    id: CL_61
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: '61'
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Lugar de nacimiento
+  nombre:
+    es: Lugar de nacimiento
+  nombre_dimension: '61'
   tipo: dimension
 AA_BASECOTIZAC:
   codelist:
@@ -222,6 +286,54 @@ ARE_INSCRIPCION:
     es: "Inscripci\xF3n"
   nombre_dimension: INSCRIPCION
   tipo: dimension
+ARE_INSCRIPCION_288:
+  codelist:
+    agency: ESC01
+    id: CL_ARE_INSCRIPCION_288
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: ARE_INSCRIPCION_288
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: "Inscripci\xF3n"
+  nombre:
+    es: "Inscripci\xF3n"
+  nombre_dimension: ARE_INSCRIPCION_288
+  tipo: dimension
+CAP_PRESUPUESTO:
+  codelist:
+    agency: ESC01
+    id: CL_CAP_PRESUPUESTO
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: CAP_PRESUPUESTO
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: "Cap\xEDtulos del presupuesto liquidado"
+  nombre:
+    es: "Cap\xEDtulos del presupuesto liquidado"
+  nombre_dimension: CAP_PRESUPUESTO
+  tipo: dimension
+CAP_PRESUPUESTO_901:
+  codelist:
+    agency: ESC01
+    id: CL_CAP_PRESUPUESTO_901
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: CAP_PRESUPUESTO_901
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: "Cap\xEDtulos del presupuesto liquidado"
+  nombre:
+    es: "Cap\xEDtulos del presupuesto liquidado"
+  nombre_dimension: CAP_PRESUPUESTO_901
+  tipo: dimension
 CAT_HOTELES:
   codelist:
     agency: ESC01
@@ -302,6 +414,70 @@ CNAE09:
     es: CNAE09
   nombre_dimension: CNAE09
   tipo: dimension
+CNAE09_168:
+  codelist:
+    agency: ESC01
+    id: CL_CNAE09_168
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: CNAE09_168
+    id: CS_SECTORAL_STAT
+    version: '1.0'
+  descripcion:
+    es: CNAE 09
+  nombre:
+    es: CNAE 09
+  nombre_dimension: CNAE09_168
+  tipo: dimension
+CNAE09_169:
+  codelist:
+    agency: ESC01
+    id: CL_CNAE09_169
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: CNAE09_169
+    id: CS_SECTORAL_STAT
+    version: '1.0'
+  descripcion:
+    es: CNAE 09
+  nombre:
+    es: CNAE 09
+  nombre_dimension: CNAE09_169
+  tipo: dimension
+CNAE09_343:
+  codelist:
+    agency: ESC01
+    id: CL_CNAE09_343
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: CNAE09_343
+    id: CS_SECTORAL_STAT
+    version: '1.0'
+  descripcion:
+    es: CNAE 09
+  nombre:
+    es: CNAE 09
+  nombre_dimension: CNAE09_343
+  tipo: dimension
+CNAE09_8113:
+  codelist:
+    agency: ESC01
+    id: CL_CNAE09_8113
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: CNAE09_8113
+    id: CS_SECTORAL_STAT
+    version: '1.0'
+  descripcion:
+    es: IEI 1
+  nombre:
+    es: IEI 1
+  nombre_dimension: CNAE09_8113
+  tipo: dimension
 CNAE_O9_CRA_NEW:
   codelist:
     agency: ESC01
@@ -365,6 +541,22 @@ CRTA_COMPONPIB2008:
   nombre:
     es: Componentes del PIB
   nombre_dimension: COMPONPIB2008
+  tipo: dimension
+CRTA_COMPONPIB2008_6069:
+  codelist:
+    agency: ESC01
+    id: CL_CRTA_COMPONPIB2008_6069
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: CRTA_COMPONPIB2008_6069
+    id: CS_SECTORAL_STAT
+    version: '1.0'
+  descripcion:
+    es: Componentes del PIB
+  nombre:
+    es: Componentes del PIB
+  nombre_dimension: CRTA_COMPONPIB2008_6069
   tipo: dimension
 CRTA_PUESTRABASAB2008:
   codelist:
@@ -430,6 +622,22 @@ CRTA_SERIE:
     es: Serie
   nombre_dimension: SERIE
   tipo: dimension
+CRTA_SERIE_1489:
+  codelist:
+    agency: ESC01
+    id: CL_CRTA_SERIE_1489
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: CRTA_SERIE_1489
+    id: CS_SECTORAL_STAT
+    version: '1.0'
+  descripcion:
+    es: Serie
+  nombre:
+    es: Serie
+  nombre_dimension: CRTA_SERIE_1489
+  tipo: dimension
 CUSTODIA:
   codelist:
     agency: ESC01
@@ -461,6 +669,70 @@ DEA_ESTRASALAR:
   nombre:
     es: Estrato de asalariados
   nombre_dimension: ESTRASALAR
+  tipo: dimension
+DEST_ECO:
+  codelist:
+    agency: ESC01
+    id: CL_DEST_ECO
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: DEST_ECO
+    id: CS_SECTORAL_STAT
+    version: '1.0'
+  descripcion:
+    es: "Destino econ\xF3mico de los bienes"
+  nombre:
+    es: "Destino econ\xF3mico de los bienes"
+  nombre_dimension: DEST_ECO
+  tipo: dimension
+DEST_ECO_381:
+  codelist:
+    agency: ESC01
+    id: CL_DEST_ECO_381
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: DEST_ECO_381
+    id: CS_SECTORAL_STAT
+    version: '1.0'
+  descripcion:
+    es: "Destino econ\xF3mico de los bienes"
+  nombre:
+    es: "Destino econ\xF3mico de los bienes"
+  nombre_dimension: DEST_ECO_381
+  tipo: dimension
+DEST_ECO_ICNI:
+  codelist:
+    agency: ESC01
+    id: CL_DEST_ECO_ICNI
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: DEST_ECO_ICNI
+    id: CS_SECTORAL_STAT
+    version: '1.0'
+  descripcion:
+    es: "Destino Econ\xF3mico"
+  nombre:
+    es: "Destino Econ\xF3mico"
+  nombre_dimension: DEST_ECO_ICNI
+  tipo: dimension
+DEST_ECO_ICNI_17644:
+  codelist:
+    agency: ESC01
+    id: CL_DEST_ECO_ICNI_17644
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: DEST_ECO_ICNI_17644
+    id: CS_SECTORAL_STAT
+    version: '1.0'
+  descripcion:
+    es: "Destino Econ\xF3mico"
+  nombre:
+    es: "Destino Econ\xF3mico"
+  nombre_dimension: DEST_ECO_ICNI_17644
   tipo: dimension
 DISCIPLINA:
   codelist:
@@ -526,6 +798,22 @@ ECOICOP:
     es: Grupos
   nombre_dimension: ECOICOP
   tipo: dimension
+ECOICOP_4313:
+  codelist:
+    agency: ESC01
+    id: CL_ECOICOP_4313
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: ECOICOP_4313
+    id: CS_ECO_ACCOUNTS
+    version: '1.0'
+  descripcion:
+    es: Grupos
+  nombre:
+    es: Grupos
+  nombre_dimension: ECOICOP_4313
+  tipo: dimension
 EDAD:
   codelist:
     agency: ESC01
@@ -557,6 +845,86 @@ EDADC2:
   nombre:
     es: "Edad c\xF3nyuge 2"
   nombre_dimension: EDADC2
+  tipo: dimension
+EDAD_0_401:
+  codelist:
+    agency: ESC01
+    id: CL_EDAD_0_401
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: EDAD_0_401
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Edad
+  nombre:
+    es: Edad
+  nombre_dimension: EDAD_0_401
+  tipo: dimension
+EDAD_13794:
+  codelist:
+    agency: ESC01
+    id: CL_EDAD_13794
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: EDAD_13794
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Edad
+  nombre:
+    es: Edad
+  nombre_dimension: EDAD_13794
+  tipo: dimension
+EDAD_1644:
+  codelist:
+    agency: ESC01
+    id: CL_EDAD_1644
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: EDAD_1644
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Edad (16-64) simple
+  nombre:
+    es: Edad (16-64) simple
+  nombre_dimension: EDAD_1644
+  tipo: dimension
+EDAD_24:
+  codelist:
+    agency: ESC01
+    id: CL_EDAD_24
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: EDAD_24
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Edad
+  nombre:
+    es: Edad
+  nombre_dimension: EDAD_24
+  tipo: dimension
+EDAD_401:
+  codelist:
+    agency: ESC01
+    id: CL_EDAD_401
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: EDAD_401
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Edad
+  nombre:
+    es: Edad
+  nombre_dimension: EDAD_401
   tipo: dimension
 EDCA_LUGDEF:
   codelist:
@@ -830,6 +1198,102 @@ EPD_TAMANOEMPRESA:
     es: "Tama\xF1o de la empresa"
   nombre_dimension: TAMANOEMPRESA
   tipo: dimension
+EPF_ECOICOPEPF2:
+  codelist:
+    agency: ESC01
+    id: CL_ECOICOPEPF2
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: ECOICOPEPF2
+    id: CS_INCOME_CONSUMP
+    version: '1.0'
+  descripcion:
+    es: ECOICOP
+  nombre:
+    es: ECOICOP
+  nombre_dimension: ECOICOPEPF2
+  tipo: dimension
+EPF_ECOICOPEPF2_14381:
+  codelist:
+    agency: ESC01
+    id: CL_EPF_ECOICOPEPF2_14381
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: EPF_ECOICOPEPF2_14381
+    id: CS_INCOME_CONSUMP
+    version: '1.0'
+  descripcion:
+    es: ECOICOP
+  nombre:
+    es: ECOICOP
+  nombre_dimension: EPF_ECOICOPEPF2_14381
+  tipo: dimension
+EPF_ECOICOPEPF2_14382:
+  codelist:
+    agency: ESC01
+    id: CL_EPF_ECOICOPEPF2_14382
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: EPF_ECOICOPEPF2_14382
+    id: CS_INCOME_CONSUMP
+    version: '1.0'
+  descripcion:
+    es: ECOICOP
+  nombre:
+    es: ECOICOP
+  nombre_dimension: EPF_ECOICOPEPF2_14382
+  tipo: dimension
+EPF_ECOICOPEPF2_14383:
+  codelist:
+    agency: ESC01
+    id: CL_EPF_ECOICOPEPF2_14383
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: EPF_ECOICOPEPF2_14383
+    id: CS_INCOME_CONSUMP
+    version: '1.0'
+  descripcion:
+    es: ECOICOP
+  nombre:
+    es: ECOICOP
+  nombre_dimension: EPF_ECOICOPEPF2_14383
+  tipo: dimension
+EPF_VARIABLE:
+  codelist:
+    agency: ESC01
+    id: CL_VARIABLE
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: VARIABLE
+    id: CS_INCOME_CONSUMP
+    version: '1.0'
+  descripcion:
+    es: Variable
+  nombre:
+    es: Variable
+  nombre_dimension: VARIABLE
+  tipo: dimension
+EPF_VARIABLE_13974:
+  codelist:
+    agency: ESC01
+    id: CL_EPF_VARIABLE_13974
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: EPF_VARIABLE_13974
+    id: CS_INCOME_CONSUMP
+    version: '1.0'
+  descripcion:
+    es: Variable
+  nombre:
+    es: Variable
+  nombre_dimension: EPF_VARIABLE_13974
+  tipo: dimension
 ESTADOCIVIL:
   codelist:
     agency: ESC01
@@ -878,6 +1342,38 @@ ESTADO_DATO:
     es: Estado del dato
   nombre_dimension: ESTADO_DATO
   tipo: dimension
+ESTADO_DATO_3273:
+  codelist:
+    agency: ESC01
+    id: CL_ESTADO_DATO_3273
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: ESTADO_DATO_3273
+    id: CS_SECTORAL_STAT
+    version: '1.0'
+  descripcion:
+    es: Estado del dato
+  nombre:
+    es: Estado del dato
+  nombre_dimension: ESTADO_DATO_3273
+  tipo: dimension
+ESTADO_DATO_342:
+  codelist:
+    agency: ESC01
+    id: CL_ESTADO_DATO_342
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: ESTADO_DATO_342
+    id: CS_SECTORAL_STAT
+    version: '1.0'
+  descripcion:
+    es: Estado del dato
+  nombre:
+    es: Estado del dato
+  nombre_dimension: ESTADO_DATO_342
+  tipo: dimension
 ESTRATO_ASALARIADOS:
   codelist:
     agency: ESC01
@@ -909,6 +1405,22 @@ ESTUDIOS:
   nombre:
     es: Estudios
   nombre_dimension: ESTUDIOS
+  tipo: dimension
+EST_CENSO2021_17543:
+  codelist:
+    agency: ESC01
+    id: CL_EST_CENSO2021_17543
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: EST_CENSO2021_17543
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Nivel de estudios (agregado)
+  nombre:
+    es: Nivel de estudios (agregado)
+  nombre_dimension: EST_CENSO2021_17543
   tipo: dimension
 FACTORES_MOTIVACION:
   codelist:
@@ -990,6 +1502,22 @@ GRADO_UTILIZACION:
     es: "Utilizaci\xF3n de la capacidad productiva"
   nombre_dimension: GRADO_UTILIZACION
   tipo: dimension
+GRADO_UTILIZACION_108:
+  codelist:
+    agency: ESC01
+    id: CL_GRADO_UTILIZACION_108
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: GRADO_UTILIZACION_108
+    id: CS_SECTORAL_STAT
+    version: '1.0'
+  descripcion:
+    es: "Utilizaci\xF3n de la capacidad productiva"
+  nombre:
+    es: "Utilizaci\xF3n de la capacidad productiva"
+  nombre_dimension: GRADO_UTILIZACION_108
+  tipo: dimension
 GU_FUENTE:
   codelist:
     agency: ESC01
@@ -1070,6 +1598,22 @@ IPC_GRUPOSESPECIALES:
     es: Grupos especiales
   nombre_dimension: GRUPOSESPECIALES
   tipo: dimension
+IPC_GRUPOSESPECIALES_1350:
+  codelist:
+    agency: ESC01
+    id: CL_IPC_GRUPOSESPECIALES_1350
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: IPC_GRUPOSESPECIALES_1350
+    id: CS_ECO_ACCOUNTS
+    version: '1.0'
+  descripcion:
+    es: Grupos especiales
+  nombre:
+    es: Grupos especiales
+  nombre_dimension: IPC_GRUPOSESPECIALES_1350
+  tipo: dimension
 IPC_RUBRICAS:
   codelist:
     agency: ESC01
@@ -1085,6 +1629,22 @@ IPC_RUBRICAS:
   nombre:
     es: "R\xFAbricas"
   nombre_dimension: RUBRICAS
+  tipo: dimension
+IPC_RUBRICAS_1349:
+  codelist:
+    agency: ESC01
+    id: CL_IPC_RUBRICAS_1349
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: IPC_RUBRICAS_1349
+    id: CS_ECO_ACCOUNTS
+    version: '1.0'
+  descripcion:
+    es: "R\xFAbricas"
+  nombre:
+    es: "R\xFAbricas"
+  nombre_dimension: IPC_RUBRICAS_1349
   tipo: dimension
 IVGS_SERIEIVGS:
   codelist:
@@ -1134,6 +1694,70 @@ LUGARNACIMIEN:
     es: Lugar de nacimiento
   nombre_dimension: LUGARNACIMIEN
   tipo: dimension
+LUGARNACIMIEN_0_361:
+  codelist:
+    agency: ESC01
+    id: CL_LUGARNACIMIEN_0_361
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: LUGARNACIMIEN_0_361
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Lugar de nacimiento
+  nombre:
+    es: Lugar de nacimiento
+  nombre_dimension: LUGARNACIMIEN_0_361
+  tipo: dimension
+LUGARNACIMIEN_0_423:
+  codelist:
+    agency: ESC01
+    id: CL_LUGARNACIMIEN_0_423
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: LUGARNACIMIEN_0_423
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Lugar de nacimiento
+  nombre:
+    es: Lugar de nacimiento
+  nombre_dimension: LUGARNACIMIEN_0_423
+  tipo: dimension
+LUGARNACIMIEN_361:
+  codelist:
+    agency: ESC01
+    id: CL_LUGARNACIMIEN_361
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: LUGARNACIMIEN_361
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Lugar de nacimiento
+  nombre:
+    es: Lugar de nacimiento
+  nombre_dimension: LUGARNACIMIEN_361
+  tipo: dimension
+LUGARNACIMIEN_423:
+  codelist:
+    agency: ESC01
+    id: CL_LUGARNACIMIEN_423
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: LUGARNACIMIEN_423
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Lugar de nacimiento
+  nombre:
+    es: Lugar de nacimiento
+  nombre_dimension: LUGARNACIMIEN_423
+  tipo: dimension
 LUG_NAC_PADRON:
   codelist:
     agency: ESC01
@@ -1149,6 +1773,38 @@ LUG_NAC_PADRON:
   nombre:
     es: Lugar de nacimiento
   nombre_dimension: LUG_NAC
+  tipo: dimension
+LUG_NAC_PADRON_4653:
+  codelist:
+    agency: ESC01
+    id: CL_LUG_NAC_PADRON_4653
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: LUG_NAC_PADRON_4653
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Lugar de nacimiento
+  nombre:
+    es: Lugar de nacimiento
+  nombre_dimension: LUG_NAC_PADRON_4653
+  tipo: dimension
+LUG_NAC_PADRON_602:
+  codelist:
+    agency: ESC01
+    id: CL_LUG_NAC_PADRON_602
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: LUG_NAC_PADRON_602
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Lugar de nacimiento
+  nombre:
+    es: Lugar de nacimiento
+  nombre_dimension: LUG_NAC_PADRON_602
   tipo: dimension
 MACROECO:
   codelist:
@@ -1486,6 +2142,54 @@ NACIONALIDAD:
     es: Nacionalidad
   nombre_dimension: NACIONALIDAD
   tipo: dimension
+NACIONALIDAD_17507:
+  codelist:
+    agency: ESC01
+    id: CL_NACIONALIDAD_17507
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: NACIONALIDAD_17507
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Nacionalidad
+  nombre:
+    es: Nacionalidad
+  nombre_dimension: NACIONALIDAD_17507
+  tipo: dimension
+NACIONALIDAD_543:
+  codelist:
+    agency: ESC01
+    id: CL_NACIONALIDAD_543
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: NACIONALIDAD_543
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Nacionalidad
+  nombre:
+    es: Nacionalidad
+  nombre_dimension: NACIONALIDAD_543
+  tipo: dimension
+NACIONALIDAD_645:
+  codelist:
+    agency: ESC01
+    id: CL_NACIONALIDAD_645
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: NACIONALIDAD_645
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Nacionalidad extranjera
+  nombre:
+    es: Nacionalidad extranjera
+  nombre_dimension: NACIONALIDAD_645
+  tipo: dimension
 NAT_GASTO:
   codelist:
     agency: ESC01
@@ -1565,6 +2269,22 @@ PERCEPCION:
   nombre:
     es: "Percepci\xF3n"
   nombre_dimension: PERCEPCION
+  tipo: dimension
+PERCEPCION_102:
+  codelist:
+    agency: ESC01
+    id: CL_PERCEPCION_102
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: PERCEPCION_102
+    id: CS_SECTORAL_STAT
+    version: '1.0'
+  descripcion:
+    es: "Percepci\xF3n"
+  nombre:
+    es: "Percepci\xF3n"
+  nombre_dimension: PERCEPCION_102
   tipo: dimension
 PROCEDENCIA_ECTA:
   codelist:
@@ -1662,6 +2382,22 @@ RELAC_RESID_NAC:
     es: "Relaci\xF3n entre lugar de residencia y lugar de nacimiento"
   nombre_dimension: RELAC_RESID_NAC
   tipo: dimension
+RELAC_RESID_NAC_572:
+  codelist:
+    agency: ESC01
+    id: CL_RELAC_RESID_NAC_572
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: RELAC_RESID_NAC_572
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: "Relaci\xF3n entre lugar de residencia y lugar de nacimiento"
+  nombre:
+    es: "Relaci\xF3n entre lugar de residencia y lugar de nacimiento"
+  nombre_dimension: RELAC_RESID_NAC_572
+  tipo: dimension
 REL_RESIDENANT:
   codelist:
     agency: ESC01
@@ -1677,6 +2413,22 @@ REL_RESIDENANT:
   nombre:
     es: "Relaci\xF3n con la residencia anterior"
   nombre_dimension: REL_RESIDENANT
+  tipo: dimension
+REL_RES_NAC_17504:
+  codelist:
+    agency: ESC01
+    id: CL_REL_RES_NAC_17504
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: REL_RES_NAC_17504
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: "Relaci\xF3n entre lugar de nacimiento y de residencia"
+  nombre:
+    es: "Relaci\xF3n entre lugar de nacimiento y de residencia"
+  nombre_dimension: REL_RES_NAC_17504
   tipo: dimension
 RESITUR:
   codelist:
@@ -1726,6 +2478,54 @@ SECTORES_ICEA:
     es: Sectores
   nombre_dimension: SECTORES
   tipo: dimension
+SECTORES_ICEA_101:
+  codelist:
+    agency: ESC01
+    id: CL_SECTORES_ICEA_101
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: SECTORES_ICEA_101
+    id: CS_SECTORAL_STAT
+    version: '1.0'
+  descripcion:
+    es: Sectores
+  nombre:
+    es: Sectores
+  nombre_dimension: SECTORES_ICEA_101
+  tipo: dimension
+SERIE_IPIAN:
+  codelist:
+    agency: ESC01
+    id: CL_SERIE_IPIAN
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: SERIE_IPIAN
+    id: CS_SECTORAL_STAT
+    version: '1.0'
+  descripcion:
+    es: Serie
+  nombre:
+    es: Serie
+  nombre_dimension: SERIE_IPIAN
+  tipo: dimension
+SERIE_IPIAN_341:
+  codelist:
+    agency: ESC01
+    id: CL_SERIE_IPIAN_341
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: SERIE_IPIAN_341
+    id: CS_SECTORAL_STAT
+    version: '1.0'
+  descripcion:
+    es: Serie
+  nombre:
+    es: Serie
+  nombre_dimension: SERIE_IPIAN_341
+  tipo: dimension
 SEXO:
   codelist:
     agency: SDMX
@@ -1757,6 +2557,38 @@ SEXOC2:
   nombre:
     es: "Sexo c\xF3nyuge 2"
   nombre_dimension: SEXOC2
+  tipo: dimension
+SEXO_0_22:
+  codelist:
+    agency: ESC01
+    id: CL_SEXO_0_22
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: SEXO_0_22
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Sexo
+  nombre:
+    es: Sexo
+  nombre_dimension: SEXO_0_22
+  tipo: dimension
+SEXO_22:
+  codelist:
+    agency: ESC01
+    id: CL_SEXO_22
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: SEXO_22
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Sexo
+  nombre:
+    es: Sexo
+  nombre_dimension: SEXO_22
   tipo: dimension
 SEXO_SOCIOS:
   codelist:
@@ -1790,6 +2622,22 @@ TAMA_EMP_INS_SS:
     es: "Tama\xF1o de empresa"
   nombre_dimension: TAMA_EMP
   tipo: dimension
+TAM_MUN_C2021_17503:
+  codelist:
+    agency: ESC01
+    id: CL_TAM_MUN_C2021_17503
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TAM_MUN_C2021_17503
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: "Tama\xF1o del municipio"
+  nombre:
+    es: "Tama\xF1o del municipio"
+  nombre_dimension: TAM_MUN_C2021_17503
+  tipo: dimension
 TEMPORAL:
   codelist:
     agency: ESC01
@@ -1805,6 +2653,38 @@ TEMPORAL:
   nombre:
     es: Mensual
   nombre_dimension: TEMPORAL
+  tipo: dimension
+TEMPORAL_0_2:
+  codelist:
+    agency: ESC01
+    id: CL_TEMPORAL_0_2
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TEMPORAL_0_2
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Anual
+  nombre:
+    es: Anual
+  nombre_dimension: TEMPORAL_0_2
+  tipo: dimension
+TEMPORAL_2:
+  codelist:
+    agency: ESC01
+    id: CL_TEMPORAL_2
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TEMPORAL_2
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Anual
+  nombre:
+    es: Anual
+  nombre_dimension: TEMPORAL_2
   tipo: dimension
 TERRITORIO:
   codelist:
@@ -1822,6 +2702,54 @@ TERRITORIO:
     es: Territorio
   nombre_dimension: TERRITORIO
   tipo: dimension
+TERRITORIO_0_21:
+  codelist:
+    agency: ESC01
+    id: CL_TERRITORIO_0_21
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TERRITORIO_0_21
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Territorio
+  nombre:
+    es: Territorio
+  nombre_dimension: TERRITORIO_0_21
+  tipo: dimension
+TERRITORIO_0_44:
+  codelist:
+    agency: ESC01
+    id: CL_TERRITORIO_0_44
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TERRITORIO_0_44
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Territorio
+  nombre:
+    es: Territorio
+  nombre_dimension: TERRITORIO_0_44
+  tipo: dimension
+TERRITORIO_0_862:
+  codelist:
+    agency: ESC01
+    id: CL_TERRITORIO_0_862
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TERRITORIO_0_862
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: ProvAndal_RE_Extranjero_nueva
+  nombre:
+    es: ProvAndal_RE_Extranjero_nueva
+  nombre_dimension: TERRITORIO_0_862
+  tipo: dimension
 TERRITORIO_1:
   codelist:
     agency: ESC01
@@ -1837,6 +2765,198 @@ TERRITORIO_1:
   nombre:
     es: "Pa\xEDs de residencia"
   nombre_dimension: TERRITORIO_1
+  tipo: dimension
+TERRITORIO_105:
+  codelist:
+    agency: ESC01
+    id: CL_TERRITORIO_105
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TERRITORIO_105
+    id: CS_INCOME_CONSUMP
+    version: '1.0'
+  descripcion:
+    es: Territorio
+  nombre:
+    es: Territorio
+  nombre_dimension: TERRITORIO_105
+  tipo: dimension
+TERRITORIO_1_285:
+  codelist:
+    agency: ESC01
+    id: CL_TERRITORIO_1_285
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TERRITORIO_1_285
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: "Pa\xEDs de residencia"
+  nombre:
+    es: "Pa\xEDs de residencia"
+  nombre_dimension: TERRITORIO_1_285
+  tipo: dimension
+TERRITORIO_21:
+  codelist:
+    agency: ESC01
+    id: CL_TERRITORIO_21
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TERRITORIO_21
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Territorio
+  nombre:
+    es: Territorio
+  nombre_dimension: TERRITORIO_21
+  tipo: dimension
+TERRITORIO_285_1:
+  codelist:
+    agency: ESC01
+    id: CL_TERRITORIO_285
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TERRITORIO_285
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: "Pa\xEDs de residencia"
+  nombre:
+    es: "Pa\xEDs de residencia"
+  nombre_dimension: TERRITORIO_285
+  tipo: dimension
+TERRITORIO_285_1-d:
+  codelist:
+    agency: ESC01
+    id: CL_TERRITORIO_285_1-d
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TERRITORIO_285_1-d
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: "Pa\xEDs de residencia"
+  nombre:
+    es: "Pa\xEDs de residencia"
+  nombre_dimension: TERRITORIO_285_1-d
+  tipo: dimension
+TERRITORIO_425:
+  codelist:
+    agency: ESC01
+    id: CL_TERRITORIO_425
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TERRITORIO_425
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Territorio
+  nombre:
+    es: Territorio
+  nombre_dimension: TERRITORIO_425
+  tipo: dimension
+TERRITORIO_44:
+  codelist:
+    agency: ESC01
+    id: CL_TERRITORIO_44
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TERRITORIO_44
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Territorio
+  nombre:
+    es: Territorio
+  nombre_dimension: TERRITORIO_44
+  tipo: dimension
+TERRITORIO_6168:
+  codelist:
+    agency: ESC01
+    id: CL_TERRITORIO_6168
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TERRITORIO_6168
+    id: CS_SECTORAL_STAT
+    version: '1.0'
+  descripcion:
+    es: Territorio
+  nombre:
+    es: Territorio
+  nombre_dimension: TERRITORIO_6168
+  tipo: dimension
+TERRITORIO_6731:
+  codelist:
+    agency: ESC01
+    id: CL_TERRITORIO_6731
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TERRITORIO_6731
+    id: CS_SECTORAL_STAT
+    version: '1.0'
+  descripcion:
+    es: Territorio
+  nombre:
+    es: Territorio
+  nombre_dimension: TERRITORIO_6731
+  tipo: dimension
+TERRITORIO_862:
+  codelist:
+    agency: ESC01
+    id: CL_TERRITORIO_862
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TERRITORIO_862
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: ProvAndal_RE_Extranjero_nueva
+  nombre:
+    es: ProvAndal_RE_Extranjero_nueva
+  nombre_dimension: TERRITORIO_862
+  tipo: dimension
+TIPODECONTRATO:
+  codelist:
+    agency: ESC01
+    id: CL_TIPODECONTRATO
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TIPODECONTRATO
+    id: CS_SECTORAL_STAT
+    version: '1.0'
+  descripcion:
+    es: Tipo de contrato
+  nombre:
+    es: Tipo de contrato
+  nombre_dimension: TIPODECONTRATO
+  tipo: dimension
+TIPODECONTRATO_128:
+  codelist:
+    agency: ESC01
+    id: CL_TIPODECONTRATO_128
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TIPODECONTRATO_128
+    id: CS_SECTORAL_STAT
+    version: '1.0'
+  descripcion:
+    es: Tipo de contrato
+  nombre:
+    es: Tipo de contrato
+  nombre_dimension: TIPODECONTRATO_128
   tipo: dimension
 TIPOMATRIMONIO:
   codelist:
@@ -1965,4 +3085,20 @@ TRAMO_EMPLEO_ICEA:
   nombre:
     es: Tramo de empleo
   nombre_dimension: TRAMO_EMPLEO
+  tipo: dimension
+TRAMO_EMPLEO_ICEA_104:
+  codelist:
+    agency: ESC01
+    id: CL_TRAMO_EMPLEO_ICEA_104
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TRAMO_EMPLEO_ICEA_104
+    id: CS_SECTORAL_STAT
+    version: '1.0'
+  descripcion:
+    es: Tramo de empleo
+  nombre:
+    es: Tramo de empleo
+  nombre_dimension: TRAMO_EMPLEO_ICEA_104
   tipo: dimension

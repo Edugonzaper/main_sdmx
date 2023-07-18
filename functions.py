@@ -17,7 +17,7 @@ def execute_actividades(configuracion_ejecucion, configuracion_global, configura
 
 
 def download_struval(configuracion_ejecucion,controller):
-    print(configuracion_ejecucion)
+
     for nombre_actividad in configuracion_ejecucion['actividades']:
 
         directorio_DF = os.path.join("mdm_data","DF",nombre_actividad)
@@ -47,7 +47,6 @@ def download_struval(configuracion_ejecucion,controller):
 def initialize_codelists_schemes(configuracion_actividad, datos_jerarquias, mapa_conceptos_codelist, controller,
                                  configuracion_actividades):
     for dimension in configuracion_actividad['variables']:
-
         jerarquia = datos_jerarquias[dimension]
         codelist_id = jerarquia['ID']
         codelist_agency = jerarquia['agency']
@@ -85,8 +84,10 @@ def initialize_codelists_schemes(configuracion_actividad, datos_jerarquias, mapa
                                                           'en': 'Measurement units (Indicators)'},
                                                          {'es': 'Unidades de Medida (Indicadores)',
                                                           'en': 'Measurement units (Indicators)'})
+
     data_medidas = pd.read_csv('sistema_informacion/BADEA/jerarquias/INDICATOR', sep=';',
                                dtype='string')  # Esto es feisimo
+
     codelist_medidas.add_codes(data_medidas)
 
 
@@ -104,12 +105,17 @@ def put_dsds(configuracion_ejecucion, configuracion_actividades_completo, mapa_c
         validFrom = "3500-01-01"
         validTo = "1500-01-01"
         for c_id in list(configuracion_actividad["periodicidad"].keys()):
-            v_from = configuracion_actividad["periodicidad"][c_id]["validFrom"]
-            v_to = configuracion_actividad["periodicidad"][c_id]["validTo"]
-            if v_from < validFrom:
-                validFrom = v_from
-            if v_to > validTo:
-                validTo = v_to
+            try:
+                v_from = configuracion_actividad["periodicidad"][c_id]["validFrom"]
+                v_to = configuracion_actividad["periodicidad"][c_id]["validTo"]
+                if v_from < validFrom:
+                    validFrom = v_from
+                if v_to > validTo:
+                    validTo = v_to
+            except:
+                validFrom = None
+                validTo = None
+                break
 
         controller.dsds.put(dsd_agency, dsd_id, dsd_version, dsd_names, dsd_des, dimensions, validFrom, validTo)
 
@@ -170,8 +176,24 @@ def create_dataflows(configuracion_ejecucion, configuracion_actividades, configu
                      category_scheme, configuracion_global, mapa_conceptos_codelist, controller):
     for nombre_actividad in configuracion_ejecucion['actividades']:
         for consulta in configuracion_actividades[nombre_actividad]['consultas']:
+
+            #modificacion para consultas que pueden venir sin time period
+            has_time_period = True
+
+
             configuracion_actividad = configuracion_actividades_sdmx[nombre_actividad]
+
+
+
             consulta_id = str(consulta).split('?')[0]
+            # try:
+            #     flag_time_period = configuracion_actividad['periodicidad'][consulta_id]['validFrom']
+            #     has_time_period = True
+            #     controller.logger.info('Añadiendo cubo con columna TIME_PERIOD')
+            # except:
+            #     has_time_period = False
+            #     controller.logger.info('Añadiendo cubo sin columna TIME_PERIOD')
+
             categories = category_scheme.categories
             id_cube_cat = \
                 categories[categories['id'] == nombre_actividad]['id_cube_cat'].values[0]
@@ -185,11 +207,23 @@ def create_dataflows(configuracion_ejecucion, configuracion_actividades, configu
             cube_id = controller.cubes.put(cube_code, id_cube_cat, 'DSD_' + nombre_actividad,
                                            configuracion_actividades_sdmx[nombre_actividad]['metadatos_title'][
                                                consulta_id], dimensiones,
-                                           configuracion_actividades_sdmx[nombre_actividad]['is_alphanumeric'])
+                                           configuracion_actividades_sdmx[nombre_actividad]['is_alphanumeric'],has_time_period)
 
-            variables = configuracion_actividad['variables'] + ['INDICATOR', 'TEMPORAL',
-                                                                'FREQ',
-                                                                'OBS_VALUE']
+            variables = None
+            if has_time_period:
+                variables = configuracion_actividad['variables'] + ['INDICATOR', 'TEMPORAL',
+                                                                    'FREQ',
+                                                                    'OBS_VALUE']
+                controller.logger.info('Añadiendo cubo con columna TIME_PERIOD')
+            else:
+
+                variables = configuracion_actividad['variables'] + ['INDICATOR',
+                                                                    'FREQ',
+                                                                    'OBS_VALUE']
+
+                controller.logger.info('Añadiendo cubo sin columna TIME_PERIOD')
+
+
             variables = mappings_variables(variables, mapa_conceptos_codelist)
 
             mapping_id = controller.mappings.put(variables, cube_id, nombre_actividad + '_' + consulta_id)
@@ -197,7 +231,9 @@ def create_dataflows(configuracion_ejecucion, configuracion_actividades, configu
             cube_data = pd.read_csv(
                 f'{configuracion_global["directorio_datos"]}/{nombre_actividad}/procesados/{consulta_id}.csv',
                 sep=';', dtype='string')
+
             cube_data = script_provisional(cube_data, configuracion_actividad['variables'])
+
             dsd_name = 'DSD_' + nombre_actividad
             df_id = f'DF_{nombre_actividad}_{consulta_id}'
 
@@ -212,8 +248,12 @@ def create_dataflows(configuracion_ejecucion, configuracion_actividades, configu
                                                                                               'ID_TIME_PERIOD') for
                 column in
                 variables.values()]
-            validFrom = configuracion_actividad["periodicidad"][consulta_id]["validFrom"]
-            validTo = configuracion_actividad["periodicidad"][consulta_id]["validTo"]
+            validFrom = None
+            validTo = None
+            if has_time_period:
+                validFrom = configuracion_actividad["periodicidad"][consulta_id]["validFrom"]
+                validTo = configuracion_actividad["periodicidad"][consulta_id]["validTo"]
+
 
             df = controller.dataflows.put(df_id, 'ESC01', '1.0', df_name, None, dataflow_columns, cube_id,
                                           controller.dsds.data['ESC01'][f'DSD_{nombre_actividad}']['1.0'],

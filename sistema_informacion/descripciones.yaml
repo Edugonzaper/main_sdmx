@@ -126,6 +126,36 @@ CONTPROV:
 CPAA_32118:
   descripcion: '%3Cp%20style%3D%22text-align%3Ajustify%22%3ELa%20Contabilidad%20Provincial%20Anual%20de%20Andaluc%26iacute%3Ba%20se%20engloba%20dentro%20del%20Sistema%20de%20Cuentas%20Econ%26oacute%3Bmicas%20de%20Andaluc%26iacute%3Ba%2C%20que%20integra%20un%20conjunto%20de%20operaciones%20estad%26iacute%3Bsticas%20que%20tienen%20como%20objetivo%20el%20conocimiento%20de%20las%20principales%20magnitudes%20econ%26oacute%3Bmicas%20de%20las%20diferentes%20ramas%20de%20actividad%20en%20Andaluc%26iacute%3Ba%20y%20su%20evoluci%26oacute%3Bn%20en%20el%20tiempo%2C%20as%26iacute%3B%20como%20permitir%20la%20comparaci%26oacute%3Bn%20de%20sus%20resultados%20con%20los%20obtenidos%20en%20otros%20%26aacute%3Bmbitos%20territoriales.%3C%2Fp%3E%0A'
   tags: []
+CPV_77338:
+  descripcion: --
+  tags: []
+CPV_77339:
+  descripcion: --
+  tags: []
+CPV_77340:
+  descripcion: --
+  tags: []
+CPV_77342:
+  descripcion: --
+  tags: []
+CPV_77343:
+  descripcion: --
+  tags: []
+CPV_77344:
+  descripcion: --
+  tags: []
+CPV_77570:
+  descripcion: --
+  tags: []
+CPV_77587:
+  descripcion: --
+  tags: []
+CPV_77588:
+  descripcion: --
+  tags: []
+CPV_82856:
+  descripcion: --
+  tags: []
 CRA:
   descripcion: "Esta actividad se engloba dentro del Sistema de Cuentas Econ\xF3micas\
     \ de Andaluc\xEDa (SCEA), que integra un conjunto de operaciones estad\xEDsticas\
@@ -917,6 +947,294 @@ EPD_66391:
     \ a aproximadamente 60.000 familias entrevistadas de manera efectiva que equivalen\
     \ a unas 200.000 personas"
   tags: []
+EPF_52916:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_52944:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_52945:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_52949:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_52953:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_52958:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_52960:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_52962:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_52964:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_52966:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_52968:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_52970:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_52976:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_52978:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_52980:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_52982:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_52984:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_52986:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_53087:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_53091:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_53092:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_53152:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_53154:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_53155:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_53157:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_53158:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_53159:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_53160:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_53162:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_53163:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_53183:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_53184:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_53185:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_53207:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_53208:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_53209:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_53210:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_53211:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_53212:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_53213:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_53214:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_53215:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_53216:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_53217:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_53218:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_53219:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_53220:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
+EPF_53221:
+  descripcion: "Los hogares de Andaluc\xEDa, al igual que el resto, destinan su presupuesto\
+    \ al ahorro o al gasto. Con esta encuesta se pretende obtener informaci\xF3n anual\
+    \ sobre la naturaleza y destino de los gastos de consumo, as\xED como sobre diversas\
+    \ caracter\xEDsticas relativas a las condiciones de vida de los hogares"
+  tags: []
 ETCE_26203:
   descripcion: '%3Cp%20style%3D%22text-align%3Ajustify%22%3ESe%20estudia%20la%20implantaci%26oacute%3Bn%20y%20el%20uso%20de%20las%20Tecnolog%26iacute%3Bas%20de%20la%20Informaci%26oacute%3Bn%20y%20de%20la%20Comunicaci%26oacute%3Bn%20(TIC)%20y%20del%20Comercio%20Electr%26oacute%3Bnico%20en%20empresas%20con%20sede%20social%20en%20Andaluc%26iacute%3Ba%2C%20cuyas%20actividades%20principales%20se%20encuentran%20incluidas%20dentro%20del%20%26aacute%3Bmbito%20objeto%20de%20estudio.%3C%2Fp%3E%0A'
   tags: []
@@ -1126,6 +1444,30 @@ ICMA_20697:
     \ en la regi\xF3n, como objetivo principal, al tiempo que da cobertura a otras\
     \ necesidades de informaci\xF3n, entre las que destacar\xEDa su aportaci\xF3n\
     \ al Sistema de Cuentas Econ\xF3micas de Andaluc\xEDa"
+  tags: []
+IMPCM_50682:
+  descripcion: --
+  tags: []
+IMPCM_50683:
+  descripcion: --
+  tags: []
+IMPCM_50685:
+  descripcion: --
+  tags: []
+IMPCM_50720:
+  descripcion: --
+  tags: []
+IMPCM_50721:
+  descripcion: --
+  tags: []
+IMPCM_50918:
+  descripcion: --
+  tags: []
+IMPCM_50919:
+  descripcion: --
+  tags: []
+IMPCM_67023:
+  descripcion: --
   tags: []
 INDICADORES:
   descripcion: "Sistema de indicadores que permiten avanzar en la integraci\xF3n de\
@@ -2031,6 +2373,1089 @@ SA_20496:
   tags: []
 SA_20506:
   descripcion: '%3Cp%3ECon%20la%20informaci%26oacute%3Bn%20fiscal%20de%20la%20%3Cem%3EMuestra%20Continua%20de%20Vidas%20Laborales%3C%2Fem%3E%20se%20elabora%20la%20publicaci%26oacute%3Bn%20%3Cem%3ELos%20Salarios%20en%20Andaluc%26iacute%3Ba%3C%2Fem%3E.%20La%20poblaci%26oacute%3Bn%20de%20referencia%20la%20forman%20las%20personas%20que%20han%20tenido%20alguna%20relaci%26oacute%3Bn%20de%20ocupaci%26oacute%3Bn%20por%20cuenta%20ajena%20a%20lo%20largo%20del%20a%26ntilde%3Bo.%3C%2Fp%3E%0A%0A%3Cp%3ESe%20calculan%20dos%20medidas%2C%20el%20salario%20bruto%20anual%20y%20el%20salario%20equivalente%20anual%20a%20tiempo%20completo%2C%20ambos%20desagregados%20por%20caracter%26iacute%3Bsticas%20de%20la%20persona%2C%20de%20la%20trayectoria%20profesional%20a%20lo%20largo%20del%20%26uacute%3Bltimo%20a%26ntilde%3Bo%20y%20del%20historial%20de%20relaciones%20con%20la%20Seguridad%20Social%20en%20toda%20la%20vida%20laboral.%3C%2Fp%3E%0A%0A%3Cp%20style%3D%22text-align%3Ajustify%22%3E.%3C%2Fp%3E%0A%0A%3Cp%20style%3D%22text-align%3Ajustify%22%3E.%3C%2Fp%3E%0A'
+  tags: []
+SIEIARIS3_16874:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_16876:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_16877:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_16878:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_16879:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_16880:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_16881:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_16882:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_16883:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_16884:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_16885:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_16886:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_16887:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_16888:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_16889:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_16890:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_16891:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_16892:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_16893:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_16894:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_16895:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_16896:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_16897:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_16898:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_16899:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_16900:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_16901:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_16902:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_16903:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17156:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17157:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17158:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17208:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17209:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17210:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17211:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17212:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17504:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17505:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17506:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17507:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17508:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17511:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17512:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17513:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17858:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17859:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17863:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17864:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17866:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17869:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17871:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17873:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17875:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17877:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17881:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17886:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17967:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17968:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17969:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17970:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17972:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17973:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17974:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_17975:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIARIS3_24472:
+  descripcion: "Esta actividad abarca el conjunto de la producci\xF3n estad\xEDstica\
+    \ y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento y evaluaci\xF3\
+    n de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) El Sistema de\
+    \ Indicadores de la Estrategia de Innovaci\xF3n de Andaluc\xEDa 2020 (RIS3) distingue\
+    \ los indicadores de contexto de los indicadores de resultados a medio y largo\
+    \ plazo"
+  tags: []
+SIEIA_12860:
+  descripcion: "Este sistema de indicadores abarca el conjunto de la producci\xF3\
+    n estad\xEDstica y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento\
+    \ y evaluaci\xF3n de los Planes generales y sectoriales en el \xE1mbito de la\
+    \ Junta de Andaluc\xEDa, en particular de la Estrategia Industrial de Andaluc\xED\
+    a 2020 (EIA2020). Esta actividad tiene pues, como finalidad avanzar en la obtenci\xF3\
+    n de esta informaci\xF3n y en el asesoramiento a los diferentes centros directivos\
+    \ en cuanto a la construcci\xF3n de sistemas de indicadores que permitan el seguimiento\
+    \ de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIEIA_12862:
+  descripcion: "Este sistema de indicadores abarca el conjunto de la producci\xF3\
+    n estad\xEDstica y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento\
+    \ y evaluaci\xF3n de los Planes generales y sectoriales en el \xE1mbito de la\
+    \ Junta de Andaluc\xEDa, en particular de la Estrategia Industrial de Andaluc\xED\
+    a 2020 (EIA2020). Esta actividad tiene pues, como finalidad avanzar en la obtenci\xF3\
+    n de esta informaci\xF3n y en el asesoramiento a los diferentes centros directivos\
+    \ en cuanto a la construcci\xF3n de sistemas de indicadores que permitan el seguimiento\
+    \ de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIEIA_12866:
+  descripcion: "Este sistema de indicadores abarca el conjunto de la producci\xF3\
+    n estad\xEDstica y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento\
+    \ y evaluaci\xF3n de los Planes generales y sectoriales en el \xE1mbito de la\
+    \ Junta de Andaluc\xEDa, en particular de la Estrategia Industrial de Andaluc\xED\
+    a 2020 (EIA2020). Esta actividad tiene pues, como finalidad avanzar en la obtenci\xF3\
+    n de esta informaci\xF3n y en el asesoramiento a los diferentes centros directivos\
+    \ en cuanto a la construcci\xF3n de sistemas de indicadores que permitan el seguimiento\
+    \ de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIEIA_12885:
+  descripcion: "Este sistema de indicadores abarca el conjunto de la producci\xF3\
+    n estad\xEDstica y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento\
+    \ y evaluaci\xF3n de los Planes generales y sectoriales en el \xE1mbito de la\
+    \ Junta de Andaluc\xEDa, en particular de la Estrategia Industrial de Andaluc\xED\
+    a 2020 (EIA2020). Esta actividad tiene pues, como finalidad avanzar en la obtenci\xF3\
+    n de esta informaci\xF3n y en el asesoramiento a los diferentes centros directivos\
+    \ en cuanto a la construcci\xF3n de sistemas de indicadores que permitan el seguimiento\
+    \ de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIEIA_12886:
+  descripcion: "Este sistema de indicadores abarca el conjunto de la producci\xF3\
+    n estad\xEDstica y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento\
+    \ y evaluaci\xF3n de los Planes generales y sectoriales en el \xE1mbito de la\
+    \ Junta de Andaluc\xEDa, en particular de la Estrategia Industrial de Andaluc\xED\
+    a 2020 (EIA2020). Esta actividad tiene pues, como finalidad avanzar en la obtenci\xF3\
+    n de esta informaci\xF3n y en el asesoramiento a los diferentes centros directivos\
+    \ en cuanto a la construcci\xF3n de sistemas de indicadores que permitan el seguimiento\
+    \ de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIEIA_12888:
+  descripcion: "Este sistema de indicadores abarca el conjunto de la producci\xF3\
+    n estad\xEDstica y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento\
+    \ y evaluaci\xF3n de los Planes generales y sectoriales en el \xE1mbito de la\
+    \ Junta de Andaluc\xEDa, en particular de la Estrategia Industrial de Andaluc\xED\
+    a 2020 (EIA2020). Esta actividad tiene pues, como finalidad avanzar en la obtenci\xF3\
+    n de esta informaci\xF3n y en el asesoramiento a los diferentes centros directivos\
+    \ en cuanto a la construcci\xF3n de sistemas de indicadores que permitan el seguimiento\
+    \ de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIEIA_20946:
+  descripcion: "Este sistema de indicadores abarca el conjunto de la producci\xF3\
+    n estad\xEDstica y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento\
+    \ y evaluaci\xF3n de los Planes generales y sectoriales en el \xE1mbito de la\
+    \ Junta de Andaluc\xEDa, en particular de la Estrategia Industrial de Andaluc\xED\
+    a 2020 (EIA2020). Esta actividad tiene pues, como finalidad avanzar en la obtenci\xF3\
+    n de esta informaci\xF3n y en el asesoramiento a los diferentes centros directivos\
+    \ en cuanto a la construcci\xF3n de sistemas de indicadores que permitan el seguimiento\
+    \ de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIEIA_20947:
+  descripcion: "Este sistema de indicadores abarca el conjunto de la producci\xF3\
+    n estad\xEDstica y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento\
+    \ y evaluaci\xF3n de los Planes generales y sectoriales en el \xE1mbito de la\
+    \ Junta de Andaluc\xEDa, en particular de la Estrategia Industrial de Andaluc\xED\
+    a 2020 (EIA2020). Esta actividad tiene pues, como finalidad avanzar en la obtenci\xF3\
+    n de esta informaci\xF3n y en el asesoramiento a los diferentes centros directivos\
+    \ en cuanto a la construcci\xF3n de sistemas de indicadores que permitan el seguimiento\
+    \ de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIEIA_20951:
+  descripcion: "Este sistema de indicadores abarca el conjunto de la producci\xF3\
+    n estad\xEDstica y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento\
+    \ y evaluaci\xF3n de los Planes generales y sectoriales en el \xE1mbito de la\
+    \ Junta de Andaluc\xEDa, en particular de la Estrategia Industrial de Andaluc\xED\
+    a 2020 (EIA2020). Esta actividad tiene pues, como finalidad avanzar en la obtenci\xF3\
+    n de esta informaci\xF3n y en el asesoramiento a los diferentes centros directivos\
+    \ en cuanto a la construcci\xF3n de sistemas de indicadores que permitan el seguimiento\
+    \ de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIEIA_20952:
+  descripcion: "Este sistema de indicadores abarca el conjunto de la producci\xF3\
+    n estad\xEDstica y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento\
+    \ y evaluaci\xF3n de los Planes generales y sectoriales en el \xE1mbito de la\
+    \ Junta de Andaluc\xEDa, en particular de la Estrategia Industrial de Andaluc\xED\
+    a 2020 (EIA2020). Esta actividad tiene pues, como finalidad avanzar en la obtenci\xF3\
+    n de esta informaci\xF3n y en el asesoramiento a los diferentes centros directivos\
+    \ en cuanto a la construcci\xF3n de sistemas de indicadores que permitan el seguimiento\
+    \ de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIEIA_20953:
+  descripcion: "Este sistema de indicadores abarca el conjunto de la producci\xF3\
+    n estad\xEDstica y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento\
+    \ y evaluaci\xF3n de los Planes generales y sectoriales en el \xE1mbito de la\
+    \ Junta de Andaluc\xEDa, en particular de la Estrategia Industrial de Andaluc\xED\
+    a 2020 (EIA2020). Esta actividad tiene pues, como finalidad avanzar en la obtenci\xF3\
+    n de esta informaci\xF3n y en el asesoramiento a los diferentes centros directivos\
+    \ en cuanto a la construcci\xF3n de sistemas de indicadores que permitan el seguimiento\
+    \ de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIEIA_20956:
+  descripcion: "Este sistema de indicadores abarca el conjunto de la producci\xF3\
+    n estad\xEDstica y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento\
+    \ y evaluaci\xF3n de los Planes generales y sectoriales en el \xE1mbito de la\
+    \ Junta de Andaluc\xEDa, en particular de la Estrategia Industrial de Andaluc\xED\
+    a 2020 (EIA2020). Esta actividad tiene pues, como finalidad avanzar en la obtenci\xF3\
+    n de esta informaci\xF3n y en el asesoramiento a los diferentes centros directivos\
+    \ en cuanto a la construcci\xF3n de sistemas de indicadores que permitan el seguimiento\
+    \ de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIEIA_20972:
+  descripcion: "Este sistema de indicadores abarca el conjunto de la producci\xF3\
+    n estad\xEDstica y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento\
+    \ y evaluaci\xF3n de los Planes generales y sectoriales en el \xE1mbito de la\
+    \ Junta de Andaluc\xEDa, en particular de la Estrategia Industrial de Andaluc\xED\
+    a 2020 (EIA2020). Esta actividad tiene pues, como finalidad avanzar en la obtenci\xF3\
+    n de esta informaci\xF3n y en el asesoramiento a los diferentes centros directivos\
+    \ en cuanto a la construcci\xF3n de sistemas de indicadores que permitan el seguimiento\
+    \ de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIEIA_20976:
+  descripcion: "Este sistema de indicadores abarca el conjunto de la producci\xF3\
+    n estad\xEDstica y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento\
+    \ y evaluaci\xF3n de los Planes generales y sectoriales en el \xE1mbito de la\
+    \ Junta de Andaluc\xEDa, en particular de la Estrategia Industrial de Andaluc\xED\
+    a 2020 (EIA2020). Esta actividad tiene pues, como finalidad avanzar en la obtenci\xF3\
+    n de esta informaci\xF3n y en el asesoramiento a los diferentes centros directivos\
+    \ en cuanto a la construcci\xF3n de sistemas de indicadores que permitan el seguimiento\
+    \ de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIEIA_20988:
+  descripcion: "Este sistema de indicadores abarca el conjunto de la producci\xF3\
+    n estad\xEDstica y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento\
+    \ y evaluaci\xF3n de los Planes generales y sectoriales en el \xE1mbito de la\
+    \ Junta de Andaluc\xEDa, en particular de la Estrategia Industrial de Andaluc\xED\
+    a 2020 (EIA2020). Esta actividad tiene pues, como finalidad avanzar en la obtenci\xF3\
+    n de esta informaci\xF3n y en el asesoramiento a los diferentes centros directivos\
+    \ en cuanto a la construcci\xF3n de sistemas de indicadores que permitan el seguimiento\
+    \ de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIEIA_20991:
+  descripcion: "Este sistema de indicadores abarca el conjunto de la producci\xF3\
+    n estad\xEDstica y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento\
+    \ y evaluaci\xF3n de los Planes generales y sectoriales en el \xE1mbito de la\
+    \ Junta de Andaluc\xEDa, en particular de la Estrategia Industrial de Andaluc\xED\
+    a 2020 (EIA2020). Esta actividad tiene pues, como finalidad avanzar en la obtenci\xF3\
+    n de esta informaci\xF3n y en el asesoramiento a los diferentes centros directivos\
+    \ en cuanto a la construcci\xF3n de sistemas de indicadores que permitan el seguimiento\
+    \ de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIEIA_21056:
+  descripcion: "Este sistema de indicadores abarca el conjunto de la producci\xF3\
+    n estad\xEDstica y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento\
+    \ y evaluaci\xF3n de los Planes generales y sectoriales en el \xE1mbito de la\
+    \ Junta de Andaluc\xEDa, en particular de la Estrategia Industrial de Andaluc\xED\
+    a 2020 (EIA2020). Esta actividad tiene pues, como finalidad avanzar en la obtenci\xF3\
+    n de esta informaci\xF3n y en el asesoramiento a los diferentes centros directivos\
+    \ en cuanto a la construcci\xF3n de sistemas de indicadores que permitan el seguimiento\
+    \ de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIEIA_21060:
+  descripcion: "Este sistema de indicadores abarca el conjunto de la producci\xF3\
+    n estad\xEDstica y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento\
+    \ y evaluaci\xF3n de los Planes generales y sectoriales en el \xE1mbito de la\
+    \ Junta de Andaluc\xEDa, en particular de la Estrategia Industrial de Andaluc\xED\
+    a 2020 (EIA2020). Esta actividad tiene pues, como finalidad avanzar en la obtenci\xF3\
+    n de esta informaci\xF3n y en el asesoramiento a los diferentes centros directivos\
+    \ en cuanto a la construcci\xF3n de sistemas de indicadores que permitan el seguimiento\
+    \ de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIEIA_21069:
+  descripcion: "Este sistema de indicadores abarca el conjunto de la producci\xF3\
+    n estad\xEDstica y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento\
+    \ y evaluaci\xF3n de los Planes generales y sectoriales en el \xE1mbito de la\
+    \ Junta de Andaluc\xEDa, en particular de la Estrategia Industrial de Andaluc\xED\
+    a 2020 (EIA2020). Esta actividad tiene pues, como finalidad avanzar en la obtenci\xF3\
+    n de esta informaci\xF3n y en el asesoramiento a los diferentes centros directivos\
+    \ en cuanto a la construcci\xF3n de sistemas de indicadores que permitan el seguimiento\
+    \ de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIEIA_21070:
+  descripcion: "Este sistema de indicadores abarca el conjunto de la producci\xF3\
+    n estad\xEDstica y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento\
+    \ y evaluaci\xF3n de los Planes generales y sectoriales en el \xE1mbito de la\
+    \ Junta de Andaluc\xEDa, en particular de la Estrategia Industrial de Andaluc\xED\
+    a 2020 (EIA2020). Esta actividad tiene pues, como finalidad avanzar en la obtenci\xF3\
+    n de esta informaci\xF3n y en el asesoramiento a los diferentes centros directivos\
+    \ en cuanto a la construcci\xF3n de sistemas de indicadores que permitan el seguimiento\
+    \ de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIEIA_21072:
+  descripcion: "Este sistema de indicadores abarca el conjunto de la producci\xF3\
+    n estad\xEDstica y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento\
+    \ y evaluaci\xF3n de los Planes generales y sectoriales en el \xE1mbito de la\
+    \ Junta de Andaluc\xEDa, en particular de la Estrategia Industrial de Andaluc\xED\
+    a 2020 (EIA2020). Esta actividad tiene pues, como finalidad avanzar en la obtenci\xF3\
+    n de esta informaci\xF3n y en el asesoramiento a los diferentes centros directivos\
+    \ en cuanto a la construcci\xF3n de sistemas de indicadores que permitan el seguimiento\
+    \ de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIEIA_21073:
+  descripcion: "Este sistema de indicadores abarca el conjunto de la producci\xF3\
+    n estad\xEDstica y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento\
+    \ y evaluaci\xF3n de los Planes generales y sectoriales en el \xE1mbito de la\
+    \ Junta de Andaluc\xEDa, en particular de la Estrategia Industrial de Andaluc\xED\
+    a 2020 (EIA2020). Esta actividad tiene pues, como finalidad avanzar en la obtenci\xF3\
+    n de esta informaci\xF3n y en el asesoramiento a los diferentes centros directivos\
+    \ en cuanto a la construcci\xF3n de sistemas de indicadores que permitan el seguimiento\
+    \ de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIEIA_28859:
+  descripcion: "Este sistema de indicadores abarca el conjunto de la producci\xF3\
+    n estad\xEDstica y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento\
+    \ y evaluaci\xF3n de los Planes generales y sectoriales en el \xE1mbito de la\
+    \ Junta de Andaluc\xEDa, en particular de la Estrategia Industrial de Andaluc\xED\
+    a 2020 (EIA2020). Esta actividad tiene pues, como finalidad avanzar en la obtenci\xF3\
+    n de esta informaci\xF3n y en el asesoramiento a los diferentes centros directivos\
+    \ en cuanto a la construcci\xF3n de sistemas de indicadores que permitan el seguimiento\
+    \ de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIEIA_28860:
+  descripcion: "Este sistema de indicadores abarca el conjunto de la producci\xF3\
+    n estad\xEDstica y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento\
+    \ y evaluaci\xF3n de los Planes generales y sectoriales en el \xE1mbito de la\
+    \ Junta de Andaluc\xEDa, en particular de la Estrategia Industrial de Andaluc\xED\
+    a 2020 (EIA2020). Esta actividad tiene pues, como finalidad avanzar en la obtenci\xF3\
+    n de esta informaci\xF3n y en el asesoramiento a los diferentes centros directivos\
+    \ en cuanto a la construcci\xF3n de sistemas de indicadores que permitan el seguimiento\
+    \ de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIEIA_28861:
+  descripcion: "Este sistema de indicadores abarca el conjunto de la producci\xF3\
+    n estad\xEDstica y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento\
+    \ y evaluaci\xF3n de los Planes generales y sectoriales en el \xE1mbito de la\
+    \ Junta de Andaluc\xEDa, en particular de la Estrategia Industrial de Andaluc\xED\
+    a 2020 (EIA2020). Esta actividad tiene pues, como finalidad avanzar en la obtenci\xF3\
+    n de esta informaci\xF3n y en el asesoramiento a los diferentes centros directivos\
+    \ en cuanto a la construcci\xF3n de sistemas de indicadores que permitan el seguimiento\
+    \ de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIEIA_86492:
+  descripcion: "Este sistema de indicadores abarca el conjunto de la producci\xF3\
+    n estad\xEDstica y cartogr\xE1fica de Andaluc\xEDa que permita el seguimiento\
+    \ y evaluaci\xF3n de los Planes generales y sectoriales en el \xE1mbito de la\
+    \ Junta de Andaluc\xEDa, en particular de la Estrategia Industrial de Andaluc\xED\
+    a 2020 (EIA2020). Esta actividad tiene pues, como finalidad avanzar en la obtenci\xF3\
+    n de esta informaci\xF3n y en el asesoramiento a los diferentes centros directivos\
+    \ en cuanto a la construcci\xF3n de sistemas de indicadores que permitan el seguimiento\
+    \ de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68077:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68078:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68079:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68080:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68081:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68082:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68083:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68084:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68085:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68086:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68087:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68088:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68089:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68090:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68091:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68092:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68093:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68094:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68095:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68096:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68097:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68098:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68099:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68100:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68101:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68102:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68103:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68104:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68105:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68106:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68107:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68108:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68109:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68110:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68111:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68112:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68113:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68114:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68115:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68116:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68117:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68118:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68119:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68120:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68121:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68122:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68123:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68124:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68125:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68126:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68127:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68128:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68129:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68130:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68131:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68132:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68133:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68134:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
+  tags: []
+SIE_68135:
+  descripcion: "La finalidad de esta actividad es el estudio y construcci\xF3n de\
+    \ un sistema de indicadores principales y de eficiencia de los recursos que permitan\
+    \ el seguimiento de la ejecuci\xF3n de la Estrategia"
   tags: []
 SMA_28098:
   descripcion: "Esta operaci\xF3n estudia la demograf\xEDa empresarial en Andaluc\xED\
