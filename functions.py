@@ -2,7 +2,7 @@ import os
 
 import pandas as pd
 import yaml
-from iecasdmx.ieca.actividad import Actividad
+# from iecasdmx.ieca.actividad import Actividad
 from mdmpyclient.ckan.ckan import Ckan
 from mdmpyclient.mdm import MDM
 
@@ -204,12 +204,12 @@ def volcado_ckan(configuracion_global, configuracion_ejecucion, configuracion_ac
             if configuracion_actividades_sdmx[nombre_actividad]['metadatos_subtitle'][str(id_consulta)]:
                 title = f'{title}. {configuracion_actividades_sdmx[nombre_actividad]["metadatos_subtitle"][str(id_consulta)]}'
             extras = [{'key': 'Actividad', 'value': configuracion_actividades_sdmx[nombre_actividad]['subcategoria']},
-                      {'key': 'Periocidad', 'value': f'{configuracion_actividades[nombre_actividad]["periocidad"]}'}]
-            tags = [{'name': tag} for tag in descripciones[f'{nombre_actividad}_{id_consulta}']['tags']]
+                      {'key': 'Periocidad', 'value': f'{configuracion_actividades_sdmx[nombre_actividad]["periodicidad"][id_consulta]["frecuencia"]}'}]
+            tags = []
             ckan.datasets.create(id_dataset.lower(),
                                  title, 'instituto-de-estadistica-y-cartografia-de-andalucia',
                                  ckan.groups.groups[nombre_actividad.lower()],
-                                 descripciones[f'{nombre_actividad}_{id_consulta}']['descripcion'], extras, tags,
+                                 descripciones[nombre_actividad][id_consulta], extras, tags,
                                  'Creative Commons Attribution')
             path = os.path.join(configuracion_global['directorio_datos'], nombre_actividad, 'procesados')
 

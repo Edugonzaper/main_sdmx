@@ -16,13 +16,13 @@ esquema_categorias: sistema_informacion/SDMX/IECA_CAT_EN_ES+ESC01+1.0_ES.csv
 metadata_api: http://localhost/sdmx_172/ws/METADATA_API
 direccion_API_SDMX: http://localhost
 url_base: http://localhost/sdmx_172/ws/NODE_API/
-volcado_mdm: False
-reset_ddb: False
+volcado_mdm: True
+reset_ddb: True
 cache_search: True
 extractor: False
 
-volcado_ckan: True
-reset_ckan: True
+volcado_ckan: False
+reset_ckan: False
 create_groups: False
 
 usuario_SDMX: admin
@@ -32,8 +32,8 @@ nodeId: 'ESC01'
 cache: traducciones.yaml
 translate: True
 
-url_ckan: http://localhost:5000
-api_ckan: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJsZFhuTzJNMnhoaktER05JU2d0ak5jdG9DZ3RhdC1WcXFtazZtblRSUkFFRU94b0J3amI2akFVUWotZVR5ZWlrX1ZkY1dReU12R2FjSlE2RCIsImlhdCI6MTY3OTkxMzczN30.LnzzJA9PSclS4-aaJhu_Rk-3xopqUINpZsdcnvEkBYw
+url_ckan: http://catalogo.indexageodata.com/
+api_ckan: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJzYThqZ3dGQ1ljbXU1Q0Rld2Z1TWMtV3M3aW0wY0VKVUpjNEx1N2p3aXMyYTdCOFM3Z29ETjdMUm1xa0EtMXB3YjE4QktYdkpReW9zbmNuUyIsImlhdCI6MTY5MDM3NDU1NX0.jCloUyOdkMWNPZ_yEAIxZ8ai7HE5MH0WdP776-nu6EY
 
 lenguajes:
   - 'en'
