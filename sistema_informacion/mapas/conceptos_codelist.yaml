@@ -254,6 +254,22 @@ ACTIV_EST:
     es: Actividad (Industria-Comercio-Servicios)
   nombre_dimension: ACTIV_EST
   tipo: dimension
+ACTIV_EST_5748:
+  codelist:
+    agency: ESC01
+    id: CL_ACTIV_EST_5748
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: ACTIV_EST_5748
+    id: CS_SECTORAL_STAT
+    version: '1.0'
+  descripcion:
+    es: Actividad (Industria-Comercio-Servicios)
+  nombre:
+    es: Actividad (Industria-Comercio-Servicios)
+  nombre_dimension: ACTIV_EST_5748
+  tipo: dimension
 ANOCELEBRMATRIM:
   codelist:
     agency: ESC01
@@ -350,6 +366,22 @@ CAT_HOTELES:
     es: "Categor\xEDas de los establecimientos hoteleros"
   nombre_dimension: CAT
   tipo: dimension
+CAT_HOTELES_4953:
+  codelist:
+    agency: ESC01
+    id: CL_CAT_HOTELES_4953
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: CAT_HOTELES_4953
+    id: CS_TOURISM
+    version: '1.0'
+  descripcion:
+    es: "Categor\xEDas de los establecimientos hoteleros"
+  nombre:
+    es: "Categor\xEDas de los establecimientos hoteleros"
+  nombre_dimension: CAT_HOTELES_4953
+  tipo: dimension
 CERTIFICDISCAPAC:
   codelist:
     agency: ESC01
@@ -365,6 +397,22 @@ CERTIFICDISCAPAC:
   nombre:
     es: Personas sin o con discapacidad
   nombre_dimension: CERTIFICDISCAPAC
+  tipo: dimension
+CERTIFICDISCAPAC_2946:
+  codelist:
+    agency: ESC01
+    id: CL_CERTIFICDISCAPAC_2946
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: CERTIFICDISCAPAC_2946
+    id: CS_LABOUR
+    version: '1.0'
+  descripcion:
+    es: Personas sin o con discapacidad
+  nombre:
+    es: Personas sin o con discapacidad
+  nombre_dimension: CERTIFICDISCAPAC_2946
   tipo: dimension
 CIE10:
   codelist:
@@ -382,6 +430,22 @@ CIE10:
     es: CIE10
   nombre_dimension: CIE10
   tipo: dimension
+CIE10_729:
+  codelist:
+    agency: ESC01
+    id: CL_CIE10_729
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: CIE10_729
+    id: CS_HEALTH
+    version: '1.0'
+  descripcion:
+    es: CIE10
+  nombre:
+    es: CIE10
+  nombre_dimension: CIE10_729
+  tipo: dimension
 CLASEDEPENSION:
   codelist:
     agency: ESC01
@@ -397,6 +461,22 @@ CLASEDEPENSION:
   nombre:
     es: "Clase de pensi\xF3n"
   nombre_dimension: CLASEDEPENSION
+  tipo: dimension
+CLASEDEPENSION_6292:
+  codelist:
+    agency: ESC01
+    id: CL_CLASEDEPENSION_6292
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: CLASEDEPENSION_6292
+    id: CS_SOCIAL_PROTECT
+    version: '1.0'
+  descripcion:
+    es: "Clase de pensi\xF3n"
+  nombre:
+    es: "Clase de pensi\xF3n"
+  nombre_dimension: CLASEDEPENSION_6292
   tipo: dimension
 CNAE09:
   codelist:
@@ -462,6 +542,38 @@ CNAE09_343:
     es: CNAE 09
   nombre_dimension: CNAE09_343
   tipo: dimension
+CNAE09_505:
+  codelist:
+    agency: ESC01
+    id: CL_CNAE09_505
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: CNAE09_505
+    id: CS_BUSINESS_STAT
+    version: '1.0'
+  descripcion:
+    es: Sector de actividad
+  nombre:
+    es: Sector de actividad
+  nombre_dimension: CNAE09_505
+  tipo: dimension
+CNAE09_508:
+  codelist:
+    agency: ESC01
+    id: CL_CNAE09_508
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: CNAE09_508
+    id: CS_BUSINESS_STAT
+    version: '1.0'
+  descripcion:
+    es: CNAE09
+  nombre:
+    es: CNAE09
+  nombre_dimension: CNAE09_508
+  tipo: dimension
 CNAE09_8113:
   codelist:
     agency: ESC01
@@ -493,6 +605,22 @@ CNAE_O9_CRA_NEW:
   nombre:
     es: Rama de actividad
   nombre_dimension: CNAE_O9_NEW
+  tipo: dimension
+CNAE_O9_CRA_NEW_5989:
+  codelist:
+    agency: ESC01
+    id: CL_CNAE_O9_CRA_NEW_5989
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: CNAE_O9_CRA_NEW_5989
+    id: CS_LABOUR
+    version: '1.0'
+  descripcion:
+    es: Rama de actividad
+  nombre:
+    es: Rama de actividad
+  nombre_dimension: CNAE_O9_CRA_NEW_5989
   tipo: dimension
 CNED2014:
   codelist:
@@ -654,6 +782,22 @@ CUSTODIA:
     es: Custodia
   nombre_dimension: CUSTODIA
   tipo: dimension
+CUSTODIA_36:
+  codelist:
+    agency: ESC01
+    id: CL_CUSTODIA_36
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: CUSTODIA_36
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Custodia
+  nombre:
+    es: Custodia
+  nombre_dimension: CUSTODIA_36
+  tipo: dimension
 DEA_ESTRASALAR:
   codelist:
     agency: ESC01
@@ -766,6 +910,22 @@ DISTRIBUCION_MNP:
     es: "Distribuci\xF3n"
   nombre_dimension: DISTRIBUCION
   tipo: dimension
+DISTRIBUCION_MNP_7092:
+  codelist:
+    agency: ESC01
+    id: CL_DISTRIBUCION_MNP_7092
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: DISTRIBUCION_MNP_7092
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: "Distribuci\xF3n"
+  nombre:
+    es: "Distribuci\xF3n"
+  nombre_dimension: DISTRIBUCION_MNP_7092
+  tipo: dimension
 DURACMATRIM:
   codelist:
     agency: ESC01
@@ -781,6 +941,22 @@ DURACMATRIM:
   nombre:
     es: "Duraci\xF3n del matrimonio"
   nombre_dimension: DURACMATRIM
+  tipo: dimension
+DURACMATRIM_38:
+  codelist:
+    agency: ESC01
+    id: CL_DURACMATRIM_38
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: DURACMATRIM_38
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: "Duraci\xF3n del matrimonio"
+  nombre:
+    es: "Duraci\xF3n del matrimonio"
+  nombre_dimension: DURACMATRIM_38
   tipo: dimension
 ECOICOP:
   codelist:
@@ -846,6 +1022,22 @@ EDADC2:
     es: "Edad c\xF3nyuge 2"
   nombre_dimension: EDADC2
   tipo: dimension
+EDADC2_32:
+  codelist:
+    agency: ESC01
+    id: CL_EDADC2_32
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: EDADC2_32
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: "Edad c\xF3nyuge 2"
+  nombre:
+    es: "Edad c\xF3nyuge 2"
+  nombre_dimension: EDADC2_32
+  tipo: dimension
 EDAD_0_401:
   codelist:
     agency: ESC01
@@ -861,6 +1053,22 @@ EDAD_0_401:
   nombre:
     es: Edad
   nombre_dimension: EDAD_0_401
+  tipo: dimension
+EDAD_1283:
+  codelist:
+    agency: ESC01
+    id: CL_EDAD_1283
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: EDAD_1283
+    id: CS_HEALTH
+    version: '1.0'
+  descripcion:
+    es: Edad
+  nombre:
+    es: Edad
+  nombre_dimension: EDAD_1283
   tipo: dimension
 EDAD_13794:
   codelist:
@@ -910,6 +1118,54 @@ EDAD_24:
     es: Edad
   nombre_dimension: EDAD_24
   tipo: dimension
+EDAD_27:
+  codelist:
+    agency: ESC01
+    id: CL_EDAD_27
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: EDAD_27
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: "Edad c\xF3nyuge 1"
+  nombre:
+    es: "Edad c\xF3nyuge 1"
+  nombre_dimension: EDAD_27
+  tipo: dimension
+EDAD_3495:
+  codelist:
+    agency: ESC01
+    id: CL_EDAD_3495
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: EDAD_3495
+    id: CS_SOCIAL_PROTECT
+    version: '1.0'
+  descripcion:
+    es: Edad
+  nombre:
+    es: Edad
+  nombre_dimension: EDAD_3495
+  tipo: dimension
+EDAD_3993:
+  codelist:
+    agency: ESC01
+    id: CL_EDAD_3993
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: EDAD_3993
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Edad
+  nombre:
+    es: Edad
+  nombre_dimension: EDAD_3993
+  tipo: dimension
 EDAD_401:
   codelist:
     agency: ESC01
@@ -926,6 +1182,22 @@ EDAD_401:
     es: Edad
   nombre_dimension: EDAD_401
   tipo: dimension
+EDAD_728:
+  codelist:
+    agency: ESC01
+    id: CL_EDAD_728
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: EDAD_728
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Edad
+  nombre:
+    es: Edad
+  nombre_dimension: EDAD_728
+  tipo: dimension
 EDCA_LUGDEF:
   codelist:
     agency: ESC01
@@ -941,6 +1213,22 @@ EDCA_LUGDEF:
   nombre:
     es: Lugar de ocurrencia
   nombre_dimension: LUGDEF
+  tipo: dimension
+EDCA_LUGDEF_15378:
+  codelist:
+    agency: ESC01
+    id: CL_EDCA_LUGDEF_15378
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: EDCA_LUGDEF_15378
+    id: CS_HEALTH
+    version: '1.0'
+  descripcion:
+    es: Lugar de ocurrencia
+  nombre:
+    es: Lugar de ocurrencia
+  nombre_dimension: EDCA_LUGDEF_15378
   tipo: dimension
 EPA_CLASEINACTIV:
   codelist:
@@ -1054,6 +1342,22 @@ EPD_AMBITOESTUDHOG:
     es: "\xC1mbito de estudio de los hogares"
   nombre_dimension: AMBITOESTUDHOG
   tipo: dimension
+EPD_AMBITOESTUDHOG_113:
+  codelist:
+    agency: ESC01
+    id: CL_EPD_AMBITOESTUDHOG_113
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: EPD_AMBITOESTUDHOG_113
+    id: CS_LABOUR
+    version: '1.0'
+  descripcion:
+    es: "\xC1mbito de estudio de los hogares"
+  nombre:
+    es: "\xC1mbito de estudio de los hogares"
+  nombre_dimension: EPD_AMBITOESTUDHOG_113
+  tipo: dimension
 EPD_COMPHOGACTIVIDAD:
   codelist:
     agency: ESC01
@@ -1069,6 +1373,22 @@ EPD_COMPHOGACTIVIDAD:
   nombre:
     es: "Composici\xF3n del hogar seg\xFAn la actividad"
   nombre_dimension: COMPHOGACTIVIDAD
+  tipo: dimension
+EPD_COMPHOGACTIVIDAD_112:
+  codelist:
+    agency: ESC01
+    id: CL_EPD_COMPHOGACTIVIDAD_112
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: EPD_COMPHOGACTIVIDAD_112
+    id: CS_LABOUR
+    version: '1.0'
+  descripcion:
+    es: "Composici\xF3n del hogar seg\xFAn la actividad"
+  nombre:
+    es: "Composici\xF3n del hogar seg\xFAn la actividad"
+  nombre_dimension: EPD_COMPHOGACTIVIDAD_112
   tipo: dimension
 EPD_GRUPOSEDAD:
   codelist:
@@ -1086,6 +1406,22 @@ EPD_GRUPOSEDAD:
     es: Grupos de edad
   nombre_dimension: GRUPOSEDAD
   tipo: dimension
+EPD_GRUPOSEDAD_120:
+  codelist:
+    agency: ESC01
+    id: CL_EPD_GRUPOSEDAD_120
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: EPD_GRUPOSEDAD_120
+    id: CS_LABOUR
+    version: '1.0'
+  descripcion:
+    es: Grupos de edad
+  nombre:
+    es: Grupos de edad
+  nombre_dimension: EPD_GRUPOSEDAD_120
+  tipo: dimension
 EPD_NIVELESTUDIOSTER:
   codelist:
     agency: ESC01
@@ -1101,6 +1437,22 @@ EPD_NIVELESTUDIOSTER:
   nombre:
     es: Nivel de estudios terminados
   nombre_dimension: NIVELESTUDIOSTER
+  tipo: dimension
+EPD_NIVELESTUDIOSTER_263:
+  codelist:
+    agency: ESC01
+    id: CL_EPD_NIVELESTUDIOSTER_263
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: EPD_NIVELESTUDIOSTER_263
+    id: CS_LABOUR
+    version: '1.0'
+  descripcion:
+    es: Nivel de estudios terminados
+  nombre:
+    es: Nivel de estudios terminados
+  nombre_dimension: EPD_NIVELESTUDIOSTER_263
   tipo: dimension
 EPD_PERCEPPRESINVAL:
   codelist:
@@ -1118,6 +1470,22 @@ EPD_PERCEPPRESINVAL:
     es: "Percepci\xF3n de prestaci\xF3n de invalidez"
   nombre_dimension: PERCEPPRESINVAL
   tipo: dimension
+EPD_PERCEPPRESINVAL_267:
+  codelist:
+    agency: ESC01
+    id: CL_EPD_PERCEPPRESINVAL_267
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: EPD_PERCEPPRESINVAL_267
+    id: CS_LABOUR
+    version: '1.0'
+  descripcion:
+    es: "Percepci\xF3n de prestaci\xF3n de invalidez"
+  nombre:
+    es: "Percepci\xF3n de prestaci\xF3n de invalidez"
+  nombre_dimension: EPD_PERCEPPRESINVAL_267
+  tipo: dimension
 EPD_PRESENCDISCAPAC:
   codelist:
     agency: ESC01
@@ -1133,6 +1501,22 @@ EPD_PRESENCDISCAPAC:
   nombre:
     es: "Presencia o no de personas con discapacidad de 16 a 64 a\xF1os en el hogar"
   nombre_dimension: PRESENCDISCAPAC
+  tipo: dimension
+EPD_PRESENCDISCAPAC_110:
+  codelist:
+    agency: ESC01
+    id: CL_EPD_PRESENCDISCAPAC_110
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: EPD_PRESENCDISCAPAC_110
+    id: CS_LABOUR
+    version: '1.0'
+  descripcion:
+    es: "Presencia o no de personas con discapacidad de 16 a 64 a\xF1os en el hogar"
+  nombre:
+    es: "Presencia o no de personas con discapacidad de 16 a 64 a\xF1os en el hogar"
+  nombre_dimension: EPD_PRESENCDISCAPAC_110
   tipo: dimension
 EPD_RELACTIVIDAD:
   codelist:
@@ -1150,6 +1534,22 @@ EPD_RELACTIVIDAD:
     es: "Relaci\xF3n con la actividad"
   nombre_dimension: RELACTIVIDAD
   tipo: dimension
+EPD_RELACTIVIDAD_121:
+  codelist:
+    agency: ESC01
+    id: CL_EPD_RELACTIVIDAD_121
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: EPD_RELACTIVIDAD_121
+    id: CS_LABOUR
+    version: '1.0'
+  descripcion:
+    es: "Relaci\xF3n con la actividad"
+  nombre:
+    es: "Relaci\xF3n con la actividad"
+  nombre_dimension: EPD_RELACTIVIDAD_121
+  tipo: dimension
 EPD_SITUACIONDEPEND:
   codelist:
     agency: ESC01
@@ -1166,6 +1566,22 @@ EPD_SITUACIONDEPEND:
     es: "Situaci\xF3n de dependencia"
   nombre_dimension: SITUACIONDEPEND
   tipo: dimension
+EPD_SITUACIONDEPEND_276:
+  codelist:
+    agency: ESC01
+    id: CL_EPD_SITUACIONDEPEND_276
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: EPD_SITUACIONDEPEND_276
+    id: CS_LABOUR
+    version: '1.0'
+  descripcion:
+    es: "Situaci\xF3n de dependencia"
+  nombre:
+    es: "Situaci\xF3n de dependencia"
+  nombre_dimension: EPD_SITUACIONDEPEND_276
+  tipo: dimension
 EPD_SITUACPROFES:
   codelist:
     agency: ESC01
@@ -1181,6 +1597,22 @@ EPD_SITUACPROFES:
   nombre:
     es: "Situaci\xF3n profesional"
   nombre_dimension: SITUACPROFES
+  tipo: dimension
+EPD_SITUACPROFES_126:
+  codelist:
+    agency: ESC01
+    id: CL_EPD_SITUACPROFES_126
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: EPD_SITUACPROFES_126
+    id: CS_LABOUR
+    version: '1.0'
+  descripcion:
+    es: "Situaci\xF3n profesional"
+  nombre:
+    es: "Situaci\xF3n profesional"
+  nombre_dimension: EPD_SITUACPROFES_126
   tipo: dimension
 EPD_TAMANOEMPRESA:
   codelist:
@@ -1326,6 +1758,54 @@ ESTADOCIVILC2:
     es: "Estado civil c\xF3nyuge 2"
   nombre_dimension: ESTADOCIVILC2
   tipo: dimension
+ESTADOCIVILC2_33:
+  codelist:
+    agency: ESC01
+    id: CL_ESTADOCIVILC2_33
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: ESTADOCIVILC2_33
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: "Estado civil c\xF3nyuge 2"
+  nombre:
+    es: "Estado civil c\xF3nyuge 2"
+  nombre_dimension: ESTADOCIVILC2_33
+  tipo: dimension
+ESTADOCIVIL_122:
+  codelist:
+    agency: ESC01
+    id: CL_ESTADOCIVIL_122
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: ESTADOCIVIL_122
+    id: CS_LABOUR
+    version: '1.0'
+  descripcion:
+    es: Estado civil
+  nombre:
+    es: Estado civil
+  nombre_dimension: ESTADOCIVIL_122
+  tipo: dimension
+ESTADOCIVIL_28:
+  codelist:
+    agency: ESC01
+    id: CL_ESTADOCIVIL_28
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: ESTADOCIVIL_28
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: "Estado civil c\xF3nyuge 1"
+  nombre:
+    es: "Estado civil c\xF3nyuge 1"
+  nombre_dimension: ESTADOCIVIL_28
+  tipo: dimension
 ESTADO_DATO:
   codelist:
     agency: ESC01
@@ -1470,6 +1950,22 @@ FORMA_JUR_SOCMER:
     es: "Forma jur\xEDdica"
   nombre_dimension: FORMA_JUR
   tipo: dimension
+FORMA_JUR_SOCMER_421:
+  codelist:
+    agency: ESC01
+    id: CL_FORMA_JUR_SOCMER_421
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: FORMA_JUR_SOCMER_421
+    id: CS_BUSINESS_STAT
+    version: '1.0'
+  descripcion:
+    es: "Forma jur\xEDdica"
+  nombre:
+    es: "Forma jur\xEDdica"
+  nombre_dimension: FORMA_JUR_SOCMER_421
+  tipo: dimension
 G102:
   codelist:
     agency: ESC01
@@ -1485,6 +1981,38 @@ G102:
   nombre:
     es: G102
   nombre_dimension: G102
+  tipo: dimension
+G102_15379:
+  codelist:
+    agency: ESC01
+    id: CL_G102_15379
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: G102_15379
+    id: CS_HEALTH
+    version: '1.0'
+  descripcion:
+    es: G102
+  nombre:
+    es: G102
+  nombre_dimension: G102_15379
+  tipo: dimension
+G102_730:
+  codelist:
+    agency: ESC01
+    id: CL_G102_730
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: G102_730
+    id: CS_HEALTH
+    version: '1.0'
+  descripcion:
+    es: G102
+  nombre:
+    es: G102
+  nombre_dimension: G102_730
   tipo: dimension
 GRADO_UTILIZACION:
   codelist:
@@ -1822,6 +2350,22 @@ MACROECO:
     es: "Cuadro macroecon\xF3mico"
   nombre_dimension: MACROECO
   tipo: dimension
+MACROECO_1683:
+  codelist:
+    agency: ESC01
+    id: CL_MACROECO_1683
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: MACROECO_1683
+    id: CS_LABOUR
+    version: '1.0'
+  descripcion:
+    es: "Cuadro macroecon\xF3mico"
+  nombre:
+    es: "Cuadro macroecon\xF3mico"
+  nombre_dimension: MACROECO_1683
+  tipo: dimension
 MACROMAG_CPA:
   codelist:
     agency: ESC01
@@ -1837,6 +2381,22 @@ MACROMAG_CPA:
   nombre:
     es: Macromagnitudes
   nombre_dimension: MACROMAG
+  tipo: dimension
+MACROMAG_CPA_6132:
+  codelist:
+    agency: ESC01
+    id: CL_MACROMAG_CPA_6132
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: MACROMAG_CPA_6132
+    id: CS_ECO_ACCOUNTS
+    version: '1.0'
+  descripcion:
+    es: Macromagnitudes
+  nombre:
+    es: Macromagnitudes
+  nombre_dimension: MACROMAG_CPA_6132
   tipo: dimension
 MCVLS_VARIABLE:
   codelist:
@@ -2094,6 +2654,22 @@ MES:
     es: Mes
   nombre_dimension: MES
   tipo: dimension
+MES_723:
+  codelist:
+    agency: ESC01
+    id: CL_MES_723
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: MES_723
+    id: CS_HEALTH
+    version: '1.0'
+  descripcion:
+    es: Mes
+  nombre:
+    es: Mes
+  nombre_dimension: MES_723
+  tipo: dimension
 MULTIPLICIDAD_SEXO:
   codelist:
     agency: ESC01
@@ -2110,6 +2686,22 @@ MULTIPLICIDAD_SEXO:
     es: Multiplicidad
   nombre_dimension: MULTIPLICIDAD_SEXO
   tipo: dimension
+MULTIPLICIDAD_SEXO_1479:
+  codelist:
+    agency: ESC01
+    id: CL_MULTIPLICIDAD_SEXO_1479
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: MULTIPLICIDAD_SEXO_1479
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Multiplicidad
+  nombre:
+    es: Multiplicidad
+  nombre_dimension: MULTIPLICIDAD_SEXO_1479
+  tipo: dimension
 NACIONACONYUGES:
   codelist:
     agency: ESC01
@@ -2125,6 +2717,22 @@ NACIONACONYUGES:
   nombre:
     es: "Nacionalidad de los c\xF3nyuges"
   nombre_dimension: NACIONACONYUGES
+  tipo: dimension
+NACIONACONYUGES_40:
+  codelist:
+    agency: ESC01
+    id: CL_NACIONACONYUGES_40
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: NACIONACONYUGES_40
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: "Nacionalidad de los c\xF3nyuges"
+  nombre:
+    es: "Nacionalidad de los c\xF3nyuges"
+  nombre_dimension: NACIONACONYUGES_40
   tipo: dimension
 NACIONALIDAD:
   codelist:
@@ -2222,6 +2830,22 @@ NUMHIJOSMENORED:
     es: "N\xFAmero de hijos menores de edad"
   nombre_dimension: NUMHIJOSMENORED
   tipo: dimension
+NUMHIJOSMENORED_41:
+  codelist:
+    agency: ESC01
+    id: CL_NUMHIJOSMENORED_41
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: NUMHIJOSMENORED_41
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: "N\xFAmero de hijos menores de edad"
+  nombre:
+    es: "N\xFAmero de hijos menores de edad"
+  nombre_dimension: NUMHIJOSMENORED_41
+  tipo: dimension
 PARQUES_TURISMO:
   codelist:
     agency: ESC01
@@ -2238,6 +2862,54 @@ PARQUES_TURISMO:
     es: "Zonas tur\xEDsticas"
   nombre_dimension: PARQUES
   tipo: dimension
+PARQUES_TURISMO_2279:
+  codelist:
+    agency: ESC01
+    id: CL_PARQUES_TURISMO_2279
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: PARQUES_TURISMO_2279
+    id: CS_TOURISM
+    version: '1.0'
+  descripcion:
+    es: "Zonas tur\xEDsticas"
+  nombre:
+    es: "Zonas tur\xEDsticas"
+  nombre_dimension: PARQUES_TURISMO_2279
+  tipo: dimension
+PARQUES_TURISMO_3733:
+  codelist:
+    agency: ESC01
+    id: CL_PARQUES_TURISMO_3733
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: PARQUES_TURISMO_3733
+    id: CS_TOURISM
+    version: '1.0'
+  descripcion:
+    es: Zonas de turismo
+  nombre:
+    es: Zonas de turismo
+  nombre_dimension: PARQUES_TURISMO_3733
+  tipo: dimension
+PARQUES_TURISMO_3734:
+  codelist:
+    agency: ESC01
+    id: CL_PARQUES_TURISMO_3734
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: PARQUES_TURISMO_3734
+    id: CS_TOURISM
+    version: '1.0'
+  descripcion:
+    es: Zonas de turismo
+  nombre:
+    es: Zonas de turismo
+  nombre_dimension: PARQUES_TURISMO_3734
+  tipo: dimension
 PCSSA_JUBVIUDEDAD:
   codelist:
     agency: ESC01
@@ -2253,6 +2925,22 @@ PCSSA_JUBVIUDEDAD:
   nombre:
     es: "Jubilaci\xF3n con viudedad"
   nombre_dimension: JUBVIUDEDAD
+  tipo: dimension
+PCSSA_JUBVIUDEDAD_3357:
+  codelist:
+    agency: ESC01
+    id: CL_PCSSA_JUBVIUDEDAD_3357
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: PCSSA_JUBVIUDEDAD_3357
+    id: CS_SOCIAL_PROTECT
+    version: '1.0'
+  descripcion:
+    es: "Jubilaci\xF3n con viudedad"
+  nombre:
+    es: "Jubilaci\xF3n con viudedad"
+  nombre_dimension: PCSSA_JUBVIUDEDAD_3357
   tipo: dimension
 PERCEPCION:
   codelist:
@@ -2301,6 +2989,22 @@ PROCEDENCIA_ECTA:
   nombre:
     es: Procedencia
   nombre_dimension: PROCEDENCIA
+  tipo: dimension
+PROCEDENCIA_ECTA_143:
+  codelist:
+    agency: ESC01
+    id: CL_PROCEDENCIA_ECTA_143
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: PROCEDENCIA_ECTA_143
+    id: CS_TOURISM
+    version: '1.0'
+  descripcion:
+    es: Procedencia
+  nombre:
+    es: Procedencia
+  nombre_dimension: PROCEDENCIA_ECTA_143
   tipo: dimension
 PROYECC_ESCENARIO:
   codelist:
@@ -2366,6 +3070,54 @@ PUNTOS_TURISTICOS:
     es: "Puntos tur\xEDsticos"
   nombre_dimension: PUNTOS_TURISTICOS
   tipo: dimension
+PUNTOS_TURISTICOS_12533:
+  codelist:
+    agency: ESC01
+    id: CL_PUNTOS_TURISTICOS_12533
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: PUNTOS_TURISTICOS_12533
+    id: CS_TOURISM
+    version: '1.0'
+  descripcion:
+    es: "Puntos tur\xEDsticos"
+  nombre:
+    es: "Puntos tur\xEDsticos"
+  nombre_dimension: PUNTOS_TURISTICOS_12533
+  tipo: dimension
+PUNTOS_TURISTICOS_5433:
+  codelist:
+    agency: ESC01
+    id: CL_PUNTOS_TURISTICOS_5433
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: PUNTOS_TURISTICOS_5433
+    id: CS_TOURISM
+    version: '1.0'
+  descripcion:
+    es: "Puntos tur\xEDsticos apartamentos"
+  nombre:
+    es: "Puntos tur\xEDsticos apartamentos"
+  nombre_dimension: PUNTOS_TURISTICOS_5433
+  tipo: dimension
+PUNTOS_TURISTICOS_662:
+  codelist:
+    agency: ESC01
+    id: CL_PUNTOS_TURISTICOS_662
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: PUNTOS_TURISTICOS_662
+    id: CS_TOURISM
+    version: '1.0'
+  descripcion:
+    es: Puntos turismo rural
+  nombre:
+    es: Puntos turismo rural
+  nombre_dimension: PUNTOS_TURISTICOS_662
+  tipo: dimension
 RELAC_RESID_NAC:
   codelist:
     agency: ESC01
@@ -2414,6 +3166,22 @@ REL_RESIDENANT:
     es: "Relaci\xF3n con la residencia anterior"
   nombre_dimension: REL_RESIDENANT
   tipo: dimension
+REL_RESIDENANT_1305:
+  codelist:
+    agency: ESC01
+    id: CL_REL_RESIDENANT_1305
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: REL_RESIDENANT_1305
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: "Relaci\xF3n con la residencia anterior"
+  nombre:
+    es: "Relaci\xF3n con la residencia anterior"
+  nombre_dimension: REL_RESIDENANT_1305
+  tipo: dimension
 REL_RES_NAC_17504:
   codelist:
     agency: ESC01
@@ -2446,6 +3214,54 @@ RESITUR:
     es: Residencia de los viajeros
   nombre_dimension: RESITUR
   tipo: dimension
+RESITUR_12873:
+  codelist:
+    agency: ESC01
+    id: CL_RESITUR_12873
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: RESITUR_12873
+    id: CS_TOURISM
+    version: '1.0'
+  descripcion:
+    es: Residencia de los viajeros
+  nombre:
+    es: Residencia de los viajeros
+  nombre_dimension: RESITUR_12873
+  tipo: dimension
+RESITUR_3953:
+  codelist:
+    agency: ESC01
+    id: CL_RESITUR_3953
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: RESITUR_3953
+    id: CS_TOURISM
+    version: '1.0'
+  descripcion:
+    es: Residencia de los viajeros
+  nombre:
+    es: Residencia de los viajeros
+  nombre_dimension: RESITUR_3953
+  tipo: dimension
+RESITUR_687:
+  codelist:
+    agency: ESC01
+    id: CL_RESITUR_687
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: RESITUR_687
+    id: CS_TOURISM
+    version: '1.0'
+  descripcion:
+    es: Residencia de los viajeros
+  nombre:
+    es: Residencia de los viajeros
+  nombre_dimension: RESITUR_687
+  tipo: dimension
 SECC_CNAE09:
   codelist:
     agency: ESC01
@@ -2461,6 +3277,22 @@ SECC_CNAE09:
   nombre:
     es: Secciones Cnae09 CPA
   nombre_dimension: SECC_CNAE09
+  tipo: dimension
+SECC_CNAE09_6135:
+  codelist:
+    agency: ESC01
+    id: CL_SECC_CNAE09_6135
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: SECC_CNAE09_6135
+    id: CS_ECO_ACCOUNTS
+    version: '1.0'
+  descripcion:
+    es: Secciones Cnae09 CPA
+  nombre:
+    es: Secciones Cnae09 CPA
+  nombre_dimension: SECC_CNAE09_6135
   tipo: dimension
 SECTORES_ICEA:
   codelist:
@@ -2558,6 +3390,22 @@ SEXOC2:
     es: "Sexo c\xF3nyuge 2"
   nombre_dimension: SEXOC2
   tipo: dimension
+SEXOC2_34:
+  codelist:
+    agency: ESC01
+    id: CL_SEXOC2_34
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: SEXOC2_34
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: "Sexo c\xF3nyuge 2"
+  nombre:
+    es: "Sexo c\xF3nyuge 2"
+  nombre_dimension: SEXOC2_34
+  tipo: dimension
 SEXO_0_22:
   codelist:
     agency: ESC01
@@ -2590,6 +3438,22 @@ SEXO_22:
     es: Sexo
   nombre_dimension: SEXO_22
   tipo: dimension
+SEXO_26:
+  codelist:
+    agency: ESC01
+    id: CL_SEXO_26
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: SEXO_26
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: "Sexo c\xF3nyuge 1"
+  nombre:
+    es: "Sexo c\xF3nyuge 1"
+  nombre_dimension: SEXO_26
+  tipo: dimension
 SEXO_SOCIOS:
   codelist:
     agency: ESC01
@@ -2605,6 +3469,22 @@ SEXO_SOCIOS:
   nombre:
     es: Sexo socios fundadores
   nombre_dimension: SEXO_SOCIOS
+  tipo: dimension
+SEXO_SOCIOS_424:
+  codelist:
+    agency: ESC01
+    id: CL_SEXO_SOCIOS_424
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: SEXO_SOCIOS_424
+    id: CS_BUSINESS_STAT
+    version: '1.0'
+  descripcion:
+    es: Sexo socios fundadores
+  nombre:
+    es: Sexo socios fundadores
+  nombre_dimension: SEXO_SOCIOS_424
   tipo: dimension
 TAMA_EMP_INS_SS:
   codelist:
@@ -2846,6 +3726,22 @@ TERRITORIO_285_1-d:
     es: "Pa\xEDs de residencia"
   nombre_dimension: TERRITORIO_285_1-d
   tipo: dimension
+TERRITORIO_3373:
+  codelist:
+    agency: ESC01
+    id: CL_TERRITORIO_3373
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TERRITORIO_3373
+    id: CS_BUSINESS_STAT
+    version: '1.0'
+  descripcion:
+    es: Territorio
+  nombre:
+    es: Territorio
+  nombre_dimension: TERRITORIO_3373
+  tipo: dimension
 TERRITORIO_425:
   codelist:
     agency: ESC01
@@ -2974,6 +3870,22 @@ TIPOMATRIMONIO:
     es: Tipo de matrimonio
   nombre_dimension: TIPOMATRIMONIO
   tipo: dimension
+TIPOMATRIMONIO_42:
+  codelist:
+    agency: ESC01
+    id: CL_TIPOMATRIMONIO_42
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TIPOMATRIMONIO_42
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Tipo de matrimonio
+  nombre:
+    es: Tipo de matrimonio
+  nombre_dimension: TIPOMATRIMONIO_42
+  tipo: dimension
 TIPO_ALOJAM_ECTA:
   codelist:
     agency: ESC01
@@ -2989,6 +3901,22 @@ TIPO_ALOJAM_ECTA:
   nombre:
     es: Tipo de alojamiento
   nombre_dimension: TIPO_ALOJAM
+  tipo: dimension
+TIPO_ALOJAM_ECTA_144:
+  codelist:
+    agency: ESC01
+    id: CL_TIPO_ALOJAM_ECTA_144
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TIPO_ALOJAM_ECTA_144
+    id: CS_TOURISM
+    version: '1.0'
+  descripcion:
+    es: Tipo de alojamiento
+  nombre:
+    es: Tipo de alojamiento
+  nombre_dimension: TIPO_ALOJAM_ECTA_144
   tipo: dimension
 TIPO_EMPRESA:
   codelist:
@@ -3021,6 +3949,22 @@ TIPO_ESTAB:
   nombre:
     es: Tipo de establecimiento
   nombre_dimension: TIPO_ESTAB
+  tipo: dimension
+TIPO_ESTAB_3513:
+  codelist:
+    agency: ESC01
+    id: CL_TIPO_ESTAB_3513
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TIPO_ESTAB_3513
+    id: CS_SECTORAL_STAT
+    version: '1.0'
+  descripcion:
+    es: Tipo de establecimiento
+  nombre:
+    es: Tipo de establecimiento
+  nombre_dimension: TIPO_ESTAB_3513
   tipo: dimension
 TIPO_ICEA:
   codelist:

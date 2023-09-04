@@ -9355,6 +9355,8 @@ A11. CNAE 29, 30. Material de transporte:
   en: A9. CNAE 26, 27. Electrical, electronic and optical material and equipment.
 ACTIV_EST:
   en: ACTIV_EST
+ACTIV_EST_5748:
+  en: ACTIV_EST_5748
 AMBITOESTUDHOG:
   en: AMBITOESTUDHOG
 ANOCELEBRMATRIM:
@@ -9905,12 +9907,20 @@ CAP_PRESUPUESTO_901:
   en: CAP_BUDGET_901
 CAT:
   en: CAT
+CAT_HOTELES_4953:
+  en: CAT_HOTELES_4953
 CERTIFICDISCAPAC:
   en: CERTIFICDISCAPAC
+CERTIFICDISCAPAC_2946:
+  en: CERTIFICDISCAPAC_2946
 CIE10:
   en: CIE10
+CIE10_729:
+  en: CIE10_729
 CLASEDEPENSION:
   en: CLASEDEPENSION
+CLASEDEPENSION_6292:
+  en: CLASEDEPENSION_6292
 CLASEINACTIV:
   en: CLASEINACTIV
 CNAE 09:
@@ -9923,10 +9933,16 @@ CNAE09_169:
   en: CNAE09_169
 CNAE09_343:
   en: CNAE09_343
+CNAE09_505:
+  en: CNAE09_505
+CNAE09_508:
+  en: CNAE09_508
 CNAE09_8113:
   en: CNAE09_8113
 CNAESECTOR:
   en: CNAESECTOR
+CNAE_O9_CRA_NEW_5989:
+  en: CNAE_O9_CRA_NEW_5989
 CNAE_O9_NEW:
   en: CNAE_O9_NEW
 CNED2014:
@@ -9945,13 +9961,19 @@ CRTA_SERIE_1489:
   en: CRTA_SERIE_1489
 CUSTODIA:
   en: CUSTODY
+CUSTODIA_36:
+  en: CUSTODY_36
 "Cap\xEDtulos del presupuesto liquidado":
   en: Chapters of the liquidated budget
 Categor/xEDas de los establecimientos hoteleros:
   en: Categories/xEDs of hotel establishments
+"Categor\xEDas de los establecimientos hoteleros":
+  en: Categories of hotel establishments
 "Censos de Poblaci\xF3n y Viviendas 2021":
   en: Population and Housing Census 2021
 Clase de pensi/xF3n:
+  en: Pension class
+"Clase de pensi\xF3n":
   en: Pension class
 "Clasificaci\xF3n del grado de urbanizaci\xF3n":
   en: Classification of the degree of urbanisation
@@ -9961,6 +9983,8 @@ Componentes del PIB:
   en: GDP components
 Composici/xF3n del hogar seg/xFAn la actividad:
   en: Household composition according to activity
+"Composici\xF3n del hogar seg\xFAn la actividad":
+  en: Household composition by activity
 "Compras por Comercio electr\xF3nico":
   en: E-commerce shopping
 Confianza empresarial por sectores:
@@ -9995,6 +10019,8 @@ Cotizante:
   en: Natural increase over the last 10 years
 Cuadro macroecon/xF3mico:
   en: Macroeconomic/xF3mic picture
+"Cuadro macroecon\xF3mico":
+  en: Macroeconomic framework
 "Cualificaci\xF3n del mercado laboral. Formaci\xF3n alcanzada":
   en: Labour market qualifications. Training achieved
 Culture:
@@ -10021,10 +10047,14 @@ DISCIPLINA:
   en: DISCIPLINE
 DISTRIBUCION:
   en: DISTRIBUTION
+DISTRIBUCION_MNP_7092:
+  en: DISTRIBUTION_MNP_7092
 DURACEMPREND:
   en: DURACEMPREND
 DURACMATRIM:
   en: DURACMATRIM
+DURACMATRIM_38:
+  en: DURACMATRIM_38
 Datos generales:
   en: General data
 Datos provinciales:
@@ -10075,6 +10105,8 @@ Disciplina cient/xEDfica:
   en: Dissolutions by number of minor children
 Distribuci/xF3n:
   en: Distribution
+"Distribuci\xF3n":
+  en: Distribution
 "Distribuci\xF3n de las muertes fetales tard\xEDas por provincia de residencia de la madre o provincia de registro/ocurrencia":
   en: Distribution of late foetal deaths by province of mother's residence or province
     of registration/occurrence
@@ -10093,6 +10125,8 @@ Duraci/xF3n del emprendimiento:
   en: Duration of the undertaking
 Duraci/xF3n del matrimonio:
   en: Duration of marriage
+"Duraci\xF3n del matrimonio":
+  en: Duration of marriage
 ECOICOP:
   en: ECOICOP
 ECOICOPEPF2:
@@ -10105,20 +10139,52 @@ ECO_ACCOUNTS:
   en: ECO_ACCOUNTS
 EDAD:
   en: AGE
+EDADC2_32:
+  en: EDADC2_32
+EDAD_1283:
+  en: EDAD_1283
 EDAD_13794:
   en: AGE_13794
 EDAD_1644:
   en: EDAD_1644
 EDAD_24:
   en: EDAD_24
+EDAD_27:
+  en: EDAD_27
+EDAD_3495:
+  en: EDAD_3495.
+EDAD_3993:
+  en: EDAD_3993
 EDAD_401:
   en: EDAD_401
+EDAD_728:
+  en: EDAD_728
 EDCA_LUGDEF:
   en: EDCA_LUGDEF
+EDCA_LUGDEF_15378:
+  en: EDCA_LUGDEF_15378
 EDUCACION:
   en: EDUCATION
 EOC:
   es: EOC
+EPD_AMBITOESTUDHOG_113:
+  en: EPD_AMBITOESTUDHOG_113
+EPD_COMPHOGACTIVIDAD_112:
+  en: EPD_COMPHOGACTIVITY_112
+EPD_GRUPOSEDAD_120:
+  en: EPD_GROUPSAGE_120
+EPD_NIVELESTUDIOSTER_263:
+  en: EPD_LEVEL_STUDIOSTER_263
+EPD_PERCEPPRESINVAL_267:
+  en: EPD_PERCEPPRESINVAL_267
+EPD_PRESENCDISCAPAC_110:
+  en: EPD_PRESENCDISCAPAC_110
+EPD_RELACTIVIDAD_121:
+  en: EPD_RELACTIVITY_121
+EPD_SITUACIONDEPEND_276:
+  en: EPD_SITUATIONDEPEND_276
+EPD_SITUACPROFES_126:
+  en: EPD_SITUACPROFES_126
 EPF_ECOICOPEPF2:
   en: EPF_ECOICOPEPF2
 EPF_ECOICOPEPF2_14381:
@@ -10133,6 +10199,12 @@ EPF_VARIABLE_13974:
   en: EPF_VARIABLE_13974
 ESTADOCIVILC2:
   en: CIVILC2 STATE
+ESTADOCIVILC2_33:
+  en: CIVIL-STATUSC2_33
+ESTADOCIVIL_122:
+  en: CIVIL_STATE_122
+ESTADOCIVIL_28:
+  en: CIVIL STATE_28
 ESTADO_DATO_3273:
   en: ESTADO_DATO_3273
 ESTADO_DATO_342:
@@ -10155,6 +10227,10 @@ Edad:
   en: Age
 Edad (16-64) simple:
   en: Age (16-64) single
+"Edad c\xF3nyuge 1":
+  en: Age spouse 1
+"Edad c\xF3nyuge 2":
+  en: Age of spouse 2
 "Educaci\xF3n":
   en: Education
 Education:
@@ -10234,6 +10310,10 @@ Estado civil:
   en: Marital status
 Estado civil c/xF3nyuge 2:
   en: Marital status w/xF3spouse 2
+"Estado civil c\xF3nyuge 1":
+  en: Marital status spouse 1
+"Estado civil c\xF3nyuge 2":
+  en: Marital status spouse 2
 Estado del dato:
   en: Data status
 "Estad\xEDstica Estructural de Empresas":
@@ -10278,6 +10358,8 @@ FORMA_JUR:
   en: FORMA_JUR
 FORMA_JURIDICA:
   en: JURIDIC_SHAPE
+FORMA_JUR_SOCMER_421:
+  en: FORMA_JUR_SOCMER_421
 "Factores de motivaci\xF3n":
   en: Motivational factors
 "Factores que limitan la marcha del negocio seg\xFAn sectores de actividad del panel de establecimientos (multirrespuesta)*":
@@ -10294,6 +10376,10 @@ Fuente:
   en: Source
 G102:
   en: G102
+G102_15379:
+  en: G102_15379
+G102_730:
+  en: G102_730
 GRADO_UTILIZACION:
   en: DEGREE_OF_USE
 GRADO_UTILIZACION_108:
@@ -10421,6 +10507,8 @@ JUBVIUDEDAD:
   en: JUBVIUDEDAD
 Jubilaci/xF3n con viudedad:
   en: Pension/xF3n with widowhood
+"Jubilaci\xF3n con viudedad":
+  en: Retirement with widowhood
 Justice and crime:
   es: Justicia y delincuencia
 LABOUR:
@@ -10449,20 +10537,28 @@ Lugar de ocurrencia:
   en: Place of occurrence
 MACROECO:
   en: MACROECO
+MACROECO_1683:
+  en: MACROECO_1683
 MACROMAG:
   en: MACROMAG
+MACROMAG_CPA_6132:
+  en: MACROMAG_CPA_6132
 MCVL_TIPOPENSION:
   en: MCVL_TIPOPENSION
 MEDIDA_IMPACTO:
   en: IMPACT_MEASURE
 MES:
   en: MES
+MES_723:
+  en: MES_723
 MONEDAD:
   en: CURRENCY
 MONSALARIO:
   en: MONSALARIO
 MULTIPLICIDAD_SEXO:
   en: GENDER_MULTIPLICITY
+MULTIPLICIDAD_SEXO_1479:
+  en: MULTIPLICITY_SEX_1479
 MULTIVARIABL:
   en: MULTIVARIABL
 Macroeconomic statistics:
@@ -10496,6 +10592,8 @@ N/xFAmero de hijos menores de edad:
   en: N/xFA Number of minor children
 NACIONACONYUGES:
   en: NACIONACONYUGES
+NACIONACONYUGES_40:
+  en: NACIONACONYUGES_40
 NACIONALIDAD:
   en: NATIONALITY
 NACIONALIDAD_17507:
@@ -10512,6 +10610,8 @@ NIVELESTUDIOSTER:
   en: LEVELSTUDIESTER
 NUMHIJOSMENORED:
   en: NUMHIJOSMENORED
+NUMHIJOSMENORED_41:
+  en: NUMHIJOSMENORED_41
 Nacimientos de empresas por municipio, actividad principal y estrato de asalariados:
   en: Births of enterprises by municipality, main activity and employee stratum
 "Nacimientos de empresas por municipio, actividad principal y forma jur\xEDdica":
@@ -10525,6 +10625,8 @@ Nacionalidad:
   en: Nationality
 Nacionalidad de los c/xF3nyuges:
   en: Nationality of the c/xF3ny spouses
+"Nacionalidad de los c\xF3nyuges":
+  en: Nationality of spouses
 Nacionalidad extranjera:
   en: Foreign nationality
 Naturaleza del gasto:
@@ -10553,6 +10655,8 @@ Nivel de formaci/xF3n:
     according to legal form
 "N\xFAmero de empresas por municipio seg\xFAn tama\xF1o de empresa*":
   en: Number of enterprises by municipality according to enterprise size*.
+"N\xFAmero de hijos menores de edad":
+  en: Number of minor children
 "N\xFAmero de n\xFAcleos de poblaci\xF3n que componen el municipio":
   en: Number of population centres that make up the municipality
 "N\xFAmero de trabajadores por provincia seg\xFAn actividad econ\xF3mica":
@@ -10584,6 +10688,14 @@ Ocupados por sexo:
   en: Employed by sex
 PARQUES:
   en: PARKS
+PARQUES_TURISMO_2279:
+  en: PARKS_TOURISM_2279
+PARQUES_TURISMO_3733:
+  en: PARKS_TOURISM_3733
+PARQUES_TURISMO_3734:
+  en: PARKS_TOURISM_3734
+PCSSA_JUBVIUDEDAD_3357:
+  en: PCSSA_JUBVIUDEDAD_3357
 PENSIONISTA:
   en: PENSIONIST
 PERCEPCION:
@@ -10600,6 +10712,8 @@ PRESENCDISCAPAC:
   en: PRESENCDISCAPAC
 PROCEDENCIA:
   en: PROVENANCE
+PROCEDENCIA_ECTA_143:
+  en: PROVENANCE_ECTA_143
 PROTECCION_SOCIAL:
   en: SOCIAL_PROTECTION
 PROYECC_ESCENARIO:
@@ -10616,6 +10730,12 @@ PUESTRATTB2008:
   en: PUESTRATTB2008
 PUNTOS_TURISTICOS:
   en: TOURIST_POINTS
+PUNTOS_TURISTICOS_12533:
+  en: PUNTOS_TURISTICOS_12533
+PUNTOS_TURISTICOS_5433:
+  en: TOURIST_POINTS_5433
+PUNTOS_TURISTICOS_662:
+  en: TOURIST_POINTS_662
 "PYMEs innovadoras en colaboraci\xF3n con otras empresas":
   en: Innovative SMEs in collaboration with other companies
 "PYMEs innovadoras que introducen innovaci\xF3n de productos":
@@ -10662,6 +10782,8 @@ Percepci/xF3n de prestaci/xF3n de invalidez:
   en: Perception
 "Percepci\xF3n de prestaciones":
   en: Receipt of benefits
+"Percepci\xF3n de prestaci\xF3n de invalidez":
+  en: Receipt of disability benefit
 "Perfil de los ocupados y caracter\xEDsticas del empleo. Caracter\xEDsticas b\xE1sicas de los ocupados":
   en: Profile of employed persons and employment characteristics. Basic characteristics
     of the employed
@@ -10789,6 +10911,8 @@ Porcentaje de viajes por tipo de alojamiento:
   en: Percentage of trips by type of accommodation
 Presencia o no de personas con discapacidad de 16 a 64 a/xF1os en el hogar:
   en: Presence or not of persons with disabilities aged 16 to 64 in the household
+"Presencia o no de personas con discapacidad de 16 a 64 a\xF1os en el hogar":
+  en: Presence or not of persons with disabilities aged 16 to 64 in the household
 Prices:
   es: Precios
 Principales indicadores por municipio y actividad principal:
@@ -10853,6 +10977,12 @@ Puestos de trabajo totales:
   en: Total employment by branch of activity. Year-on-year rates of change
 Puntos tur/xEDsticos:
   en: Tourism/xEDstic points
+Puntos turismo rural:
+  en: Rural tourism points
+"Puntos tur\xEDsticos":
+  en: Tourist attractions
+"Puntos tur\xEDsticos apartamentos":
+  en: Tourist points flats
 R/xFAbricas:
   en: R/xPlants
 RELACTIVIDAD:
@@ -10863,12 +10993,20 @@ RELAC_RESID_NAC_572:
   en: RELAC_RESID_NAC_572
 REL_RESIDENANT:
   en: REL_RESIDENANT
+REL_RESIDENANT_1305:
+  en: REL_RESIDENT_1305
 REL_RES_NAC_17504:
   en: REL_RES_NAC_17504
 REMASALAB2008:
   en: REMASALAB2008
 RESITUR:
   en: RESITUR
+RESITUR_12873:
+  en: RESITUR_12873
+RESITUR_3953:
+  en: RESITUR_3953
+RESITUR_687:
+  en: RESITUR_687
 RUBRICAS:
   en: RUBRICAS
 Rama de actividad:
@@ -10911,6 +11049,8 @@ SALUD:
   en: HEALTH
 SECC_CNAE09:
   en: SECC_CNAE09
+SECC_CNAE09_6135:
+  en: SECC_CNAE09_6135
 SECTORACTIVIDAD:
   en: SECTORACTIVITY
 SECTORAL_STAT:
@@ -10931,10 +11071,16 @@ SEXO:
   en: SEX
 SEXOC2:
   en: SEXOC2
+SEXOC2_34:
+  en: SEXOC2_34
 SEXO_22:
   en: SEXO_22
+SEXO_26:
+  en: SEXO_26
 SEXO_SOCIOS:
   en: SEX_MEMBERS
+SEXO_SOCIOS_424:
+  en: SEXO_SOCIOS_424
 SITPREVULTEM:
   en: SITPREVULTEM
 SITUACIONDEPEND:
@@ -10993,6 +11139,10 @@ Sexo:
   en: Sex
 Sexo c/xF3nyuge 2:
   en: Sex c/xF3nyuge 2
+"Sexo c\xF3nyuge 1":
+  en: Sex spouse 1
+"Sexo c\xF3nyuge 2":
+  en: Sex spouse 2
 Sexo socios fundadores:
   en: Sex founding partners
 Sin titulo:
@@ -11017,6 +11167,8 @@ Situaci/xF3n profesional:
   \ con la persona de referencia y tipolog\xEDa del hogar"
 : en: Employment situation of the households. Economic activity according to relationship
     with the reference person and household typology.
+"Situaci\xF3n profesional":
+  en: Professional status
 "Situaci\xF3n y expectativa de la inversi\xF3n del panel de establecimientos*":
   en: Investment situation and expectations of the establishment panel*.
 "Situaci\xF3n y expectativa de las exportaciones del panel de establecimientos exportadores*":
@@ -11071,6 +11223,8 @@ TERRITORIO_21:
   en: TERRITORY_21
 TERRITORIO_285:
   en: TERRITORY_285
+TERRITORIO_3373:
+  en: TERRITORIO_3373
 TERRITORIO_425:
   en: TERRITORY_425
 TERRITORIO_44:
@@ -11099,6 +11253,8 @@ TIPOHOGAR:
   en: TYPEHOGAR
 TIPOMATRIMONIO:
   en: TYPOMATRIMONIO
+TIPOMATRIMONIO_42:
+  en: TYPOMATRIMONIO_42
 TIPOMOVIMIEN:
   en: TYPOMOVEMENT
 TIPOPRESTACION:
@@ -11107,10 +11263,14 @@ TIPOULTIEMPR:
   en: TIPOULTIEMPR
 TIPO_ALOJAM:
   en: TIPO_ALOJAM
+TIPO_ALOJAM_ECTA_144:
+  en: TYPEO_ALOJAM_ECTA_144
 TIPO_EMPRESA:
   en: COMPANY_TYPE
 TIPO_ESTAB:
   en: STAB_TYPE
+TIPO_ESTAB_3513:
+  en: TYPE_STAB_3513
 TIPO_PERSONAL:
   en: PERSONAL_TYPE
 TIPRELACIONSS:
@@ -11289,8 +11449,14 @@ Viajeros, pernoctaciones y estancia media por provincias y procedencia:
   en: Housing with broadband connection
 Yearbooks and similar compendia:
   es: Anuarios y compendios similares
+Zonas de turismo:
+  en: Tourism zones
 Zonas tur/xEDsticas:
   en: Tourist/xEDstic areas
+"Zonas tur\xEDsticas":
+  en: Tourist areas
+"\xC1mbito de estudio de los hogares":
+  en: Scope of household survey
 "\xCDndice de Comercio al por Menor de Andaluc\xEDa":
   en: Retail Trade Index for Andalusia
 "\xCDndice de Ventas en Grandes Superficies de Andaluc\xEDa":

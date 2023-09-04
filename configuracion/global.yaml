@@ -13,7 +13,7 @@ plantilla_reportes: sistema_informacion/metadatos_html/plantilla.html
 
 
 metadata_api: http://localhost/sdmx_172/ws/METADATA_API
-direccion_API_SDMX: http://localhost
+direccion_API_SDMX: http://localhost/sdmx_172
 url_base: http://localhost/sdmx_172/ws/NODE_API/
 volcado_mdm: True
 reset_ddb: False
