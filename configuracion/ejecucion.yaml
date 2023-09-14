@@ -15,29 +15,33 @@ actividades:
 #    - EOC
 #    - EOATR
 #    - EOAT
-    - ECTA #de aqui
-    - EEE
+#    - ECTA
+#    - EEE
 #    - EPA
 #    - AA
 #    - SA
 #    - MCVL
 #    - AID
 #    - ETCE
-#    - IASS
-#    - AE
-#    - IVGSA
-#    - ICMA
-#    - PIIA
-#    - CRTA
-#    - ICEA #septima certificacion
-#    - DEA
-#    - EEISS
-#    - PPA #83092 y 83093
-#    - EEIC
-#    - CGU
-#    - EPF #hasta aqui
-#    - SIEIA
-#    - SIE
+#    - IASS #funciona
+#    - AE #funciona
+    - IVGSA #funciona
+#    - ICMA #funciona
+#    - PIIA #funciona
+#    - CRTA #funciona ???? no debería
+#    - ICEA #funciona
+#    - DEA #funciona
+#    - EEISS #funciona
+#    - PPA #funciona codelist DE 90 O MAS no existente, vinculada a 100 O MAS
+#    - EEIC #funciona
+#    - CGU #funciona
+#    - EPF #funciona
+#    - SIEIA #funciona
+#    - SIE #funciona
 #    - IMPCM #falta una consulta correcta, modificada a mano el JSON
 #    - SIEIARIS3
 #    - CPV #modificados a mano los json de las consultas para que funcione en el databrowser
+#    - FP #funciona
+#    - HC #funciona
+#    - SB #funciona
+#    - EC

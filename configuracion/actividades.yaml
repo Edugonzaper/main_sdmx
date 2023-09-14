@@ -965,3 +965,212 @@ CPV:
     Censos de Población y Viviendas 2021
   informe_metadatos:
     REPORT_CPV
+FP:
+  consultas:
+    - 46285
+    - 46348
+    - 46286
+    - 46347
+    - 46350
+    - 46352
+    - 73271
+    - 73273
+    - 56748
+    - 56883
+    - 56891
+    - 46361
+    - 71959
+    - 60409
+    - 60402
+    - 73266
+    - 73268
+    - 73267
+    - 73269
+    - 16051
+    - 16050
+    - 73270
+    - 73292
+    - 73296
+    - 73272
+    - 73274
+    - 73275
+    - 16160
+    - 16164
+    - 16165
+    - 16166
+    - 44943
+  categoria:
+    SECTORAL_STAT
+  subcategoria:
+    FIN DE LA POBREZA. Sistema de Indicadores de Desarrollo Sostenible de Andalucía para la Agenda 2030
+  informe_metadatos:
+    REPORT_FP
+HC:
+  consultas:
+    - 46351
+    - 46354
+    - 85153
+    - 85154
+    - 85155
+    - 85156
+    - 85157
+    - 85158
+    - 85129
+    - 85141
+    - 55787
+    - 55789
+    - 55794
+    - 16204
+    - 16205
+    - 16860
+    - 16861
+    - 16209
+    - 16210
+    - 16213
+    - 16215
+    - 16214
+  categoria:
+    SECTORAL_STAT
+  subcategoria:
+    HAMBRE CERO. Sistema de Indicadores de Desarrollo Sostenible de Andalucía para la Agenda 2030
+  informe_metadatos:
+    REPORT_HC
+SB:
+  consultas:
+    - 46425
+    - 46833
+    - 46835
+    - 46842
+    - 71982
+    - 71984
+    - 71985
+    - 71986
+    - 71987
+    - 71988
+    - 71989
+    - 71990
+    - 71991
+    - 71992
+    - 71993
+    - 71994
+    - 46844
+    - 46846
+    - 46849
+    - 46853
+    - 46854
+    - 69722
+    - 69723
+    - 69724
+    - 69725
+    - 69726
+    - 69728
+    - 77709
+    - 46855
+    - 56901
+    - 46861
+    - 46862
+    - 49541
+    - 56902
+    - 56903
+    - 46864
+    - 46865
+    - 60408
+    - 60410
+    - 60439
+    - 60440
+    - 46884
+    - 46885
+    - 46887
+    - 46889
+    - 16219
+    - 73280
+    - 73281
+    - 55796
+    - 55800
+    - 55801
+    - 55802
+    - 55788
+    - 55793
+    - 55795
+    - 16277
+    - 16310
+    - 16275
+    - 44863
+    - 44867
+  categoria:
+    SECTORAL_STAT
+  subcategoria:
+    SALUD Y BIENESTAR. Sistema de Indicadores de Desarrollo Sostenible de Andalucía para la Agenda 2030
+  informe_metadatos:
+    REPORT_SB
+EC:
+  consultas:
+    - 77710
+    - 77712
+    - 77713
+    - 80572
+    - 80574
+    - 80575
+    - 77715
+    - 77716
+    - 77718
+    - 80576
+    - 80577
+    - 80578
+    - 85146
+    - 85147
+    - 85148
+    - 85149
+    - 85150
+    - 85151
+    - 60468
+    - 60469
+    - 60472
+    - 46836
+    - 46839
+    - 46840
+    - 16613
+    - 16604
+    - 16605
+    - 46845
+    - 46850
+    - 46851
+    - 46852
+    - 46856
+    - 46857
+    - 46858
+    - 46860
+    - 60501
+    - 60502
+    - 60503
+    - 60505
+    - 60506
+    - 60508
+    - 69760
+    - 69779
+    - 69780
+    - 69781
+    - 69761
+    - 69763
+    - 60475
+    - 60477
+    - 60498
+    - 60500
+    - 16320
+    - 16318
+    - 16319
+    - 68482
+    - 68483
+    - 68484
+    - 55805
+    - 55803
+    - 55804
+    - 16598
+    - 16599
+    - 16600
+  categoria:
+    SECTORAL_STAT
+  subcategoria:
+    EDUCACIÓN DE CALIDAD. Sistema de Indicadores de Desarrollo Sostenible de Andalucía para la Agenda 2030
+  informe_metadatos:
+    REPORT_EC

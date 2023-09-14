@@ -60,9 +60,11 @@ def initialize_codelists_schemes(configuracion_actividad, datos_jerarquias, mapa
         concept_scheme_id = concept_scheme['id']
         concept_scheme_agency = concept_scheme['agency']
         concept_scheme_version = concept_scheme['version']
-        concept_scheme_names = {'es': concept_scheme_id.replace('CS_', '')}
+        concept_scheme_names = {'es': concept_scheme['nombre_esquema_concepto']}
         concept_scheme_des = None
-        concept_scheme_concept = concept_scheme['concepto']
+        concept_scheme_concept_id = concept_scheme['id_concepto']
+        concept_scheme_concept_names = concept_scheme['nombre_concepto']
+
 
         codelist = controller.codelists.add_codelist(codelist_agency, codelist_id, codelist_version, codelist_names,
                                                      codelist_des)
@@ -77,7 +79,7 @@ def initialize_codelists_schemes(configuracion_actividad, datos_jerarquias, mapa
         concept_scheme = controller.concept_schemes.add_concept_scheme(concept_scheme_agency, concept_scheme_id,
                                                                        concept_scheme_version,
                                                                        concept_scheme_names, concept_scheme_des)
-        concept_scheme.add_concept(concept_scheme_concept, None, concept_scheme_concept, None)
+        concept_scheme.add_concept(concept_scheme_concept_id, None, concept_scheme_concept_names, None)
 
     codelist_medidas = controller.codelists.add_codelist('ESC01', 'CL_UNIT', '1.0',
                                                          {'es': 'Unidades de Medida (Indicadores)',
@@ -101,7 +103,6 @@ def put_dsds(configuracion_ejecucion, configuracion_actividades_completo, mapa_c
         dsd_des = None
         dimensions = {variable: mapa_conceptos_codelist[variable] for variable in
                       configuracion_actividad['variables']}
-
         validFrom = "3500-01-01"
         validTo = "1500-01-01"
         for c_id in list(configuracion_actividad["periodicidad"].keys()):
@@ -166,7 +167,7 @@ def mappings_variables(variables, mapa_conceptos_codelist):
     variables_mapped = {}
     for variable in variables:
         try:
-            variables_mapped[variable] = mapa_conceptos_codelist[variable]['nombre_dimension']
+            variables_mapped[variable] = mapa_conceptos_codelist[variable]['nombre']
         except:
             variables_mapped[variable] = variable
     return variables_mapped

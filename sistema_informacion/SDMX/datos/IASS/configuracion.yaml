@@ -37,5 +37,6 @@ periodicidad:
     validTo: '2022-08-31'
 subcategoria: Indicadores de Actividad del Sector Servicios
 variables:
-- IASS_TIPOVENTAS
-- TERRITORIO
+- ESTADO_DATO_342
+- IASS_TIPOVENTAS_1339
+- TERRITORIO_105
